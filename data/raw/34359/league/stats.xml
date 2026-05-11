@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>stats.html?leagueid=1552%26;seasonid=34359</link>
+<season>40+ Summer 2026</season>
+	<pitching>
+	<player playerlinkid="1786348" playerid="1791338">
+		<jersey>13</jersey>
+		<playername>Davis, D</playername>
+		<teamname>BRW</teamname>
+		<wins>1</wins>
+		<losses>2</losses>
+		<ip>16.0</ip>
+		<runs>12</runs>
+		<er>5</er>
+		<hits></hits>
+		<bb>3</bb>
+		<so>18</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>3</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-6.000</oslg>
+		<oavg>-4.000</oavg>
+		<era>2.81</era>
+	</player>
+	<player playerlinkid="1783160" playerid="1791382">
+		<jersey>9</jersey>
+		<playername>Garren, J</playername>
+		<teamname>HOT</teamname>
+		<wins>3</wins>
+		<losses>1</losses>
+		<ip>22.1</ip>
+		<runs>23</runs>
+		<er>14</er>
+		<hits></hits>
+		<bb>10</bb>
+		<so>11</so>
+		<bf>0</bf>
+		<games>6</games>
+		<gs>4</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-3.417</oslg>
+		<oavg>-2.833</oavg>
+		<era>5.64</era>
+	</player>
+	<player playerlinkid="1792178" playerid="1792178">
+		<jersey>42</jersey>
+		<playername>Sosa, K</playername>
+		<teamname>HOT</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>15.1</ip>
+		<runs>21</runs>
+		<er>10</er>
+		<hits></hits>
+		<bb>9</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>3</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.182</oslg>
+		<oavg>-1.818</oavg>
+		<era>5.87</era>
+	</player>
+	<player playerlinkid="1786354" playerid="1791341">
+		<jersey>25</jersey>
+		<playername>Owen, E</playername>
+		<teamname>BRW</teamname>
+		<wins>1</wins>
+		<losses>1</losses>
+		<ip>10.0</ip>
+		<runs>8</runs>
+		<er>7</er>
+		<hits></hits>
+		<bb>1</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>2</gs>
+		<cg>2</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-21.000</oslg>
+		<oavg>-15.000</oavg>
+		<era>6.30</era>
+	</player>
+	<player playerlinkid="1786346" playerid="1791337">
+		<jersey>17</jersey>
+		<playername>Littlefield, D</playername>
+		<teamname>BRW</teamname>
+		<wins>1</wins>
+		<losses>1</losses>
+		<ip>13.0</ip>
+		<runs>22</runs>
+		<er>18</er>
+		<hits></hits>
+		<bb>11</bb>
+		<so>14</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>2</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.231</oslg>
+		<oavg>-1.385</oavg>
+		<era>12.46</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1788307" playerid="1791352">
+		<jersey>28</jersey>
+		<playername>Heuckendorf, H</playername>
+		<teamname>BRW</teamname>
+		<ab>23</ab>
+		<ab>23</ab>
+		<runs>3</runs>
+		<hits>4</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>1</bb>
+		<hp>2</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.269</obp>
+		<slg>.261</slg>
+		<avg>.174</avg>
+	</player>
+	<player playerlinkid="1783158" playerid="1791380">
+		<jersey>7</jersey>
+		<playername>Holden, S</playername>
+		<teamname>HOT</teamname>
+		<ab>19</ab>
+		<ab>19</ab>
+		<runs>8</runs>
+		<hits>5</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>4</rbi>
+		<bb>6</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.462</obp>
+		<slg>.474</slg>
+		<avg>.263</avg>
+	</player>
+	<player playerlinkid="1783164" playerid="1791385">
+		<jersey>15</jersey>
+		<playername>Hasden, B</playername>
+		<teamname>HOT</teamname>
+		<ab>22</ab>
+		<ab>22</ab>
+		<runs>9</runs>
+		<hits>6</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>4</bb>
+		<hp>1</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.407</obp>
+		<slg>.318</slg>
+		<avg>.273</avg>
+	</player>
+	<player playerlinkid="1786352" playerid="1791347">
+		<jersey>23</jersey>
+		<playername>Norman, M</playername>
+		<teamname>BRW</teamname>
+		<ab>21</ab>
+		<ab>21</ab>
+		<runs>8</runs>
+		<hits>8</hits>
+		<bib>1</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>4</bb>
+		<hp>1</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.524</slg>
+		<avg>.381</avg>
+	</player>
+	<player playerlinkid="1792049" playerid="1792049">
+		<jersey>9</jersey>
+		<playername>Mastromatto, T</playername>
+		<teamname>BRW</teamname>
+		<ab>25</ab>
+		<ab>25</ab>
+		<runs>10</runs>
+		<hits>11</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>7</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.517</obp>
+		<slg>.480</slg>
+		<avg>.440</avg>
+	</player>
+	<player playerlinkid="1783156" playerid="1791397">
+		<jersey>17</jersey>
+		<playername>Gnat, R</playername>
+		<teamname>HOT</teamname>
+		<ab>20</ab>
+		<ab>20</ab>
+		<runs>14</runs>
+		<hits>11</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>7</rbi>
+		<bb>5</bb>
+		<hp>3</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>5</sb>
+		<dp>0</dp>
+		<obp>.679</obp>
+		<slg>1.000</slg>
+		<avg>.550</avg>
+	</player>
+	</batting>
+</stats>

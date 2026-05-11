@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="29373" seasonname="Jacksonville MABL Summer 2015" seasonshortname="JAX MABL Summer 2015"/>
+  <division divisionid="25089" name="Eastern Divison">
+    <team>
+      <teamlinkid>92341</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>17</wins>
+      <losses>3</losses>
+      <rs>170.0</rs>
+      <ra>48.0</ra>
+      <rdiff>92341</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92343</teamlinkid>
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>13</wins>
+      <losses>7</losses>
+      <rs>173.0</rs>
+      <ra>104.0</ra>
+      <rdiff>92343</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92342</teamlinkid>
+      <teamname>Mayport Cruisers</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>9</wins>
+      <losses>11</losses>
+      <rs>147.0</rs>
+      <ra>128.0</ra>
+      <rdiff>92342</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92345</teamlinkid>
+      <teamname>San Mateo Angels</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>9</wins>
+      <losses>11</losses>
+      <rs>147.0</rs>
+      <ra>162.0</ra>
+      <rdiff>92345</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92344</teamlinkid>
+      <teamname>North Florida Crows</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>2</wins>
+      <losses>18</losses>
+      <rs>65.0</rs>
+      <ra>205.0</ra>
+      <rdiff>92344</rdiff>
+    </team>
+  </division>
+  <division divisionid="25090" name="Western Divison">
+    <team>
+      <teamlinkid>92346</teamlinkid>
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>16</wins>
+      <losses>2</losses>
+      <rs>160.0</rs>
+      <ra>59.0</ra>
+      <rdiff>92346</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92347</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>13</wins>
+      <losses>6</losses>
+      <rs>138.0</rs>
+      <ra>116.0</ra>
+      <rdiff>92347</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92348</teamlinkid>
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>5</wins>
+      <losses>14</losses>
+      <rs>104.0</rs>
+      <ra>180.0</ra>
+      <rdiff>92348</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92349</teamlinkid>
+      <teamname>Georgia Senators</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>4</wins>
+      <losses>16</losses>
+      <rs>89.0</rs>
+      <ra>191.0</ra>
+      <rdiff>92349</rdiff>
+    </team>
+  </division>
+</standings>

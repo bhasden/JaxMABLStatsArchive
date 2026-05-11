@@ -1,0 +1,2853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T14:13:41-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="33023">
+    <seasonname>JAX MABL 18+ Summer 2021</seasonname>
+  </season>
+  <game gameid="547218" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>17</awayscore>
+    <homescore>0</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-21</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547230" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>0</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547231" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547219" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>11</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547234" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>7</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547233" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>12</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547232" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547235" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>2</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547238" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>4</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-28</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-28-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547241" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>0</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-28-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547240" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>22</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-28-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547239" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>10</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-04-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-28-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547242" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>23</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-01</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-01-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547244" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547243" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>8</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547245" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>5</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547246" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>0</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-05-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547249" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-05-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547248" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>12</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-05-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547250" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>17</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-12-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547251" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-12-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547253" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-12-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547252" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>13</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-12-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547254" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>11</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-15</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-15-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547256" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>19</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547255" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>2</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547257" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547261" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-19-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547258" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>10</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-19-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547259" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-19-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547260" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-19-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547262" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>4</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-22</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-22-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547297" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-23</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-23-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547263" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>9</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-23-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547264" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>17</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-23-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547265" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>18</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-23-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547269" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>33</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-26-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547266" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>1</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-26-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547268" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>22</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-26-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547267" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>11</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-05-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-26-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547273" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>15</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547271" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>14</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547270" gamenumber="41">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>10</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547272" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>14</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-02-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547274" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-05</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-05-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547275" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-06-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547277" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>10</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-06-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547276" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>4</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-06-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547278" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-09-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547281" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-09-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547280" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>11</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-09-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547279" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>20</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-09-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547282" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-12</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-12-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547286" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>1</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547288" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-16</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547287" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-16</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547289" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>2</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-16</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-16-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547291" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-23-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547292" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-23-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547295" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-27-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547285" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>10</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-27-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547298" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>4</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-30</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-30-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547300" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-30-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="547301" gamenumber="72">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>11</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-06-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-30-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547306" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>11</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-11</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-11-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547283" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>6</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-11</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-11-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547309" gamenumber="80">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>1</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-14</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-14-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547310" gamenumber="81">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-14-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547312" gamenumber="83">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-14-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547311" gamenumber="82">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>9</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-14-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547315" gamenumber="86">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-18</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-18-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547296" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>15</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-18</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-18-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547313" gamenumber="84">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>16</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-18</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-18-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547316" gamenumber="87">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>6</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-21</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547318" gamenumber="89">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>11</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547317" gamenumber="88">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-21-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547308" gamenumber="79">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>11</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-25</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547293" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547290" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-25-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547304" gamenumber="75">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="153976">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>25</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-28-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547302" gamenumber="73">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="153986">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153986.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-28-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547294" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>21</awayscore>
+    <homescore>4</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-07-31</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-31-07T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547307" gamenumber="78">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-01</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-01-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="547284" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>8</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-01</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-01-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547303" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="153981">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-08-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547319" gamenumber="90">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-08-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547305" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="153978">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="153982">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>11</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-11-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547299" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="153984">
+      <teamname>River City Bolts</teamname>
+      <shortname>Bolts</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153984.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="153983">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-11-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="547314" gamenumber="85">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="153977">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="153979">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="34409">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>16</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2021-08-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2021-11-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+</schedule>

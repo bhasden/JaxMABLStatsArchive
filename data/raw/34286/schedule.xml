@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T13:49:54-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="34286">
+    <seasonname>40+ Summer 2025</seasonname>
+  </season>
+  <game gameid="632194" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-09-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-08-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632196" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>22</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-09-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-15-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632197" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166303">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>5</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-09-16</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-16-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632198" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166303">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>16</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-09-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-22-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632200" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>10</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-09-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-29-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632205" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>11</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-10-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-13-10T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632206" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>20</awayscore>
+    <homescore>21</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-10-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-19-10T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632207" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166303">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-10-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-20-10T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632208" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>10</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-10-26</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-26-10T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632211" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>15</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-11-02</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-02-11T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632210" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166303">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-11-02</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-02-11T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632212" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166303">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>9</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-11-09</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-09-11T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632579" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166304">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166304.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>14</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-11-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-16-11T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="632580" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166302">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166301">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36402">
+        <divisionname>Baller</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>12</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2025-11-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2025-23-11T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+</schedule>

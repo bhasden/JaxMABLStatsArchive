@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="32179" seasonname="JAX MABL 18+ Summer 2019" seasonshortname="18+ Summer 2019"/>
+  <division divisionid="32671" name="Eastern Divison">
+    <team>
+      <teamlinkid>92341</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>14</wins>
+      <losses>4</losses>
+      <rs>176.0</rs>
+      <ra>69.0</ra>
+      <rdiff>92341</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92343</teamlinkid>
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname/>
+      <gp>18</gp>
+      <wins>12</wins>
+      <losses>5</losses>
+      <rs>137.0</rs>
+      <ra>83.0</ra>
+      <rdiff>92343</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92342</teamlinkid>
+      <teamname>Mayport Cruisers</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>11</wins>
+      <losses>7</losses>
+      <rs>155.0</rs>
+      <ra>103.0</ra>
+      <rdiff>92342</rdiff>
+    </team>
+    <team>
+      <teamlinkid>124109</teamlinkid>
+      <teamname>Bold City Kings</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>9</wins>
+      <losses>10</losses>
+      <rs>130.0</rs>
+      <ra>131.0</ra>
+      <rdiff>124109</rdiff>
+    </team>
+    <team>
+      <teamlinkid>143666</teamlinkid>
+      <teamname>Ponte Vedra Wildcats</teamname>
+      <shortname/>
+      <gp>18</gp>
+      <wins>6</wins>
+      <losses>12</losses>
+      <rs>106.0</rs>
+      <ra>167.0</ra>
+      <rdiff>143666</rdiff>
+    </team>
+  </division>
+  <division divisionid="32672" name="Western Divison">
+    <team>
+      <teamlinkid>92346</teamlinkid>
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>14</wins>
+      <losses>3</losses>
+      <rs>198.0</rs>
+      <ra>84.0</ra>
+      <rdiff>92346</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92347</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>14</wins>
+      <losses>6</losses>
+      <rs>147.0</rs>
+      <ra>130.0</ra>
+      <rdiff>92347</rdiff>
+    </team>
+    <team>
+      <teamlinkid>144041</teamlinkid>
+      <teamname>Westside Militia</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>11</wins>
+      <losses>7</losses>
+      <rs>129.0</rs>
+      <ra>98.0</ra>
+      <rdiff>144041</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92345</teamlinkid>
+      <teamname>Jacksonville Angels</teamname>
+      <shortname/>
+      <gp>18</gp>
+      <wins>6</wins>
+      <losses>12</losses>
+      <rs>112.0</rs>
+      <ra>139.0</ra>
+      <rdiff>92345</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92348</teamlinkid>
+      <teamname>Jacksonville Suns</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>3</wins>
+      <losses>17</losses>
+      <rs>85.0</rs>
+      <ra>223.0</ra>
+      <rdiff>92348</rdiff>
+    </team>
+    <team>
+      <teamlinkid>143665</teamlinkid>
+      <teamname>River City Gold Sox</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>1</wins>
+      <losses>18</losses>
+      <rs>71.0</rs>
+      <ra>219.0</ra>
+      <rdiff>143665</rdiff>
+    </team>
+  </division>
+</standings>

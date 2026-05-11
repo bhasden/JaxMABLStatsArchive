@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="33023">JAX MABL 18+ Summer 2021</season>
+  <teams>
+    <hometeam teamid="153982" teamlinkid="92347" logo="/small/noteamlogo.jpg">Marietta Bulls</hometeam>
+    <awayteam teamid="153984" teamlinkid="143665" logo="/small/noteamlogo.jpg">River City Bolts</awayteam>
+  </teams>
+  <schedgametime>2021-07-25 19:00:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="1" awayscore="11"/>
+  <scoresbyinning>
+    <away runs="11" hits="0" errors="0">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="1" hits="2" errors="2">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="1"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>07/25/2021</gamedate>
+    <starttime>07:00 PM</starttime>
+    <duration/>
+    <endtime>07:00 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home>
+      <player>
+        <name>Jarrell, Trey</name>
+        <jersey>1</jersey>
+        <playerlinkid>1123057</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Haynes, Danny</name>
+        <jersey>1</jersey>
+        <playerlinkid>796060</playerlinkid>
+        <position>MG</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Ousterhout, Clayton</name>
+        <jersey>1</jersey>
+        <playerlinkid>1362583</playerlinkid>
+        <position>U</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Roney, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>1453503</playerlinkid>
+        <position>C</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Thaggard, Justin</name>
+        <jersey>1</jersey>
+        <playerlinkid>1502058</playerlinkid>
+        <position>P</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Ward, Jarrett</name>
+        <jersey>1</jersey>
+        <playerlinkid>796070</playerlinkid>
+        <position>P</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Corristan, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>958755</playerlinkid>
+        <position>C</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Brynsson, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>796066</playerlinkid>
+        <position>PC</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Rutland, Allen</name>
+        <jersey>1</jersey>
+        <playerlinkid>1503436</playerlinkid>
+        <position>U</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Pappas, Jonathan</name>
+        <jersey>1</jersey>
+        <playerlinkid>1519123</playerlinkid>
+        <position>U</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Knighten, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>958742</playerlinkid>
+        <position>P</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Otero, Reynaldo</name>
+        <jersey>1</jersey>
+        <playerlinkid>1362581</playerlinkid>
+        <position>P</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Jarrell, T</name>
+        <jersey>1</jersey>
+        <playerlinkid>1123057</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.355</avg>
+      </player>
+      <player>
+        <name>Haynes, D</name>
+        <jersey>22</jersey>
+        <playerlinkid>796060</playerlinkid>
+        <position>MG</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Ousterhout, C</name>
+        <jersey/>
+        <playerlinkid>1362583</playerlinkid>
+        <position>U</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Roney, D</name>
+        <jersey/>
+        <playerlinkid>1453503</playerlinkid>
+        <position>C</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.231</avg>
+      </player>
+      <player>
+        <name>Thaggard, J</name>
+        <jersey>5</jersey>
+        <playerlinkid>1502058</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.375</avg>
+      </player>
+      <player>
+        <name>Ward, J</name>
+        <jersey>4</jersey>
+        <playerlinkid>796070</playerlinkid>
+        <position>P</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.368</avg>
+      </player>
+      <player>
+        <name>Corristan, D</name>
+        <jersey>6</jersey>
+        <playerlinkid>958755</playerlinkid>
+        <position>C</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.235</avg>
+      </player>
+      <player>
+        <name>Brynsson, M</name>
+        <jersey>27</jersey>
+        <playerlinkid>796066</playerlinkid>
+        <position>PC</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.167</avg>
+      </player>
+      <player>
+        <name>Rutland, A</name>
+        <jersey>12</jersey>
+        <playerlinkid>1503436</playerlinkid>
+        <position>U</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Pappas, J</name>
+        <jersey/>
+        <playerlinkid>1519123</playerlinkid>
+        <position>U</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Knighten, D</name>
+        <jersey>1</jersey>
+        <playerlinkid>958742</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.133</avg>
+      </player>
+      <player>
+        <name>Otero, R</name>
+        <jersey>34</jersey>
+        <playerlinkid>1362581</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.400</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Knighten, D</name>
+        <jersey>1</jersey>
+        <playerlinkid>958742</playerlinkid>
+        <ip>4.0</ip>
+        <hits>1</hits>
+        <runs>3</runs>
+        <earnedruns>1</earnedruns>
+        <er>1</er>
+        <bb>3</bb>
+        <so>7</so>
+        <era>6.23</era>
+      </player>
+      <player>
+        <name>Jarrell, T</name>
+        <jersey>1</jersey>
+        <playerlinkid>1123057</playerlinkid>
+        <ip>2.0</ip>
+        <hits>3</hits>
+        <runs>2</runs>
+        <earnedruns>2</earnedruns>
+        <er>2</er>
+        <bb>2</bb>
+        <so>0</so>
+        <era>11.00</era>
+      </player>
+      <player>
+        <name>Thaggard, J</name>
+        <jersey>5</jersey>
+        <playerlinkid>1502058</playerlinkid>
+        <ip>1.0</ip>
+        <hits>2</hits>
+        <runs>6</runs>
+        <earnedruns>6</earnedruns>
+        <er>6</er>
+        <bb>2</bb>
+        <so>0</so>
+        <era>27.00</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

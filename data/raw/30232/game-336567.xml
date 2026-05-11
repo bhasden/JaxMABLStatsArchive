@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="30232">Jacksonville MABL Summer 2016</season>
+  <teams>
+    <hometeam teamid="110133" teamlinkid="110133" logo="/small/noteamlogo.jpg">San Mateo Rays</hometeam>
+    <awayteam teamid="109509" teamlinkid="92342" logo="/small/noteamlogo.jpg">Mayport Cruisers</awayteam>
+  </teams>
+  <schedgametime>2016-06-12 19:00:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="11" awayscore="10"/>
+  <scoresbyinning>
+    <away runs="10" hits="10" errors="2">
+      <inning number="1" score="1"/>
+      <inning number="2" score="2"/>
+      <inning number="3" score="4"/>
+      <inning number="4" score="3"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="11" hits="15" errors="4">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="3"/>
+      <inning number="4" score="4"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="4"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>06/12/2016</gamedate>
+    <starttime>07:00 PM</starttime>
+    <duration/>
+    <endtime>07:00 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away>
+      <player>
+        <name>Frye, Tyler</name>
+        <jersey>1</jersey>
+        <playerlinkid>966369</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Irra, Jonathan</name>
+        <jersey>1</jersey>
+        <playerlinkid>809272</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Svejkovsky, Jason</name>
+        <jersey>1</jersey>
+        <playerlinkid>796974</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Woods, Will</name>
+        <jersey>1</jersey>
+        <playerlinkid>958688</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Ramirez, Alejandro</name>
+        <jersey>1</jersey>
+        <playerlinkid>966382</playerlinkid>
+        <position>3B</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Vargas, Carlos</name>
+        <jersey>1</jersey>
+        <playerlinkid>966376</playerlinkid>
+        <position>C</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Hyser, Mitch</name>
+        <jersey>1</jersey>
+        <playerlinkid>796980</playerlinkid>
+        <position>IF</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Pinales, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>796977</playerlinkid>
+        <position>SS</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Morao, Esteban</name>
+        <jersey>1</jersey>
+        <playerlinkid>970404</playerlinkid>
+        <position>IF</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Hoxha, George</name>
+        <jersey>1</jersey>
+        <playerlinkid>796984</playerlinkid>
+        <position>OF</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Asnip, Dakota</name>
+        <jersey>1</jersey>
+        <playerlinkid>796979</playerlinkid>
+        <position>OF</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Hasden, Brian</name>
+        <jersey>1</jersey>
+        <playerlinkid>796973</playerlinkid>
+        <position>OF</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Tavarez, Jose</name>
+        <jersey>1</jersey>
+        <playerlinkid>958687</playerlinkid>
+        <position>U</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Little, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>966375</playerlinkid>
+        <position>P</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Arquit, Matt</name>
+        <jersey>1</jersey>
+        <playerlinkid>970402</playerlinkid>
+        <position>U</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Kellam, Isham</name>
+        <jersey>1</jersey>
+        <playerlinkid>970403</playerlinkid>
+        <position>OF</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </away>
+    <home>
+      <player>
+        <name>Atwater, Antoine</name>
+        <jersey>1</jersey>
+        <playerlinkid>967435</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Dale, Brett</name>
+        <jersey>1</jersey>
+        <playerlinkid>967436</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Dale, Tyler</name>
+        <jersey>1</jersey>
+        <playerlinkid>967437</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Frey, Ryan</name>
+        <jersey>1</jersey>
+        <playerlinkid>967459</playerlinkid>
+        <position>C</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Hicks, Sean</name>
+        <jersey>1</jersey>
+        <playerlinkid>967481</playerlinkid>
+        <position>U</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>White, Jacob</name>
+        <jersey>1</jersey>
+        <playerlinkid>983088</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Seifert, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>967439</playerlinkid>
+        <position>IF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Shockley, Caleb</name>
+        <jersey>1</jersey>
+        <playerlinkid>958804</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Simmons, Clay</name>
+        <jersey>1</jersey>
+        <playerlinkid>979202</playerlinkid>
+        <position>U</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Wall, Mark</name>
+        <jersey>1</jersey>
+        <playerlinkid>967446</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Nelson, Josh</name>
+        <jersey>1</jersey>
+        <playerlinkid>967445</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away>
+      <player>
+        <name>Irra, J</name>
+        <jersey>18</jersey>
+        <playerlinkid>809272</playerlinkid>
+        <position>OF</position>
+        <ab>4</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>1</sb>
+        <avg>.269</avg>
+      </player>
+      <player>
+        <name>Woods, W</name>
+        <jersey>11</jersey>
+        <playerlinkid>958688</playerlinkid>
+        <position>OF</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.111</avg>
+      </player>
+      <player>
+        <name>Svejkovsky, J</name>
+        <jersey>12</jersey>
+        <playerlinkid>796974</playerlinkid>
+        <position>P</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Frye, T</name>
+        <jersey>7</jersey>
+        <playerlinkid>966369</playerlinkid>
+        <position>P</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Ramirez, A</name>
+        <jersey>25</jersey>
+        <playerlinkid>966382</playerlinkid>
+        <position>3B</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.257</avg>
+      </player>
+      <player>
+        <name>Vargas, C</name>
+        <jersey>8</jersey>
+        <playerlinkid>966376</playerlinkid>
+        <position>C</position>
+        <ab>2</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>1</hr>
+        <rbi>3</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.323</avg>
+      </player>
+      <player>
+        <name>Hyser, M</name>
+        <jersey>17</jersey>
+        <playerlinkid>796980</playerlinkid>
+        <position>IF</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.273</avg>
+      </player>
+      <player>
+        <name>Pinales, D</name>
+        <jersey>3</jersey>
+        <playerlinkid>796977</playerlinkid>
+        <position>SS</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.227</avg>
+      </player>
+      <player>
+        <name>Morao, E</name>
+        <jersey>13</jersey>
+        <playerlinkid>970404</playerlinkid>
+        <position>IF</position>
+        <ab>4</ab>
+        <runs>2</runs>
+        <hits>3</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.214</avg>
+      </player>
+      <player>
+        <name>Hoxha, G</name>
+        <jersey>24</jersey>
+        <playerlinkid>796984</playerlinkid>
+        <position>OF</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.125</avg>
+      </player>
+      <player>
+        <name>Hasden, B</name>
+        <jersey>15</jersey>
+        <playerlinkid>796973</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.115</avg>
+      </player>
+      <player>
+        <name>Asnip, D</name>
+        <jersey>9</jersey>
+        <playerlinkid>796979</playerlinkid>
+        <position>OF</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Tavarez, J</name>
+        <jersey>73</jersey>
+        <playerlinkid>958687</playerlinkid>
+        <position>U</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.222</avg>
+      </player>
+      <player>
+        <name>Arquit, M</name>
+        <jersey>22</jersey>
+        <playerlinkid>970402</playerlinkid>
+        <position>U</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.100</avg>
+      </player>
+      <player>
+        <name>Little, M</name>
+        <jersey>21</jersey>
+        <playerlinkid>966375</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.091</avg>
+      </player>
+      <player>
+        <name>Kellam, I</name>
+        <jersey>1</jersey>
+        <playerlinkid>970403</playerlinkid>
+        <position>OF</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+    </away>
+    <home>
+      <player>
+        <name>Shockley, C</name>
+        <jersey>27</jersey>
+        <playerlinkid>958804</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>2</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.172</avg>
+      </player>
+      <player>
+        <name>Atwater, A</name>
+        <jersey>2</jersey>
+        <playerlinkid>967435</playerlinkid>
+        <position>P</position>
+        <ab>5</ab>
+        <runs>3</runs>
+        <hits>3</hits>
+        <hr>1</hr>
+        <rbi>4</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.229</avg>
+      </player>
+      <player>
+        <name>Dale, B</name>
+        <jersey>19</jersey>
+        <playerlinkid>967436</playerlinkid>
+        <position>P</position>
+        <ab>5</ab>
+        <runs>3</runs>
+        <hits>4</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.436</avg>
+      </player>
+      <player>
+        <name>Dale, T</name>
+        <jersey>10</jersey>
+        <playerlinkid>967437</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>2</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.289</avg>
+      </player>
+      <player>
+        <name>Seifert, M</name>
+        <jersey>20</jersey>
+        <playerlinkid>967439</playerlinkid>
+        <position>IF</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.067</avg>
+      </player>
+      <player>
+        <name>White, J</name>
+        <jersey>28</jersey>
+        <playerlinkid>983088</playerlinkid>
+        <position>OF</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Wall, M</name>
+        <jersey>21</jersey>
+        <playerlinkid>967446</playerlinkid>
+        <position>P</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.188</avg>
+      </player>
+      <player>
+        <name>Frey, R</name>
+        <jersey>34</jersey>
+        <playerlinkid>967459</playerlinkid>
+        <position>C</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>3</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.333</avg>
+      </player>
+      <player>
+        <name>Hicks, S</name>
+        <jersey>9</jersey>
+        <playerlinkid>967481</playerlinkid>
+        <position>U</position>
+        <ab>5</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.375</avg>
+      </player>
+      <player>
+        <name>Simmons, C</name>
+        <jersey>13</jersey>
+        <playerlinkid>979202</playerlinkid>
+        <position>U</position>
+        <ab>4</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.227</avg>
+      </player>
+      <player>
+        <name>Nelson, J</name>
+        <jersey>5</jersey>
+        <playerlinkid>967445</playerlinkid>
+        <position>P</position>
+        <ab>4</ab>
+        <runs>3</runs>
+        <hits>2</hits>
+        <hr>1</hr>
+        <rbi>3</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.483</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away>
+      <player>
+        <name>Svejkovsky, J</name>
+        <jersey>12</jersey>
+        <playerlinkid>796974</playerlinkid>
+        <ip>4.0</ip>
+        <hits>9</hits>
+        <runs>7</runs>
+        <earnedruns>5</earnedruns>
+        <er>5</er>
+        <bb>1</bb>
+        <so>1</so>
+        <era>7.32</era>
+      </player>
+      <player>
+        <name>Frye, T</name>
+        <jersey>7</jersey>
+        <playerlinkid>966369</playerlinkid>
+        <ip>1.1</ip>
+        <hits>2</hits>
+        <runs>0</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>3</bb>
+        <so>1</so>
+        <era>9.00</era>
+      </player>
+      <player>
+        <name>Little, M</name>
+        <jersey>21</jersey>
+        <playerlinkid>966375</playerlinkid>
+        <ip>1.0</ip>
+        <hits>2</hits>
+        <runs>4</runs>
+        <earnedruns>4</earnedruns>
+        <er>4</er>
+        <bb>2</bb>
+        <so>0</so>
+        <era>11.32</era>
+      </player>
+    </away>
+    <home>
+      <player>
+        <name>Shockley, C</name>
+        <jersey>27</jersey>
+        <playerlinkid>958804</playerlinkid>
+        <ip>3.0</ip>
+        <hits>6</hits>
+        <runs>7</runs>
+        <earnedruns>2</earnedruns>
+        <er>2</er>
+        <bb>3</bb>
+        <so>3</so>
+        <era>9.53</era>
+      </player>
+      <player>
+        <name>Nelson, J</name>
+        <jersey>5</jersey>
+        <playerlinkid>967445</playerlinkid>
+        <ip>1.0</ip>
+        <hits>0</hits>
+        <runs>0</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>1</bb>
+        <so>2</so>
+        <era>10.39</era>
+      </player>
+      <player>
+        <name>Atwater, A</name>
+        <jersey>2</jersey>
+        <playerlinkid>967435</playerlinkid>
+        <ip>4.0</ip>
+        <hits>6</hits>
+        <runs>3</runs>
+        <earnedruns>3</earnedruns>
+        <er>3</er>
+        <bb>1</bb>
+        <so>3</so>
+        <era>3.20</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

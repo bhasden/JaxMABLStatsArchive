@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=92345%26;seasonid=33936</link>
+<season>JAX MABL Summer 2024</season>
+	<pitching>
+	<player playerlinkid="1643740" playerid="1694712">
+		<jersey>1</jersey>
+		<playername>Simmons, C</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.0</ip>
+		<runs>0</runs>
+		<er>0</er>
+		<hits>0</hits>
+		<bb>0</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="1503481" playerid="1694707">
+		<jersey>12</jersey>
+		<playername>Schoening, H</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>0.2</ip>
+		<runs>0</runs>
+		<er>0</er>
+		<hits>0</hits>
+		<bb>1</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="1708792" playerid="1708792">
+		<jersey>28</jersey>
+		<playername>Garcia, L</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>8.0</ip>
+		<runs>6</runs>
+		<er>5</er>
+		<hits>6</hits>
+		<bb>2</bb>
+		<so>8</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-3.250</oslg>
+		<oavg>-1.500</oavg>
+		<era>5.63</era>
+	</player>
+	<player playerlinkid="1697141" playerid="1697141">
+		<jersey>48</jersey>
+		<playername>Rogero, C</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>4.0</ip>
+		<runs>12</runs>
+		<er>9</er>
+		<hits>7</hits>
+		<bb>10</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.800</oslg>
+		<oavg>-.700</oavg>
+		<era>12.79</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1697141" playerid="1697141">
+		<jersey>48</jersey>
+		<playername>Rogero, C</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>P</position>
+		<ab>10</ab>
+		<runs>2</runs>
+		<hits>6</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>3</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.692</obp>
+		<slg>1.20</slg>
+		<avg>.600</avg>
+	</player>
+	<player playerlinkid="1503481" playerid="1694707">
+		<jersey>12</jersey>
+		<playername>Schoening, H</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>IF</position>
+		<ab>10</ab>
+		<runs>1</runs>
+		<hits>4</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>2</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.500</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1697143" playerid="1697143">
+		<jersey>7</jersey>
+		<playername>Collins, J</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>OF</position>
+		<ab>5</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.600</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1584166" playerid="1694709">
+		<jersey>22</jersey>
+		<playername>Sanford, G</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>1B</position>
+		<ab>11</ab>
+		<runs>1</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>2</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.636</slg>
+		<avg>.364</avg>
+	</player>
+	<player playerlinkid="1708792" playerid="1708792">
+		<jersey>28</jersey>
+		<playername>Garcia, L</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>IF</position>
+		<ab>6</ab>
+		<runs>1</runs>
+		<hits>2</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.500</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1697140" playerid="1697140">
+		<jersey>32</jersey>
+		<playername>Gailey, B</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>OF</position>
+		<ab>7</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.286</obp>
+		<slg>.429</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="1643740" playerid="1694712">
+		<jersey>1</jersey>
+		<playername>Simmons, C</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>IF</position>
+		<ab>14</ab>
+		<runs>2</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>2</dp>
+		<obp>.267</obp>
+		<slg>.214</slg>
+		<avg>.214</avg>
+	</player>
+	<player playerlinkid="1369878" playerid="1694705">
+		<jersey>00</jersey>
+		<playername>Schoening lll, M</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>IF</position>
+		<ab>7</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.125</obp>
+		<slg>.286</slg>
+		<avg>.143</avg>
+	</player>
+	<player playerlinkid="1697148" playerid="1697148">
+		<jersey>4</jersey>
+		<playername>Dehlinger, T</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>C</position>
+		<ab>8</ab>
+		<runs>1</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>2</dp>
+		<obp>.125</obp>
+		<slg>.125</slg>
+		<avg>.125</avg>
+	</player>
+	<player playerlinkid="1697144" playerid="1697144">
+		<jersey>83</jersey>
+		<playername>Bogawitch, M</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>OF</position>
+		<ab>6</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1697142" playerid="1697142">
+		<jersey>19</jersey>
+		<playername>Eckman Jr., H</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>OF</position>
+		<ab>4</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1453400" playerid="1694706">
+		<jersey>3</jersey>
+		<playername>Mandac, R</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>IF</position>
+		<ab>4</ab>
+		<runs>1</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.200</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1453394" playerid="1694704">
+		<jersey>24</jersey>
+		<playername>Ventura, C</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>OF</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>4</bb>
+		<hp>1</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.625</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1378332" playerid="1694690">
+		<jersey>27</jersey>
+		<playername>Harrington, C</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>1B</position>
+		<ab>0</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1697150" playerid="1697150">
+		<jersey>17</jersey>
+		<playername>Hill, T</playername>
+		<teamname>Jacksonville Angels</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

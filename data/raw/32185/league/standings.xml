@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="32185" seasonname="JAX MABL 30+ Summer 2019" seasonshortname="30+ Summer 2019"/>
+  <division divisionid="32701" name="30+">
+    <team>
+      <teamlinkid>144038</teamlinkid>
+      <teamname>Duval County Cubs</teamname>
+      <shortname/>
+      <gp>12</gp>
+      <wins>10</wins>
+      <losses>2</losses>
+      <rs>122.0</rs>
+      <ra>48.0</ra>
+      <rdiff>144038</rdiff>
+    </team>
+    <team>
+      <teamlinkid>144040</teamlinkid>
+      <teamname>Jacksonville Angels</teamname>
+      <shortname/>
+      <gp>8</gp>
+      <wins>6</wins>
+      <losses>2</losses>
+      <rs>90.0</rs>
+      <ra>34.0</ra>
+      <rdiff>144040</rdiff>
+    </team>
+    <team>
+      <teamlinkid>144037</teamlinkid>
+      <teamname>River City Gold Sox</teamname>
+      <shortname/>
+      <gp>10</gp>
+      <wins>4</wins>
+      <losses>6</losses>
+      <rs>71.0</rs>
+      <ra>82.0</ra>
+      <rdiff>144037</rdiff>
+    </team>
+    <team>
+      <teamlinkid>144039</teamlinkid>
+      <teamname>St. Augustine Braves</teamname>
+      <shortname/>
+      <gp>10</gp>
+      <wins>0</wins>
+      <losses>10</losses>
+      <rs>26.0</rs>
+      <ra>145.0</ra>
+      <rdiff>144039</rdiff>
+    </team>
+  </division>
+</standings>

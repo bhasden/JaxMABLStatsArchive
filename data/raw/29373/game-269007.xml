@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="29373">Jacksonville MABL Summer 2015</season>
+  <teams>
+    <hometeam teamid="92347" teamlinkid="92347" logo="/small/noteamlogo.jpg">Marietta Bulls</hometeam>
+    <awayteam teamid="92349" teamlinkid="92349" logo="/small/noteamlogo.jpg">Georgia Senators</awayteam>
+  </teams>
+  <schedgametime>2015-04-29 19:30:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="13" awayscore="1"/>
+  <scoresbyinning>
+    <away runs="1" hits="0" errors="0">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="1"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="13" hits="6" errors="2">
+      <inning number="1" score="2"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="1"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="7"/>
+      <inning number="8" score="3"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>04/29/2015</gamedate>
+    <starttime>07:30 PM</starttime>
+    <duration/>
+    <endtime>07:30 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away>
+      <player>
+        <name>Schumacher, Adam</name>
+        <jersey>1</jersey>
+        <playerlinkid>792390</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Rhymer, Dakota</name>
+        <jersey>1</jersey>
+        <playerlinkid>799854</playerlinkid>
+        <position>P</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Brookman, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>792385</playerlinkid>
+        <position>C</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Schulz, Brian</name>
+        <jersey>1</jersey>
+        <playerlinkid>792372</playerlinkid>
+        <position>3B</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Palmer, Nick</name>
+        <jersey>1</jersey>
+        <playerlinkid>796005</playerlinkid>
+        <position>P</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Triggiano, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>792382</playerlinkid>
+        <position>P</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Nosal, David</name>
+        <jersey>1</jersey>
+        <playerlinkid>795998</playerlinkid>
+        <position>P</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Wagner, Sean</name>
+        <jersey>1</jersey>
+        <playerlinkid>796002</playerlinkid>
+        <position>2B</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Sites, Dillon</name>
+        <jersey>1</jersey>
+        <playerlinkid>792381</playerlinkid>
+        <position>P</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>McBroom, Anthony</name>
+        <jersey>1</jersey>
+        <playerlinkid>792375</playerlinkid>
+        <position>2B</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Smith, Jamie</name>
+        <jersey>1</jersey>
+        <playerlinkid>792379</playerlinkid>
+        <position>2B</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </away>
+    <home>
+      <player>
+        <name>Ward, Jarrett</name>
+        <jersey>1</jersey>
+        <playerlinkid>796070</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Haynes, Danny</name>
+        <jersey>1</jersey>
+        <playerlinkid>796060</playerlinkid>
+        <position>MG</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Higginbotham, Trevor</name>
+        <jersey>1</jersey>
+        <playerlinkid>796074</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Thompson, Caleb</name>
+        <jersey>1</jersey>
+        <playerlinkid>798329</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Williams2, Trevor</name>
+        <jersey>1</jersey>
+        <playerlinkid>796073</playerlinkid>
+        <position>IF</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Countryman, Taylor</name>
+        <jersey>1</jersey>
+        <playerlinkid>796071</playerlinkid>
+        <position>SS</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Solomon, Bobby</name>
+        <jersey>1</jersey>
+        <playerlinkid>796063</playerlinkid>
+        <position>IF</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Langford, Giles</name>
+        <jersey>1</jersey>
+        <playerlinkid>799806</playerlinkid>
+        <position>OF</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Dykes, Aaron</name>
+        <jersey>1</jersey>
+        <playerlinkid>799807</playerlinkid>
+        <position>P</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Haynes, Christopher</name>
+        <jersey>1</jersey>
+        <playerlinkid>796059</playerlinkid>
+        <position>P</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Williams1, Tony</name>
+        <jersey>1</jersey>
+        <playerlinkid>796062</playerlinkid>
+        <position>IF</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>George, Matthew</name>
+        <jersey>1</jersey>
+        <playerlinkid>796069</playerlinkid>
+        <position>1B</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Brynsson, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>796066</playerlinkid>
+        <position>1B</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Grossi, Cole</name>
+        <jersey>1</jersey>
+        <playerlinkid>796065</playerlinkid>
+        <position>U</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Kreinest, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>796067</playerlinkid>
+        <position>OF</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away>
+      <player>
+        <name>Schumacher, A</name>
+        <jersey>15</jersey>
+        <playerlinkid>792390</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Rhymer, D</name>
+        <jersey>20</jersey>
+        <playerlinkid>799854</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Brookman, D</name>
+        <jersey>12</jersey>
+        <playerlinkid>792385</playerlinkid>
+        <position>C</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Schulz, B</name>
+        <jersey>10</jersey>
+        <playerlinkid>792372</playerlinkid>
+        <position>3B</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Palmer, N</name>
+        <jersey>3</jersey>
+        <playerlinkid>796005</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>1</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Triggiano, M</name>
+        <jersey>42</jersey>
+        <playerlinkid>792382</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Nosal, D</name>
+        <jersey>02</jersey>
+        <playerlinkid>795998</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>3</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Wagner, S</name>
+        <jersey>23</jersey>
+        <playerlinkid>796002</playerlinkid>
+        <position>2B</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Sites, D</name>
+        <jersey>8</jersey>
+        <playerlinkid>792381</playerlinkid>
+        <position>P</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>2</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>McBroom, A</name>
+        <jersey>5</jersey>
+        <playerlinkid>792375</playerlinkid>
+        <position>2B</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Smith, J</name>
+        <jersey>36</jersey>
+        <playerlinkid>792379</playerlinkid>
+        <position>2B</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+    </away>
+    <home>
+      <player>
+        <name>Thompson, C</name>
+        <jersey>10</jersey>
+        <playerlinkid>798329</playerlinkid>
+        <position>P</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Haynes, D</name>
+        <jersey>22</jersey>
+        <playerlinkid>796060</playerlinkid>
+        <position>MG</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Higginbotham, T</name>
+        <jersey>20</jersey>
+        <playerlinkid>796074</playerlinkid>
+        <position>P</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Ward, J</name>
+        <jersey>4</jersey>
+        <playerlinkid>796070</playerlinkid>
+        <position>OF</position>
+        <ab>4</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Williams2, T</name>
+        <jersey>5</jersey>
+        <playerlinkid>796073</playerlinkid>
+        <position>IF</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>1</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Countryman, T</name>
+        <jersey>3</jersey>
+        <playerlinkid>796071</playerlinkid>
+        <position>SS</position>
+        <ab>2</ab>
+        <runs>3</runs>
+        <hits>2</hits>
+        <hr>1</hr>
+        <rbi>3</rbi>
+        <bb>2</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.667</avg>
+      </player>
+      <player>
+        <name>Solomon, B</name>
+        <jersey>12</jersey>
+        <playerlinkid>796063</playerlinkid>
+        <position>IF</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Langford, G</name>
+        <jersey>8</jersey>
+        <playerlinkid>799806</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>2</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Haynes, C</name>
+        <jersey>11</jersey>
+        <playerlinkid>796059</playerlinkid>
+        <position>P</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.667</avg>
+      </player>
+      <player>
+        <name>Dykes, A</name>
+        <jersey>30</jersey>
+        <playerlinkid>799807</playerlinkid>
+        <position>P</position>
+        <ab>1</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Williams1, T</name>
+        <jersey>7</jersey>
+        <playerlinkid>796062</playerlinkid>
+        <position>IF</position>
+        <ab>4</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.286</avg>
+      </player>
+      <player>
+        <name>George, M</name>
+        <jersey>13</jersey>
+        <playerlinkid>796069</playerlinkid>
+        <position>1B</position>
+        <ab>4</ab>
+        <runs>1</runs>
+        <hits>3</hits>
+        <hr>0</hr>
+        <rbi>4</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.800</avg>
+      </player>
+      <player>
+        <name>Brynsson, M</name>
+        <jersey>9</jersey>
+        <playerlinkid>796066</playerlinkid>
+        <position>1B</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.500</avg>
+      </player>
+      <player>
+        <name>Grossi, C</name>
+        <jersey>2</jersey>
+        <playerlinkid>796065</playerlinkid>
+        <position>U</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Kreinest, D</name>
+        <jersey>15</jersey>
+        <playerlinkid>796067</playerlinkid>
+        <position>OF</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away>
+      <player>
+        <name>Rhymer, D</name>
+        <jersey>20</jersey>
+        <playerlinkid>799854</playerlinkid>
+        <ip>5.0</ip>
+        <hits>5</hits>
+        <runs>3</runs>
+        <earnedruns>3</earnedruns>
+        <er>3</er>
+        <bb>1</bb>
+        <so>1</so>
+        <era>5.40</era>
+      </player>
+      <player>
+        <name>Triggiano, M</name>
+        <jersey>42</jersey>
+        <playerlinkid>792382</playerlinkid>
+        <ip>2.2</ip>
+        <hits>3</hits>
+        <runs>10</runs>
+        <earnedruns>8</earnedruns>
+        <er>8</er>
+        <bb>2</bb>
+        <so>2</so>
+        <era>27.00</era>
+      </player>
+    </away>
+    <home>
+      <player>
+        <name>Higginbotham, T</name>
+        <jersey>20</jersey>
+        <playerlinkid>796074</playerlinkid>
+        <ip>5.0</ip>
+        <hits>0</hits>
+        <runs>1</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>4</bb>
+        <so>8</so>
+        <era>0.00</era>
+      </player>
+      <player>
+        <name>Thompson, C</name>
+        <jersey>10</jersey>
+        <playerlinkid>798329</playerlinkid>
+        <ip>3.0</ip>
+        <hits>0</hits>
+        <runs>0</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>1</bb>
+        <so>6</so>
+        <era>5.14</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

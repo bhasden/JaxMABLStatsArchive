@@ -1,0 +1,2889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T15:08:36-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="28308">
+    <seasonname>Jacksonville MABL Summer 2014</seasonname>
+  </season>
+  <game gameid="195293" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-23-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195295" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>14</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-23-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195296" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-23-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195323" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-27</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-04T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>11</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195325" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>2</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195324" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195327" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-30-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195328" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>12</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-30-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195326" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>8</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-04-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-30-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195330" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-04</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-05T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195332" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>7</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195331" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195334" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-07</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-07-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195335" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-07</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-07-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195333" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-07</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-07-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195337" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-14-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195339" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-14-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195336" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>2</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-14-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195338" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-14-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195340" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>13</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-17</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-17-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195344" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-18</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195341" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-18</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195342" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-18</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195347" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-21-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195345" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-21-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195346" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-21-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195349" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>15</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-28-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195350" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-28-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195391" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-05-31</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-31-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195395" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>2</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195394" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>16</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195393" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195396" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>2</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-04-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195397" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>15</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-08-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195401" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-11-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195402" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-11-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195400" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-11-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195329" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-14</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-14-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195407" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>16</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195405" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>14</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195404" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>2</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195406" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>17</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-18-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195352" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>2</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-21</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-21-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195563" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-29</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-29-06T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195564" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-29</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-29-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>12</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195566" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>6</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-29-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195565" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-06-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-29-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195568" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-02-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195569" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>2</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-02-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195567" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-02-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195570" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>6</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-02-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195571" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>1</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-09-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195574" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-09-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195572" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-09-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195573" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-09-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195418" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-12</gamedate>
+    <gametime>13:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-12-07T13:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195392" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-13</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-13-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195409" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-13</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-13-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195576" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>11</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-13</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-13-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195581" gamenumber="75">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-19</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-19-07T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195348" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-20</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-20-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195398" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>2</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-20</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-20-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195584" gamenumber="78">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-23-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195575" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-23-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195585" gamenumber="79">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>7</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-23-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195586" gamenumber="80">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70347" homeid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-27</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-07T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195403" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195587" gamenumber="81">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>6</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195351" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>16</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195577" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70346" homeid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-29-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>10</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195410" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70346" awayid="70346">
+      <teamname>Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70346.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>12</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-30-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195421" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69753" awayid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-30-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195419" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="71213" awayid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-07-30</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-30-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195582" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70345" awayid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-02</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-02-08T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195408" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-03-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195420" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70344" homeid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-03-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195578" gamenumber="72">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-06-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195579" gamenumber="73">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="71213" homeid="71213">
+      <teamname>Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team71213.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-06-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="195580" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69753" homeid="69753">
+      <teamname>Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69753.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>0</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-06-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="231285" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-10</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-10-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="231286" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-10-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="231607" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-13-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="231608" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70343" awayid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>8</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-13-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="232023" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70347" awayid="70347">
+      <teamname>Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70347.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-17</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-17-08T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="232024" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70343" homeid="70343">
+      <teamname>Red Sox</teamname>
+      <shortname>Red Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70343.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-17</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-17-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="232025" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-20-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="232314" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70344" awayid="70344">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70344.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-20-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="232728" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70345" homeid="70345">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70345.gif</logo>
+      <division divisionid="21577">
+        <divisionname>Western</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>1</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-24</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-24-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="233433" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="70342" awayid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="69752" homeid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>8</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-08-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-27-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="233434" gamenumber="">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="69752" awayid="69752">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team69752.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="70342" homeid="70342">
+      <teamname>Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team70342.gif</logo>
+      <division divisionid="21576">
+        <divisionname>Eastern</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>1</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2014-09-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2014-10-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+</schedule>

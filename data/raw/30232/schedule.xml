@@ -1,0 +1,3559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T14:55:42-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="30232">
+    <seasonname>Jacksonville MABL Summer 2016</seasonname>
+  </season>
+  <game gameid="336503" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>6</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-20</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-20-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336504" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-23</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-23-04T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336505" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>9</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-24</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-04T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336507" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>10</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336506" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>11</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336508" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>14</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336511" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336510" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336509" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336512" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>9</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-27</gamedate>
+    <gametime>20:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-04T20:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336513" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>13</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-04-30</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-30-04T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336514" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-01</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-05T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336517" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-01</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-05T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336515" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>15</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-01</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-05T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336516" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-01</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336518" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-04-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336521" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-04-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336520" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-04-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336519" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>2</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-04-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336522" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>7</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-05-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336523" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-11</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-11-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336524" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>3</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-11-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336526" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-11-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336525" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-11-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336527" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>7</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-12-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336529" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>14</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-15</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-05T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336530" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>4</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-15</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-05T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336531" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-15</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-05T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336532" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-15</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336536" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>15</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-18-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336538" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-22</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-05T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336539" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>10</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-22</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-05T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>11</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336540" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>3</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336541" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>0</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336542" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336542" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336543" gamenumber="41">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-25-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336545" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>12</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-25-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336544" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>14</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-25-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336546" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-25-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336547" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-05-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-26-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336550" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336549" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>17</awayscore>
+    <homescore>4</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336551" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336552" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>8</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-01-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336554" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-05</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-05-06T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336555" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>22</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-05-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336556" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>14</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-05-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336557" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>3</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-05-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336558" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-08-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336560" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>13</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-08-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336561" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-08-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336562" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-09-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336563" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-11</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-11-06T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336564" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-12</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-12-06T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336565" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>17</awayscore>
+    <homescore>9</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-12</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-12-06T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336567" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>11</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-12-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336566" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-12-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336568" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>13</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-15</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336571" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>3</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336569" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336570" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-15-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336573" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336574" gamenumber="72">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336575" gamenumber="73">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-22-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336576" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>4</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-23-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336528" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-23-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336577" gamenumber="75">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-25</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-25-06T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336579" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>8</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-26</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-26-06T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336581" gamenumber="79">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>8</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-26-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336580" gamenumber="78">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>8</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-26-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336582" gamenumber="80">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-29-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336583" gamenumber="81">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>1</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-29-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336586" gamenumber="84">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-06-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-29-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336588" gamenumber="85">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>20</awayscore>
+    <homescore>7</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-06-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336589" gamenumber="87">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>16</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-06-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336590" gamenumber="88">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>8</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-06-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336587" gamenumber="86">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>15</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-06-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336591" gamenumber="89">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-07</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-07-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336592" gamenumber="90">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-10</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-10-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336593" gamenumber="91">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>17</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-10-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336594" gamenumber="92">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>21</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-10-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336595" gamenumber="93">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-10-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336596" gamenumber="94">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>13</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-10-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336597" gamenumber="95">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-13</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-13-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336600" gamenumber="98">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>10</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-13-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336598" gamenumber="96">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>1</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-13-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336599" gamenumber="97">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>2</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-13-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336601" gamenumber="99">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>12</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-14-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336548" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-17</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-17-07T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336602" gamenumber="100">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-17</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-17-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336534" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-17</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-17-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336605" gamenumber="103">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110133" homeid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>13</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-20</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-20-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336553" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>10</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-20</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-20-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336604" gamenumber="102">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-20-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>12</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336606" gamenumber="104">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-20-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336533" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-24</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-07T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336607" gamenumber="105">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-24</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336585" gamenumber="83">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92344" homeid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336537" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110132" awayid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>2</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-24-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336608" gamenumber="106">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="109515">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336535" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>15</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336609" gamenumber="107">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="109507">
+      <teamname>Jacksonville Dolphins</teamname>
+      <shortname>Dolphins</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92343.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>3</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336610" gamenumber="108">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="110133" awayid="110133">
+      <teamname>San Mateo Rays</teamname>
+      <shortname>Rays</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110133.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="109514">
+      <teamname>Jacksonville Red Devils</teamname>
+      <shortname>Red Devils</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-27-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336611" gamenumber="109">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>5</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-28-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336612" gamenumber="110">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>1</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-31</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-31-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336603" gamenumber="101">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="109511">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-07-31</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-31-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336559" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="109509">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>1</homescore>
+    <field>Ed Austin Regional Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-08-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-03-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336584" gamenumber="82">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92349" awayid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="109508">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>14</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-08-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-03-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336572" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="109513">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="110132" homeid="110132">
+      <teamname>Jacksonville Expos</teamname>
+      <shortname>Jaxpos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team110132.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>3</homescore>
+    <field>University Christian School</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-08-04</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-04-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="336578" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92344" awayid="109510">
+      <teamname>North Florida Crows</teamname>
+      <shortname>Crows</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92344.gif</logo>
+      <division divisionid="27480">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92349" homeid="109512">
+      <teamname>Georgia Senators</teamname>
+      <shortname>Senators</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92349.gif</logo>
+      <division divisionid="27479">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2016-08-14</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2016-14-08T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+</schedule>

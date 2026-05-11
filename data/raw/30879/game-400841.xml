@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="30879">Jacksonville MABL Summer 2017</season>
+  <teams>
+    <hometeam teamid="124103" teamlinkid="110133" logo="/small/noteamlogo.jpg">San Mateo Marlins</hometeam>
+    <awayteam teamid="124101" teamlinkid="92348" logo="/small/noteamlogo.jpg">Jacksonville Suns</awayteam>
+  </teams>
+  <schedgametime>2017-08-16 19:30:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="1" awayscore="13"/>
+  <scoresbyinning>
+    <away runs="13" hits="0" errors="0">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="1" hits="0" errors="0">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>08/16/2017</gamedate>
+    <starttime>07:30 PM</starttime>
+    <duration/>
+    <endtime>07:30 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home/>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home/>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home/>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

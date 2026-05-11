@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SA">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="31506">JAX MABL Summer 2018</season>
+  <teams>
+    <hometeam teamid="134736" teamlinkid="92341" logo="/small/noteamlogo.jpg">Jacksonville Indians</hometeam>
+    <awayteam teamid="134740" teamlinkid="92348" logo="/small/noteamlogo.jpg">Jacksonville Suns</awayteam>
+  </teams>
+  <schedgametime/>
+  <status/>
+  <score homescore="" awayscore=""/>
+  <scoresbyinning>
+    <away runs="" hits="" errors=""/>
+    <home runs="" hits="" errors=""/>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>08/01/2018</gamedate>
+    <starttime>07:30 PM</starttime>
+    <duration/>
+    <endtime/>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home/>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home/>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home/>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

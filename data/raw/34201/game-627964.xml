@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="34201">JAX MABL Summer 2025</season>
+  <teams>
+    <hometeam teamid="165538" teamlinkid="92341" logo="/small/noteamlogo.jpg">Jacksonville Indians</hometeam>
+    <awayteam teamid="165544" teamlinkid="161516" logo="/small/noteamlogo.jpg">Florida Juicers</awayteam>
+  </teams>
+  <schedgametime>2025-07-06 16:00:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="10" awayscore="0"/>
+  <scoresbyinning>
+    <away runs="0" hits="3" errors="4">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="10" hits="8" errors="3">
+      <inning number="1" score="1"/>
+      <inning number="2" score="1"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="1"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="7"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>07/06/2025</gamedate>
+    <starttime>04:00 PM</starttime>
+    <duration/>
+    <endtime>04:00 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home>
+      <player>
+        <name>Tylski, Jordan</name>
+        <jersey>1</jersey>
+        <playerlinkid>1503326</playerlinkid>
+        <position>U</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Hellett, Devon</name>
+        <jersey>1</jersey>
+        <playerlinkid>784823</playerlinkid>
+        <position>P</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Ulrich, Nick</name>
+        <jersey>1</jersey>
+        <playerlinkid>1266786</playerlinkid>
+        <position>IF</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Douglas, Brandon</name>
+        <jersey>1</jersey>
+        <playerlinkid>797750</playerlinkid>
+        <position>C</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Davis, Daniel</name>
+        <jersey>1</jersey>
+        <playerlinkid>1278548</playerlinkid>
+        <position>P</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Kott, Gary</name>
+        <jersey>1</jersey>
+        <playerlinkid>784827</playerlinkid>
+        <position>1B</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Peterson, Taylor</name>
+        <jersey>1</jersey>
+        <playerlinkid>784836</playerlinkid>
+        <position>OF</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Garrison, James</name>
+        <jersey>1</jersey>
+        <playerlinkid>1698207</playerlinkid>
+        <position>CF</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Mathis, Taylor</name>
+        <jersey>1</jersey>
+        <playerlinkid>1123114</playerlinkid>
+        <position>IF</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Figueroa, Jayson</name>
+        <jersey>1</jersey>
+        <playerlinkid>784825</playerlinkid>
+        <position>U</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Abreu, Angel</name>
+        <jersey>1</jersey>
+        <playerlinkid>1755154</playerlinkid>
+        <position>U</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Fjelstad, Scott</name>
+        <jersey>1</jersey>
+        <playerlinkid>958083</playerlinkid>
+        <position>U</position>
+        <order>12</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Tylski, J</name>
+        <jersey>1</jersey>
+        <playerlinkid>1503326</playerlinkid>
+        <position>U</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.333</avg>
+      </player>
+      <player>
+        <name>Hellett, D</name>
+        <jersey>4</jersey>
+        <playerlinkid>784823</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.366</avg>
+      </player>
+      <player>
+        <name>Ulrich, N</name>
+        <jersey>9</jersey>
+        <playerlinkid>1266786</playerlinkid>
+        <position>IF</position>
+        <ab>2</ab>
+        <runs>3</runs>
+        <hits>2</hits>
+        <hr>2</hr>
+        <rbi>3</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.500</avg>
+      </player>
+      <player>
+        <name>Douglas, B</name>
+        <jersey>27</jersey>
+        <playerlinkid>797750</playerlinkid>
+        <position>C</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>3</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.439</avg>
+      </player>
+      <player>
+        <name>Davis, D</name>
+        <jersey>17</jersey>
+        <playerlinkid>1278548</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.342</avg>
+      </player>
+      <player>
+        <name>Kott, G</name>
+        <jersey>16</jersey>
+        <playerlinkid>784827</playerlinkid>
+        <position>1B</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.385</avg>
+      </player>
+      <player>
+        <name>Peterson, T</name>
+        <jersey>21</jersey>
+        <playerlinkid>784836</playerlinkid>
+        <position>OF</position>
+        <ab>1</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.313</avg>
+      </player>
+      <player>
+        <name>Garrison, J</name>
+        <jersey>8</jersey>
+        <playerlinkid>1698207</playerlinkid>
+        <position>CF</position>
+        <ab>1</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>2</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.200</avg>
+      </player>
+      <player>
+        <name>Mathis, T</name>
+        <jersey>13</jersey>
+        <playerlinkid>1123114</playerlinkid>
+        <position>IF</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.235</avg>
+      </player>
+      <player>
+        <name>Figueroa, J</name>
+        <jersey>1</jersey>
+        <playerlinkid>784825</playerlinkid>
+        <position>U</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.133</avg>
+      </player>
+      <player>
+        <name>Fjelstad, S</name>
+        <jersey>18</jersey>
+        <playerlinkid>958083</playerlinkid>
+        <position>U</position>
+        <ab>0</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.056</avg>
+      </player>
+      <player>
+        <name>Abreu, A</name>
+        <jersey>54</jersey>
+        <playerlinkid>1755154</playerlinkid>
+        <position>U</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.344</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Hellett, D</name>
+        <jersey>4</jersey>
+        <playerlinkid>784823</playerlinkid>
+        <ip>1.0</ip>
+        <hits>1</hits>
+        <runs>0</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>0</bb>
+        <so>2</so>
+        <era>0.00</era>
+      </player>
+      <player>
+        <name>Davis, D</name>
+        <jersey>17</jersey>
+        <playerlinkid>1278548</playerlinkid>
+        <ip>6.0</ip>
+        <hits>2</hits>
+        <runs>0</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>2</bb>
+        <so>7</so>
+        <era>0.75</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

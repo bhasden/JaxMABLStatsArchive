@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T13:46:21-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="34359">
+    <seasonname>40+ Summer 2026</seasonname>
+  </season>
+  <game gameid="634228" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>17</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-02-15</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-15-02T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634231" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>6</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-02-22</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-02T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634232" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-01</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-01-03T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634233" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166303" awayid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>8</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-01</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-01-03T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634234" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-08</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-08-03T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634236" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166303" awayid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-15</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-15-03T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634237" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-15</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-15-03T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634239" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>19</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-22</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-03T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634238" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>3</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-22</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-03T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634240" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-29</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-03T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634241" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166303" awayid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>1</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-29</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-03T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634773" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>3</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-03-29</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-03T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634242" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>8</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-12</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-12-04T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634243" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>20</awayscore>
+    <homescore>0</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-12</gamedate>
+    <gametime>16:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-12-04T16:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634245" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166303" awayid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166304" homeid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>9</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-19</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-19-04T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634244" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166302" homeid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>13</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-19</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-19-04T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634229" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166304" awayid="166601">
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname>Naturals</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166301" homeid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>0</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-19</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-19-04T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634230" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166302" awayid="166602">
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname>Hot Rods</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166602.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>7</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-19</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-19-04T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634246" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166301" awayid="166600">
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname>Brewers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166301.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166303" homeid="166599">
+      <teamname>Florida Juicers</teamname>
+      <shortname>Juicers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team166303.gif</logo>
+      <division divisionid="36446">
+        <divisionname>MSBL40</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-26-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+</schedule>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<league>
+  <team teamlinkid="92342">
+    <name>Mayport Cruisers</name>
+  </team>
+  <player playerlinkid="1258083" playerid="1258083">
+    <position>P</position>
+    <jersey>9</jersey>
+    <fname>Tom</fname>
+    <lname>Agosta</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258084" playerid="1258084">
+    <position>P</position>
+    <jersey>2</jersey>
+    <fname>Avery</fname>
+    <lname>Aguirre</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats/>
+    <throws/>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="959537" playerid="1239890">
+    <position>P</position>
+    <jersey>41</jersey>
+    <fname>Allen</fname>
+    <lname>Arena</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>S</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258085" playerid="1258085">
+    <position>P</position>
+    <jersey>45</jersey>
+    <fname>Kevin</fname>
+    <lname>Baez</lname>
+    <height>6-6</height>
+    <weight>257</weight>
+    <birthday>2005-12-12 00:00:00</birthday>
+    <bats/>
+    <throws/>
+    <status/>
+    <hometown>Bombville, USA</hometown>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1121587" playerid="1239884">
+    <position>SS</position>
+    <jersey>16</jersey>
+    <fname>Andrew</fname>
+    <lname>Benton</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258086" playerid="1258086">
+    <position>1B</position>
+    <jersey>20</jersey>
+    <fname>Mike</fname>
+    <lname>Benton</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats/>
+    <throws/>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="819571" playerid="1239906">
+    <position>P</position>
+    <jersey>55</jersey>
+    <fname>Jim</fname>
+    <lname>Caserta</lname>
+    <height/>
+    <weight/>
+    <birthday>1976-10-09 00:00:00</birthday>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/photos/p1349367.jpg</photo>
+  </player>
+  <player playerlinkid="1258087" playerid="1258087">
+    <position>P</position>
+    <jersey>11</jersey>
+    <fname>Joshua</fname>
+    <lname>Dingfelder</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats/>
+    <throws/>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258088" playerid="1258088">
+    <position>1B</position>
+    <jersey>19</jersey>
+    <fname>Leo</fname>
+    <lname>Fundora</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="796973" playerid="1239907">
+    <position>OF</position>
+    <jersey>15</jersey>
+    <fname>Brian</fname>
+    <lname>Hasden</lname>
+    <height>5-9</height>
+    <weight>180</weight>
+    <birthday>1982-11-23 00:00:00</birthday>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown>Brooker</hometown>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="796984" playerid="1239902">
+    <position>P</position>
+    <jersey>24</jersey>
+    <fname>George</fname>
+    <lname>Hoxha</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="796980" playerid="1239911">
+    <position>P</position>
+    <jersey>17</jersey>
+    <fname>Mitch</fname>
+    <lname>Hyser</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="809272" playerid="1239903">
+    <position>OF</position>
+    <jersey>18</jersey>
+    <fname>Jonathan</fname>
+    <lname>Irra</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1133197" playerid="1239916">
+    <position>3B</position>
+    <jersey>1</jersey>
+    <fname>Alex</fname>
+    <lname>Mendez</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="970404" playerid="1239895">
+    <position>P</position>
+    <jersey>13</jersey>
+    <fname>Esteban</fname>
+    <lname>Morao</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="796977" playerid="1239909">
+    <position>SS</position>
+    <jersey>3</jersey>
+    <fname>Daniel</fname>
+    <lname>Pinales</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="803265" playerid="1239912">
+    <position>CF</position>
+    <jersey>28</jersey>
+    <fname>Bilal</fname>
+    <lname>Ragland</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1268593" playerid="1268593">
+    <position>IF</position>
+    <jersey>26</jersey>
+    <fname>Luis</fname>
+    <lname>Ramos</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258089" playerid="1258089">
+    <position>OF</position>
+    <jersey>13</jersey>
+    <fname>Osmar</fname>
+    <lname>Suarez</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats/>
+    <throws/>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="796974" playerid="1239908">
+    <position>P</position>
+    <jersey>12</jersey>
+    <fname>Jason</fname>
+    <lname>Svejkovsky</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258090" playerid="1258090">
+    <position>OF</position>
+    <jersey>51</jersey>
+    <fname>Darian</fname>
+    <lname>Thomas</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="966376" playerid="1239901">
+    <position>C</position>
+    <jersey>8</jersey>
+    <fname>Carlos</fname>
+    <lname>Vargas</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258092" playerid="1258092">
+    <position>2B</position>
+    <jersey>5</jersey>
+    <fname>Christian</fname>
+    <lname>Williams</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>S</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="969706" playerid="1240003">
+    <position>P</position>
+    <jersey>24</jersey>
+    <fname>Benito</fname>
+    <lname>Zavala</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats>R</bats>
+    <throws>R</throws>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+  <player playerlinkid="1258093" playerid="1258093">
+    <position>1B</position>
+    <jersey>6</jersey>
+    <fname>Kirk</fname>
+    <lname>Zinner</lname>
+    <height/>
+    <weight/>
+    <birthday/>
+    <bats/>
+    <throws/>
+    <status/>
+    <hometown/>
+    <photo>http://www.pointstreak.com/baseball/images/no_photo_sm.gif</photo>
+  </player>
+</league>

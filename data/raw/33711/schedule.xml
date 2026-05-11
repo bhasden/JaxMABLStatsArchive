@@ -1,0 +1,2857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T14:03:01-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="33711">
+    <seasonname>JAX MABL Summer 2023</seasonname>
+  </season>
+  <game gameid="596389" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-23</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-23-04T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596390" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>18</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-23-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596391" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-23-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596392" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>0</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-23-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596393" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>3</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596395" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596396" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596394" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>31</awayscore>
+    <homescore>17</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596398" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>3</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-30</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-30-04T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596399" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>0</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-30</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-30-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596400" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>2</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-04-30</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-30-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596401" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>11</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-03-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596404" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>17</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-03-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596402" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-03-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596403" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>10</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-03-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596405" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>10</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-07</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-05T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596406" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>10</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-07</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-05T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596407" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>9</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-07</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596408" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>4</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-07</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596409" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>10</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-10-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596412" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-10-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596411" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-10-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596410" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-10-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596413" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>2</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-17</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-17-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596416" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>4</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-17</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-17-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596415" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-17</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-17-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596414" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>3</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-17</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-17-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596421" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-24-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596423" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-24-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596422" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>3</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-24-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596425" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>7</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-31</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-31-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596428" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-31</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-31-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596426" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>2</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-31</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-31-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596427" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>4</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-05-31</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-31-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596429" gamenumber="41">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>1</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-04</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-04-06T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596431" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-04-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596432" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>12</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-04-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596430" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-04-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596433" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>3</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-07</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596435" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>14</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-07</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596434" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>13</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-07</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596436" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>12</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-07</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-07-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596397" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>0</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-11</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-11-06T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596438" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>2</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-11</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-11-06T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596439" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>20</awayscore>
+    <homescore>1</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-11</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-11-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596441" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>2</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-14</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-14-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596442" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>4</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-14-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596443" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>13</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-14</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-14-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596445" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-21</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-21-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596446" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>12</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-21</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-21-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596449" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-25</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-25-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596450" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>13</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-25</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-25-06T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596452" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>15</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-25-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596451" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>3</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-25-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596444" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>4</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-28-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596455" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-28-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596454" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>17</awayscore>
+    <homescore>1</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-06-28</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-28-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596456" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>6</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-02</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-02-07T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596457" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>8</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-02</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-02-07T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596458" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>1</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-02-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596459" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-02-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596460" gamenumber="72">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-05-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596464" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>4</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-09</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-09-07T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596467" gamenumber="79">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-09-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596466" gamenumber="78">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>9</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-09-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596468" gamenumber="80">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>1</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-12-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596470" gamenumber="82">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>14</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-12-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596471" gamenumber="83">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-12-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596475" gamenumber="84">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>6</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-16</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-16-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596472" gamenumber="85">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-16</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-16-07T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>11</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596473" gamenumber="86">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>11</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-16</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-16-07T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596476" gamenumber="88">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>3</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-19-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596463" gamenumber="75">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-19-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596477" gamenumber="89">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>10</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-19-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596453" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>9</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596440" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596437" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>11</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596424" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>5</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-26-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596448" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>12</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-30</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-30-07T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="603432" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>0</homescore>
+    <field>Rivertown</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-30</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-30-07T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596462" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>7</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-07-30</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-30-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596474" gamenumber="87">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-02-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596465" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="161515">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>6</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-02-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596419" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="161511">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>2</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-06</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-06-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596418" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="161508">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-06</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-06-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596417" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="161514">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="161513">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>3</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-06</gamedate>
+    <gametime>17:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-06-08T17:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596420" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="161510">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="161509">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-06-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596478" gamenumber="90">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="161516" homeid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-09-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="596469" gamenumber="81">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="161516" awayid="161516">
+      <teamname>WarDogs Baseball</teamname>
+      <shortname>WarDogs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team161516.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="161512">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="35698">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2023-08-13</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2023-13-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+</schedule>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="32179">JAX MABL 18+ Summer 2019</season>
+  <teams>
+    <hometeam teamid="143666" teamlinkid="143666" logo="/small/noteamlogo.jpg">Ponte Vedra Wildcats</hometeam>
+    <awayteam teamid="143665" teamlinkid="143665" logo="/small/noteamlogo.jpg">River City Gold Sox</awayteam>
+  </teams>
+  <schedgametime>2019-07-14 19:00:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="14" awayscore="5"/>
+  <scoresbyinning>
+    <away runs="5" hits="8" errors="1">
+      <inning number="1" score="3"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="2"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="14" hits="9" errors="2">
+      <inning number="1" score="2"/>
+      <inning number="2" score="2"/>
+      <inning number="3" score="7"/>
+      <inning number="4" score="3"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>07/14/2019</gamedate>
+    <starttime>07:00 PM</starttime>
+    <duration/>
+    <endtime>07:00 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home>
+      <player>
+        <name>Kauffman, Kyle</name>
+        <jersey>1</jersey>
+        <playerlinkid>1365449</playerlinkid>
+        <position>P</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Trawick, Ethan</name>
+        <jersey>1</jersey>
+        <playerlinkid>1349827</playerlinkid>
+        <position>2B</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Broach, Bobby</name>
+        <jersey>1</jersey>
+        <playerlinkid>1349813</playerlinkid>
+        <position>1B</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Smith, Zachary</name>
+        <jersey>1</jersey>
+        <playerlinkid>1349817</playerlinkid>
+        <position>P</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Johnson, Ricky</name>
+        <jersey>1</jersey>
+        <playerlinkid>1349815</playerlinkid>
+        <position>P</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Johnan, Troy</name>
+        <jersey>1</jersey>
+        <playerlinkid>1360893</playerlinkid>
+        <position>LF</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Sculli, John</name>
+        <jersey>1</jersey>
+        <playerlinkid>1351454</playerlinkid>
+        <position>P</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Bishop, Nick</name>
+        <jersey>1</jersey>
+        <playerlinkid>1398129</playerlinkid>
+        <position>LF</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Odahl, Josh</name>
+        <jersey>1</jersey>
+        <playerlinkid>1398130</playerlinkid>
+        <position>RF</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Medlock, LaWarren</name>
+        <jersey>1</jersey>
+        <playerlinkid>1360894</playerlinkid>
+        <position>SS</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Boissalier, Pedro</name>
+        <jersey>1</jersey>
+        <playerlinkid>1398131</playerlinkid>
+        <position>SS</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Mizerany, Edward</name>
+        <jersey>1</jersey>
+        <playerlinkid>1398132</playerlinkid>
+        <position>2B</position>
+        <order>12</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Kauffman, K</name>
+        <jersey>5</jersey>
+        <playerlinkid>1365449</playerlinkid>
+        <position>P</position>
+        <ab>0</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>3</bb>
+        <so>0</so>
+        <sb>3</sb>
+        <avg>.200</avg>
+      </player>
+      <player>
+        <name>Trawick, E</name>
+        <jersey>1</jersey>
+        <playerlinkid>1349827</playerlinkid>
+        <position>2B</position>
+        <ab>1</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>3</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Broach, B</name>
+        <jersey>17</jersey>
+        <playerlinkid>1349813</playerlinkid>
+        <position>1B</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.424</avg>
+      </player>
+      <player>
+        <name>Smith, Z</name>
+        <jersey>6</jersey>
+        <playerlinkid>1349817</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.296</avg>
+      </player>
+      <player>
+        <name>Johnson, R</name>
+        <jersey>99</jersey>
+        <playerlinkid>1349815</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.233</avg>
+      </player>
+      <player>
+        <name>Johnan, T</name>
+        <jersey>75</jersey>
+        <playerlinkid>1360893</playerlinkid>
+        <position>LF</position>
+        <ab>2</ab>
+        <runs>2</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.105</avg>
+      </player>
+      <player>
+        <name>Sculli, J</name>
+        <jersey>7</jersey>
+        <playerlinkid>1351454</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.214</avg>
+      </player>
+      <player>
+        <name>Bishop, N</name>
+        <jersey>15</jersey>
+        <playerlinkid>1398129</playerlinkid>
+        <position>LF</position>
+        <ab>3</ab>
+        <runs>3</runs>
+        <hits>3</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.545</avg>
+      </player>
+      <player>
+        <name>Odahl, J</name>
+        <jersey>14</jersey>
+        <playerlinkid>1398130</playerlinkid>
+        <position>RF</position>
+        <ab>2</ab>
+        <runs>3</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>2</sb>
+        <avg>1.000</avg>
+      </player>
+      <player>
+        <name>Medlock, L</name>
+        <jersey>41</jersey>
+        <playerlinkid>1360894</playerlinkid>
+        <position>SS</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>1</sb>
+        <avg>.087</avg>
+      </player>
+      <player>
+        <name>Boissalier, P</name>
+        <jersey>22</jersey>
+        <playerlinkid>1398131</playerlinkid>
+        <position>SS</position>
+        <ab>2</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.500</avg>
+      </player>
+      <player>
+        <name>Mizerany, E</name>
+        <jersey>8</jersey>
+        <playerlinkid>1398132</playerlinkid>
+        <position>2B</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.500</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Smith, Z</name>
+        <jersey>6</jersey>
+        <playerlinkid>1349817</playerlinkid>
+        <ip>2.0</ip>
+        <hits>4</hits>
+        <runs>3</runs>
+        <earnedruns>2</earnedruns>
+        <er>2</er>
+        <bb>1</bb>
+        <so>1</so>
+        <era>8.71</era>
+      </player>
+      <player>
+        <name>Johnson, R</name>
+        <jersey>99</jersey>
+        <playerlinkid>1349815</playerlinkid>
+        <ip>3.0</ip>
+        <hits>4</hits>
+        <runs>2</runs>
+        <earnedruns>2</earnedruns>
+        <er>2</er>
+        <bb>0</bb>
+        <so>7</so>
+        <era>9.00</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="33936">JAX MABL Summer 2024</season>
+  <teams>
+    <hometeam teamid="163541" teamlinkid="163541" logo="/small/noteamlogo.jpg">JaxCub</hometeam>
+    <awayteam teamid="163537" teamlinkid="158820" logo="/small/noteamlogo.jpg">Jacksonville Wahoos</awayteam>
+  </teams>
+  <schedgametime>2024-05-29 19:30:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="7" awayscore="8"/>
+  <scoresbyinning>
+    <away runs="8" hits="0" errors="0">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="7" hits="0" errors="0">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>05/29/2024</gamedate>
+    <starttime>07:30 PM</starttime>
+    <duration/>
+    <endtime>07:30 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away>
+      <player>
+        <name>Thomas, Wyatt</name>
+        <jersey>1</jersey>
+        <playerlinkid>1698735</playerlinkid>
+        <position>C</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>McCloskey, Cameron</name>
+        <jersey>1</jersey>
+        <playerlinkid>1503483</playerlinkid>
+        <position>IF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Hall, David</name>
+        <jersey>1</jersey>
+        <playerlinkid>1697442</playerlinkid>
+        <position>IF</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Wetterau, Colin</name>
+        <jersey>1</jersey>
+        <playerlinkid>1697441</playerlinkid>
+        <position>C</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Bromm, Ryan</name>
+        <jersey>1</jersey>
+        <playerlinkid>1698845</playerlinkid>
+        <position>P</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Ponce, Christian</name>
+        <jersey>1</jersey>
+        <playerlinkid>1578458</playerlinkid>
+        <position>U</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Pfieffer, Brayden</name>
+        <jersey>1</jersey>
+        <playerlinkid>1697444</playerlinkid>
+        <position>OF</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Schneider, Josh</name>
+        <jersey>1</jersey>
+        <playerlinkid>1503482</playerlinkid>
+        <position>P</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Santiago, Anthony</name>
+        <jersey>1</jersey>
+        <playerlinkid>1578455</playerlinkid>
+        <position>OF</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Clark, Jason</name>
+        <jersey>1</jersey>
+        <playerlinkid>1697743</playerlinkid>
+        <position>P</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Foster, Bradley</name>
+        <jersey>1</jersey>
+        <playerlinkid>1697440</playerlinkid>
+        <position>IF</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Plum, Bradley</name>
+        <jersey>1</jersey>
+        <playerlinkid>1697447</playerlinkid>
+        <position>OF</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </away>
+    <home/>
+  </battinglineup>
+  <battingstats>
+    <away>
+      <player>
+        <name>Thomas, W</name>
+        <jersey/>
+        <playerlinkid>1698735</playerlinkid>
+        <position>C</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>2</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.458</avg>
+      </player>
+      <player>
+        <name>McCloskey, C</name>
+        <jersey>9</jersey>
+        <playerlinkid>1503483</playerlinkid>
+        <position>IF</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.095</avg>
+      </player>
+      <player>
+        <name>Hall, D</name>
+        <jersey>11</jersey>
+        <playerlinkid>1697442</playerlinkid>
+        <position>IF</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>2</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.269</avg>
+      </player>
+      <player>
+        <name>Wetterau, C</name>
+        <jersey/>
+        <playerlinkid>1697441</playerlinkid>
+        <position>C</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.375</avg>
+      </player>
+      <player>
+        <name>Bromm, R</name>
+        <jersey/>
+        <playerlinkid>1698845</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.389</avg>
+      </player>
+      <player>
+        <name>Ponce, C</name>
+        <jersey>22</jersey>
+        <playerlinkid>1578458</playerlinkid>
+        <position>U</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.438</avg>
+      </player>
+      <player>
+        <name>Pfieffer, B</name>
+        <jersey/>
+        <playerlinkid>1697444</playerlinkid>
+        <position>OF</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>2</so>
+        <sb>0</sb>
+        <avg>.412</avg>
+      </player>
+      <player>
+        <name>Schneider, J</name>
+        <jersey>91</jersey>
+        <playerlinkid>1503482</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.300</avg>
+      </player>
+      <player>
+        <name>Santiago, A</name>
+        <jersey>12</jersey>
+        <playerlinkid>1578455</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.111</avg>
+      </player>
+      <player>
+        <name>Clark, J</name>
+        <jersey>7</jersey>
+        <playerlinkid>1697743</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>2</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.304</avg>
+      </player>
+      <player>
+        <name>Foster, B</name>
+        <jersey>6</jersey>
+        <playerlinkid>1697440</playerlinkid>
+        <position>IF</position>
+        <ab>3</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Plum, B</name>
+        <jersey>10</jersey>
+        <playerlinkid>1697447</playerlinkid>
+        <position>OF</position>
+        <ab>4</ab>
+        <runs>2</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>3</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.188</avg>
+      </player>
+    </away>
+    <home/>
+  </battingstats>
+  <pitchingstats>
+    <away>
+      <player>
+        <name>Bromm, R</name>
+        <jersey/>
+        <playerlinkid>1698845</playerlinkid>
+        <ip>3.0</ip>
+        <hits>6</hits>
+        <runs>6</runs>
+        <earnedruns>5</earnedruns>
+        <er>5</er>
+        <bb>3</bb>
+        <so>5</so>
+        <era>7.56</era>
+      </player>
+      <player>
+        <name>Schneider, J</name>
+        <jersey>91</jersey>
+        <playerlinkid>1503482</playerlinkid>
+        <ip>6.0</ip>
+        <hits>5</hits>
+        <runs>1</runs>
+        <earnedruns>1</earnedruns>
+        <er>1</er>
+        <bb>0</bb>
+        <so>5</so>
+        <era>2.77</era>
+      </player>
+    </away>
+    <home/>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

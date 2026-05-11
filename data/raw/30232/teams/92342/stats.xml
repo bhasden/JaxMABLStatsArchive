@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=92342%26;seasonid=30232</link>
+<season>JAX MABL Summer 2016</season>
+	<pitching>
+	<player playerlinkid="1018517" playerid="1018517">
+		<jersey></jersey>
+		<playername>Roberts, P</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.0</ip>
+		<runs>0</runs>
+		<er>0</er>
+		<hits>0</hits>
+		<bb>1</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>0</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="796984" playerid="952766">
+		<jersey>24</jersey>
+		<playername>Hoxha, G</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.0</ip>
+		<runs>1</runs>
+		<er>0</er>
+		<hits>0</hits>
+		<bb>0</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>0</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="803265" playerid="952782">
+		<jersey>28</jersey>
+		<playername>Ragland, B</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>4</wins>
+		<losses>1</losses>
+		<ip>39.2</ip>
+		<runs>19</runs>
+		<er>14</er>
+		<hits>26</hits>
+		<bb>19</bb>
+		<so>50</so>
+		<bf>0</bf>
+		<games>0</games>
+		<gs>6</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.667</oslg>
+		<oavg>-1.083</oavg>
+		<era>3.18</era>
+	</player>
+	<player playerlinkid="803264" playerid="952769">
+		<jersey>31</jersey>
+		<playername>Franzese, A</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>2</wins>
+		<losses>0</losses>
+		<ip>16.0</ip>
+		<runs>13</runs>
+		<er>7</er>
+		<hits>13</hits>
+		<bb>8</bb>
+		<so>22</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.000</oslg>
+		<oavg>-1.444</oavg>
+		<era>3.94</era>
+	</player>
+	<player playerlinkid="796980" playerid="952779">
+		<jersey>17</jersey>
+		<playername>Hyser, M</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>2</wins>
+		<losses>2</losses>
+		<ip>31.0</ip>
+		<runs>17</runs>
+		<er>16</er>
+		<hits>31</hits>
+		<bb>16</bb>
+		<so>34</so>
+		<bf>0</bf>
+		<games>0</games>
+		<gs>3</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.667</oslg>
+		<oavg>-1.722</oavg>
+		<era>4.65</era>
+	</player>
+	<player playerlinkid="966382" playerid="966382">
+		<jersey>25</jersey>
+		<playername>Ramirez, A</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>5.0</ip>
+		<runs>3</runs>
+		<er>3</er>
+		<hits>7</hits>
+		<bb>3</bb>
+		<so>6</so>
+		<bf>0</bf>
+		<games>0</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.000</oslg>
+		<oavg>-1.750</oavg>
+		<era>5.40</era>
+	</player>
+	<player playerlinkid="796974" playerid="952773">
+		<jersey>12</jersey>
+		<playername>Svejkovsky, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>1</wins>
+		<losses>2</losses>
+		<ip>29.2</ip>
+		<runs>22</runs>
+		<er>18</er>
+		<hits>28</hits>
+		<bb>15</bb>
+		<so>16</so>
+		<bf>0</bf>
+		<games>7</games>
+		<gs>6</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.444</oslg>
+		<oavg>-1.556</oavg>
+		<era>5.46</era>
+	</player>
+	<player playerlinkid="1014624" playerid="1014624">
+		<jersey></jersey>
+		<playername>Shanteau, D</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>3.0</ip>
+		<runs>2</runs>
+		<er>2</er>
+		<hits>3</hits>
+		<bb>1</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.000</oslg>
+		<oavg>-1.000</oavg>
+		<era>6.00</era>
+	</player>
+	<player playerlinkid="966369" playerid="966369">
+		<jersey>7</jersey>
+		<playername>Frye, T</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>8.2</ip>
+		<runs>12</runs>
+		<er>11</er>
+		<hits>13</hits>
+		<bb>11</bb>
+		<so>3</so>
+		<bf>0</bf>
+		<games>7</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.750</oslg>
+		<oavg>-1.083</oavg>
+		<era>11.42</era>
+	</player>
+	<player playerlinkid="966375" playerid="966375">
+		<jersey>21</jersey>
+		<playername>Little, M</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>12.0</ip>
+		<runs>23</runs>
+		<er>21</er>
+		<hits>17</hits>
+		<bb>21</bb>
+		<so>7</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.154</oslg>
+		<oavg>-.654</oavg>
+		<era>15.75</era>
+	</player>
+	<player playerlinkid="809272" playerid="952767">
+		<jersey>18</jersey>
+		<playername>Irra, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>0.2</ip>
+		<runs>4</runs>
+		<er>3</er>
+		<hits>4</hits>
+		<bb>1</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>0</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.667</oslg>
+		<oavg>-1.333</oavg>
+		<era>40.50</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="803265" playerid="952782">
+		<jersey>28</jersey>
+		<playername>Ragland, B</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>CF</position>
+		<ab>35</ab>
+		<runs>10</runs>
+		<hits>12</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>6</rbi>
+		<bb>5</bb>
+		<hp>2</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.452</obp>
+		<slg>.457</slg>
+		<avg>.343</avg>
+	</player>
+	<player playerlinkid="966376" playerid="966376">
+		<jersey>8</jersey>
+		<playername>Vargas, C</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>C</position>
+		<ab>56</ab>
+		<runs>20</runs>
+		<hits>19</hits>
+		<bib>5</bib>
+		<trib>0</trib>
+		<hr>4</hr>
+		<rbi>17</rbi>
+		<bb>9</bb>
+		<hp>1</hp>
+		<so>11</so>
+		<sf>1</sf>
+		<sb>5</sb>
+		<dp>1</dp>
+		<obp>.433</obp>
+		<slg>.643</slg>
+		<avg>.339</avg>
+	</player>
+	<player playerlinkid="819571" playerid="952771">
+		<jersey>55</jersey>
+		<playername>Caserta, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>C</position>
+		<ab>27</ab>
+		<runs>5</runs>
+		<hits>8</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>2</bb>
+		<hp>2</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.387</obp>
+		<slg>.296</slg>
+		<avg>.296</avg>
+	</player>
+	<player playerlinkid="809272" playerid="952767">
+		<jersey>18</jersey>
+		<playername>Irra, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>51</ab>
+		<runs>15</runs>
+		<hits>14</hits>
+		<bib>1</bib>
+		<trib>2</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>6</bb>
+		<hp>2</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.373</obp>
+		<slg>.373</slg>
+		<avg>.275</avg>
+	</player>
+	<player playerlinkid="796980" playerid="952779">
+		<jersey>17</jersey>
+		<playername>Hyser, M</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>IF</position>
+		<ab>61</ab>
+		<runs>11</runs>
+		<hits>16</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>11</rbi>
+		<bb>6</bb>
+		<hp>1</hp>
+		<so>12</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.338</obp>
+		<slg>.361</slg>
+		<avg>.262</avg>
+	</player>
+	<player playerlinkid="966382" playerid="966382">
+		<jersey>25</jersey>
+		<playername>Ramirez, A</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>3B</position>
+		<ab>53</ab>
+		<runs>13</runs>
+		<hits>13</hits>
+		<bib>4</bib>
+		<trib>1</trib>
+		<hr>2</hr>
+		<rbi>11</rbi>
+		<bb>6</bb>
+		<hp>2</hp>
+		<so>6</so>
+		<sf>1</sf>
+		<sb>1</sb>
+		<dp>2</dp>
+		<obp>.339</obp>
+		<slg>.472</slg>
+		<avg>.245</avg>
+	</player>
+	<player playerlinkid="970404" playerid="970404">
+		<jersey>13</jersey>
+		<playername>Morao, E</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>2B</position>
+		<ab>43</ab>
+		<runs>9</runs>
+		<hits>10</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>8</rbi>
+		<bb>4</bb>
+		<hp>2</hp>
+		<so>9</so>
+		<sf>1</sf>
+		<sb>4</sb>
+		<dp>1</dp>
+		<obp>.320</obp>
+		<slg>.302</slg>
+		<avg>.233</avg>
+	</player>
+	<player playerlinkid="796984" playerid="952766">
+		<jersey>24</jersey>
+		<playername>Hoxha, G</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>40</ab>
+		<runs>6</runs>
+		<hits>9</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>5</rbi>
+		<bb>7</bb>
+		<hp>0</hp>
+		<so>9</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.340</obp>
+		<slg>.450</slg>
+		<avg>.225</avg>
+	</player>
+	<player playerlinkid="958687" playerid="958687">
+		<jersey>73</jersey>
+		<playername>Tavarez, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>U</position>
+		<ab>28</ab>
+		<runs>2</runs>
+		<hits>6</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>8</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>1</dp>
+		<obp>.241</obp>
+		<slg>.357</slg>
+		<avg>.214</avg>
+	</player>
+	<player playerlinkid="803264" playerid="952769">
+		<jersey>31</jersey>
+		<playername>Franzese, A</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>P</position>
+		<ab>5</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>2</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.429</obp>
+		<slg>.800</slg>
+		<avg>.200</avg>
+	</player>
+	<player playerlinkid="796973" playerid="952772">
+		<jersey>15</jersey>
+		<playername>Hasden, B</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>50</ab>
+		<runs>5</runs>
+		<hits>7</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>7</rbi>
+		<bb>6</bb>
+		<hp>4</hp>
+		<so>15</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.283</obp>
+		<slg>.200</slg>
+		<avg>.140</avg>
+	</player>
+	<player playerlinkid="966375" playerid="966375">
+		<jersey>21</jersey>
+		<playername>Little, M</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>P</position>
+		<ab>15</ab>
+		<runs>4</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.316</obp>
+		<slg>.133</slg>
+		<avg>.133</avg>
+	</player>
+	<player playerlinkid="796977" playerid="952776">
+		<jersey>3</jersey>
+		<playername>Pinales, D</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>SS</position>
+		<ab>40</ab>
+		<runs>13</runs>
+		<hits>5</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>20</bb>
+		<hp>3</hp>
+		<so>19</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.444</obp>
+		<slg>.175</slg>
+		<avg>.125</avg>
+	</player>
+	<player playerlinkid="958688" playerid="958688">
+		<jersey>11</jersey>
+		<playername>Woods, W</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>9</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.273</obp>
+		<slg>.222</slg>
+		<avg>.111</avg>
+	</player>
+	<player playerlinkid="796979" playerid="952778">
+		<jersey>9</jersey>
+		<playername>Asnip, D</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>11</ab>
+		<runs>1</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.286</obp>
+		<slg>.091</slg>
+		<avg>.091</avg>
+	</player>
+	<player playerlinkid="970402" playerid="970402">
+		<jersey>22</jersey>
+		<playername>Arquit, M</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>U</position>
+		<ab>16</ab>
+		<runs>3</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.211</obp>
+		<slg>.063</slg>
+		<avg>.063</avg>
+	</player>
+	<player playerlinkid="1014625" playerid="1014625">
+		<jersey></jersey>
+		<playername>Shanteau, D</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1018517" playerid="1018517">
+		<jersey></jersey>
+		<playername>Roberts, P</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>C</position>
+		<ab>1</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="970405" playerid="970405">
+		<jersey>00</jersey>
+		<playername>Svolto, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>1</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="796974" playerid="952773">
+		<jersey>12</jersey>
+		<playername>Svejkovsky, J</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="970403" playerid="970403">
+		<jersey>1</jersey>
+		<playername>Kellam, I</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>OF</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1014624" playerid="1014624">
+		<jersey></jersey>
+		<playername>Shanteau, Dy</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="966369" playerid="966369">
+		<jersey>7</jersey>
+		<playername>Frye, T</playername>
+		<teamname>Mayport Cruisers</teamname>
+		<position>P</position>
+		<ab>4</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

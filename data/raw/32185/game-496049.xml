@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="32185">JAX MABL 30+ Summer 2019</season>
+  <teams>
+    <hometeam teamid="144039" teamlinkid="144039" logo="/small/noteamlogo.jpg">St. Augustine Braves</hometeam>
+    <awayteam teamid="144037" teamlinkid="144037" logo="/small/noteamlogo.jpg">River City Gold Sox</awayteam>
+  </teams>
+  <schedgametime>2019-06-02 19:00:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="6" awayscore="15"/>
+  <scoresbyinning>
+    <away runs="15" hits="13" errors="0">
+      <inning number="1" score="5"/>
+      <inning number="2" score="4"/>
+      <inning number="3" score="0"/>
+      <inning number="4" score="1"/>
+      <inning number="5" score="1"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="4"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="6" hits="5" errors="4">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="2"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="3"/>
+      <inning number="6" score="1"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>06/02/2019</gamedate>
+    <starttime>07:00 PM</starttime>
+    <duration/>
+    <endtime>07:00 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home>
+      <player>
+        <name>Davis, Lenoris</name>
+        <jersey>1</jersey>
+        <playerlinkid>1372290</playerlinkid>
+        <position>3B</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Jamms, Greg</name>
+        <jersey>1</jersey>
+        <playerlinkid>1372298</playerlinkid>
+        <position>OF</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Roman, Deshay</name>
+        <jersey>1</jersey>
+        <playerlinkid>1384298</playerlinkid>
+        <position>1B</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Williams, Jason</name>
+        <jersey>1</jersey>
+        <playerlinkid>1372289</playerlinkid>
+        <position>2B</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Gainy, Steven</name>
+        <jersey>1</jersey>
+        <playerlinkid>1384299</playerlinkid>
+        <position>P</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Addison, Joseph</name>
+        <jersey>1</jersey>
+        <playerlinkid>1384300</playerlinkid>
+        <position>P</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Rebish, Mike</name>
+        <jersey>1</jersey>
+        <playerlinkid>1384301</playerlinkid>
+        <position>DH</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Story, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>1372286</playerlinkid>
+        <position>1B</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Davis, L</name>
+        <jersey>6</jersey>
+        <playerlinkid>1372290</playerlinkid>
+        <position>3B</position>
+        <ab>4</ab>
+        <runs>2</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Jamms, G</name>
+        <jersey>26</jersey>
+        <playerlinkid>1372298</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.000</avg>
+      </player>
+      <player>
+        <name>Roman, D</name>
+        <jersey>7</jersey>
+        <playerlinkid>1384298</playerlinkid>
+        <position>1B</position>
+        <ab>4</ab>
+        <runs>1</runs>
+        <hits>4</hits>
+        <hr>0</hr>
+        <rbi>3</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>1.000</avg>
+      </player>
+      <player>
+        <name>Williams, J</name>
+        <jersey>8</jersey>
+        <playerlinkid>1372289</playerlinkid>
+        <position>2B</position>
+        <ab>4</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.143</avg>
+      </player>
+      <player>
+        <name>Gainy, S</name>
+        <jersey>7</jersey>
+        <playerlinkid>1384299</playerlinkid>
+        <position>P</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Addison, J</name>
+        <jersey>1</jersey>
+        <playerlinkid>1384300</playerlinkid>
+        <position>P</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.250</avg>
+      </player>
+      <player>
+        <name>Rebish, M</name>
+        <jersey>00</jersey>
+        <playerlinkid>1384301</playerlinkid>
+        <position>DH</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.500</avg>
+      </player>
+      <player>
+        <name>Story, M</name>
+        <jersey>24</jersey>
+        <playerlinkid>1372286</playerlinkid>
+        <position>1B</position>
+        <ab>4</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>3</so>
+        <sb>0</sb>
+        <avg>.143</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Gainy, S</name>
+        <jersey>7</jersey>
+        <playerlinkid>1384299</playerlinkid>
+        <ip>4.0</ip>
+        <hits>10</hits>
+        <runs>10</runs>
+        <earnedruns>10</earnedruns>
+        <er>10</er>
+        <bb>3</bb>
+        <so>4</so>
+        <era>22.50</era>
+      </player>
+      <player>
+        <name>Addison, J</name>
+        <jersey>1</jersey>
+        <playerlinkid>1384300</playerlinkid>
+        <ip>3.0</ip>
+        <hits>5</hits>
+        <runs>5</runs>
+        <earnedruns>5</earnedruns>
+        <er>5</er>
+        <bb>1</bb>
+        <so>7</so>
+        <era>15.00</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

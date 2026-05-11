@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=144038%26;seasonid=32185</link>
+<season>30+ Summer 2019</season>
+	<pitching>
+	<player playerlinkid="1364834" playerid="1364834">
+		<jersey>16</jersey>
+		<playername>Barrett, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>4.0</ip>
+		<runs>1</runs>
+		<er>0</er>
+		<hits>5</hits>
+		<bb>1</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.500</oslg>
+		<oavg>-2.500</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="1364836" playerid="1364836">
+		<jersey>41</jersey>
+		<playername>Paul, A</playername>
+		<teamname>Duval County Cubs</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>5.2</ip>
+		<runs>1</runs>
+		<er>1</er>
+		<hits>2</hits>
+		<bb>2</bb>
+		<so>12</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.667</oslg>
+		<oavg>-.667</oavg>
+		<era>1.59</era>
+	</player>
+	<player playerlinkid="1364835" playerid="1364835">
+		<jersey>11</jersey>
+		<playername>Lesho, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>4.1</ip>
+		<runs>3</runs>
+		<er>1</er>
+		<hits>3</hits>
+		<bb>1</bb>
+		<so>3</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.000</oslg>
+		<oavg>-1.000</oavg>
+		<era>2.08</era>
+	</player>
+	<player playerlinkid="1364831" playerid="1364831">
+		<jersey>17</jersey>
+		<playername>Littlefield, D</playername>
+		<teamname>Duval County Cubs</teamname>
+		<wins>2</wins>
+		<losses>1</losses>
+		<ip>14.2</ip>
+		<runs>9</runs>
+		<er>5</er>
+		<hits>11</hits>
+		<bb>12</bb>
+		<so>17</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>3</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.917</oslg>
+		<oavg>-.917</oavg>
+		<era>3.07</era>
+	</player>
+	<player playerlinkid="1364839" playerid="1364839">
+		<jersey>9</jersey>
+		<playername>Woods, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<wins>1</wins>
+		<losses>1</losses>
+		<ip>10.0</ip>
+		<runs>16</runs>
+		<er>7</er>
+		<hits>7</hits>
+		<bb>8</bb>
+		<so>7</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.100</oslg>
+		<oavg>-.700</oavg>
+		<era>6.30</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1364850" playerid="1364850">
+		<jersey>94</jersey>
+		<playername>Gnat, R</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>C</position>
+		<ab>3</ab>
+		<runs>3</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.750</obp>
+		<slg>1.333</slg>
+		<avg>.667</avg>
+	</player>
+	<player playerlinkid="1364836" playerid="1364836">
+		<jersey>41</jersey>
+		<playername>Paul, A</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>15</ab>
+		<runs>6</runs>
+		<hits>9</hits>
+		<bib>4</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>9</rbi>
+		<bb>6</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.714</obp>
+		<slg>1.067</slg>
+		<avg>.600</avg>
+	</player>
+	<player playerlinkid="1364834" playerid="1364834">
+		<jersey>16</jersey>
+		<playername>Barrett, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>13</ab>
+		<runs>6</runs>
+		<hits>7</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>0</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.588</obp>
+		<slg>.538</slg>
+		<avg>.538</avg>
+	</player>
+	<player playerlinkid="1364831" playerid="1364831">
+		<jersey>17</jersey>
+		<playername>Littlefield, D</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>14</ab>
+		<runs>9</runs>
+		<hits>7</hits>
+		<bib>2</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>11</rbi>
+		<bb>8</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>1</sf>
+		<sb>5</sb>
+		<dp>0</dp>
+		<obp>.652</obp>
+		<slg>.786</slg>
+		<avg>.500</avg>
+	</player>
+	<player playerlinkid="1364837" playerid="1364837">
+		<jersey>35</jersey>
+		<playername>Thallemer, K</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>C</position>
+		<ab>15</ab>
+		<runs>3</runs>
+		<hits>6</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.471</obp>
+		<slg>.400</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1364839" playerid="1364839">
+		<jersey>9</jersey>
+		<playername>Woods, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>OF</position>
+		<ab>15</ab>
+		<runs>6</runs>
+		<hits>6</hits>
+		<bib>0</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.438</obp>
+		<slg>.533</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1411598" playerid="1411598">
+		<jersey>3</jersey>
+		<playername>Walker, R</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>3</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.667</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1411600" playerid="1411600">
+		<jersey>45</jersey>
+		<playername>Sims, T</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>OF</position>
+		<ab>3</ab>
+		<runs>1</runs>
+		<hits>1</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.667</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1364847" playerid="1364847">
+		<jersey>96</jersey>
+		<playername>Padilla, P</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.667</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1364838" playerid="1364838">
+		<jersey>99</jersey>
+		<playername>Gailey, B</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>IF</position>
+		<ab>15</ab>
+		<runs>1</runs>
+		<hits>5</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.533</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1364835" playerid="1364835">
+		<jersey>11</jersey>
+		<playername>Lesho, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>20</ab>
+		<runs>5</runs>
+		<hits>6</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.300</slg>
+		<avg>.300</avg>
+	</player>
+	<player playerlinkid="1364832" playerid="1364832">
+		<jersey>15</jersey>
+		<playername>Belanger, A</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>OF</position>
+		<ab>7</ab>
+		<runs>4</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.545</obp>
+		<slg>.286</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="1364833" playerid="1364833">
+		<jersey>7</jersey>
+		<playername>Frint, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>C</position>
+		<ab>14</ab>
+		<runs>5</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>5</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.474</obp>
+		<slg>.286</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="1364846" playerid="1364846">
+		<jersey>19</jersey>
+		<playername>Chamberlain, B</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>4</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.250</obp>
+		<slg>.500</slg>
+		<avg>.250</avg>
+	</player>
+	<player playerlinkid="1364844" playerid="1364844">
+		<jersey>5</jersey>
+		<playername>Mastromatto, T</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>2B</position>
+		<ab>19</ab>
+		<runs>5</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>6</bb>
+		<hp>2</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.444</obp>
+		<slg>.211</slg>
+		<avg>.211</avg>
+	</player>
+	<player playerlinkid="1364840" playerid="1364840">
+		<jersey>98</jersey>
+		<playername>Johnson, J</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>OF</position>
+		<ab>5</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.200</slg>
+		<avg>.200</avg>
+	</player>
+	<player playerlinkid="1364842" playerid="1364842">
+		<jersey>25</jersey>
+		<playername>Kalaher, B</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>P</position>
+		<ab>10</ab>
+		<runs>3</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.091</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1411599" playerid="1411599">
+		<jersey>97</jersey>
+		<playername>Varady, R</playername>
+		<teamname>Duval County Cubs</teamname>
+		<position>OF</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

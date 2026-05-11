@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="34359" seasonname="40+ Summer 2026" seasonshortname="40+ Summer 2026"/>
+  <division divisionid="36446" name="MSBL40">
+    <team>
+      <teamlinkid>166302</teamlinkid>
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname/>
+      <gp>9</gp>
+      <wins>6</wins>
+      <losses>3</losses>
+      <rs>85.0</rs>
+      <ra>60.0</ra>
+      <rdiff>166302</rdiff>
+      <pct>0.667</pct>
+      <gb>0</gb>
+      <streak>2W</streak>
+    </team>
+    <team>
+      <teamlinkid>166303</teamlinkid>
+      <teamname>Florida Juicers</teamname>
+      <shortname/>
+      <gp>8</gp>
+      <wins>4</wins>
+      <losses>4</losses>
+      <rs>59.0</rs>
+      <ra>55.0</ra>
+      <rdiff>166303</rdiff>
+      <pct>0.500</pct>
+      <gb>1.5</gb>
+      <streak>2L</streak>
+    </team>
+    <team>
+      <teamlinkid>166301</teamlinkid>
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname/>
+      <gp>9</gp>
+      <wins>4</wins>
+      <losses>5</losses>
+      <rs>59.0</rs>
+      <ra>55.0</ra>
+      <rdiff>166301</rdiff>
+      <pct>0.444</pct>
+      <gb>2</gb>
+      <streak>2L</streak>
+    </team>
+    <team>
+      <teamlinkid>166304</teamlinkid>
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname/>
+      <gp>10</gp>
+      <wins>4</wins>
+      <losses>6</losses>
+      <rs>68.0</rs>
+      <ra>101.0</ra>
+      <rdiff>166304</rdiff>
+      <pct>0.400</pct>
+      <gb>2.5</gb>
+      <streak>2W</streak>
+    </team>
+  </division>
+</standings>

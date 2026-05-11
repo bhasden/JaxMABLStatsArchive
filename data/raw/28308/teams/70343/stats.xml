@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=70343%26;seasonid=28308</link>
+<season>JAX MABL Summer 2014</season>
+	<pitching>
+	<player playerlinkid="603573" playerid="603573">
+		<jersey>1</jersey>
+		<playername>Smith, E</playername>
+		<teamname>Red Sox</teamname>
+		<wins>3</wins>
+		<losses>0</losses>
+		<ip>33.0</ip>
+		<runs>17</runs>
+		<er>9</er>
+		<hits>15</hits>
+		<bb>18</bb>
+		<so>30</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>3</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.950</oslg>
+		<oavg>-.750</oavg>
+		<era>2.46</era>
+	</player>
+	<player playerlinkid="603594" playerid="603591">
+		<jersey>19</jersey>
+		<playername>Welfield, B</playername>
+		<teamname>Red Sox</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>7.0</ip>
+		<runs>5</runs>
+		<er>2</er>
+		<hits>4</hits>
+		<bb>4</bb>
+		<so>6</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.000</oslg>
+		<oavg>-1.000</oavg>
+		<era>2.57</era>
+	</player>
+	<player playerlinkid="603583" playerid="603580">
+		<jersey>8</jersey>
+		<playername>Greene, B</playername>
+		<teamname>Red Sox</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>10.0</ip>
+		<runs>8</runs>
+		<er>4</er>
+		<hits>10</hits>
+		<bb>5</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.667</oslg>
+		<oavg>-1.667</oavg>
+		<era>3.60</era>
+	</player>
+	<player playerlinkid="609182" playerid="609182">
+		<jersey>25</jersey>
+		<playername>Naumann, J</playername>
+		<teamname>Red Sox</teamname>
+		<wins>4</wins>
+		<losses>2</losses>
+		<ip>59.0</ip>
+		<runs>45</runs>
+		<er>28</er>
+		<hits>50</hits>
+		<bb>27</bb>
+		<so>72</so>
+		<bf>0</bf>
+		<games>9</games>
+		<gs>7</gs>
+		<cg>2</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.576</oslg>
+		<oavg>-1.515</oavg>
+		<era>4.27</era>
+	</player>
+	<player playerlinkid="603584" playerid="603581">
+		<jersey>9</jersey>
+		<playername>Keohan, J</playername>
+		<teamname>Red Sox</teamname>
+		<wins>3</wins>
+		<losses>3</losses>
+		<ip>32.2</ip>
+		<runs>35</runs>
+		<er>24</er>
+		<hits>27</hits>
+		<bb>18</bb>
+		<so>30</so>
+		<bf>0</bf>
+		<games>7</games>
+		<gs>4</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.450</oslg>
+		<oavg>-1.350</oavg>
+		<era>6.61</era>
+	</player>
+	<player playerlinkid="653008" playerid="653008">
+		<jersey>66</jersey>
+		<playername>Lancaster, A</playername>
+		<teamname>Red Sox</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.1</ip>
+		<runs>2</runs>
+		<er>2</er>
+		<hits>0</hits>
+		<bb>0</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>13.50</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="603588" playerid="603585">
+		<jersey>13</jersey>
+		<playername>Nover, P</playername>
+		<teamname>Red Sox</teamname>
+		<position>1B</position>
+		<ab>47</ab>
+		<runs>11</runs>
+		<hits>19</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>3</hr>
+		<rbi>15</rbi>
+		<bb>6</bb>
+		<hp>1</hp>
+		<so>6</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.473</obp>
+		<slg>.660</slg>
+		<avg>.404</avg>
+	</player>
+	<player playerlinkid="603574" playerid="603574">
+		<jersey>2</jersey>
+		<playername>Brull, A</playername>
+		<teamname>Red Sox</teamname>
+		<position>1B</position>
+		<ab>37</ab>
+		<runs>7</runs>
+		<hits>13</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>3</hr>
+		<rbi>12</rbi>
+		<bb>1</bb>
+		<hp>2</hp>
+		<so>13</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.400</obp>
+		<slg>.649</slg>
+		<avg>.351</avg>
+	</player>
+	<player playerlinkid="603575" playerid="603575">
+		<jersey>3</jersey>
+		<playername>Carley, A</playername>
+		<teamname>Red Sox</teamname>
+		<position>2B</position>
+		<ab>60</ab>
+		<runs>19</runs>
+		<hits>20</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>13</rbi>
+		<bb>8</bb>
+		<hp>5</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>31</sb>
+		<dp>0</dp>
+		<obp>.452</obp>
+		<slg>.383</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="603592" playerid="603589">
+		<jersey>17</jersey>
+		<playername>Smith, E</playername>
+		<teamname>Red Sox</teamname>
+		<position>3B</position>
+		<ab>68</ab>
+		<runs>13</runs>
+		<hits>22</hits>
+		<bib>4</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>8</rbi>
+		<bb>4</bb>
+		<hp>1</hp>
+		<so>12</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.370</obp>
+		<slg>.382</slg>
+		<avg>.324</avg>
+	</player>
+	<player playerlinkid="603576" playerid="603576">
+		<jersey>4</jersey>
+		<playername>Cervio, T</playername>
+		<teamname>Red Sox</teamname>
+		<position>OF</position>
+		<ab>10</ab>
+		<runs>0</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.300</obp>
+		<slg>.300</slg>
+		<avg>.300</avg>
+	</player>
+	<player playerlinkid="674635" playerid="674635">
+		<jersey>26</jersey>
+		<playername>Miller, S</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>7</ab>
+		<runs>2</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.286</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="603594" playerid="603591">
+		<jersey>19</jersey>
+		<playername>Welfield, B</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>32</ab>
+		<runs>7</runs>
+		<hits>9</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>6</bb>
+		<hp>2</hp>
+		<so>14</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.425</obp>
+		<slg>.281</slg>
+		<avg>.281</avg>
+	</player>
+	<player playerlinkid="609182" playerid="609182">
+		<jersey>25</jersey>
+		<playername>Naumann, J</playername>
+		<teamname>Red Sox</teamname>
+		<position>P</position>
+		<ab>11</ab>
+		<runs>3</runs>
+		<hits>3</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>1</bb>
+		<hp>2</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.429</obp>
+		<slg>.364</slg>
+		<avg>.273</avg>
+	</player>
+	<player playerlinkid="603579" playerid="603579">
+		<jersey>7</jersey>
+		<playername>Gabriel, J</playername>
+		<teamname>Red Sox</teamname>
+		<position>C</position>
+		<ab>30</ab>
+		<runs>11</runs>
+		<hits>8</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>12</bb>
+		<hp>1</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.488</obp>
+		<slg>.333</slg>
+		<avg>.267</avg>
+	</player>
+	<player playerlinkid="603590" playerid="603587">
+		<jersey>15</jersey>
+		<playername>Sanchez, H</playername>
+		<teamname>Red Sox</teamname>
+		<position>OF</position>
+		<ab>69</ab>
+		<runs>9</runs>
+		<hits>18</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>8</rbi>
+		<bb>2</bb>
+		<hp>2</hp>
+		<so>7</so>
+		<sf>2</sf>
+		<sb>4</sb>
+		<dp>0</dp>
+		<obp>.293</obp>
+		<slg>.275</slg>
+		<avg>.261</avg>
+	</player>
+	<player playerlinkid="607148" playerid="607148">
+		<jersey>21</jersey>
+		<playername>Body, M</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>20</ab>
+		<runs>7</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.348</obp>
+		<slg>.250</slg>
+		<avg>.250</avg>
+	</player>
+	<player playerlinkid="603578" playerid="603578">
+		<jersey>6</jersey>
+		<playername>Duca, T</playername>
+		<teamname>Red Sox</teamname>
+		<position>OF</position>
+		<ab>45</ab>
+		<runs>8</runs>
+		<hits>11</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>5</rbi>
+		<bb>6</bb>
+		<hp>1</hp>
+		<so>9</so>
+		<sf>1</sf>
+		<sb>4</sb>
+		<dp>0</dp>
+		<obp>.340</obp>
+		<slg>.267</slg>
+		<avg>.244</avg>
+	</player>
+	<player playerlinkid="603595" playerid="603592">
+		<jersey>20</jersey>
+		<playername>Zwick, J</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>44</ab>
+		<runs>5</runs>
+		<hits>10</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>3</bb>
+		<hp>1</hp>
+		<so>11</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.292</obp>
+		<slg>.273</slg>
+		<avg>.227</avg>
+	</player>
+	<player playerlinkid="603593" playerid="603590">
+		<jersey>18</jersey>
+		<playername>Spelts, C</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>31</ab>
+		<runs>5</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>1</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.250</obp>
+		<slg>.161</slg>
+		<avg>.161</avg>
+	</player>
+	<player playerlinkid="603585" playerid="603582">
+		<jersey>10</jersey>
+		<playername>Lynn, M</playername>
+		<teamname>Red Sox</teamname>
+		<position>SS</position>
+		<ab>20</ab>
+		<runs>4</runs>
+		<hits>2</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>4</bb>
+		<hp>2</hp>
+		<so>8</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.296</obp>
+		<slg>.150</slg>
+		<avg>.100</avg>
+	</player>
+	<player playerlinkid="603586" playerid="603583">
+		<jersey>11</jersey>
+		<playername>Marrow, D</playername>
+		<teamname>Red Sox</teamname>
+		<position>OF</position>
+		<ab>1</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="603584" playerid="603581">
+		<jersey>9</jersey>
+		<playername>Keohan, J</playername>
+		<teamname>Red Sox</teamname>
+		<position>P</position>
+		<ab>8</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="654551" playerid="654551">
+		<jersey>77</jersey>
+		<playername>Smith, K</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>7</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="672429" playerid="672429">
+		<jersey>31</jersey>
+		<playername>Dedenbach, T</playername>
+		<teamname>Red Sox</teamname>
+		<position>U</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=124109%26;seasonid=33711</link>
+<season>JAX MABL Summer 2023</season>
+	<pitching>
+	<player playerlinkid="1584773" playerid="1640977">
+		<jersey>0</jersey>
+		<playername>Erickson, E</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>2.0</ip>
+		<runs>1</runs>
+		<er>0</er>
+		<hits>1</hits>
+		<bb>0</bb>
+		<so>3</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="1125327" playerid="1640953">
+		<jersey>6</jersey>
+		<playername>Shall, A</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.0</ip>
+		<runs>0</runs>
+		<er>0</er>
+		<hits>0</hits>
+		<bb>0</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="1522969" playerid="1640982">
+		<jersey>4</jersey>
+		<playername>Johnson, G</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>3</wins>
+		<losses>1</losses>
+		<ip>37.1</ip>
+		<runs>21</runs>
+		<er>9</er>
+		<hits>20</hits>
+		<bb>13</bb>
+		<so>37</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>5</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.375</oslg>
+		<oavg>-1.250</oavg>
+		<era>2.17</era>
+	</player>
+	<player playerlinkid="1453396" playerid="1641066">
+		<jersey>11</jersey>
+		<playername>Ogin, J</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>5</wins>
+		<losses>1</losses>
+		<ip>45.0</ip>
+		<runs>23</runs>
+		<er>14</er>
+		<hits>38</hits>
+		<bb>27</bb>
+		<so>85</so>
+		<bf>0</bf>
+		<games>9</games>
+		<gs>5</gs>
+		<cg>3</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.733</oslg>
+		<oavg>-1.267</oavg>
+		<era>2.80</era>
+	</player>
+	<player playerlinkid="1449640" playerid="1640981">
+		<jersey>1</jersey>
+		<playername>Flowers, Z</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>8.2</ip>
+		<runs>6</runs>
+		<er>5</er>
+		<hits>6</hits>
+		<bb>3</bb>
+		<so>13</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-3.000</oslg>
+		<oavg>-1.500</oavg>
+		<era>5.19</era>
+	</player>
+	<player playerlinkid="1501140" playerid="1640983">
+		<jersey>28</jersey>
+		<playername>Wright, C</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>13.2</ip>
+		<runs>17</runs>
+		<er>9</er>
+		<hits>13</hits>
+		<bb>14</bb>
+		<so>14</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.143</oslg>
+		<oavg>-.929</oavg>
+		<era>5.93</era>
+	</player>
+	<player playerlinkid="1577056" playerid="1640986">
+		<jersey>11</jersey>
+		<playername>Newman, Q</playername>
+		<teamname>Bold City Kings</teamname>
+		<wins>2</wins>
+		<losses>1</losses>
+		<ip>8.1</ip>
+		<runs>18</runs>
+		<er>10</er>
+		<hits>13</hits>
+		<bb>6</bb>
+		<so>6</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.692</oslg>
+		<oavg>-1.000</oavg>
+		<era>10.80</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1641689" playerid="1641689">
+		<jersey></jersey>
+		<playername>Meaney, T</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>30</ab>
+		<runs>9</runs>
+		<hits>16</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>9</rbi>
+		<bb>3</bb>
+		<hp>2</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>2</dp>
+		<obp>.600</obp>
+		<slg>.733</slg>
+		<avg>.533</avg>
+	</player>
+	<player playerlinkid="1449640" playerid="1640981">
+		<jersey>1</jersey>
+		<playername>Flowers, Z</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>31</ab>
+		<runs>8</runs>
+		<hits>14</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>8</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.514</obp>
+		<slg>.548</slg>
+		<avg>.452</avg>
+	</player>
+	<player playerlinkid="1250574" playerid="1640991">
+		<jersey>9</jersey>
+		<playername>Lee, B</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>OF</position>
+		<ab>18</ab>
+		<runs>8</runs>
+		<hits>8</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>5</rbi>
+		<bb>5</bb>
+		<hp>2</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.600</obp>
+		<slg>.833</slg>
+		<avg>.444</avg>
+	</player>
+	<player playerlinkid="1361507" playerid="1640993">
+		<jersey>15</jersey>
+		<playername>Rourke, T</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>IF</position>
+		<ab>43</ab>
+		<runs>22</runs>
+		<hits>19</hits>
+		<bib>4</bib>
+		<trib>0</trib>
+		<hr>6</hr>
+		<rbi>15</rbi>
+		<bb>19</bb>
+		<hp>1</hp>
+		<so>4</so>
+		<sf>1</sf>
+		<sb>2</sb>
+		<dp>2</dp>
+		<obp>.609</obp>
+		<slg>.953</slg>
+		<avg>.442</avg>
+	</player>
+	<player playerlinkid="1501140" playerid="1640983">
+		<jersey>28</jersey>
+		<playername>Wright, C</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>41</ab>
+		<runs>16</runs>
+		<hits>18</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>4</hr>
+		<rbi>12</rbi>
+		<bb>6</bb>
+		<hp>5</hp>
+		<so>3</so>
+		<sf>2</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.537</obp>
+		<slg>.805</slg>
+		<avg>.439</avg>
+	</player>
+	<player playerlinkid="1125327" playerid="1640953">
+		<jersey>6</jersey>
+		<playername>Shall, A</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>IF</position>
+		<ab>19</ab>
+		<runs>7</runs>
+		<hits>7</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.455</obp>
+		<slg>.526</slg>
+		<avg>.368</avg>
+	</player>
+	<player playerlinkid="1128275" playerid="1640988">
+		<jersey>3</jersey>
+		<playername>Chamberlin, B</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>C</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.333</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1250581" playerid="1640992">
+		<jersey>28</jersey>
+		<playername>Robison, C</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>U</position>
+		<ab>47</ab>
+		<runs>10</runs>
+		<hits>15</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>13</rbi>
+		<bb>7</bb>
+		<hp>1</hp>
+		<so>6</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.411</obp>
+		<slg>.426</slg>
+		<avg>.319</avg>
+	</player>
+	<player playerlinkid="1522969" playerid="1640982">
+		<jersey>4</jersey>
+		<playername>Johnson, G</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>40</ab>
+		<runs>13</runs>
+		<hits>12</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>3</hr>
+		<rbi>9</rbi>
+		<bb>4</bb>
+		<hp>2</hp>
+		<so>8</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.383</obp>
+		<slg>.525</slg>
+		<avg>.300</avg>
+	</player>
+	<player playerlinkid="1654274" playerid="1654274">
+		<jersey></jersey>
+		<playername>Wright, M</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>7</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.286</obp>
+		<slg>.286</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="1125332" playerid="1640989">
+		<jersey>10</jersey>
+		<playername>Klein, B</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>MG</position>
+		<ab>11</ab>
+		<runs>1</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>1</bb>
+		<hp>1</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.385</obp>
+		<slg>.273</slg>
+		<avg>.273</avg>
+	</player>
+	<player playerlinkid="1257959" playerid="1640996">
+		<jersey>24</jersey>
+		<playername>Quatrine, C</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>1B</position>
+		<ab>42</ab>
+		<runs>12</runs>
+		<hits>11</hits>
+		<bib>1</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>7</rbi>
+		<bb>7</bb>
+		<hp>0</hp>
+		<so>12</so>
+		<sf>1</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.360</obp>
+		<slg>.333</slg>
+		<avg>.262</avg>
+	</player>
+	<player playerlinkid="1453396" playerid="1641066">
+		<jersey>11</jersey>
+		<playername>Ogin, J</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>43</ab>
+		<runs>13</runs>
+		<hits>11</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>6</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>13</so>
+		<sf>1</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.313</obp>
+		<slg>.372</slg>
+		<avg>.256</avg>
+	</player>
+	<player playerlinkid="1584773" playerid="1640977">
+		<jersey>0</jersey>
+		<playername>Erickson, E</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>36</ab>
+		<runs>15</runs>
+		<hits>8</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>4</rbi>
+		<bb>5</bb>
+		<hp>2</hp>
+		<so>14</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.349</obp>
+		<slg>.333</slg>
+		<avg>.222</avg>
+	</player>
+	<player playerlinkid="1125330" playerid="1640990">
+		<jersey>8</jersey>
+		<playername>Gnat, R</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>C</position>
+		<ab>47</ab>
+		<runs>16</runs>
+		<hits>9</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>4</hr>
+		<rbi>12</rbi>
+		<bb>14</bb>
+		<hp>6</hp>
+		<so>19</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.433</obp>
+		<slg>.447</slg>
+		<avg>.191</avg>
+	</player>
+	<player playerlinkid="1577056" playerid="1640986">
+		<jersey>11</jersey>
+		<playername>Newman, Q</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>30</ab>
+		<runs>9</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>4</bb>
+		<hp>1</hp>
+		<so>7</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.278</obp>
+		<slg>.167</slg>
+		<avg>.167</avg>
+	</player>
+	<player playerlinkid="1580353" playerid="1641317">
+		<jersey></jersey>
+		<playername>Brown, D</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>IF</position>
+		<ab>24</ab>
+		<runs>7</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>4</rbi>
+		<bb>8</bb>
+		<hp>1</hp>
+		<so>12</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.394</obp>
+		<slg>.292</slg>
+		<avg>.167</avg>
+	</player>
+	<player playerlinkid="1352980" playerid="1640979">
+		<jersey>21</jersey>
+		<playername>Petrick, B</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>22</ab>
+		<runs>4</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.208</obp>
+		<slg>.136</slg>
+		<avg>.136</avg>
+	</player>
+	<player playerlinkid="958081" playerid="1640995">
+		<jersey>2</jersey>
+		<playername>Ellis-Wilcox, D</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>IF</position>
+		<ab>8</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>3</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.417</obp>
+		<slg>.125</slg>
+		<avg>.125</avg>
+	</player>
+	<player playerlinkid="1641687" playerid="1641687">
+		<jersey></jersey>
+		<playername>Amirault, J</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>C</position>
+		<ab>25</ab>
+		<runs>2</runs>
+		<hits>3</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.185</obp>
+		<slg>.160</slg>
+		<avg>.120</avg>
+	</player>
+	<player playerlinkid="1641688" playerid="1641688">
+		<jersey></jersey>
+		<playername>Padilla, L</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>1</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1577055" playerid="1640985">
+		<jersey>5</jersey>
+		<playername>James, G</playername>
+		<teamname>Bold City Kings</teamname>
+		<position>P</position>
+		<ab>1</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

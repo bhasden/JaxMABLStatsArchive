@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="30879" seasonname="Jacksonville MABL Summer 2017" seasonshortname="JAX MABL Summer 2017"/>
+  <division divisionid="29853" name="Eastern Divison">
+    <team>
+      <teamlinkid>92341</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>16</wins>
+      <losses>4</losses>
+      <rs>173.0</rs>
+      <ra>52.0</ra>
+      <rdiff>92341</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92343</teamlinkid>
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname/>
+      <gp>16</gp>
+      <wins>10</wins>
+      <losses>6</losses>
+      <rs>128.0</rs>
+      <ra>87.0</ra>
+      <rdiff>92343</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92342</teamlinkid>
+      <teamname>Mayport Cruisers</teamname>
+      <shortname/>
+      <gp>17</gp>
+      <wins>9</wins>
+      <losses>8</losses>
+      <rs>124.0</rs>
+      <ra>101.0</ra>
+      <rdiff>92342</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92345</teamlinkid>
+      <teamname>Jacksonville Angels</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>9</wins>
+      <losses>10</losses>
+      <rs>116.0</rs>
+      <ra>135.0</ra>
+      <rdiff>92345</rdiff>
+    </team>
+    <team>
+      <teamlinkid>124109</teamlinkid>
+      <teamname>Bold City Cyclones</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>4</wins>
+      <losses>15</losses>
+      <rs>80.0</rs>
+      <ra>171.0</ra>
+      <rdiff>124109</rdiff>
+    </team>
+  </division>
+  <division divisionid="29854" name="Western Divison">
+    <team>
+      <teamlinkid>92346</teamlinkid>
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>18</wins>
+      <losses>2</losses>
+      <rs>187.0</rs>
+      <ra>56.0</ra>
+      <rdiff>92346</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92347</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>10</wins>
+      <losses>10</losses>
+      <rs>110.0</rs>
+      <ra>141.0</ra>
+      <rdiff>92347</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92348</teamlinkid>
+      <teamname>Jacksonville Suns</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>5</wins>
+      <losses>15</losses>
+      <rs>112.0</rs>
+      <ra>202.0</ra>
+      <rdiff>92348</rdiff>
+    </team>
+    <team>
+      <teamlinkid>110133</teamlinkid>
+      <teamname>San Mateo Marlins</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>4</wins>
+      <losses>15</losses>
+      <rs>91.0</rs>
+      <ra>176.0</ra>
+      <rdiff>110133</rdiff>
+    </team>
+  </division>
+</standings>

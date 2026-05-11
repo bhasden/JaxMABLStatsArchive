@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="28308" seasonname="Jacksonville MABL Summer 2014" seasonshortname="JAX MABL Summer 2014"/>
+  <division divisionid="21576" name="Eastern">
+    <team>
+      <teamlinkid>69752</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>21</gp>
+      <wins>16</wins>
+      <losses>5</losses>
+      <rs>141.0</rs>
+      <ra>81.0</ra>
+      <rdiff>69752</rdiff>
+    </team>
+    <team>
+      <teamlinkid>70343</teamlinkid>
+      <teamname>Red Sox</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>11</wins>
+      <losses>9</losses>
+      <rs>122.0</rs>
+      <ra>133.0</ra>
+      <rdiff>70343</rdiff>
+    </team>
+    <team>
+      <teamlinkid>70342</teamlinkid>
+      <teamname>Cruisers</teamname>
+      <shortname/>
+      <gp>24</gp>
+      <wins>13</wins>
+      <losses>11</losses>
+      <rs>146.0</rs>
+      <ra>99.0</ra>
+      <rdiff>70342</rdiff>
+    </team>
+    <team>
+      <teamlinkid>69753</teamlinkid>
+      <teamname>Dolphins</teamname>
+      <shortname/>
+      <gp>18</gp>
+      <wins>8</wins>
+      <losses>10</losses>
+      <rs>100.0</rs>
+      <ra>104.0</ra>
+      <rdiff>69753</rdiff>
+    </team>
+    <team>
+      <teamlinkid>71213</teamlinkid>
+      <teamname>Angels</teamname>
+      <shortname/>
+      <gp>18</gp>
+      <wins>6</wins>
+      <losses>12</losses>
+      <rs>107.0</rs>
+      <ra>164.0</ra>
+      <rdiff>71213</rdiff>
+    </team>
+  </division>
+  <division divisionid="21577" name="Western">
+    <team>
+      <teamlinkid>70345</teamlinkid>
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname/>
+      <gp>21</gp>
+      <wins>16</wins>
+      <losses>5</losses>
+      <rs>144.0</rs>
+      <ra>64.0</ra>
+      <rdiff>70345</rdiff>
+    </team>
+    <team>
+      <teamlinkid>70344</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>21</gp>
+      <wins>10</wins>
+      <losses>11</losses>
+      <rs>130.0</rs>
+      <ra>103.0</ra>
+      <rdiff>70344</rdiff>
+    </team>
+    <team>
+      <teamlinkid>70347</teamlinkid>
+      <teamname>Braves</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>9</wins>
+      <losses>11</losses>
+      <rs>124.0</rs>
+      <ra>138.0</ra>
+      <rdiff>70347</rdiff>
+    </team>
+    <team>
+      <teamlinkid>70346</teamlinkid>
+      <teamname>Red Devils</teamname>
+      <shortname/>
+      <gp>17</gp>
+      <wins>1</wins>
+      <losses>16</losses>
+      <rs>58.0</rs>
+      <ra>186.0</ra>
+      <rdiff>70346</rdiff>
+    </team>
+  </division>
+</standings>

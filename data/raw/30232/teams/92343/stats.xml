@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=92343%26;seasonid=30232</link>
+<season>JAX MABL Summer 2016</season>
+	<pitching>
+	<player playerlinkid="997125" playerid="997125">
+		<jersey>11</jersey>
+		<playername>Godfrey, C</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.0</ip>
+		<runs>0</runs>
+		<er>0</er>
+		<hits>0</hits>
+		<bb>2</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="796491" playerid="952742">
+		<jersey>18</jersey>
+		<playername>Saunders, C</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>8.2</ip>
+		<runs>4</runs>
+		<er>1</er>
+		<hits>10</hits>
+		<bb>2</bb>
+		<so>5</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-6.500</oslg>
+		<oavg>-5.000</oavg>
+		<era>1.04</era>
+	</player>
+	<player playerlinkid="995514" playerid="995514">
+		<jersey>10</jersey>
+		<playername>Schmidt, J</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>1</wins>
+		<losses>2</losses>
+		<ip>16.0</ip>
+		<runs>15</runs>
+		<er>2</er>
+		<hits>22</hits>
+		<bb>4</bb>
+		<so>13</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>2</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-3.429</oslg>
+		<oavg>-3.143</oavg>
+		<era>1.13</era>
+	</player>
+	<player playerlinkid="815268" playerid="952726">
+		<jersey>9</jersey>
+		<playername>Fletcher, J</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>6.2</ip>
+		<runs>2</runs>
+		<er>1</er>
+		<hits>2</hits>
+		<bb>5</bb>
+		<so>8</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.600</oslg>
+		<oavg>-.400</oavg>
+		<era>1.35</era>
+	</player>
+	<player playerlinkid="1000145" playerid="1000145">
+		<jersey>19</jersey>
+		<playername>Morton, K</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>2</wins>
+		<losses>1</losses>
+		<ip>21.0</ip>
+		<runs>9</runs>
+		<er>5</er>
+		<hits>20</hits>
+		<bb>12</bb>
+		<so>29</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>4</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.000</oslg>
+		<oavg>-1.667</oavg>
+		<era>2.14</era>
+	</player>
+	<player playerlinkid="799044" playerid="952728">
+		<jersey>14</jersey>
+		<playername>Crick, A</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>10.0</ip>
+		<runs>6</runs>
+		<er>3</er>
+		<hits>10</hits>
+		<bb>2</bb>
+		<so>11</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>1</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.500</oslg>
+		<oavg>-2.500</oavg>
+		<era>2.70</era>
+	</player>
+	<player playerlinkid="796493" playerid="952744">
+		<jersey>12</jersey>
+		<playername>Williams, R</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>1</wins>
+		<losses>3</losses>
+		<ip>51.0</ip>
+		<runs>32</runs>
+		<er>18</er>
+		<hits>41</hits>
+		<bb>24</bb>
+		<so>74</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>6</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.933</oslg>
+		<oavg>-1.367</oavg>
+		<era>3.18</era>
+	</player>
+	<player playerlinkid="796490" playerid="952741">
+		<jersey>1</jersey>
+		<playername>Israel, N</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>1</wins>
+		<losses>1</losses>
+		<ip>6.2</ip>
+		<runs>12</runs>
+		<er>3</er>
+		<hits>8</hits>
+		<bb>5</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.500</oslg>
+		<oavg>-1.333</oavg>
+		<era>4.05</era>
+	</player>
+	<player playerlinkid="976028" playerid="976028">
+		<jersey>40</jersey>
+		<playername>Adams, S</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>2</wins>
+		<losses>1</losses>
+		<ip>27.0</ip>
+		<runs>22</runs>
+		<er>13</er>
+		<hits>25</hits>
+		<bb>9</bb>
+		<so>23</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-3.300</oslg>
+		<oavg>-2.500</oavg>
+		<era>4.33</era>
+	</player>
+	<player playerlinkid="995515" playerid="995515">
+		<jersey>3</jersey>
+		<playername>Wall, D</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>4.0</ip>
+		<runs>4</runs>
+		<er>3</er>
+		<hits>3</hits>
+		<bb>7</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.625</oslg>
+		<oavg>-.375</oavg>
+		<era>6.75</era>
+	</player>
+	<player playerlinkid="797653" playerid="952733">
+		<jersey>33</jersey>
+		<playername>Wiegand, P</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>3.1</ip>
+		<runs>4</runs>
+		<er>3</er>
+		<hits>2</hits>
+		<bb>4</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.375</oslg>
+		<oavg>-.250</oavg>
+		<era>8.10</era>
+	</player>
+	<player playerlinkid="970419" playerid="970419">
+		<jersey></jersey>
+		<playername>Kinlaw, P</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>2.0</ip>
+		<runs>2</runs>
+		<er>2</er>
+		<hits>2</hits>
+		<bb>3</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.500</oslg>
+		<oavg>-.500</oavg>
+		<era>9.00</era>
+	</player>
+	<player playerlinkid="796487" playerid="952738">
+		<jersey>21</jersey>
+		<playername>Wiegand, M</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>2.0</ip>
+		<runs>5</runs>
+		<er>4</er>
+		<hits>3</hits>
+		<bb>3</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.333</oslg>
+		<oavg>-1.000</oavg>
+		<era>18.00</era>
+	</player>
+	<player playerlinkid="968616" playerid="968616">
+		<jersey>17</jersey>
+		<playername>Arnett, M</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>0.1</ip>
+		<runs>1</runs>
+		<er>1</er>
+		<hits>0</hits>
+		<bb>1</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>27.00</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1001404" playerid="1001404">
+		<jersey>8</jersey>
+		<playername>Aplin, R</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>25</ab>
+		<runs>10</runs>
+		<hits>15</hits>
+		<bib>6</bib>
+		<trib>0</trib>
+		<hr>4</hr>
+		<rbi>14</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>4</sb>
+		<dp>0</dp>
+		<obp>.600</obp>
+		<slg>1.32</slg>
+		<avg>.600</avg>
+	</player>
+	<player playerlinkid="995514" playerid="995514">
+		<jersey>10</jersey>
+		<playername>Schmidt, J</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>37</ab>
+		<runs>10</runs>
+		<hits>17</hits>
+		<bib>4</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>7</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.649</slg>
+		<avg>.459</avg>
+	</player>
+	<player playerlinkid="799044" playerid="952728">
+		<jersey>14</jersey>
+		<playername>Crick, A</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>28</ab>
+		<runs>8</runs>
+		<hits>12</hits>
+		<bib>1</bib>
+		<trib>1</trib>
+		<hr>1</hr>
+		<rbi>9</rbi>
+		<bb>5</bb>
+		<hp>2</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.543</obp>
+		<slg>.643</slg>
+		<avg>.429</avg>
+	</player>
+	<player playerlinkid="815268" playerid="952726">
+		<jersey>9</jersey>
+		<playername>Fletcher, J</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>52</ab>
+		<runs>20</runs>
+		<hits>19</hits>
+		<bib>2</bib>
+		<trib>1</trib>
+		<hr>6</hr>
+		<rbi>16</rbi>
+		<bb>10</bb>
+		<hp>5</hp>
+		<so>15</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.507</obp>
+		<slg>.788</slg>
+		<avg>.365</avg>
+	</player>
+	<player playerlinkid="976028" playerid="976028">
+		<jersey>40</jersey>
+		<playername>Adams, S</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>53</ab>
+		<runs>13</runs>
+		<hits>19</hits>
+		<bib>5</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>6</rbi>
+		<bb>12</bb>
+		<hp>1</hp>
+		<so>12</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.485</obp>
+		<slg>.566</slg>
+		<avg>.358</avg>
+	</player>
+	<player playerlinkid="968615" playerid="968615">
+		<jersey>2</jersey>
+		<playername>Holley, T</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>CF</position>
+		<ab>59</ab>
+		<runs>14</runs>
+		<hits>19</hits>
+		<bib>6</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>12</rbi>
+		<bb>14</bb>
+		<hp>0</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>9</sb>
+		<dp>0</dp>
+		<obp>.452</obp>
+		<slg>.525</slg>
+		<avg>.322</avg>
+	</player>
+	<player playerlinkid="799038" playerid="952734">
+		<jersey>16</jersey>
+		<playername>Farrar, W</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>38</ab>
+		<runs>4</runs>
+		<hits>12</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.366</obp>
+		<slg>.368</slg>
+		<avg>.316</avg>
+	</player>
+	<player playerlinkid="997125" playerid="997125">
+		<jersey>11</jersey>
+		<playername>Godfrey, C</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>25</ab>
+		<runs>3</runs>
+		<hits>6</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>5</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.269</obp>
+		<slg>.320</slg>
+		<avg>.240</avg>
+	</player>
+	<player playerlinkid="796487" playerid="952738">
+		<jersey>21</jersey>
+		<playername>Wiegand, M</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>72</ab>
+		<runs>21</runs>
+		<hits>17</hits>
+		<bib>6</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>13</rbi>
+		<bb>8</bb>
+		<hp>8</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.403</slg>
+		<avg>.236</avg>
+	</player>
+	<player playerlinkid="796491" playerid="952742">
+		<jersey>18</jersey>
+		<playername>Saunders, C</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>60</ab>
+		<runs>14</runs>
+		<hits>14</hits>
+		<bib>3</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>9</rbi>
+		<bb>6</bb>
+		<hp>0</hp>
+		<so>8</so>
+		<sf>1</sf>
+		<sb>7</sb>
+		<dp>0</dp>
+		<obp>.299</obp>
+		<slg>.317</slg>
+		<avg>.233</avg>
+	</player>
+	<player playerlinkid="796490" playerid="952741">
+		<jersey>1</jersey>
+		<playername>Israel, N</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>19</ab>
+		<runs>1</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>7</bb>
+		<hp>1</hp>
+		<so>4</so>
+		<sf>1</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.429</obp>
+		<slg>.211</slg>
+		<avg>.211</avg>
+	</player>
+	<player playerlinkid="797651" playerid="952732">
+		<jersey>25</jersey>
+		<playername>Shannon, D</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>DH</position>
+		<ab>53</ab>
+		<runs>8</runs>
+		<hits>10</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>9</bb>
+		<hp>1</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.317</obp>
+		<slg>.189</slg>
+		<avg>.189</avg>
+	</player>
+	<player playerlinkid="796492" playerid="952743">
+		<jersey>22</jersey>
+		<playername>Hafiz, R</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>3B</position>
+		<ab>38</ab>
+		<runs>5</runs>
+		<hits>6</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>5</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>18</so>
+		<sf>2</sf>
+		<sb>6</sb>
+		<dp>0</dp>
+		<obp>.209</obp>
+		<slg>.263</slg>
+		<avg>.158</avg>
+	</player>
+	<player playerlinkid="796493" playerid="952744">
+		<jersey>12</jersey>
+		<playername>Williams, R</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>13</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.313</obp>
+		<slg>.231</slg>
+		<avg>.154</avg>
+	</player>
+	<player playerlinkid="1000145" playerid="1000145">
+		<jersey>19</jersey>
+		<playername>Morton, K</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>15</ab>
+		<runs>2</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>6</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.381</obp>
+		<slg>.133</slg>
+		<avg>.133</avg>
+	</player>
+	<player playerlinkid="797653" playerid="952733">
+		<jersey>33</jersey>
+		<playername>Wiegand, P</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>28</ab>
+		<runs>3</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>8</bb>
+		<hp>1</hp>
+		<so>16</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.324</obp>
+		<slg>.107</slg>
+		<avg>.107</avg>
+	</player>
+	<player playerlinkid="995515" playerid="995515">
+		<jersey>3</jersey>
+		<playername>Wall, D</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>19</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.143</obp>
+		<slg>.053</slg>
+		<avg>.053</avg>
+	</player>
+	<player playerlinkid="799040" playerid="952727">
+		<jersey>6</jersey>
+		<playername>Reed, C</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>IF</position>
+		<ab>15</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.211</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="970419" playerid="970419">
+		<jersey></jersey>
+		<playername>Kinlaw, P</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="799030" playerid="952725">
+		<jersey>41</jersey>
+		<playername>Schoening, M</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>IF</position>
+		<ab>4</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.200</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="968616" playerid="968616">
+		<jersey>17</jersey>
+		<playername>Arnett, M</playername>
+		<teamname>Jacksonville Dolphins</teamname>
+		<position>P</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

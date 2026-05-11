@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=144039%26;seasonid=32185</link>
+<season>30+ Summer 2019</season>
+	<pitching>
+	<player playerlinkid="1384300" playerid="1384300">
+		<jersey>1</jersey>
+		<playername>Addison, J</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>3.0</ip>
+		<runs>5</runs>
+		<er>5</er>
+		<hits>5</hits>
+		<bb>1</bb>
+		<so>7</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.333</oslg>
+		<oavg>-1.667</oavg>
+		<era>15.00</era>
+	</player>
+	<player playerlinkid="1384299" playerid="1384299">
+		<jersey>7</jersey>
+		<playername>Gainy, S</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>4.0</ip>
+		<runs>10</runs>
+		<er>10</er>
+		<hits>10</hits>
+		<bb>3</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-4.333</oslg>
+		<oavg>-3.333</oavg>
+		<era>22.50</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1401391" playerid="1401391">
+		<jersey>1</jersey>
+		<playername>Slay, C</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>P</position>
+		<ab>6</ab>
+		<runs>0</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.667</obp>
+		<slg>.667</slg>
+		<avg>.667</avg>
+	</player>
+	<player playerlinkid="1379623" playerid="1379623">
+		<jersey></jersey>
+		<playername>Skipper, E</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>OF</position>
+		<ab>3</ab>
+		<runs>2</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>1</dp>
+		<obp>.667</obp>
+		<slg>.667</slg>
+		<avg>.667</avg>
+	</player>
+	<player playerlinkid="1384298" playerid="1384298">
+		<jersey>7</jersey>
+		<playername>Roman, D</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>1B</position>
+		<ab>10</ab>
+		<runs>2</runs>
+		<hits>6</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.636</obp>
+		<slg>.600</slg>
+		<avg>.600</avg>
+	</player>
+	<player playerlinkid="1379624" playerid="1379624">
+		<jersey></jersey>
+		<playername>Coverston, T</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>4</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.667</obp>
+		<slg>2000</slg>
+		<avg>.500</avg>
+	</player>
+	<player playerlinkid="1384301" playerid="1384301">
+		<jersey>00</jersey>
+		<playername>Rebish, M</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>DH</position>
+		<ab>10</ab>
+		<runs>1</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.500</slg>
+		<avg>.500</avg>
+	</player>
+	<player playerlinkid="1401392" playerid="1401392">
+		<jersey>19</jersey>
+		<playername>Guslin, R</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>C</position>
+		<ab>5</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.400</obp>
+		<slg>.400</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1372291" playerid="1372291">
+		<jersey>5</jersey>
+		<playername>Hellett, J</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>P</position>
+		<ab>5</ab>
+		<runs>1</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.625</obp>
+		<slg>.400</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1372299" playerid="1372299">
+		<jersey>19</jersey>
+		<playername>Girard, F</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>IF</position>
+		<ab>9</ab>
+		<runs>1</runs>
+		<hits>3</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.400</obp>
+		<slg>.444</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1384299" playerid="1384299">
+		<jersey>7</jersey>
+		<playername>Gainy, S</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>P</position>
+		<ab>6</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.429</obp>
+		<slg>.333</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1372290" playerid="1372290">
+		<jersey>6</jersey>
+		<playername>Davis, L</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>3B</position>
+		<ab>14</ab>
+		<runs>4</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.286</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="1372289" playerid="1372289">
+		<jersey>8</jersey>
+		<playername>Williams, J</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>2B</position>
+		<ab>12</ab>
+		<runs>2</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.308</obp>
+		<slg>.250</slg>
+		<avg>.250</avg>
+	</player>
+	<player playerlinkid="1384300" playerid="1384300">
+		<jersey>1</jersey>
+		<playername>Addison, J</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>P</position>
+		<ab>6</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.167</obp>
+		<slg>.167</slg>
+		<avg>.167</avg>
+	</player>
+	<player playerlinkid="1372286" playerid="1372286">
+		<jersey>24</jersey>
+		<playername>Story, M</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>1B</position>
+		<ab>12</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.083</obp>
+		<slg>.083</slg>
+		<avg>.083</avg>
+	</player>
+	<player playerlinkid="1372297" playerid="1372297">
+		<jersey>3</jersey>
+		<playername>Mednick, D</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>IF</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1372295" playerid="1372295">
+		<jersey>32</jersey>
+		<playername>Handley, M</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>C</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1372298" playerid="1372298">
+		<jersey>26</jersey>
+		<playername>Jamms, G</playername>
+		<teamname>St. Augustine Braves</teamname>
+		<position>OF</position>
+		<ab>12</ab>
+		<runs>3</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>3</bb>
+		<hp>1</hp>
+		<so>7</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.235</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

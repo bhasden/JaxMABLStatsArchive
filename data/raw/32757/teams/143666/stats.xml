@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=143666%26;seasonid=32757</link>
+<season>JAX MABL Summer 2020</season>
+	<pitching>
+	<player playerlinkid="1451550" playerid="1451550">
+		<jersey>24</jersey>
+		<playername>Dary, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>5.0</ip>
+		<runs>1</runs>
+		<er>0</er>
+		<hits>2</hits>
+		<bb>3</bb>
+		<so>9</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.000</oslg>
+		<oavg>-.667</oavg>
+		<era>0.00</era>
+	</player>
+	<player playerlinkid="1451870" playerid="1451870">
+		<jersey>19</jersey>
+		<playername>Raldiris, A</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>3.0</ip>
+		<runs>2</runs>
+		<er>1</er>
+		<hits>2</hits>
+		<bb>2</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.250</oslg>
+		<oavg>-.500</oavg>
+		<era>3.00</era>
+	</player>
+	<player playerlinkid="1351454" playerid="1449365">
+		<jersey>7</jersey>
+		<playername>Sculli, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>2.0</ip>
+		<runs>1</runs>
+		<er>1</er>
+		<hits>1</hits>
+		<bb>3</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.333</oslg>
+		<oavg>-.333</oavg>
+		<era>4.50</era>
+	</player>
+	<player playerlinkid="1451549" playerid="1451549">
+		<jersey>15</jersey>
+		<playername>Sigler, L</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>25.0</ip>
+		<runs>21</runs>
+		<er>15</er>
+		<hits>32</hits>
+		<bb>6</bb>
+		<so>47</so>
+		<bf>0</bf>
+		<games>7</games>
+		<gs>3</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-7.250</oslg>
+		<oavg>-4.000</oavg>
+		<era>5.40</era>
+	</player>
+	<player playerlinkid="1360892" playerid="1449379">
+		<jersey>12</jersey>
+		<playername>Jeffries, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.2</ip>
+		<runs>1</runs>
+		<er>1</er>
+		<hits>2</hits>
+		<bb>3</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.667</oslg>
+		<oavg>-.667</oavg>
+		<era>5.40</era>
+	</player>
+	<player playerlinkid="1451868" playerid="1451868">
+		<jersey>25</jersey>
+		<playername>Negron, A</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>4.1</ip>
+		<runs>4</runs>
+		<er>3</er>
+		<hits>5</hits>
+		<bb>3</bb>
+		<so>9</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.500</oslg>
+		<oavg>-1.250</oavg>
+		<era>6.23</era>
+	</player>
+	<player playerlinkid="1398129" playerid="1449361">
+		<jersey>15</jersey>
+		<playername>Bishop, N</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>1</wins>
+		<losses>0</losses>
+		<ip>5.1</ip>
+		<runs>4</runs>
+		<er>4</er>
+		<hits>4</hits>
+		<bb>1</bb>
+		<so>9</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.667</oslg>
+		<oavg>-1.333</oavg>
+		<era>6.75</era>
+	</player>
+	<player playerlinkid="1451553" playerid="1451553">
+		<jersey>54</jersey>
+		<playername>Rudroff, A</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>2.0</ip>
+		<runs>3</runs>
+		<er>3</er>
+		<hits>4</hits>
+		<bb>1</bb>
+		<so>3</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-6.000</oslg>
+		<oavg>-4.000</oavg>
+		<era>13.50</era>
+	</player>
+	<player playerlinkid="1365449" playerid="1449356">
+		<jersey>5</jersey>
+		<playername>Kauffman, K</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>4.2</ip>
+		<runs>20</runs>
+		<er>9</er>
+		<hits>6</hits>
+		<bb>12</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.467</oslg>
+		<oavg>-.400</oavg>
+		<era>17.36</era>
+	</player>
+	<player playerlinkid="1451548" playerid="1451548">
+		<jersey>3</jersey>
+		<playername>Dukes, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>3.0</ip>
+		<runs>6</runs>
+		<er>6</er>
+		<hits>7</hits>
+		<bb>4</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.400</oslg>
+		<oavg>-1.400</oavg>
+		<era>18.00</era>
+	</player>
+	<player playerlinkid="1451626" playerid="1451626">
+		<jersey>22</jersey>
+		<playername>Rizer, D</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>9.1</ip>
+		<runs>22</runs>
+		<er>19</er>
+		<hits>21</hits>
+		<bb>9</bb>
+		<so>12</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-4.333</oslg>
+		<oavg>-2.333</oavg>
+		<era>18.32</era>
+	</player>
+	<player playerlinkid="1360893" playerid="1449380">
+		<jersey>75</jersey>
+		<playername>Johnan, T</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>1.1</ip>
+		<runs>5</runs>
+		<er>3</er>
+		<hits>3</hits>
+		<bb>1</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>2</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.000</oslg>
+		<oavg>-1.500</oavg>
+		<era>20.25</era>
+	</player>
+	<player playerlinkid="1451625" playerid="1451625">
+		<jersey>18</jersey>
+		<playername>Vassallo, T</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>4.1</ip>
+		<runs>17</runs>
+		<er>12</er>
+		<hits>11</hits>
+		<bb>7</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.250</oslg>
+		<oavg>-1.375</oavg>
+		<era>24.92</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1463564" playerid="1463564">
+		<jersey></jersey>
+		<playername>Alexander, B</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>U</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.667</obp>
+		<slg>.500</slg>
+		<avg>.500</avg>
+	</player>
+	<player playerlinkid="1360892" playerid="1449379">
+		<jersey>12</jersey>
+		<playername>Jeffries, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>3B</position>
+		<ab>28</ab>
+		<runs>6</runs>
+		<hits>13</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>9</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>1</dp>
+		<obp>.516</obp>
+		<slg>.607</slg>
+		<avg>.464</avg>
+	</player>
+	<player playerlinkid="1451625" playerid="1451625">
+		<jersey>18</jersey>
+		<playername>Vassallo, T</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>5</ab>
+		<runs>0</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.400</obp>
+		<slg>.400</slg>
+		<avg>.400</avg>
+	</player>
+	<player playerlinkid="1398129" playerid="1449361">
+		<jersey>15</jersey>
+		<playername>Bishop, N</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>U</position>
+		<ab>30</ab>
+		<runs>11</runs>
+		<hits>11</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>11</bb>
+		<hp>1</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>1</dp>
+		<obp>.548</obp>
+		<slg>.400</slg>
+		<avg>.367</avg>
+	</player>
+	<player playerlinkid="1365449" playerid="1449356">
+		<jersey>5</jersey>
+		<playername>Kauffman, K</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>33</ab>
+		<runs>11</runs>
+		<hits>11</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>2</hr>
+		<rbi>6</rbi>
+		<bb>6</bb>
+		<hp>2</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>8</sb>
+		<dp>0</dp>
+		<obp>.463</obp>
+		<slg>.545</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1451547" playerid="1451547">
+		<jersey>10</jersey>
+		<playername>McDonough, P</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>RF</position>
+		<ab>3</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.333</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1349813" playerid="1449355">
+		<jersey>17</jersey>
+		<playername>Broach, B</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>LF</position>
+		<ab>17</ab>
+		<runs>2</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>4</rbi>
+		<bb>5</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.409</obp>
+		<slg>.412</slg>
+		<avg>.235</avg>
+	</player>
+	<player playerlinkid="1451551" playerid="1451551">
+		<jersey>33</jersey>
+		<playername>Rogers, B</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>C</position>
+		<ab>17</ab>
+		<runs>6</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>11</bb>
+		<hp>5</hp>
+		<so>6</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.588</obp>
+		<slg>.235</slg>
+		<avg>.235</avg>
+	</player>
+	<player playerlinkid="1351454" playerid="1449365">
+		<jersey>7</jersey>
+		<playername>Sculli, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>3B</position>
+		<ab>17</ab>
+		<runs>1</runs>
+		<hits>4</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>5</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.409</obp>
+		<slg>.235</slg>
+		<avg>.235</avg>
+	</player>
+	<player playerlinkid="1451548" playerid="1451548">
+		<jersey>3</jersey>
+		<playername>Dukes, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>5</ab>
+		<runs>2</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.429</obp>
+		<slg>.200</slg>
+		<avg>.200</avg>
+	</player>
+	<player playerlinkid="1451870" playerid="1451870">
+		<jersey>19</jersey>
+		<playername>Raldiris, A</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>2B</position>
+		<ab>17</ab>
+		<runs>2</runs>
+		<hits>3</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>1</dp>
+		<obp>.300</obp>
+		<slg>.235</slg>
+		<avg>.176</avg>
+	</player>
+	<player playerlinkid="1451869" playerid="1451869">
+		<jersey>28</jersey>
+		<playername>Thomas, S</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>2B</position>
+		<ab>6</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.167</obp>
+		<slg>.167</slg>
+		<avg>.167</avg>
+	</player>
+	<player playerlinkid="1360893" playerid="1449380">
+		<jersey>75</jersey>
+		<playername>Johnan, T</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>3B</position>
+		<ab>23</ab>
+		<runs>3</runs>
+		<hits>3</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>12</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.231</obp>
+		<slg>.174</slg>
+		<avg>.130</avg>
+	</player>
+	<player playerlinkid="1451550" playerid="1451550">
+		<jersey>24</jersey>
+		<playername>Dary, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>9</ab>
+		<runs>1</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.111</obp>
+		<slg>.111</slg>
+		<avg>.111</avg>
+	</player>
+	<player playerlinkid="1451868" playerid="1451868">
+		<jersey>25</jersey>
+		<playername>Negron, A</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>20</ab>
+		<runs>2</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>13</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.100</obp>
+		<slg>.100</slg>
+		<avg>.100</avg>
+	</player>
+	<player playerlinkid="1349827" playerid="1449359">
+		<jersey>1</jersey>
+		<playername>Trawick, E</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>2B</position>
+		<ab>28</ab>
+		<runs>7</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>1</bb>
+		<hp>3</hp>
+		<so>11</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.188</obp>
+		<slg>.071</slg>
+		<avg>.071</avg>
+	</player>
+	<player playerlinkid="1451626" playerid="1451626">
+		<jersey>22</jersey>
+		<playername>Rizer, D</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>22</ab>
+		<runs>4</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>12</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>1</dp>
+		<obp>.160</obp>
+		<slg>.045</slg>
+		<avg>.045</avg>
+	</player>
+	<player playerlinkid="1360894" playerid="1449381">
+		<jersey>20</jersey>
+		<playername>Medlock, L</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>CF</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1453643" playerid="1453643">
+		<jersey></jersey>
+		<playername>Moon, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>1B</position>
+		<ab>1</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1453642" playerid="1453642">
+		<jersey>2</jersey>
+		<playername>Santiago, J</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>2B</position>
+		<ab>12</ab>
+		<runs>2</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.077</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1451553" playerid="1451553">
+		<jersey>54</jersey>
+		<playername>Rudroff, A</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>2</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.333</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1451552" playerid="1451552">
+		<jersey>34</jersey>
+		<playername>Dubin, B</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>RF</position>
+		<ab>9</ab>
+		<runs>1</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1451549" playerid="1451549">
+		<jersey>15</jersey>
+		<playername>Sigler, L</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>P</position>
+		<ab>3</ab>
+		<runs>1</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>1</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.400</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="1451867" playerid="1451867">
+		<jersey>5</jersey>
+		<playername>Roberts, G</playername>
+		<teamname>St. Johns Sharks</teamname>
+		<position>CF</position>
+		<ab>5</ab>
+		<runs>1</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

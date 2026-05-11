@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T14:19:16-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="32757">
+    <seasonname>JAX MABL Summer 2020</seasonname>
+  </season>
+  <game gameid="528960" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528961" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528963" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>17</homescore>
+    <field>Normandy Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528959" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528965" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>1</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-28</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-28-06T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528966" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>13</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-28</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-28-06T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528969" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>12</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-28</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-28-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528968" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>36</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-28</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-28-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528967" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>0</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-06-28</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-28-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528970" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-01-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528971" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-01-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528978" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>13</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-08-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528977" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-08-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528976" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-08-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528979" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>4</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-11</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-11-07T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528980" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>4</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-12</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-07T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528981" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>0</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-12</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-07T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528983" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>12</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528984" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>1</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528982" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528987" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>14</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-15-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528989" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-15-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528986" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>19</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-15-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528985" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-15-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528990" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>3</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-18</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-18-07T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528991" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>17</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-19</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-07T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528992" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>1</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528993" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528993" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>5</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528994" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>23</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528995" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>1</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528999" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>5</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-22-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528997" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-22-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528996" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-22-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529000" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>8</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-22-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528998" gamenumber="41">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>24</awayscore>
+    <homescore>2</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-22-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529001" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>2</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-26</gamedate>
+    <gametime>13:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-07T13:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529002" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Saint Marys Aquatic Center</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-26</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-07T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529004" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>23</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529003" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>2</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529008" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-29-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529005" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-07-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-29-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529009" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>15</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-01</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-01-08T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529013" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-02</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-08T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529010" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-02</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-08T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529011" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>15</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529012" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529014" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529018" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>13</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-05-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529017" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>14</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-05-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529019" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>19</awayscore>
+    <homescore>10</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-05-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529016" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>7</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-05-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529015" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-05</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-05-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529020" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-09</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-09-08T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529021" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>0</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-09-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529024" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-09-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529022" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>2</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-09-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529025" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>1</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-09-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529023" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-09-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529026" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>1</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529027" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143665" awayid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>20</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-12-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529030" gamenumber="72">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="150744" homeid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>9</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-16</gamedate>
+    <gametime>15:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-16-08T15:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529033" gamenumber="75">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>5</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-16-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529031" gamenumber="73">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="150744" awayid="150744">
+      <teamname>Savannah Black Sox</teamname>
+      <shortname>Black Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150744.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>1</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-16-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529032" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-16-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529034" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>22</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-16-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529035" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-16</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-16-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528973" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>6</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-19</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-19-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528962" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>1</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-23-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528975" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>15</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-23-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529028" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="150722">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>13</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-23-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528974" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="143666" awayid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528964" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528972" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>10</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528964" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="150721">
+      <teamname>Jacksonville Fireflies</teamname>
+      <shortname>Fireflies</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143641.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="528988" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="150717">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143665" homeid="150724">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Gold Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143665.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>0</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-08-26</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-26-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529029" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="150723">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="143666" homeid="150719">
+      <teamname>St. Johns Sharks</teamname>
+      <shortname>Sharks</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150719.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>2</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-09-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-09T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529007" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="150715">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="150720">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>3</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-09-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="529006" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="150718">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="150716">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="33845">
+        <divisionname>Interstate Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2020-09-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2020-02-09T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+</schedule>

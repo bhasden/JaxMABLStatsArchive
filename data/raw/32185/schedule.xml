@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T14:25:06-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="32185">
+    <seasonname>JAX MABL 30+ Summer 2019</seasonname>
+  </season>
+  <game gameid="496048" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144038" awayid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144039" homeid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>24</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-05-19</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-19-05T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496047" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144040" awayid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144037" homeid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>24</awayscore>
+    <homescore>1</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-05-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-19-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496049" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144037" awayid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144039" homeid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>6</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-06-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-02-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496050" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144040" awayid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144038" homeid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-06-02</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-02-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496051" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144037" awayid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144038" homeid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>12</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-06-09</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-09-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496046" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144040" awayid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144039" homeid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>19</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-06-16</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-16-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496053" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144038" awayid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144037" homeid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-06-23</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-23-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496055" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144037" awayid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144039" homeid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>6</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-06-30</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-30-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496059" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144038" awayid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144040" homeid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-07-14</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-14-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496060" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144039" awayid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144037" homeid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>18</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-07-14</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-14-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496062" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144040" awayid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144039" homeid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>19</awayscore>
+    <homescore>3</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-07-21</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-21-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496061" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144037" awayid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144038" homeid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>10</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-07-21</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-21-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496064" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144039" awayid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144038" homeid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-07-28</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-28-07T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496066" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144040" awayid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144038" homeid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>10</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-04-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496065" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144039" awayid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144037" homeid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-04</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-04-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496068" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144039" awayid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144038" homeid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-11</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-11-08T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496058" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144038" awayid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144039" homeid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-18</gamedate>
+    <gametime>15:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-18-08T15:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496057" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144040" awayid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144037" homeid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>0</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-18</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-18-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="512576" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144039" awayid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144040" homeid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-25</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-25-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="496054" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144039" awayid="144039">
+      <teamname>St. Augustine Braves</teamname>
+      <shortname>Braves</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144039.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144040" homeid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-25-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="496045" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144038" awayid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144037" homeid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>6</homescore>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-08-25</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-25-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496056" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144038" awayid="144038">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144038.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144040" homeid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-09-01</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-01-09T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="496063" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="144037" awayid="144037">
+      <teamname>River City Gold Sox</teamname>
+      <shortname>Sox</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144037.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="144040" homeid="144040">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team144040.gif</logo>
+      <division divisionid="32701">
+        <divisionname>30+</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Trinity Christian Academy</field>
+    <timezone>EST</timezone>
+    <gamedate>2019-09-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2019-08-09T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+</schedule>

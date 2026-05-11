@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="33936" seasonname="JAX MABL Summer 2024" seasonshortname="JAX MABL Summer 2024"/>
+  <division divisionid="35988" name="Duval Division">
+    <team>
+      <teamlinkid>92341</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>17</wins>
+      <losses>3</losses>
+      <rs>217.0</rs>
+      <ra>86.0</ra>
+      <rdiff>92341</rdiff>
+      <pct>0.850</pct>
+      <gb>0</gb>
+      <streak>1W</streak>
+    </team>
+    <team>
+      <teamlinkid>92342</teamlinkid>
+      <teamname>Mayport Cruisers</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>17</wins>
+      <losses>3</losses>
+      <rs>236.0</rs>
+      <ra>94.0</ra>
+      <rdiff>92342</rdiff>
+      <pct>0.850</pct>
+      <gb>0</gb>
+      <streak>1L</streak>
+    </team>
+    <team>
+      <teamlinkid>158820</teamlinkid>
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>14</wins>
+      <losses>6</losses>
+      <rs>170.0</rs>
+      <ra>106.0</ra>
+      <rdiff>158820</rdiff>
+      <pct>0.700</pct>
+      <gb>3</gb>
+      <streak>4W</streak>
+    </team>
+    <team>
+      <teamlinkid>124109</teamlinkid>
+      <teamname>Bold City Kings</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>13</wins>
+      <losses>7</losses>
+      <rs>184.0</rs>
+      <ra>110.0</ra>
+      <rdiff>124109</rdiff>
+      <pct>0.650</pct>
+      <gb>4</gb>
+      <streak>2L</streak>
+    </team>
+    <team>
+      <teamlinkid>163541</teamlinkid>
+      <teamname>JaxCub</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>11</wins>
+      <losses>7</losses>
+      <rs>209.0</rs>
+      <ra>136.0</ra>
+      <rdiff>163541</rdiff>
+      <pct>0.605</pct>
+      <gb>5</gb>
+      <streak>4W</streak>
+    </team>
+    <team>
+      <teamlinkid>92346</teamlinkid>
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>10</wins>
+      <losses>10</losses>
+      <rs>127.0</rs>
+      <ra>170.0</ra>
+      <rdiff>92346</rdiff>
+      <pct>0.500</pct>
+      <gb>7</gb>
+      <streak>1W</streak>
+    </team>
+    <team>
+      <teamlinkid>92345</teamlinkid>
+      <teamname>Jacksonville Angels</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>7</wins>
+      <losses>12</losses>
+      <rs>123.0</rs>
+      <ra>233.0</ra>
+      <rdiff>92345</rdiff>
+      <pct>0.375</pct>
+      <gb>9.5</gb>
+      <streak>1W</streak>
+    </team>
+    <team>
+      <teamlinkid>92347</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>6</wins>
+      <losses>13</losses>
+      <rs>160.0</rs>
+      <ra>201.0</ra>
+      <rdiff>92347</rdiff>
+      <pct>0.325</pct>
+      <gb>10.5</gb>
+      <streak>1L</streak>
+    </team>
+    <team>
+      <teamlinkid>161516</teamlinkid>
+      <teamname>WarDogs Baseball</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>2</wins>
+      <losses>17</losses>
+      <rs>116.0</rs>
+      <ra>237.0</ra>
+      <rdiff>161516</rdiff>
+      <pct>0.105</pct>
+      <gb>14.5</gb>
+      <streak>6L</streak>
+    </team>
+    <team>
+      <teamlinkid>92348</teamlinkid>
+      <teamname>Jacksonville Suns</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>0</wins>
+      <losses>19</losses>
+      <rs>109.0</rs>
+      <ra>278.0</ra>
+      <rdiff>92348</rdiff>
+      <pct>0.025</pct>
+      <gb>16.5</gb>
+      <streak>13L</streak>
+    </team>
+  </division>
+</standings>

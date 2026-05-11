@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite-dev.*.log
+
+# local env files
+# .env.local / .env.*.local contain secrets and are never committed.
+# Plain .env files may hold non-sensitive defaults and CAN be committed,
+# but add .env here if you want an extra safeguard.
+.env*.local
+
+# generated archive artifacts
+data/seeds/
+public/archive.sqlite

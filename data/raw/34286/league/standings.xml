@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="34286" seasonname="40+ Summer 2025" seasonshortname="40+ Summer 2025"/>
+  <division divisionid="36402" name="Baller">
+    <team>
+      <teamlinkid>166303</teamlinkid>
+      <teamname>Florida Juicers</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>3</wins>
+      <losses>1</losses>
+      <rs>51.0</rs>
+      <ra>32.0</ra>
+      <rdiff>166303</rdiff>
+      <pct>0.700</pct>
+      <gb>0</gb>
+      <streak>1L</streak>
+    </team>
+    <team>
+      <teamlinkid>166301</teamlinkid>
+      <teamname>Jacksonville Brewers</teamname>
+      <shortname/>
+      <gp>8</gp>
+      <wins>5</wins>
+      <losses>3</losses>
+      <rs>93.0</rs>
+      <ra>68.0</ra>
+      <rdiff>166301</rdiff>
+      <pct>0.625</pct>
+      <gb>0</gb>
+      <streak>1L</streak>
+    </team>
+    <team>
+      <teamlinkid>166304</teamlinkid>
+      <teamname>Jacksonville Naturals</teamname>
+      <shortname/>
+      <gp>7</gp>
+      <wins>3</wins>
+      <losses>4</losses>
+      <rs>73.0</rs>
+      <ra>78.0</ra>
+      <rdiff>166304</rdiff>
+      <pct>0.429</pct>
+      <gb>1.5</gb>
+      <streak>3L</streak>
+    </team>
+    <team>
+      <teamlinkid>166302</teamlinkid>
+      <teamname>Marietta Hot Rods</teamname>
+      <shortname/>
+      <gp>8</gp>
+      <wins>2</wins>
+      <losses>5</losses>
+      <rs>81.0</rs>
+      <ra>120.0</ra>
+      <rdiff>166302</rdiff>
+      <pct>0.313</pct>
+      <gb>2.5</gb>
+      <streak>1W</streak>
+    </team>
+  </division>
+</standings>

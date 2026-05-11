@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SA">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="34360">JAX MABL 18+ Summer 2026</season>
+  <teams>
+    <hometeam teamid="166610" teamlinkid="92347" logo="/small/noteamlogo.jpg">Marietta Bulls</hometeam>
+    <awayteam teamid="166609" teamlinkid="158820" logo="/small/noteamlogo.jpg">Jacksonville Wahoos</awayteam>
+  </teams>
+  <schedgametime/>
+  <status/>
+  <score homescore="" awayscore=""/>
+  <scoresbyinning>
+    <away runs="" hits="" errors=""/>
+    <home runs="" hits="" errors=""/>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>06/14/2026</gamedate>
+    <starttime>04:00 PM</starttime>
+    <duration/>
+    <endtime/>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home/>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home/>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home/>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

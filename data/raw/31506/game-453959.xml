@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SO">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="31506">JAX MABL Summer 2018</season>
+  <teams>
+    <hometeam teamid="135551" teamlinkid="135551" logo="/small/noteamlogo.jpg">Duval County Cubs</hometeam>
+    <awayteam teamid="134735" teamlinkid="92345" logo="/small/noteamlogo.jpg">Jacksonville Angels</awayteam>
+  </teams>
+  <schedgametime>2018-08-19 19:15:00</schedgametime>
+  <status>COMPLETE</status>
+  <score homescore="6" awayscore="8"/>
+  <scoresbyinning>
+    <away runs="8" hits="9" errors="3">
+      <inning number="1" score="4"/>
+      <inning number="2" score="3"/>
+      <inning number="3" score="1"/>
+      <inning number="4" score="0"/>
+      <inning number="5" score="0"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </away>
+    <home runs="6" hits="8" errors="4">
+      <inning number="1" score="0"/>
+      <inning number="2" score="0"/>
+      <inning number="3" score="2"/>
+      <inning number="4" score="3"/>
+      <inning number="5" score="1"/>
+      <inning number="6" score="0"/>
+      <inning number="7" score="0"/>
+      <inning number="8" score="0"/>
+      <inning number="9" score="0"/>
+    </home>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>08/19/2018</gamedate>
+    <starttime>07:15 PM</starttime>
+    <duration/>
+    <endtime>07:15 PM</endtime>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home>
+      <player>
+        <name>Kimener, PJ</name>
+        <jersey>1</jersey>
+        <playerlinkid>1254416</playerlinkid>
+        <position>OF</position>
+        <order>1</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Stevens 35, Sean</name>
+        <jersey>1</jersey>
+        <playerlinkid>1308602</playerlinkid>
+        <position>P</position>
+        <order>2</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Padilla 35, Pete</name>
+        <jersey>1</jersey>
+        <playerlinkid>1259566</playerlinkid>
+        <position>P</position>
+        <order>3</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Burkstrand, Brent</name>
+        <jersey>1</jersey>
+        <playerlinkid>1278834</playerlinkid>
+        <position>OF</position>
+        <order>4</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Frint, Joe</name>
+        <jersey>1</jersey>
+        <playerlinkid>1252190</playerlinkid>
+        <position>3B</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Thompson, Derrick</name>
+        <jersey>1</jersey>
+        <playerlinkid>1248829</playerlinkid>
+        <position>OF</position>
+        <order>5</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Barrett, Jim</name>
+        <jersey>1</jersey>
+        <playerlinkid>1248832</playerlinkid>
+        <position>SS</position>
+        <order>6</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Roach 35, Michael</name>
+        <jersey>1</jersey>
+        <playerlinkid>1271768</playerlinkid>
+        <position>C</position>
+        <order>7</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Mastromatto 35, Tom</name>
+        <jersey>1</jersey>
+        <playerlinkid>1290511</playerlinkid>
+        <position>IF</position>
+        <order>8</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Jeager 35, Brian</name>
+        <jersey>1</jersey>
+        <playerlinkid>1252201</playerlinkid>
+        <position>IF</position>
+        <order>9</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Wheeler, Courtenay</name>
+        <jersey>1</jersey>
+        <playerlinkid>1282918</playerlinkid>
+        <position>P</position>
+        <order>10</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+      <player>
+        <name>Thallemer, Kevin</name>
+        <jersey>1</jersey>
+        <playerlinkid>1279882</playerlinkid>
+        <position>C</position>
+        <order>11</order>
+        <suborder/>
+        <ingame>0</ingame>
+      </player>
+    </home>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Kimener, P</name>
+        <jersey>13</jersey>
+        <playerlinkid>1254416</playerlinkid>
+        <position>OF</position>
+        <ab>3</ab>
+        <runs>2</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.300</avg>
+      </player>
+      <player>
+        <name>Stevens 35, S</name>
+        <jersey>8</jersey>
+        <playerlinkid>1308602</playerlinkid>
+        <position>P</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>2</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.500</avg>
+      </player>
+      <player>
+        <name>Padilla 35, P</name>
+        <jersey>7</jersey>
+        <playerlinkid>1259566</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>1</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.235</avg>
+      </player>
+      <player>
+        <name>Burkstrand, B</name>
+        <jersey>10</jersey>
+        <playerlinkid>1278834</playerlinkid>
+        <position>OF</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.222</avg>
+      </player>
+      <player>
+        <name>Thompson, D</name>
+        <jersey>00</jersey>
+        <playerlinkid>1248829</playerlinkid>
+        <position>OF</position>
+        <ab>1</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.235</avg>
+      </player>
+      <player>
+        <name>Frint, J</name>
+        <jersey>7</jersey>
+        <playerlinkid>1252190</playerlinkid>
+        <position>3B</position>
+        <ab>0</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.086</avg>
+      </player>
+      <player>
+        <name>Barrett, J</name>
+        <jersey>16</jersey>
+        <playerlinkid>1248832</playerlinkid>
+        <position>SS</position>
+        <ab>1</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>2</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.194</avg>
+      </player>
+      <player>
+        <name>Roach 35, M</name>
+        <jersey>35</jersey>
+        <playerlinkid>1271768</playerlinkid>
+        <position>C</position>
+        <ab>2</ab>
+        <runs>0</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.200</avg>
+      </player>
+      <player>
+        <name>Mastromatto 35, T</name>
+        <jersey>5</jersey>
+        <playerlinkid>1290511</playerlinkid>
+        <position>IF</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.385</avg>
+      </player>
+      <player>
+        <name>Jeager 35, B</name>
+        <jersey>4</jersey>
+        <playerlinkid>1252201</playerlinkid>
+        <position>IF</position>
+        <ab>3</ab>
+        <runs>1</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>2</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>0</sb>
+        <avg>.324</avg>
+      </player>
+      <player>
+        <name>Wheeler, C</name>
+        <jersey>3</jersey>
+        <playerlinkid>1282918</playerlinkid>
+        <position>P</position>
+        <ab>3</ab>
+        <runs>0</runs>
+        <hits>1</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>0</bb>
+        <so>0</so>
+        <sb>1</sb>
+        <avg>.360</avg>
+      </player>
+      <player>
+        <name>Thallemer, K</name>
+        <jersey>35</jersey>
+        <playerlinkid>1279882</playerlinkid>
+        <position>C</position>
+        <ab>1</ab>
+        <runs>1</runs>
+        <hits>0</hits>
+        <hr>0</hr>
+        <rbi>0</rbi>
+        <bb>1</bb>
+        <so>1</so>
+        <sb>0</sb>
+        <avg>.235</avg>
+      </player>
+    </home>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home>
+      <player>
+        <name>Wheeler, C</name>
+        <jersey>3</jersey>
+        <playerlinkid>1282918</playerlinkid>
+        <ip>1.1</ip>
+        <hits>5</hits>
+        <runs>7</runs>
+        <earnedruns>2</earnedruns>
+        <er>2</er>
+        <bb>4</bb>
+        <so>1</so>
+        <era>17.18</era>
+      </player>
+      <player>
+        <name>Stevens 35, S</name>
+        <jersey>8</jersey>
+        <playerlinkid>1308602</playerlinkid>
+        <ip>4.2</ip>
+        <hits>4</hits>
+        <runs>1</runs>
+        <earnedruns>0</earnedruns>
+        <er>0</er>
+        <bb>2</bb>
+        <so>5</so>
+        <era>6.57</era>
+      </player>
+    </home>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

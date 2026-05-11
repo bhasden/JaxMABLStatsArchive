@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T13:53:42-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="34360">
+    <seasonname>JAX MABL 18+ Summer 2026</seasonname>
+  </season>
+  <game gameid="634786" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>10</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634789" gamenumber="4">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>14</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634788" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>1</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634787" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>20</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-22</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-22-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634791" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>0</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-26</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-26-04T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634792" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>2</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-26</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-26-04T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634790" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>2</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-26-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634793" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-26</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-26-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634794" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>3</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634797" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>16</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634795" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>3</homescore>
+    <field>Fort Family Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634796" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>9</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-04-29</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-29-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634800" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>6</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-03</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634799" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>0</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-03</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634798" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634802" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>12</homescore>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-06-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634805" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>14</homescore>
+    <field>Fort Family Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-06-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634804" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>4</homescore>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-06-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634803" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-06-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="634806" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-13</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-13-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634807" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-13-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634809" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Fort Family Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-13-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634808" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-13</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-13-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634812" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-17</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634810" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-17</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634811" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-17</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634813" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-17</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634814" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-20</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-20-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634815" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-20-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634816" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-20-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634817" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Fort Family Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-20-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634818" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-27</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-27-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634820" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-27-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634821" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-27-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634819" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-27-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634824" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-31</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-31-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634823" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-31</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-31-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634822" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-31</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-31-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634825" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-05-31</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-31-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634826" gamenumber="41">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634829" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634827" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634828" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-03</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-03-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634830" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-07</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-07-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634832" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-07</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-07-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634831" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-07</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-07-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634833" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-07</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-07-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634834" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-10-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634835" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-10-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634837" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-10-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634836" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-10-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634838" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-14</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-14-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634839" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-14</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-14-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634840" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-14</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-14-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634841" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-14</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-14-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634842" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-17</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634843" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-17</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634845" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Fort Family Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-17</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634844" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-17</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-17-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634846" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-24-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634848" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634847" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634849" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-24</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-24-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634850" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-28</gamedate>
+    <gametime>14:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-28-06T14:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634853" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-28</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-28-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634852" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-28</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-28-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634851" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-06-28</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-28-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634854" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-01</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-01-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634857" gamenumber="72">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-01-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634855" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-01-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634856" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-01-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634861" gamenumber="73">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="158820" homeid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-08-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634860" gamenumber="75">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-08-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634859" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-08-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634858" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="166689" homeid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Fort Family Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-08-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634863" gamenumber="78">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="166610">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="166604">
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname>Bootleggers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team153978.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-12</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-12-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634864" gamenumber="79">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="166689" awayid="166689">
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname>Bears</shortname>
+      <logo>//pointstreak.com/baseball/logos/noteamlogo.jpg</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="166608">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Whitehouse</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-12</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-12-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634862" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="166607">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-12</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-12-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634865" gamenumber="80">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="166603">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team150715.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-12-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="634801" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="158820" awayid="166609">
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname>Wahoos</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team158820.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="166611">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team143647.gif</logo>
+      <division divisionid="36447">
+        <divisionname>Duval Division</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Greenland Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2026-07-15</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2026-15-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+</schedule>

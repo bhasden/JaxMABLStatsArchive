@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="33023" seasonname="JAX MABL 18+ Summer 2021" seasonshortname="18+ Summer 2021"/>
+  <division divisionid="34409" name="Duval Division">
+    <team>
+      <teamlinkid>92341</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>18</gp>
+      <wins>14</wins>
+      <losses>3</losses>
+      <rs>200.0</rs>
+      <ra>69.0</ra>
+      <rdiff>92341</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92342</teamlinkid>
+      <teamname>Mayport Cruisers</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>15</wins>
+      <losses>4</losses>
+      <rs>207.0</rs>
+      <ra>85.0</ra>
+      <rdiff>92342</rdiff>
+    </team>
+    <team>
+      <teamlinkid>124109</teamlinkid>
+      <teamname>Bold City Kings</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>12</wins>
+      <losses>5</losses>
+      <rs>211.0</rs>
+      <ra>131.0</ra>
+      <rdiff>124109</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92346</teamlinkid>
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>13</wins>
+      <losses>7</losses>
+      <rs>197.0</rs>
+      <ra>138.0</ra>
+      <rdiff>92346</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92345</teamlinkid>
+      <teamname>Jacksonville Angels</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>10</wins>
+      <losses>7</losses>
+      <rs>175.0</rs>
+      <ra>91.0</ra>
+      <rdiff>92345</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92347</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>11</wins>
+      <losses>8</losses>
+      <rs>161.0</rs>
+      <ra>155.0</ra>
+      <rdiff>92347</rdiff>
+    </team>
+    <team>
+      <teamlinkid>143665</teamlinkid>
+      <teamname>River City Bolts</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>5</wins>
+      <losses>15</losses>
+      <rs>90.0</rs>
+      <ra>251.0</ra>
+      <rdiff>143665</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92348</teamlinkid>
+      <teamname>Jacksonville Suns</teamname>
+      <shortname/>
+      <gp>19</gp>
+      <wins>2</wins>
+      <losses>16</losses>
+      <rs>111.0</rs>
+      <ra>262.0</ra>
+      <rdiff>92348</rdiff>
+    </team>
+    <team>
+      <teamlinkid>143666</teamlinkid>
+      <teamname>St. Johns Sharks</teamname>
+      <shortname/>
+      <gp>20</gp>
+      <wins>1</wins>
+      <losses>18</losses>
+      <rs>61.0</rs>
+      <ra>231.0</ra>
+      <rdiff>143666</rdiff>
+    </team>
+  </division>
+</standings>

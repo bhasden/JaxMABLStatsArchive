@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SA">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="33023">JAX MABL 18+ Summer 2021</season>
+  <teams>
+    <hometeam teamid="153976" teamlinkid="124109" logo="/small/noteamlogo.jpg">Bold City Kings</hometeam>
+    <awayteam teamid="153979" teamlinkid="92341" logo="/small/noteamlogo.jpg">Jacksonville Indians</awayteam>
+  </teams>
+  <schedgametime/>
+  <status/>
+  <score homescore="" awayscore=""/>
+  <scoresbyinning>
+    <away runs="" hits="" errors=""/>
+    <home runs="" hits="" errors=""/>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>06/30/2021</gamedate>
+    <starttime>07:30 PM</starttime>
+    <duration/>
+    <endtime/>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home/>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home/>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home/>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

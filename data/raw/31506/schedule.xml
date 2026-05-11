@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule timestamp="2026-05-08T14:42:23-0700" type="League Schedule">
+  <league leagueid="1552">
+    <leaguename>Jacksonville MABL</leaguename>
+  </league>
+  <season seasonid="31506">
+    <seasonname>JAX MABL Summer 2018</seasonname>
+  </season>
+  <game gameid="453947" gamenumber="2">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>20</awayscore>
+    <homescore>6</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-22</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-22-04T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453948" gamenumber="3">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-22</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-22-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453950" gamenumber="5">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>7</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453953" gamenumber="8">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>1</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453951" gamenumber="6">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-04T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453954" gamenumber="9">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-29</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-29-04T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453955" gamenumber="10">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>14</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-29</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-29-04T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453956" gamenumber="11">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-29-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453957" gamenumber="12">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-04-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-29-04T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453958" gamenumber="13">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>13</awayscore>
+    <homescore>1</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-02-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453960" gamenumber="15">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>16</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-02-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453961" gamenumber="16">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-02</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-02-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453962" gamenumber="17">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>20</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-05</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-05-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453963" gamenumber="18">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-06</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-05T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453964" gamenumber="19">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453965" gamenumber="20">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-06</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-05T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453968" gamenumber="23">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-09-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453969" gamenumber="24">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>12</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-09</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-09-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453967" gamenumber="22">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>18</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-10</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-10-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453974" gamenumber="29">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-19</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-19-05T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453975" gamenumber="30">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>15</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-20</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-20-05T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453978" gamenumber="33">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-23-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453980" gamenumber="35">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>9</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-23-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453981" gamenumber="36">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>23</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-23-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453979" gamenumber="34">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>4</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-05-23</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-23-05T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453986" gamenumber="41">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>2</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-02</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-02-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453987" gamenumber="42">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>13</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-03</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-03-06T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453988" gamenumber="43">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-03-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453989" gamenumber="44">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-03</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-03-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453993" gamenumber="48">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>7</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453990" gamenumber="45">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>1</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453992" gamenumber="47">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>21</awayscore>
+    <homescore>2</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453991" gamenumber="46">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-06</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-06-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453994" gamenumber="49">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>11</homescore>
+    <field>MSA of Jacksonville</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-10</gamedate>
+    <gametime>18:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-10-06T18:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453996" gamenumber="51">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>12</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-10-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453995" gamenumber="50">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>12</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-10-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453997" gamenumber="52">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>10</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-10</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-10-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454004" gamenumber="59">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>14</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-20-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454005" gamenumber="60">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-20</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-20-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454006" gamenumber="61">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-23</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-23-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454007" gamenumber="62">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-24</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-24-06T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454009" gamenumber="64">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>6</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-24-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454008" gamenumber="63">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-24</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-24-06T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454012" gamenumber="67">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>2</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-27-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454013" gamenumber="68">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>15</awayscore>
+    <homescore>13</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-27-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454011" gamenumber="66">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-27</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-27-06T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454014" gamenumber="69">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>6</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-06-30</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-30-06T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454016" gamenumber="71">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>19</awayscore>
+    <homescore>1</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-01</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-01-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454015" gamenumber="70">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>2</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-01</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-01-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454018" gamenumber="73">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>5</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-07</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-07-07T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454019" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>1</awayscore>
+    <homescore>12</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-08</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-07T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454020" gamenumber="74">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>3</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>10</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454021" gamenumber="76">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>6</awayscore>
+    <homescore>7</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-08</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>10</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454022" gamenumber="77">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>9</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-11-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454023" gamenumber="78">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>2</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-11-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453976" gamenumber="31">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>8</homescore>
+    <field>Woodstock Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-11-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453977" gamenumber="32">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>1</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-11</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-11-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454027" gamenumber="82">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>7</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-15</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-15-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454024" gamenumber="79">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>7</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-15</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-15-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454026" gamenumber="81">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-15</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-15-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454029" gamenumber="84">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>8</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-18-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454030" gamenumber="85">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>10</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-18</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-18-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453946" gamenumber="1">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>7</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-21</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-21-07T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453972" gamenumber="27">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>11</awayscore>
+    <homescore>5</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453971" gamenumber="26">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453984" gamenumber="39">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>0</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453982" gamenumber="37">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-25</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-25-07T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453952" gamenumber="7">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-29-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453970" gamenumber="25">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>3</awayscore>
+    <homescore>13</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-07-29</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-29-07T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454002" gamenumber="57">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92346" homeid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-01-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="453983" gamenumber="38">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-01-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="454003" gamenumber="58">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92348" awayid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore/>
+    <homescore/>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-01</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-01-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>SCHEDULED</status>
+    </gamestatus>
+  </game>
+  <game gameid="454035" gamenumber="90">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>12</awayscore>
+    <homescore>0</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-04</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-04-08T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454025" gamenumber="80">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>5</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-05</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-05-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453985" gamenumber="40">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>5</awayscore>
+    <homescore>8</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-05-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454010" gamenumber="65">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>7</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-05</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-05-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453999" gamenumber="54">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="124109" awayid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>2</awayscore>
+    <homescore>4</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454001" gamenumber="56">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92343" awayid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92341" homeid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>0</awayscore>
+    <homescore>9</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454000" gamenumber="55">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>9</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453998" gamenumber="53">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92342" homeid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>19</awayscore>
+    <homescore>2</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-08</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-08-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454031" gamenumber="86">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92346" awayid="134739">
+      <teamname>Jacksonville Freedom</teamname>
+      <shortname>Freedom</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92346.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92347" homeid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>10</awayscore>
+    <homescore>4</homescore>
+    <field>Marietta Bulls Bay Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-11</gamedate>
+    <gametime>11:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-11-08T11:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454032" gamenumber="87">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>18</awayscore>
+    <homescore>4</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-12</gamedate>
+    <gametime>16:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-12-08T16:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454034" gamenumber="89">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="135551" awayid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="124109" homeid="134734">
+      <teamname>Bold City Kings</teamname>
+      <shortname>Kings</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team134734.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>14</awayscore>
+    <homescore>9</homescore>
+    <field>San Mateo Neighborhood Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-12</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-12-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453966" gamenumber="21">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>9</awayscore>
+    <homescore>4</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-12</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-12-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454028" gamenumber="83">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92342" awayid="134738">
+      <teamname>Mayport Cruisers</teamname>
+      <shortname>Cruisers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109509.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92348" homeid="134740">
+      <teamname>Jacksonville Suns</teamname>
+      <shortname>Suns</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109514.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>21</awayscore>
+    <homescore>3</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-15</gamedate>
+    <gametime>19:30:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-15-08T19:30:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453973" gamenumber="28">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92347" awayid="134741">
+      <teamname>Marietta Bulls</teamname>
+      <shortname>Bulls</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team109515.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92345" homeid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>4</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-19</gamedate>
+    <gametime>16:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-19-08T16:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="454033" gamenumber="88">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92341" awayid="134736">
+      <teamname>Jacksonville Indians</teamname>
+      <shortname>Indians</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92341.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="92343" homeid="134737">
+      <teamname>Jacksonville Rippers</teamname>
+      <shortname>Rippers</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team124105.gif</logo>
+      <division divisionid="31340">
+        <divisionname>Eastern Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>4</awayscore>
+    <homescore>10</homescore>
+    <field>Rondette Park</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-19</gamedate>
+    <gametime>19:00:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-19-08T19:00:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+  <game gameid="453959" gamenumber="14">
+    <conference_info>Conference</conference_info>
+    <awayteam teamlinkid="92345" awayid="134735">
+      <teamname>Jacksonville Angels</teamname>
+      <shortname>Angels</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team92345.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </awayteam>
+    <hometeam teamlinkid="135551" homeid="135551">
+      <teamname>Duval County Cubs</teamname>
+      <shortname>Cubs</shortname>
+      <logo>//pointstreak.com/baseball/logos/league1552/team135551.gif</logo>
+      <division divisionid="31339">
+        <divisionname>Western Divison</divisionname>
+      </division>
+    </hometeam>
+    <awayscore>8</awayscore>
+    <homescore>6</homescore>
+    <field>JP Small</field>
+    <timezone>EST</timezone>
+    <gamedate>2018-08-19</gamedate>
+    <gametime>19:15:00</gametime>
+    <dlstimezone>EDT</dlstimezone>
+    <gamedatefull>2018-19-08T19:15:00-04:00</gamedatefull>
+    <gamestatus>
+      <status>COMPLETE</status>
+      <regulationinnings>9</regulationinnings>
+      <inningsplayed>9</inningsplayed>
+    </gamestatus>
+  </game>
+</schedule>

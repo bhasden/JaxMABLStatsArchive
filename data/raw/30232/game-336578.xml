@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boxscore scoringtype="SA">
+  <league leagueid="1552">Jacksonville MABL</league>
+  <season seasonid="30232">Jacksonville MABL Summer 2016</season>
+  <teams>
+    <hometeam teamid="109512" teamlinkid="92349" logo="/small/noteamlogo.jpg">Georgia Senators</hometeam>
+    <awayteam teamid="109510" teamlinkid="92344" logo="/small/noteamlogo.jpg">North Florida Crows</awayteam>
+  </teams>
+  <schedgametime/>
+  <status/>
+  <score homescore="" awayscore=""/>
+  <scoresbyinning>
+    <away runs="" hits="" errors=""/>
+    <home runs="" hits="" errors=""/>
+  </scoresbyinning>
+  <gameinfo>
+    <winningpitcher/>
+    <losingpitcher/>
+    <savepitcher/>
+    <gamedate>08/14/2016</gamedate>
+    <starttime>03:00 PM</starttime>
+    <duration/>
+    <endtime/>
+  </gameinfo>
+  <battinglineup>
+    <away/>
+    <home/>
+  </battinglineup>
+  <battingstats>
+    <away/>
+    <home/>
+  </battingstats>
+  <pitchingstats>
+    <away/>
+    <home/>
+  </pitchingstats>
+  <playbyplay/>
+  <videos/>
+</boxscore>

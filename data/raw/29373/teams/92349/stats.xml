@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=92349%26;seasonid=29373</link>
+<season>JAX MABL Summer 2015</season>
+	<pitching>
+	<player playerlinkid="796005" playerid="796006">
+		<jersey>3</jersey>
+		<playername>Palmer, N</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>2</wins>
+		<losses>0</losses>
+		<ip>10.0</ip>
+		<runs>6</runs>
+		<er>2</er>
+		<hits>10</hits>
+		<bb>5</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.800</oslg>
+		<oavg>-2.000</oavg>
+		<era>1.80</era>
+	</player>
+	<player playerlinkid="795998" playerid="795997">
+		<jersey>02</jersey>
+		<playername>Nosal, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>10.2</ip>
+		<runs>14</runs>
+		<er>7</er>
+		<hits>17</hits>
+		<bb>4</bb>
+		<so>10</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-5.000</oslg>
+		<oavg>-3.400</oavg>
+		<era>5.91</era>
+	</player>
+	<player playerlinkid="796002" playerid="796003">
+		<jersey>23</jersey>
+		<playername>Wagner, S</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>3.0</ip>
+		<runs>2</runs>
+		<er>2</er>
+		<hits>2</hits>
+		<bb>4</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.500</oslg>
+		<oavg>-.500</oavg>
+		<era>6.00</era>
+	</player>
+	<player playerlinkid="799854" playerid="799854">
+		<jersey>20</jersey>
+		<playername>Rhymer, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>5</losses>
+		<ip>41.1</ip>
+		<runs>31</runs>
+		<er>29</er>
+		<hits>35</hits>
+		<bb>23</bb>
+		<so>45</so>
+		<bf>0</bf>
+		<games>10</games>
+		<gs>6</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.037</oslg>
+		<oavg>-1.296</oavg>
+		<era>6.32</era>
+	</player>
+	<player playerlinkid="822404" playerid="822404">
+		<jersey>31</jersey>
+		<playername>Smith, W</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>5.1</ip>
+		<runs>5</runs>
+		<er>4</er>
+		<hits>6</hits>
+		<bb>6</bb>
+		<so>4</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.000</oslg>
+		<oavg>-1.000</oavg>
+		<era>6.75</era>
+	</player>
+	<player playerlinkid="792373" playerid="792372">
+		<jersey>11</jersey>
+		<playername>Gimimiani, S</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>14.2</ip>
+		<runs>19</runs>
+		<er>12</er>
+		<hits>20</hits>
+		<bb>16</bb>
+		<so>11</so>
+		<bf>0</bf>
+		<games>6</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.450</oslg>
+		<oavg>-1.000</oavg>
+		<era>7.36</era>
+	</player>
+	<player playerlinkid="792377" playerid="792376">
+		<jersey>9</jersey>
+		<playername>Bullington, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>1</wins>
+		<losses>1</losses>
+		<ip>15.2</ip>
+		<runs>15</runs>
+		<er>14</er>
+		<hits>21</hits>
+		<bb>7</bb>
+		<so>11</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>2</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-4.500</oslg>
+		<oavg>-2.625</oavg>
+		<era>8.04</era>
+	</player>
+	<player playerlinkid="792374" playerid="792373">
+		<jersey>4</jersey>
+		<playername>Hrabik, K</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>13.0</ip>
+		<runs>20</runs>
+		<er>12</er>
+		<hits>23</hits>
+		<bb>9</bb>
+		<so>10</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.385</oslg>
+		<oavg>-1.769</oavg>
+		<era>8.31</era>
+	</player>
+	<player playerlinkid="792381" playerid="792380">
+		<jersey>8</jersey>
+		<playername>Sites, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>7.1</ip>
+		<runs>12</runs>
+		<er>8</er>
+		<hits>12</hits>
+		<bb>5</bb>
+		<so>5</so>
+		<bf>0</bf>
+		<games>4</games>
+		<gs>1</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.000</oslg>
+		<oavg>-1.500</oavg>
+		<era>9.82</era>
+	</player>
+	<player playerlinkid="817596" playerid="817596">
+		<jersey>0</jersey>
+		<playername>Vukelja, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>2.0</ip>
+		<runs>5</runs>
+		<er>3</er>
+		<hits>3</hits>
+		<bb>4</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.500</oslg>
+		<oavg>-.500</oavg>
+		<era>13.50</era>
+	</player>
+	<player playerlinkid="792378" playerid="792377">
+		<jersey>2</jersey>
+		<playername>Register, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>1</losses>
+		<ip>7.1</ip>
+		<runs>18</runs>
+		<er>16</er>
+		<hits>10</hits>
+		<bb>9</bb>
+		<so>8</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.917</oslg>
+		<oavg>-.833</oavg>
+		<era>19.64</era>
+	</player>
+	<player playerlinkid="792382" playerid="792381">
+		<jersey>42</jersey>
+		<playername>Triggiano, M</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>4.0</ip>
+		<runs>17</runs>
+		<er>15</er>
+		<hits>7</hits>
+		<bb>6</bb>
+		<so>2</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-.917</oslg>
+		<oavg>-.583</oavg>
+		<era>33.75</era>
+	</player>
+	<player playerlinkid="792392" playerid="792392">
+		<jersey>00</jersey>
+		<playername>Frausto, N</playername>
+		<teamname>Georgia Senators</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>0.1</ip>
+		<runs>2</runs>
+		<er>2</er>
+		<hits>0</hits>
+		<bb>1</bb>
+		<so>0</so>
+		<bf>0</bf>
+		<games>1</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>.000</oslg>
+		<oavg>.000</oavg>
+		<era>54.00</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="792377" playerid="792376">
+		<jersey>9</jersey>
+		<playername>Bullington, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>26</ab>
+		<runs>4</runs>
+		<hits>9</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>3</bb>
+		<hp>2</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.452</obp>
+		<slg>.423</slg>
+		<avg>.346</avg>
+	</player>
+	<player playerlinkid="792372" playerid="792371">
+		<jersey>10</jersey>
+		<playername>Schulz, B</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>GM</position>
+		<ab>47</ab>
+		<runs>10</runs>
+		<hits>16</hits>
+		<bib>1</bib>
+		<trib>1</trib>
+		<hr>1</hr>
+		<rbi>7</rbi>
+		<bb>4</bb>
+		<hp>1</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>6</sb>
+		<dp>0</dp>
+		<obp>.404</obp>
+		<slg>.468</slg>
+		<avg>.340</avg>
+	</player>
+	<player playerlinkid="795998" playerid="795997">
+		<jersey>02</jersey>
+		<playername>Nosal, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>54</ab>
+		<runs>13</runs>
+		<hits>16</hits>
+		<bib>4</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>6</rbi>
+		<bb>9</bb>
+		<hp>0</hp>
+		<so>13</so>
+		<sf>2</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.385</obp>
+		<slg>.426</slg>
+		<avg>.296</avg>
+	</player>
+	<player playerlinkid="792378" playerid="792377">
+		<jersey>2</jersey>
+		<playername>Register, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>20</ab>
+		<runs>2</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>3</bb>
+		<hp>1</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.250</slg>
+		<avg>.250</avg>
+	</player>
+	<player playerlinkid="796000" playerid="796000">
+		<jersey>35</jersey>
+		<playername>Rager, A</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>1B</position>
+		<ab>4</ab>
+		<runs>1</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.500</obp>
+		<slg>.250</slg>
+		<avg>.250</avg>
+	</player>
+	<player playerlinkid="792391" playerid="792391">
+		<jersey>16</jersey>
+		<playername>Johnson, Z</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>SS</position>
+		<ab>12</ab>
+		<runs>2</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.250</obp>
+		<slg>.250</slg>
+		<avg>.250</avg>
+	</player>
+	<player playerlinkid="792385" playerid="792384">
+		<jersey>12</jersey>
+		<playername>Brookman, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>C</position>
+		<ab>26</ab>
+		<runs>3</runs>
+		<hits>6</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>6</rbi>
+		<bb>6</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.346</slg>
+		<avg>.231</avg>
+	</player>
+	<player playerlinkid="792384" playerid="792383">
+		<jersey>1</jersey>
+		<playername>Francis, A</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>CF</position>
+		<ab>22</ab>
+		<runs>6</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>1</bb>
+		<hp>1</hp>
+		<so>8</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.292</obp>
+		<slg>.227</slg>
+		<avg>.227</avg>
+	</player>
+	<player playerlinkid="799854" playerid="799854">
+		<jersey>20</jersey>
+		<playername>Rhymer, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>31</ab>
+		<runs>1</runs>
+		<hits>7</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>11</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.273</obp>
+		<slg>.226</slg>
+		<avg>.226</avg>
+	</player>
+	<player playerlinkid="796002" playerid="796003">
+		<jersey>23</jersey>
+		<playername>Wagner, S</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>40</ab>
+		<runs>7</runs>
+		<hits>9</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>3</rbi>
+		<bb>7</bb>
+		<hp>1</hp>
+		<so>7</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.354</obp>
+		<slg>.350</slg>
+		<avg>.225</avg>
+	</player>
+	<player playerlinkid="792373" playerid="792372">
+		<jersey>11</jersey>
+		<playername>Gimimiani, S</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>28</ab>
+		<runs>5</runs>
+		<hits>6</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>5</rbi>
+		<bb>7</bb>
+		<hp>2</hp>
+		<so>3</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.395</obp>
+		<slg>.357</slg>
+		<avg>.214</avg>
+	</player>
+	<player playerlinkid="792389" playerid="792389">
+		<jersey>3</jersey>
+		<playername>Chandler, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>5</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>2</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.200</obp>
+		<slg>.200</slg>
+		<avg>.200</avg>
+	</player>
+	<player playerlinkid="796005" playerid="796006">
+		<jersey>3</jersey>
+		<playername>Palmer, N</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>26</ab>
+		<runs>4</runs>
+		<hits>5</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>5</sb>
+		<dp>0</dp>
+		<obp>.222</obp>
+		<slg>.231</slg>
+		<avg>.192</avg>
+	</player>
+	<player playerlinkid="822405" playerid="822405">
+		<jersey>32</jersey>
+		<playername>Dalrymple, M</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>OF</position>
+		<ab>21</ab>
+		<runs>6</runs>
+		<hits>4</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>5</rbi>
+		<bb>7</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.393</obp>
+		<slg>.381</slg>
+		<avg>.190</avg>
+	</player>
+	<player playerlinkid="792375" playerid="792374">
+		<jersey>5</jersey>
+		<playername>McBroom, A</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>2B</position>
+		<ab>43</ab>
+		<runs>2</runs>
+		<hits>8</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>7</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>20</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.222</obp>
+		<slg>.233</slg>
+		<avg>.186</avg>
+	</player>
+	<player playerlinkid="817596" playerid="817596">
+		<jersey>0</jersey>
+		<playername>Vukelja, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>17</ab>
+		<runs>2</runs>
+		<hits>3</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>1</bb>
+		<hp>1</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.263</obp>
+		<slg>.176</slg>
+		<avg>.176</avg>
+	</player>
+	<player playerlinkid="792379" playerid="792378">
+		<jersey>36</jersey>
+		<playername>Smith, J</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>2B</position>
+		<ab>23</ab>
+		<runs>1</runs>
+		<hits>4</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>5</bb>
+		<hp>0</hp>
+		<so>10</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.321</obp>
+		<slg>.217</slg>
+		<avg>.174</avg>
+	</player>
+	<player playerlinkid="792381" playerid="792380">
+		<jersey>8</jersey>
+		<playername>Sites, D</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>37</ab>
+		<runs>3</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>7</bb>
+		<hp>0</hp>
+		<so>22</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.273</obp>
+		<slg>.135</slg>
+		<avg>.135</avg>
+	</player>
+	<player playerlinkid="822404" playerid="822404">
+		<jersey>31</jersey>
+		<playername>Smith, W</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>15</ab>
+		<runs>1</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>5</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.350</obp>
+		<slg>.133</slg>
+		<avg>.133</avg>
+	</player>
+	<player playerlinkid="792382" playerid="792381">
+		<jersey>42</jersey>
+		<playername>Triggiano, M</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>12</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.083</obp>
+		<slg>.083</slg>
+		<avg>.083</avg>
+	</player>
+	<player playerlinkid="792374" playerid="792373">
+		<jersey>4</jersey>
+		<playername>Hrabik, K</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>32</ab>
+		<runs>6</runs>
+		<hits>2</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>3</bb>
+		<hp>1</hp>
+		<so>10</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.167</obp>
+		<slg>.125</slg>
+		<avg>.063</avg>
+	</player>
+	<player playerlinkid="792390" playerid="792390">
+		<jersey>15</jersey>
+		<playername>Schumacher, A</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>OF</position>
+		<ab>19</ab>
+		<runs>0</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>1</rbi>
+		<bb>3</bb>
+		<hp>0</hp>
+		<so>8</so>
+		<sf>1</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.174</obp>
+		<slg>.053</slg>
+		<avg>.053</avg>
+	</player>
+	<player playerlinkid="792380" playerid="792379">
+		<jersey>19</jersey>
+		<playername>Graeber, C</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>CF</position>
+		<ab>8</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.111</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="792392" playerid="792392">
+		<jersey>00</jersey>
+		<playername>Frausto, N</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>P</position>
+		<ab>1</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="792376" playerid="792375">
+		<jersey>55</jersey>
+		<playername>Valdez, B</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>OF</position>
+		<ab>0</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>1.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	<player playerlinkid="792388" playerid="792388">
+		<jersey>19</jersey>
+		<playername>McCullough, K</playername>
+		<teamname>Georgia Senators</teamname>
+		<position>C</position>
+		<ab>1</ab>
+		<runs>1</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.000</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>

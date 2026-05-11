@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standings leagueid="1552" leaguename="Jacksonville MABL" leagueshortname="JAX MABL">
+  <season seasonid="34360" seasonname="JAX MABL 18+ Summer 2026" seasonshortname="18+ Summer 2026"/>
+  <division divisionid="36447" name="Duval Division">
+    <team>
+      <teamlinkid>92341</teamlinkid>
+      <teamname>Jacksonville Indians</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>4</wins>
+      <losses>1</losses>
+      <rs>44.0</rs>
+      <ra>26.0</ra>
+      <rdiff>92341</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92347</teamlinkid>
+      <teamname>Marietta Bulls</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>4</wins>
+      <losses>1</losses>
+      <rs>57.0</rs>
+      <ra>22.0</ra>
+      <rdiff>92347</rdiff>
+    </team>
+    <team>
+      <teamlinkid>158820</teamlinkid>
+      <teamname>Jacksonville Wahoos</teamname>
+      <shortname/>
+      <gp>4</gp>
+      <wins>3</wins>
+      <losses>1</losses>
+      <rs>37.0</rs>
+      <ra>13.0</ra>
+      <rdiff>158820</rdiff>
+    </team>
+    <team>
+      <teamlinkid>124109</teamlinkid>
+      <teamname>Bold City Kings</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>3</wins>
+      <losses>2</losses>
+      <rs>46.0</rs>
+      <ra>20.0</ra>
+      <rdiff>124109</rdiff>
+    </team>
+    <team>
+      <teamlinkid>166689</teamlinkid>
+      <teamname>Arlington Bad Bews Bears</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>2</wins>
+      <losses>3</losses>
+      <rs>23.0</rs>
+      <ra>46.0</ra>
+      <rdiff>166689</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92346</teamlinkid>
+      <teamname>Cowford Bootleggers</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>2</wins>
+      <losses>3</losses>
+      <rs>29.0</rs>
+      <ra>41.0</ra>
+      <rdiff>92346</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92342</teamlinkid>
+      <teamname>Mayport Cruisers</teamname>
+      <shortname/>
+      <gp>4</gp>
+      <wins>1</wins>
+      <losses>3</losses>
+      <rs>22.0</rs>
+      <ra>46.0</ra>
+      <rdiff>92342</rdiff>
+    </team>
+    <team>
+      <teamlinkid>92348</teamlinkid>
+      <teamname>Jacksonville Suns</teamname>
+      <shortname/>
+      <gp>5</gp>
+      <wins>0</wins>
+      <losses>5</losses>
+      <rs>12.0</rs>
+      <ra>56.0</ra>
+      <rdiff>92348</rdiff>
+    </team>
+  </division>
+</standings>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+<link>team_stats.html?teamid=92346%26;seasonid=33936</link>
+<season>JAX MABL Summer 2024</season>
+	<pitching>
+	<player playerlinkid="1457469" playerid="1694996">
+		<jersey>3</jersey>
+		<playername>Torres, J</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<wins>3</wins>
+		<losses>1</losses>
+		<ip>19.0</ip>
+		<runs>24</runs>
+		<er>8</er>
+		<hits>17</hits>
+		<bb>15</bb>
+		<so>28</so>
+		<bf>0</bf>
+		<games>6</games>
+		<gs>3</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>1</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.238</oslg>
+		<oavg>-.810</oavg>
+		<era>3.38</era>
+	</player>
+	<player playerlinkid="1697157" playerid="1697157">
+		<jersey>34</jersey>
+		<playername>Wooley, R</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<wins>1</wins>
+		<losses>2</losses>
+		<ip>17.0</ip>
+		<runs>23</runs>
+		<er>13</er>
+		<hits>23</hits>
+		<bb>11</bb>
+		<so>20</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-2.313</oslg>
+		<oavg>-1.438</oavg>
+		<era>5.40</era>
+	</player>
+	<player playerlinkid="1642065" playerid="1694653">
+		<jersey>28</jersey>
+		<playername>McVay, M</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<wins>3</wins>
+		<losses>3</losses>
+		<ip>50.0</ip>
+		<runs>42</runs>
+		<er>32</er>
+		<hits>64</hits>
+		<bb>6</bb>
+		<so>72</so>
+		<bf>0</bf>
+		<games>10</games>
+		<gs>9</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-9.444</oslg>
+		<oavg>-7.111</oavg>
+		<era>5.50</era>
+	</player>
+	<player playerlinkid="787176" playerid="1694664">
+		<jersey>21</jersey>
+		<playername>Stevens, M</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<wins>1</wins>
+		<losses>1</losses>
+		<ip>32.0</ip>
+		<runs>30</runs>
+		<er>24</er>
+		<hits>46</hits>
+		<bb>4</bb>
+		<so>24</so>
+		<bf>0</bf>
+		<games>8</games>
+		<gs>2</gs>
+		<cg>1</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>3</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-7.556</oslg>
+		<oavg>-5.111</oavg>
+		<era>6.75</era>
+	</player>
+	<player playerlinkid="1697161" playerid="1697161">
+		<jersey>27</jersey>
+		<playername>McIntyre, E</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<wins>0</wins>
+		<losses>2</losses>
+		<ip>15.0</ip>
+		<runs>22</runs>
+		<er>17</er>
+		<hits>16</hits>
+		<bb>11</bb>
+		<so>12</so>
+		<bf>0</bf>
+		<games>5</games>
+		<gs>2</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-1.533</oslg>
+		<oavg>-1.067</oavg>
+		<era>8.83</era>
+	</player>
+	<player playerlinkid="1502499" playerid="1694659">
+		<jersey>19</jersey>
+		<playername>Crick, A</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<wins>0</wins>
+		<losses>0</losses>
+		<ip>3.0</ip>
+		<runs>4</runs>
+		<er>4</er>
+		<hits>5</hits>
+		<bb>2</bb>
+		<so>1</so>
+		<bf>0</bf>
+		<games>3</games>
+		<gs>0</gs>
+		<cg>0</cg>
+		<cgl>0</cgl>
+		<sho>0</sho>
+		<sv>0</sv>
+		<bsv>0</bsv>
+		<oobp>.000</oobp>
+		<oslg>-6.500</oslg>
+		<oavg>-2.500</oavg>
+		<era>12.00</era>
+	</player>
+	</pitching>
+	<batting>
+	<player playerlinkid="1698413" playerid="1698413">
+		<jersey>10</jersey>
+		<playername>Lowe, T</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>1B</position>
+		<ab>5</ab>
+		<runs>1</runs>
+		<hits>3</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>0</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.667</obp>
+		<slg>.800</slg>
+		<avg>.600</avg>
+	</player>
+	<player playerlinkid="1502499" playerid="1694659">
+		<jersey>19</jersey>
+		<playername>Crick, A</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>54</ab>
+		<runs>18</runs>
+		<hits>21</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>4</hr>
+		<rbi>19</rbi>
+		<bb>11</bb>
+		<hp>5</hp>
+		<so>8</so>
+		<sf>1</sf>
+		<sb>0</sb>
+		<dp>1</dp>
+		<obp>.521</obp>
+		<slg>.630</slg>
+		<avg>.389</avg>
+	</player>
+	<player playerlinkid="1697159" playerid="1697159">
+		<jersey>5</jersey>
+		<playername>Thompson, M</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>IF</position>
+		<ab>27</ab>
+		<runs>7</runs>
+		<hits>10</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>5</bb>
+		<hp>0</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>4</sb>
+		<dp>0</dp>
+		<obp>.469</obp>
+		<slg>.444</slg>
+		<avg>.370</avg>
+	</player>
+	<player playerlinkid="1352863" playerid="1694668">
+		<jersey>12</jersey>
+		<playername>Anderson, J</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>OF</position>
+		<ab>63</ab>
+		<runs>15</runs>
+		<hits>23</hits>
+		<bib>5</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>13</rbi>
+		<bb>6</bb>
+		<hp>4</hp>
+		<so>10</so>
+		<sf>1</sf>
+		<sb>5</sb>
+		<dp>2</dp>
+		<obp>.446</obp>
+		<slg>.492</slg>
+		<avg>.365</avg>
+	</player>
+	<player playerlinkid="1505931" playerid="1694671">
+		<jersey>8</jersey>
+		<playername>Alexander, R</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>OF</position>
+		<ab>51</ab>
+		<runs>12</runs>
+		<hits>18</hits>
+		<bib>3</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>9</rbi>
+		<bb>1</bb>
+		<hp>1</hp>
+		<so>9</so>
+		<sf>0</sf>
+		<sb>7</sb>
+		<dp>0</dp>
+		<obp>.377</obp>
+		<slg>.471</slg>
+		<avg>.353</avg>
+	</player>
+	<player playerlinkid="1697156" playerid="1697156">
+		<jersey>25</jersey>
+		<playername>Coppersmith, C</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>29</ab>
+		<runs>5</runs>
+		<hits>10</hits>
+		<bib>6</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>4</bb>
+		<hp>2</hp>
+		<so>4</so>
+		<sf>0</sf>
+		<sb>3</sb>
+		<dp>1</dp>
+		<obp>.457</obp>
+		<slg>.552</slg>
+		<avg>.345</avg>
+	</player>
+	<player playerlinkid="1697160" playerid="1697160">
+		<jersey>30</jersey>
+		<playername>Nosal, D</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>9</ab>
+		<runs>0</runs>
+		<hits>3</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.455</obp>
+		<slg>.556</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="1697162" playerid="1697162">
+		<jersey>6</jersey>
+		<playername>Robinson, B</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>C</position>
+		<ab>39</ab>
+		<runs>9</runs>
+		<hits>13</hits>
+		<bib>5</bib>
+		<trib>1</trib>
+		<hr>1</hr>
+		<rbi>8</rbi>
+		<bb>12</bb>
+		<hp>4</hp>
+		<so>6</so>
+		<sf>1</sf>
+		<sb>3</sb>
+		<dp>1</dp>
+		<obp>.518</obp>
+		<slg>.590</slg>
+		<avg>.333</avg>
+	</player>
+	<player playerlinkid="787176" playerid="1694664">
+		<jersey>21</jersey>
+		<playername>Stevens, M</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>34</ab>
+		<runs>8</runs>
+		<hits>11</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>6</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>1</dp>
+		<obp>.395</obp>
+		<slg>.353</slg>
+		<avg>.324</avg>
+	</player>
+	<player playerlinkid="787190" playerid="1694665">
+		<jersey>99</jersey>
+		<playername>Agosto, R</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>SS</position>
+		<ab>37</ab>
+		<runs>8</runs>
+		<hits>11</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>7</rbi>
+		<bb>0</bb>
+		<hp>5</hp>
+		<so>8</so>
+		<sf>1</sf>
+		<sb>3</sb>
+		<dp>0</dp>
+		<obp>.372</obp>
+		<slg>.378</slg>
+		<avg>.297</avg>
+	</player>
+	<player playerlinkid="796491" playerid="1694658">
+		<jersey>24</jersey>
+		<playername>Saunders, C</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>LF</position>
+		<ab>34</ab>
+		<runs>8</runs>
+		<hits>10</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>8</rbi>
+		<bb>8</bb>
+		<hp>0</hp>
+		<so>7</so>
+		<sf>2</sf>
+		<sb>2</sb>
+		<dp>1</dp>
+		<obp>.409</obp>
+		<slg>.412</slg>
+		<avg>.294</avg>
+	</player>
+	<player playerlinkid="787175" playerid="1694657">
+		<jersey>14</jersey>
+		<playername>Hall, T</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>7</ab>
+		<runs>1</runs>
+		<hits>2</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>3</rbi>
+		<bb>1</bb>
+		<hp>0</hp>
+		<so>5</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.375</obp>
+		<slg>.286</slg>
+		<avg>.286</avg>
+	</player>
+	<player playerlinkid="1697157" playerid="1697157">
+		<jersey>34</jersey>
+		<playername>Wooley, R</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>19</ab>
+		<runs>1</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>2</rbi>
+		<bb>2</bb>
+		<hp>1</hp>
+		<so>11</so>
+		<sf>0</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.364</obp>
+		<slg>.263</slg>
+		<avg>.263</avg>
+	</player>
+	<player playerlinkid="787186" playerid="1694666">
+		<jersey>9</jersey>
+		<playername>Mastromatto, T</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>2B</position>
+		<ab>63</ab>
+		<runs>10</runs>
+		<hits>16</hits>
+		<bib>0</bib>
+		<trib>1</trib>
+		<hr>0</hr>
+		<rbi>7</rbi>
+		<bb>10</bb>
+		<hp>1</hp>
+		<so>15</so>
+		<sf>1</sf>
+		<sb>1</sb>
+		<dp>0</dp>
+		<obp>.360</obp>
+		<slg>.286</slg>
+		<avg>.254</avg>
+	</player>
+	<player playerlinkid="1457469" playerid="1694996">
+		<jersey>3</jersey>
+		<playername>Torres, J</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>46</ab>
+		<runs>4</runs>
+		<hits>10</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>4</bb>
+		<hp>0</hp>
+		<so>15</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.280</obp>
+		<slg>.239</slg>
+		<avg>.217</avg>
+	</player>
+	<player playerlinkid="1453320" playerid="1694669">
+		<jersey>41</jersey>
+		<playername>Cabrera, R</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>1B</position>
+		<ab>24</ab>
+		<runs>5</runs>
+		<hits>5</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>1</hr>
+		<rbi>4</rbi>
+		<bb>6</bb>
+		<hp>0</hp>
+		<so>6</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.367</obp>
+		<slg>.333</slg>
+		<avg>.208</avg>
+	</player>
+	<player playerlinkid="1697161" playerid="1697161">
+		<jersey>27</jersey>
+		<playername>McIntyre, E</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>46</ab>
+		<runs>8</runs>
+		<hits>8</hits>
+		<bib>1</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>4</rbi>
+		<bb>3</bb>
+		<hp>5</hp>
+		<so>14</so>
+		<sf>0</sf>
+		<sb>2</sb>
+		<dp>0</dp>
+		<obp>.296</obp>
+		<slg>.196</slg>
+		<avg>.174</avg>
+	</player>
+	<player playerlinkid="1584382" playerid="1694643">
+		<jersey>2</jersey>
+		<playername>Leguizamon, J</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>IF</position>
+		<ab>54</ab>
+		<runs>7</runs>
+		<hits>6</hits>
+		<bib>2</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>5</rbi>
+		<bb>9</bb>
+		<hp>0</hp>
+		<so>23</so>
+		<sf>1</sf>
+		<sb>7</sb>
+		<dp>0</dp>
+		<obp>.234</obp>
+		<slg>.148</slg>
+		<avg>.111</avg>
+	</player>
+	<player playerlinkid="1642065" playerid="1694653">
+		<jersey>28</jersey>
+		<playername>McVay, M</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>P</position>
+		<ab>9</ab>
+		<runs>1</runs>
+		<hits>1</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>2</bb>
+		<hp>0</hp>
+		<so>3</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.273</obp>
+		<slg>.111</slg>
+		<avg>.111</avg>
+	</player>
+	<player playerlinkid="1697158" playerid="1697158">
+		<jersey>44</jersey>
+		<playername>Cronin, J</playername>
+		<teamname>Cowford Bootleggers</teamname>
+		<position>C</position>
+		<ab>4</ab>
+		<runs>0</runs>
+		<hits>0</hits>
+		<bib>0</bib>
+		<trib>0</trib>
+		<hr>0</hr>
+		<rbi>0</rbi>
+		<bb>0</bb>
+		<hp>1</hp>
+		<so>1</so>
+		<sf>0</sf>
+		<sb>0</sb>
+		<dp>0</dp>
+		<obp>.200</obp>
+		<slg>.000</slg>
+		<avg>.000</avg>
+	</player>
+	</batting>
+</stats>
