@@ -12,9 +12,9 @@ const gamePitcherOutsExpression = `
 
 const officialPlayerGamesCte = `
 official_player_games AS (
-  SELECT pointstreak_player_id, pointstreak_game_id, season_id
+  SELECT player_id, game_id, season_id
   FROM batting_stats
-  WHERE pointstreak_player_id IS NOT NULL
+  WHERE player_id IS NOT NULL
     AND (
       COALESCE(ab, 0) <> 0
       OR COALESCE(runs, 0) <> 0
@@ -26,9 +26,9 @@ official_player_games AS (
       OR COALESCE(sb, 0) <> 0
     )
   UNION
-  SELECT pointstreak_player_id, pointstreak_game_id, season_id
+  SELECT player_id, game_id, season_id
   FROM pitching_stats
-  WHERE pointstreak_player_id IS NOT NULL
+  WHERE player_id IS NOT NULL
     AND (
       ${gamePitcherOutsExpression} > 0
       OR COALESCE(hits, 0) <> 0
@@ -44,20 +44,20 @@ const PLAYER_GAMES_SQL = `
 WITH ${officialPlayerGamesCte},
 totals AS (
   SELECT
-    official_player_games.pointstreak_player_id,
-    COALESCE(players.name, official_player_games.pointstreak_player_id) AS player_name,
-    COUNT(DISTINCT official_player_games.pointstreak_game_id) AS games_played,
+    official_player_games.player_id,
+    COALESCE(players.name, official_player_games.player_id) AS player_name,
+    COUNT(DISTINCT official_player_games.game_id) AS games_played,
     COUNT(DISTINCT official_player_games.season_id) AS seasons
   FROM official_player_games
-  LEFT JOIN players ON players.pointstreak_player_id = official_player_games.pointstreak_player_id
-  GROUP BY official_player_games.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = official_player_games.player_id
+  GROUP BY official_player_games.player_id
 )
 SELECT
   ROW_NUMBER() OVER (ORDER BY games_played DESC, seasons DESC, player_name) AS rank,
   player_name,
   games_played,
   seasons,
-  pointstreak_player_id
+  player_id
 FROM totals
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -67,20 +67,20 @@ const PLAYER_SEASONS_SQL = `
 WITH ${officialPlayerGamesCte},
 totals AS (
   SELECT
-    official_player_games.pointstreak_player_id,
-    COALESCE(players.name, official_player_games.pointstreak_player_id) AS player_name,
+    official_player_games.player_id,
+    COALESCE(players.name, official_player_games.player_id) AS player_name,
     COUNT(DISTINCT official_player_games.season_id) AS seasons,
-    COUNT(DISTINCT official_player_games.pointstreak_game_id) AS games_played
+    COUNT(DISTINCT official_player_games.game_id) AS games_played
   FROM official_player_games
-  LEFT JOIN players ON players.pointstreak_player_id = official_player_games.pointstreak_player_id
-  GROUP BY official_player_games.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = official_player_games.player_id
+  GROUP BY official_player_games.player_id
 )
 SELECT
   ROW_NUMBER() OVER (ORDER BY seasons DESC, games_played DESC, player_name) AS rank,
   player_name,
   seasons,
   games_played,
-  pointstreak_player_id
+  player_id
 FROM totals
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -90,46 +90,46 @@ function battingLeaderSql(statColumn: "hits" | "home_runs" | "runs_batted_in" | 
   return `
 WITH season_rows AS (
   SELECT
-    season_batting_stats.pointstreak_player_id,
+    season_batting_stats.player_id,
     COALESCE(players.name, season_batting_stats.player_name) AS player_name,
     season_batting_stats.season_id,
     COALESCE(${statColumn}, 0) AS ${statColumn}
   FROM season_batting_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_batting_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_batting_stats.player_id
   WHERE season_batting_stats.scope = 'league'
-    AND season_batting_stats.pointstreak_player_id IS NOT NULL
+    AND season_batting_stats.player_id IS NOT NULL
   UNION ALL
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     stats.season_id,
     SUM(COALESCE(stats.${statColumn}, 0)) AS ${statColumn}
   FROM season_batting_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
+    AND stats.player_id IS NOT NULL
     AND NOT EXISTS (
       SELECT 1
       FROM season_batting_stats league_stats
-      WHERE league_stats.pointstreak_player_id = stats.pointstreak_player_id
+      WHERE league_stats.player_id = stats.player_id
         AND league_stats.season_id = stats.season_id
         AND league_stats.scope = 'league'
     )
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+  GROUP BY stats.player_id, stats.season_id
 ),
 totals AS (
   SELECT
-    pointstreak_player_id,
+    player_id,
     MAX(player_name) AS player_name,
     SUM(${statColumn}) AS ${statColumn}
   FROM season_rows
-  GROUP BY pointstreak_player_id
+  GROUP BY player_id
 )
 SELECT
   ROW_NUMBER() OVER (ORDER BY ${statColumn} DESC, player_name) AS rank,
   player_name,
   ${statColumn},
-  pointstreak_player_id
+  player_id
 FROM totals
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -139,47 +139,47 @@ LIMIT ${LEAGUE_LEADER_LIMIT};
 const BATTING_AVERAGE_SQL = `
 WITH season_rows AS (
   SELECT
-    season_batting_stats.pointstreak_player_id,
+    season_batting_stats.player_id,
     COALESCE(players.name, season_batting_stats.player_name) AS player_name,
     season_batting_stats.season_id,
     COALESCE(season_batting_stats.hits, 0) AS hits,
     COALESCE(season_batting_stats.at_bats, 0) AS at_bats
   FROM season_batting_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_batting_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_batting_stats.player_id
   WHERE season_batting_stats.scope = 'league'
-    AND season_batting_stats.pointstreak_player_id IS NOT NULL
+    AND season_batting_stats.player_id IS NOT NULL
   UNION ALL
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     stats.season_id,
     SUM(COALESCE(stats.hits, 0)) AS hits,
     SUM(COALESCE(stats.at_bats, 0)) AS at_bats
   FROM season_batting_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
+    AND stats.player_id IS NOT NULL
     AND NOT EXISTS (
       SELECT 1
       FROM season_batting_stats league_stats
-      WHERE league_stats.pointstreak_player_id = stats.pointstreak_player_id
+      WHERE league_stats.player_id = stats.player_id
         AND league_stats.season_id = stats.season_id
         AND league_stats.scope = 'league'
     )
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+  GROUP BY stats.player_id, stats.season_id
 ),
 totals AS (
   SELECT
-    season_rows.pointstreak_player_id,
+    season_rows.player_id,
     MAX(season_rows.player_name) AS player_name,
     SUM(season_rows.hits) AS hits,
     SUM(season_rows.at_bats) AS at_bats
   FROM season_rows
-  GROUP BY season_rows.pointstreak_player_id
+  GROUP BY season_rows.player_id
 ),
 qualified AS (
   SELECT
-    pointstreak_player_id,
+    player_id,
     player_name,
     hits,
     at_bats,
@@ -192,7 +192,7 @@ SELECT
   player_name,
   batting_average,
   at_bats,
-  pointstreak_player_id
+  player_id
 FROM qualified
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -212,58 +212,58 @@ function pitchingLeaderSql(statColumn: "wins" | "strikeouts" | "saves" | "comple
   return `
 WITH team_rows AS (
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     stats.season_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     SUM(COALESCE(stats.${statColumn}, 0)) AS ${statColumn}
   FROM season_pitching_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+    AND stats.player_id IS NOT NULL
+  GROUP BY stats.player_id, stats.season_id
 ),
 league_rows AS (
   SELECT
-    season_pitching_stats.pointstreak_player_id,
+    season_pitching_stats.player_id,
     season_pitching_stats.season_id,
     COALESCE(players.name, season_pitching_stats.player_name) AS player_name,
     COALESCE(${statColumn}, 0) AS ${statColumn}
   FROM season_pitching_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_pitching_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_pitching_stats.player_id
   WHERE season_pitching_stats.scope = 'league'
-    AND season_pitching_stats.pointstreak_player_id IS NOT NULL
+    AND season_pitching_stats.player_id IS NOT NULL
 ),
 season_keys AS (
-  SELECT pointstreak_player_id, season_id FROM league_rows
+  SELECT player_id, season_id FROM league_rows
   UNION
-  SELECT pointstreak_player_id, season_id FROM team_rows
+  SELECT player_id, season_id FROM team_rows
 ),
 season_totals AS (
   SELECT
-    season_keys.pointstreak_player_id,
+    season_keys.player_id,
     COALESCE(league_rows.player_name, team_rows.player_name) AS player_name,
     COALESCE(league_rows.${statColumn}, team_rows.${statColumn}, 0) AS ${statColumn}
   FROM season_keys
   LEFT JOIN league_rows
-    ON league_rows.pointstreak_player_id = season_keys.pointstreak_player_id
+    ON league_rows.player_id = season_keys.player_id
    AND league_rows.season_id = season_keys.season_id
   LEFT JOIN team_rows
-    ON team_rows.pointstreak_player_id = season_keys.pointstreak_player_id
+    ON team_rows.player_id = season_keys.player_id
    AND team_rows.season_id = season_keys.season_id
 ),
 totals AS (
   SELECT
-    pointstreak_player_id,
+    player_id,
     MAX(player_name) AS player_name,
     SUM(${statColumn}) AS ${statColumn}
   FROM season_totals
-  GROUP BY pointstreak_player_id
+  GROUP BY player_id
 )
 SELECT
   ROW_NUMBER() OVER (ORDER BY ${statColumn} DESC, player_name) AS rank,
   player_name,
   ${statColumn},
-  pointstreak_player_id
+  player_id
 FROM totals
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -273,61 +273,61 @@ LIMIT ${LEAGUE_LEADER_LIMIT};
 const PITCHING_ERA_SQL = `
 WITH team_rows AS (
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     stats.season_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     SUM(COALESCE(stats.earned_runs, 0)) AS earned_runs,
     SUM(${pitcherOutsExpression}) AS outs
   FROM season_pitching_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+    AND stats.player_id IS NOT NULL
+  GROUP BY stats.player_id, stats.season_id
 ),
 league_rows AS (
   SELECT
-    season_pitching_stats.pointstreak_player_id,
+    season_pitching_stats.player_id,
     season_pitching_stats.season_id,
     COALESCE(players.name, season_pitching_stats.player_name) AS player_name,
     COALESCE(season_pitching_stats.earned_runs, 0) AS earned_runs,
     ${pitcherOutsExpression} AS outs
   FROM season_pitching_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_pitching_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_pitching_stats.player_id
   WHERE season_pitching_stats.scope = 'league'
-    AND season_pitching_stats.pointstreak_player_id IS NOT NULL
+    AND season_pitching_stats.player_id IS NOT NULL
 ),
 season_keys AS (
-  SELECT pointstreak_player_id, season_id FROM league_rows
+  SELECT player_id, season_id FROM league_rows
   UNION
-  SELECT pointstreak_player_id, season_id FROM team_rows
+  SELECT player_id, season_id FROM team_rows
 ),
 season_totals AS (
   SELECT
-    season_keys.pointstreak_player_id,
+    season_keys.player_id,
     season_keys.season_id,
     COALESCE(league_rows.player_name, team_rows.player_name) AS player_name,
     COALESCE(league_rows.earned_runs, team_rows.earned_runs, 0) AS earned_runs,
     COALESCE(league_rows.outs, team_rows.outs, 0) AS outs
   FROM season_keys
   LEFT JOIN league_rows
-    ON league_rows.pointstreak_player_id = season_keys.pointstreak_player_id
+    ON league_rows.player_id = season_keys.player_id
    AND league_rows.season_id = season_keys.season_id
   LEFT JOIN team_rows
-    ON team_rows.pointstreak_player_id = season_keys.pointstreak_player_id
+    ON team_rows.player_id = season_keys.player_id
    AND team_rows.season_id = season_keys.season_id
 ),
 totals AS (
   SELECT
-    season_totals.pointstreak_player_id,
+    season_totals.player_id,
     MAX(season_totals.player_name) AS player_name,
     SUM(season_totals.earned_runs) AS earned_runs,
     SUM(season_totals.outs) AS outs
   FROM season_totals
-  GROUP BY season_totals.pointstreak_player_id
+  GROUP BY season_totals.player_id
 ),
 qualified AS (
   SELECT
-    pointstreak_player_id,
+    player_id,
     player_name,
     earned_runs,
     outs,
@@ -341,7 +341,7 @@ SELECT
   player_name,
   era,
   innings_pitched,
-  pointstreak_player_id
+  player_id
 FROM qualified
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -350,58 +350,58 @@ LIMIT ${LEAGUE_LEADER_LIMIT};
 const PITCHING_INNINGS_SQL = `
 WITH team_rows AS (
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     stats.season_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     SUM(${pitcherOutsExpression}) AS outs
   FROM season_pitching_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+    AND stats.player_id IS NOT NULL
+  GROUP BY stats.player_id, stats.season_id
 ),
 league_rows AS (
   SELECT
-    season_pitching_stats.pointstreak_player_id,
+    season_pitching_stats.player_id,
     season_pitching_stats.season_id,
     COALESCE(players.name, season_pitching_stats.player_name) AS player_name,
     ${pitcherOutsExpression} AS outs
   FROM season_pitching_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_pitching_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_pitching_stats.player_id
   WHERE season_pitching_stats.scope = 'league'
-    AND season_pitching_stats.pointstreak_player_id IS NOT NULL
+    AND season_pitching_stats.player_id IS NOT NULL
 ),
 season_keys AS (
-  SELECT pointstreak_player_id, season_id FROM league_rows
+  SELECT player_id, season_id FROM league_rows
   UNION
-  SELECT pointstreak_player_id, season_id FROM team_rows
+  SELECT player_id, season_id FROM team_rows
 ),
 season_totals AS (
   SELECT
-    season_keys.pointstreak_player_id,
+    season_keys.player_id,
     COALESCE(league_rows.player_name, team_rows.player_name) AS player_name,
     COALESCE(league_rows.outs, team_rows.outs, 0) AS outs
   FROM season_keys
   LEFT JOIN league_rows
-    ON league_rows.pointstreak_player_id = season_keys.pointstreak_player_id
+    ON league_rows.player_id = season_keys.player_id
    AND league_rows.season_id = season_keys.season_id
   LEFT JOIN team_rows
-    ON team_rows.pointstreak_player_id = season_keys.pointstreak_player_id
+    ON team_rows.player_id = season_keys.player_id
    AND team_rows.season_id = season_keys.season_id
 ),
 totals AS (
   SELECT
-    pointstreak_player_id,
+    player_id,
     MAX(player_name) AS player_name,
     SUM(outs) AS outs
   FROM season_totals
-  GROUP BY pointstreak_player_id
+  GROUP BY player_id
 )
 SELECT
   ROW_NUMBER() OVER (ORDER BY outs DESC, player_name) AS rank,
   player_name,
   CAST(outs / 3 AS INTEGER) || '.' || (outs % 3) AS innings_pitched,
-  pointstreak_player_id
+  player_id
 FROM totals
 ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
@@ -438,21 +438,21 @@ export const LEAGUE_PITCHING_LEADER_TABLES: LeagueLeaderTableDefinition[] = [
 
 export const PLAYER_LOOKUP_SQL = `
 SELECT
-  players.pointstreak_player_id,
+  players.player_id,
   players.name AS player_name
 FROM players
-WHERE players.pointstreak_player_id IN (
-  SELECT pointstreak_player_id FROM lineups WHERE pointstreak_player_id IS NOT NULL
+WHERE players.player_id IN (
+  SELECT player_id FROM lineups WHERE player_id IS NOT NULL
   UNION
-  SELECT pointstreak_player_id FROM batting_stats WHERE pointstreak_player_id IS NOT NULL
+  SELECT player_id FROM batting_stats WHERE player_id IS NOT NULL
   UNION
-  SELECT pointstreak_player_id FROM pitching_stats WHERE pointstreak_player_id IS NOT NULL
+  SELECT player_id FROM pitching_stats WHERE player_id IS NOT NULL
   UNION
-  SELECT pointstreak_player_id FROM season_batting_stats WHERE pointstreak_player_id IS NOT NULL
+  SELECT player_id FROM season_batting_stats WHERE player_id IS NOT NULL
   UNION
-  SELECT pointstreak_player_id FROM season_pitching_stats WHERE pointstreak_player_id IS NOT NULL
+  SELECT player_id FROM season_pitching_stats WHERE player_id IS NOT NULL
 )
-ORDER BY player_name, pointstreak_player_id;
+ORDER BY player_name, player_id;
 `;
 
 export function buildLeaguePlayerRankSql(playerId?: number | null) {
@@ -471,22 +471,22 @@ WHERE 0;
 
   return `
 WITH selected_player AS (
-  SELECT ${playerId} AS pointstreak_player_id
+  SELECT ${playerId} AS player_id
 ),
 ${officialPlayerGamesCte},
 game_totals AS (
   SELECT
-    official_player_games.pointstreak_player_id,
-    COALESCE(players.name, official_player_games.pointstreak_player_id) AS player_name,
-    COUNT(DISTINCT official_player_games.pointstreak_game_id) AS games_played,
+    official_player_games.player_id,
+    COALESCE(players.name, official_player_games.player_id) AS player_name,
+    COUNT(DISTINCT official_player_games.game_id) AS games_played,
     COUNT(DISTINCT official_player_games.season_id) AS seasons
   FROM official_player_games
-  LEFT JOIN players ON players.pointstreak_player_id = official_player_games.pointstreak_player_id
-  GROUP BY official_player_games.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = official_player_games.player_id
+  GROUP BY official_player_games.player_id
 ),
 batting_season_rows AS (
   SELECT
-    season_batting_stats.pointstreak_player_id,
+    season_batting_stats.player_id,
     COALESCE(players.name, season_batting_stats.player_name) AS player_name,
     season_batting_stats.season_id,
     COALESCE(season_batting_stats.hits, 0) AS hits,
@@ -496,12 +496,12 @@ batting_season_rows AS (
     COALESCE(season_batting_stats.walks, 0) AS walks,
     COALESCE(season_batting_stats.at_bats, 0) AS at_bats
   FROM season_batting_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_batting_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_batting_stats.player_id
   WHERE season_batting_stats.scope = 'league'
-    AND season_batting_stats.pointstreak_player_id IS NOT NULL
+    AND season_batting_stats.player_id IS NOT NULL
   UNION ALL
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     stats.season_id,
     SUM(COALESCE(stats.hits, 0)) AS hits,
@@ -511,21 +511,21 @@ batting_season_rows AS (
     SUM(COALESCE(stats.walks, 0)) AS walks,
     SUM(COALESCE(stats.at_bats, 0)) AS at_bats
   FROM season_batting_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
+    AND stats.player_id IS NOT NULL
     AND NOT EXISTS (
       SELECT 1
       FROM season_batting_stats league_stats
-      WHERE league_stats.pointstreak_player_id = stats.pointstreak_player_id
+      WHERE league_stats.player_id = stats.player_id
         AND league_stats.season_id = stats.season_id
         AND league_stats.scope = 'league'
     )
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+  GROUP BY stats.player_id, stats.season_id
 ),
 batting_totals AS (
   SELECT
-    batting_season_rows.pointstreak_player_id,
+    batting_season_rows.player_id,
     MAX(batting_season_rows.player_name) AS player_name,
     SUM(batting_season_rows.hits) AS hits,
     SUM(batting_season_rows.home_runs) AS home_runs,
@@ -534,11 +534,11 @@ batting_totals AS (
     SUM(batting_season_rows.walks) AS walks,
     SUM(batting_season_rows.at_bats) AS at_bats
   FROM batting_season_rows
-  GROUP BY batting_season_rows.pointstreak_player_id
+  GROUP BY batting_season_rows.player_id
 ),
 pitching_team_rows AS (
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     stats.season_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     SUM(COALESCE(stats.wins, 0)) AS wins,
@@ -548,14 +548,14 @@ pitching_team_rows AS (
     SUM(COALESCE(stats.earned_runs, 0)) AS earned_runs,
     SUM(${pitcherOutsExpression}) AS outs
   FROM season_pitching_stats stats
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
-  GROUP BY stats.pointstreak_player_id, stats.season_id
+    AND stats.player_id IS NOT NULL
+  GROUP BY stats.player_id, stats.season_id
 ),
 pitching_league_rows AS (
   SELECT
-    season_pitching_stats.pointstreak_player_id,
+    season_pitching_stats.player_id,
     season_pitching_stats.season_id,
     COALESCE(players.name, season_pitching_stats.player_name) AS player_name,
     COALESCE(season_pitching_stats.wins, 0) AS wins,
@@ -565,18 +565,18 @@ pitching_league_rows AS (
     COALESCE(season_pitching_stats.earned_runs, 0) AS earned_runs,
     ${pitcherOutsExpression} AS outs
   FROM season_pitching_stats
-  LEFT JOIN players ON players.pointstreak_player_id = season_pitching_stats.pointstreak_player_id
+  LEFT JOIN players ON players.player_id = season_pitching_stats.player_id
   WHERE season_pitching_stats.scope = 'league'
-    AND season_pitching_stats.pointstreak_player_id IS NOT NULL
+    AND season_pitching_stats.player_id IS NOT NULL
 ),
 pitching_season_keys AS (
-  SELECT pointstreak_player_id, season_id FROM pitching_league_rows
+  SELECT player_id, season_id FROM pitching_league_rows
   UNION
-  SELECT pointstreak_player_id, season_id FROM pitching_team_rows
+  SELECT player_id, season_id FROM pitching_team_rows
 ),
 pitching_season_totals AS (
   SELECT
-    pitching_season_keys.pointstreak_player_id,
+    pitching_season_keys.player_id,
     pitching_season_keys.season_id,
     COALESCE(pitching_league_rows.player_name, pitching_team_rows.player_name) AS player_name,
     COALESCE(pitching_league_rows.wins, pitching_team_rows.wins, 0) AS wins,
@@ -587,15 +587,15 @@ pitching_season_totals AS (
     COALESCE(pitching_league_rows.outs, pitching_team_rows.outs, 0) AS outs
   FROM pitching_season_keys
   LEFT JOIN pitching_league_rows
-    ON pitching_league_rows.pointstreak_player_id = pitching_season_keys.pointstreak_player_id
+    ON pitching_league_rows.player_id = pitching_season_keys.player_id
    AND pitching_league_rows.season_id = pitching_season_keys.season_id
   LEFT JOIN pitching_team_rows
-    ON pitching_team_rows.pointstreak_player_id = pitching_season_keys.pointstreak_player_id
+    ON pitching_team_rows.player_id = pitching_season_keys.player_id
    AND pitching_team_rows.season_id = pitching_season_keys.season_id
 ),
 pitching_totals AS (
   SELECT
-    pitching_season_totals.pointstreak_player_id,
+    pitching_season_totals.player_id,
     MAX(pitching_season_totals.player_name) AS player_name,
     SUM(pitching_season_totals.wins) AS wins,
     SUM(pitching_season_totals.strikeouts) AS strikeouts,
@@ -604,75 +604,75 @@ pitching_totals AS (
     SUM(pitching_season_totals.earned_runs) AS earned_runs,
     SUM(pitching_season_totals.outs) AS outs
   FROM pitching_season_totals
-  GROUP BY pitching_season_totals.pointstreak_player_id
+  GROUP BY pitching_season_totals.player_id
 ),
 ranked_games AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY games_played DESC, seasons DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY games_played DESC, seasons DESC, player_name) AS rank
   FROM game_totals
 ),
 ranked_seasons AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY seasons DESC, games_played DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY seasons DESC, games_played DESC, player_name) AS rank
   FROM game_totals
 ),
 ranked_average AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY CAST(hits AS REAL) / at_bats DESC, at_bats DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY CAST(hits AS REAL) / at_bats DESC, at_bats DESC, player_name) AS rank
   FROM batting_totals
   WHERE at_bats >= 300
 ),
 ranked_hits AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY hits DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY hits DESC, player_name) AS rank
   FROM batting_totals
 ),
 ranked_home_runs AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY home_runs DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY home_runs DESC, player_name) AS rank
   FROM batting_totals
 ),
 ranked_rbi AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY runs_batted_in DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY runs_batted_in DESC, player_name) AS rank
   FROM batting_totals
 ),
 ranked_stolen_bases AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY stolen_bases DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY stolen_bases DESC, player_name) AS rank
   FROM batting_totals
 ),
 ranked_walks AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY walks DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY walks DESC, player_name) AS rank
   FROM batting_totals
 ),
 ranked_era AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY earned_runs * 27.0 / outs ASC, outs DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY earned_runs * 27.0 / outs ASC, outs DESC, player_name) AS rank
   FROM pitching_totals
   WHERE outs >= 300
 ),
 ranked_wins AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY wins DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY wins DESC, player_name) AS rank
   FROM pitching_totals
 ),
 ranked_pitching_strikeouts AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY strikeouts DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY strikeouts DESC, player_name) AS rank
   FROM pitching_totals
 ),
 ranked_innings AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY outs DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY outs DESC, player_name) AS rank
   FROM pitching_totals
 ),
 ranked_complete_games AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY complete_games DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY complete_games DESC, player_name) AS rank
   FROM pitching_totals
 ),
 ranked_saves AS (
-  SELECT pointstreak_player_id, ROW_NUMBER() OVER (ORDER BY saves DESC, player_name) AS rank
+  SELECT player_id, ROW_NUMBER() OVER (ORDER BY saves DESC, player_name) AS rank
   FROM pitching_totals
 )
 SELECT 'Longevity' AS leader_group, 'Games Played' AS category, ranked_games.rank, game_totals.games_played AS value, 'Qualified' AS qualified, NULL AS qualification
 FROM selected_player
-LEFT JOIN game_totals ON game_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_games ON ranked_games.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN game_totals ON game_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_games ON ranked_games.player_id = selected_player.player_id
 UNION ALL
 SELECT 'Longevity', 'Seasons Played', ranked_seasons.rank, game_totals.seasons, 'Qualified', NULL
 FROM selected_player
-LEFT JOIN game_totals ON game_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_seasons ON ranked_seasons.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN game_totals ON game_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_seasons ON ranked_seasons.player_id = selected_player.player_id
 UNION ALL
 SELECT
   'Batting',
@@ -680,7 +680,7 @@ SELECT
   ranked_average.rank,
   CASE WHEN batting_totals.at_bats > 0 THEN printf('%.3f', CAST(batting_totals.hits AS REAL) / batting_totals.at_bats) END,
   CASE
-    WHEN batting_totals.pointstreak_player_id IS NULL OR batting_totals.at_bats <= 0 THEN 'No Data'
+    WHEN batting_totals.player_id IS NULL OR batting_totals.at_bats <= 0 THEN 'No Data'
     WHEN batting_totals.at_bats >= 300 THEN 'Qualified'
     ELSE 'Not Qualified'
   END,
@@ -690,33 +690,33 @@ SELECT
     ELSE NULL
   END
 FROM selected_player
-LEFT JOIN batting_totals ON batting_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_average ON ranked_average.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN batting_totals ON batting_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_average ON ranked_average.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Batting', 'Hits', ranked_hits.rank, batting_totals.hits, CASE WHEN batting_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Batting', 'Hits', ranked_hits.rank, batting_totals.hits, CASE WHEN batting_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN batting_totals ON batting_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_hits ON ranked_hits.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN batting_totals ON batting_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_hits ON ranked_hits.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Batting', 'Home Runs', ranked_home_runs.rank, batting_totals.home_runs, CASE WHEN batting_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Batting', 'Home Runs', ranked_home_runs.rank, batting_totals.home_runs, CASE WHEN batting_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN batting_totals ON batting_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_home_runs ON ranked_home_runs.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN batting_totals ON batting_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_home_runs ON ranked_home_runs.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Batting', 'RBI', ranked_rbi.rank, batting_totals.runs_batted_in, CASE WHEN batting_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Batting', 'RBI', ranked_rbi.rank, batting_totals.runs_batted_in, CASE WHEN batting_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN batting_totals ON batting_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_rbi ON ranked_rbi.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN batting_totals ON batting_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_rbi ON ranked_rbi.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Batting', 'Stolen Bases', ranked_stolen_bases.rank, batting_totals.stolen_bases, CASE WHEN batting_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Batting', 'Stolen Bases', ranked_stolen_bases.rank, batting_totals.stolen_bases, CASE WHEN batting_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN batting_totals ON batting_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_stolen_bases ON ranked_stolen_bases.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN batting_totals ON batting_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_stolen_bases ON ranked_stolen_bases.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Batting', 'Walks', ranked_walks.rank, batting_totals.walks, CASE WHEN batting_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Batting', 'Walks', ranked_walks.rank, batting_totals.walks, CASE WHEN batting_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN batting_totals ON batting_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_walks ON ranked_walks.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN batting_totals ON batting_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_walks ON ranked_walks.player_id = selected_player.player_id
 UNION ALL
 SELECT
   'Pitching',
@@ -724,7 +724,7 @@ SELECT
   ranked_era.rank,
   CASE WHEN pitching_totals.outs > 0 THEN printf('%.2f', pitching_totals.earned_runs * 27.0 / pitching_totals.outs) END,
   CASE
-    WHEN pitching_totals.pointstreak_player_id IS NULL OR pitching_totals.outs <= 0 THEN 'No Data'
+    WHEN pitching_totals.player_id IS NULL OR pitching_totals.outs <= 0 THEN 'No Data'
     WHEN pitching_totals.outs >= 300 THEN 'Qualified'
     ELSE 'Not Qualified'
   END,
@@ -734,32 +734,32 @@ SELECT
     ELSE NULL
   END
 FROM selected_player
-LEFT JOIN pitching_totals ON pitching_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_era ON ranked_era.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_era ON ranked_era.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Pitching', 'Wins', ranked_wins.rank, pitching_totals.wins, CASE WHEN pitching_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Pitching', 'Wins', ranked_wins.rank, pitching_totals.wins, CASE WHEN pitching_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN pitching_totals ON pitching_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_wins ON ranked_wins.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_wins ON ranked_wins.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Pitching', 'Strikeouts', ranked_pitching_strikeouts.rank, pitching_totals.strikeouts, CASE WHEN pitching_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Pitching', 'Strikeouts', ranked_pitching_strikeouts.rank, pitching_totals.strikeouts, CASE WHEN pitching_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN pitching_totals ON pitching_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_pitching_strikeouts ON ranked_pitching_strikeouts.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_pitching_strikeouts ON ranked_pitching_strikeouts.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Pitching', 'Innings Pitched', ranked_innings.rank, CASE WHEN pitching_totals.pointstreak_player_id IS NOT NULL THEN CAST(pitching_totals.outs / 3 AS INTEGER) || '.' || (pitching_totals.outs % 3) END, CASE WHEN pitching_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Pitching', 'Innings Pitched', ranked_innings.rank, CASE WHEN pitching_totals.player_id IS NOT NULL THEN CAST(pitching_totals.outs / 3 AS INTEGER) || '.' || (pitching_totals.outs % 3) END, CASE WHEN pitching_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN pitching_totals ON pitching_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_innings ON ranked_innings.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_innings ON ranked_innings.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Pitching', 'Complete Games', ranked_complete_games.rank, pitching_totals.complete_games, CASE WHEN pitching_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Pitching', 'Complete Games', ranked_complete_games.rank, pitching_totals.complete_games, CASE WHEN pitching_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN pitching_totals ON pitching_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_complete_games ON ranked_complete_games.pointstreak_player_id = selected_player.pointstreak_player_id
+LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_complete_games ON ranked_complete_games.player_id = selected_player.player_id
 UNION ALL
-SELECT 'Pitching', 'Saves', ranked_saves.rank, pitching_totals.saves, CASE WHEN pitching_totals.pointstreak_player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
+SELECT 'Pitching', 'Saves', ranked_saves.rank, pitching_totals.saves, CASE WHEN pitching_totals.player_id IS NULL THEN 'No Data' ELSE 'Qualified' END, NULL
 FROM selected_player
-LEFT JOIN pitching_totals ON pitching_totals.pointstreak_player_id = selected_player.pointstreak_player_id
-LEFT JOIN ranked_saves ON ranked_saves.pointstreak_player_id = selected_player.pointstreak_player_id;
+LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
+LEFT JOIN ranked_saves ON ranked_saves.player_id = selected_player.player_id;
 `;
 }

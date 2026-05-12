@@ -101,20 +101,11 @@ export function PlayerPage({
   const playerName = playerNameColumn >= 0 ? profile.result?.values[0]?.[playerNameColumn] : undefined;
   const seasonNameColumn = seasonInfo.result?.columns.indexOf("season_name") ?? -1;
   const seasonName = seasonNameColumn >= 0 ? seasonInfo.result?.values[0]?.[seasonNameColumn] : undefined;
-  const seasonStatHiddenColumns =
-    seasonId != null
-      ? ["season_id", "season_name", "team_pointstreak_link_id"]
-      : ["season_id", "team_pointstreak_link_id"];
+  const seasonStatHiddenColumns = seasonId != null ? ["season_id", "season_name", "team_id"] : ["season_id", "team_id"];
   const gameLogHiddenColumns =
     seasonId != null
-      ? [
-          "season_id",
-          "season_name",
-          "pointstreak_game_id",
-          "team_pointstreak_link_id",
-          "opponent_team_pointstreak_link_id",
-        ]
-      : ["season_id", "pointstreak_game_id", "team_pointstreak_link_id", "opponent_team_pointstreak_link_id"];
+      ? ["season_id", "season_name", "game_id", "team_id", "opponent_team_id"]
+      : ["season_id", "game_id", "team_id", "opponent_team_id"];
 
   return (
     <div className="page-grid">
@@ -139,7 +130,7 @@ export function PlayerPage({
               result={batting.result}
               columnHeaderMode={columnHeaderMode}
               query={batting.sql}
-              hiddenColumns={["pointstreak_player_id"]}
+              hiddenColumns={["player_id"]}
             />
           </section>
           <section>
@@ -148,7 +139,7 @@ export function PlayerPage({
               result={lifetimePitching.result}
               columnHeaderMode={columnHeaderMode}
               query={lifetimePitching.sql}
-              hiddenColumns={["pointstreak_player_id"]}
+              hiddenColumns={["player_id"]}
             />
           </section>
         </>
@@ -166,7 +157,7 @@ export function PlayerPage({
             }
             if (column === "team") {
               const rowSeasonId = row[columns.indexOf("season_id")];
-              const teamId = row[columns.indexOf("team_pointstreak_link_id")];
+              const teamId = row[columns.indexOf("team_id")];
               return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
             }
             return undefined;
@@ -186,7 +177,7 @@ export function PlayerPage({
             }
             if (column === "team") {
               const rowSeasonId = row[columns.indexOf("season_id")];
-              const teamId = row[columns.indexOf("team_pointstreak_link_id")];
+              const teamId = row[columns.indexOf("team_id")];
               return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
             }
             return undefined;
@@ -206,16 +197,16 @@ export function PlayerPage({
               return href(`/seasons/${row[columns.indexOf("season_id")]}/players/${playerId}`);
             }
             if (column === "score") {
-              return href(`/games/${row[columns.indexOf("pointstreak_game_id")]}`);
+              return href(`/games/${row[columns.indexOf("game_id")]}`);
             }
             if (column === "team") {
               const rowSeasonId = row[columns.indexOf("season_id")];
-              const teamId = row[columns.indexOf("team_pointstreak_link_id")];
+              const teamId = row[columns.indexOf("team_id")];
               return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
             }
             if (column === "opponent") {
               const rowSeasonId = row[columns.indexOf("season_id")];
-              const teamId = row[columns.indexOf("opponent_team_pointstreak_link_id")];
+              const teamId = row[columns.indexOf("opponent_team_id")];
               return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
             }
             return undefined;
@@ -241,16 +232,16 @@ export function PlayerPage({
               return href(`/seasons/${row[columns.indexOf("season_id")]}/players/${playerId}`);
             }
             if (column === "score") {
-              return href(`/games/${row[columns.indexOf("pointstreak_game_id")]}`);
+              return href(`/games/${row[columns.indexOf("game_id")]}`);
             }
             if (column === "team") {
               const rowSeasonId = row[columns.indexOf("season_id")];
-              const teamId = row[columns.indexOf("team_pointstreak_link_id")];
+              const teamId = row[columns.indexOf("team_id")];
               return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
             }
             if (column === "opponent") {
               const rowSeasonId = row[columns.indexOf("season_id")];
-              const teamId = row[columns.indexOf("opponent_team_pointstreak_link_id")];
+              const teamId = row[columns.indexOf("opponent_team_id")];
               return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
             }
             return undefined;

@@ -13,6 +13,7 @@ type EntityRecord = {
 type Candidate = {
   entityType: "player" | "team";
   matchType: string;
+  matchTypes: string[];
   canonicalId: number;
   aliasIds: number[];
   entities: Array<{
@@ -155,18 +156,79 @@ function normalizeName(name: string) {
     .replace(/\s+/g, " ");
 }
 
+type ParsedPlayerName = {
+  firstName: string;
+  lastName: string;
+  firstNameIsInitial: boolean;
+  lastNameIsInitial: boolean;
+};
+
+const suffixes = new Set(["jr", "sr", "ii", "iii", "iv"]);
+
+function normalizeNamePart(part: string) {
+  return part
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function trimSuffixes(parts: string[]) {
+  const normalizedParts = [...parts];
+  while (normalizedParts.length > 0 && suffixes.has(normalizedParts[normalizedParts.length - 1])) {
+    normalizedParts.pop();
+  }
+  return normalizedParts;
+}
+
+function parsePlayerName(name: string): ParsedPlayerName | null {
+  const trimmed = name.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  if (trimmed.includes(",")) {
+    const [lastNamePart, ...firstNameParts] = trimmed.split(",");
+    const lastName = trimSuffixes(normalizeNamePart(lastNamePart).split(" ").filter(Boolean)).join(" ");
+    const firstName = trimSuffixes(normalizeNamePart(firstNameParts.join(" ")).split(" ").filter(Boolean))[0];
+    if (!firstName || !lastName) {
+      return null;
+    }
+    return {
+      firstName,
+      lastName,
+      firstNameIsInitial: firstName.length === 1,
+      lastNameIsInitial: lastName.length === 1,
+    };
+  }
+
+  const parts = trimSuffixes(normalizeName(trimmed).split(" ").filter(Boolean));
+  if (parts.length < 2) {
+    return null;
+  }
+
+  const firstName = parts[0];
+  const lastName = parts[parts.length - 1];
+  return {
+    firstName,
+    lastName,
+    firstNameIsInitial: firstName.length === 1,
+    lastNameIsInitial: lastName.length === 1,
+  };
+}
+
 function playerSimilarityKeys(record: EntityRecord) {
   const keys = new Set<string>();
   for (const name of record.names) {
-    const normalized = normalizeName(name);
-    if (!normalized) {
+    const parsedName = parsePlayerName(name);
+    if (!parsedName || parsedName.lastNameIsInitial) {
       continue;
     }
-    keys.add(`exact:${normalized}`);
-    const parts = normalized.split(" ");
-    if (parts.length >= 2) {
-      keys.add(`last-first-initial:${parts[parts.length - 1]}:${parts[0][0]}`);
+
+    if (!parsedName.firstNameIsInitial) {
+      keys.add(`exact:${parsedName.lastName}:${parsedName.firstName}`);
     }
+    keys.add(`last-first-initial:${parsedName.lastName}:${parsedName.firstName[0]}`);
   }
   return keys;
 }
@@ -215,6 +277,7 @@ function candidateFromGroup(
   return {
     entityType,
     matchType,
+    matchTypes: [matchType],
     canonicalId: uniqueRecords[0].id,
     aliasIds: uniqueRecords.slice(1).map((record) => record.id),
     entities: uniqueRecords.map((record) => ({
@@ -227,6 +290,73 @@ function candidateFromGroup(
 
 function candidateReviewKey(entityType: "player" | "team", ids: number[]) {
   return `${entityType}:${[...new Set(ids)].sort((left, right) => left - right).join(",")}`;
+}
+
+function candidateIds(candidate: Candidate) {
+  return candidate.entities.map((entity) => entity.id).sort((left, right) => left - right);
+}
+
+function matchTypePriority(matchType: string) {
+  if (matchType.startsWith("exact:") || matchType.startsWith("team:")) {
+    return 0;
+  }
+  if (matchType.startsWith("last-first-initial:")) {
+    return 1;
+  }
+  return 2;
+}
+
+function bestMatchType(matchTypes: Iterable<string>) {
+  return Array.from(new Set(matchTypes)).sort((left, right) => {
+    const priorityDiff = matchTypePriority(left) - matchTypePriority(right);
+    return priorityDiff || left.localeCompare(right);
+  })[0];
+}
+
+function sortedMatchTypes(matchTypes: Iterable<string>) {
+  return Array.from(new Set(matchTypes)).sort((left, right) => {
+    const priorityDiff = matchTypePriority(left) - matchTypePriority(right);
+    return priorityDiff || left.localeCompare(right);
+  });
+}
+
+function mergeMatchTypes(candidate: Candidate, matchTypes: Iterable<string>) {
+  candidate.matchTypes = sortedMatchTypes([...candidate.matchTypes, ...matchTypes]);
+  candidate.matchType = bestMatchType(candidate.matchTypes);
+}
+
+function isStrictSubset(left: number[], right: number[]) {
+  if (left.length >= right.length) {
+    return false;
+  }
+  const rightIds = new Set(right);
+  return left.every((id) => rightIds.has(id));
+}
+
+class DisjointSet {
+  private parents = new Map<number, number>();
+
+  find(id: number): number {
+    const parent = this.parents.get(id);
+    if (parent == null) {
+      this.parents.set(id, id);
+      return id;
+    }
+    if (parent === id) {
+      return id;
+    }
+    const root = this.find(parent);
+    this.parents.set(id, root);
+    return root;
+  }
+
+  union(left: number, right: number) {
+    const leftRoot = this.find(left);
+    const rightRoot = this.find(right);
+    if (leftRoot !== rightRoot) {
+      this.parents.set(rightRoot, leftRoot);
+    }
+  }
 }
 
 function addConfirmedMergeReviewKeys(
@@ -273,7 +403,7 @@ function buildCandidates(
     }
   }
 
-  const candidates = new Map<string, Candidate>();
+  const rawCandidates = new Map<string, Candidate>();
   for (const [key, recordsForKey] of groups) {
     const candidate = candidateFromGroup(entityType, key, recordsForKey);
     if (!candidate) {
@@ -283,16 +413,70 @@ function buildCandidates(
       entityType,
       candidate.entities.map((entity) => entity.id),
     );
-    if (reviewedCandidateKeys.has(candidateKey)) {
-      continue;
-    }
-    const existing = candidates.get(candidateKey);
-    if (!existing || candidate.matchType.startsWith("exact:") || candidate.matchType.startsWith("team:")) {
-      candidates.set(candidateKey, candidate);
+    const existing = rawCandidates.get(candidateKey);
+    if (existing) {
+      mergeMatchTypes(existing, candidate.matchTypes);
+    } else {
+      rawCandidates.set(candidateKey, candidate);
     }
   }
 
-  return Array.from(candidates.values()).sort((left, right) => {
+  const recordsById = new Map(records.map((record) => [record.id, record]));
+  const disjointSet = new DisjointSet();
+  for (const candidate of rawCandidates.values()) {
+    const ids = candidateIds(candidate);
+    for (const id of ids) {
+      disjointSet.find(id);
+      disjointSet.union(ids[0], id);
+    }
+  }
+
+  const candidatesByRoot = new Map<number, Candidate[]>();
+  for (const candidate of rawCandidates.values()) {
+    const root = disjointSet.find(candidate.canonicalId);
+    const candidatesForRoot = candidatesByRoot.get(root) ?? [];
+    candidatesForRoot.push(candidate);
+    candidatesByRoot.set(root, candidatesForRoot);
+  }
+
+  const candidates: Candidate[] = [];
+  for (const candidatesForRoot of candidatesByRoot.values()) {
+    const componentIds = Array.from(new Set(candidatesForRoot.flatMap(candidateIds))).sort((left, right) => left - right);
+    const componentRecords = componentIds.map((id) => recordsById.get(id)).filter((record): record is EntityRecord => !!record);
+    const componentKey = candidateReviewKey(entityType, componentIds);
+
+    if (componentRecords.length >= 2 && !hasSeasonOverlap(componentRecords) && !reviewedCandidateKeys.has(componentKey)) {
+      const componentMatchTypes = sortedMatchTypes(candidatesForRoot.flatMap((candidate) => candidate.matchTypes));
+      const componentCandidate = candidateFromGroup(
+        entityType,
+        bestMatchType(componentMatchTypes),
+        componentRecords,
+      );
+      if (componentCandidate) {
+        componentCandidate.matchTypes = componentMatchTypes;
+        candidates.push(componentCandidate);
+      }
+      continue;
+    }
+
+    const fallbackCandidates = candidatesForRoot.filter(
+      (candidate) => !reviewedCandidateKeys.has(candidateReviewKey(entityType, candidateIds(candidate))),
+    );
+    for (const candidate of fallbackCandidates) {
+      const ids = candidateIds(candidate);
+      const isRedundantSubset = fallbackCandidates.some((other) => {
+        if (candidate === other) {
+          return false;
+        }
+        return isStrictSubset(ids, candidateIds(other));
+      });
+      if (!isRedundantSubset) {
+        candidates.push(candidate);
+      }
+    }
+  }
+
+  return candidates.sort((left, right) => {
     if (left.entityType !== right.entityType) {
       return left.entityType.localeCompare(right.entityType);
     }
@@ -310,26 +494,26 @@ async function main() {
 
   for (const bundle of bundles) {
     for (const row of bundle.tables.players) {
-      addEntity(players, row.pointstreak_player_id, null, row.name);
+      addEntity(players, row.player_id, null, row.name);
     }
 
     for (const row of bundle.tables.teams) {
-      addEntity(teams, row.pointstreak_team_link_id, null, row.name, row.short_name, row.former_names);
+      addEntity(teams, row.team_id, null, row.name, row.short_name, row.former_names);
     }
 
     for (const table of ARCHIVE_SEED_TABLES) {
       for (const row of bundle.tables[table]) {
         addEntity(
           players,
-          row.pointstreak_player_id,
+          row.player_id,
           row.season_id,
           row.player_name,
           row.name,
           row.first_name && row.last_name ? `${row.first_name} ${row.last_name}` : null,
         );
-        addEntity(teams, row.team_pointstreak_link_id, row.season_id, row.team_name, row.source_team_name);
-        addEntity(teams, row.home_team_pointstreak_link_id, row.season_id);
-        addEntity(teams, row.away_team_pointstreak_link_id, row.season_id);
+        addEntity(teams, row.team_id, row.season_id, row.team_name, row.source_team_name);
+        addEntity(teams, row.home_team_id, row.season_id);
+        addEntity(teams, row.away_team_id, row.season_id);
       }
     }
   }
@@ -352,12 +536,12 @@ async function main() {
       players: playerCandidates.map((candidate) => ({
         canonicalId: candidate.canonicalId,
         aliasIds: candidate.aliasIds,
-        reason: `Candidate from ${candidate.matchType}`,
+        reason: `Candidate from ${candidate.matchTypes.join(", ")}`,
       })),
       teams: teamCandidates.map((candidate) => ({
         canonicalId: candidate.canonicalId,
         aliasIds: candidate.aliasIds,
-        reason: `Candidate from ${candidate.matchType}`,
+        reason: `Candidate from ${candidate.matchTypes.join(", ")}`,
       })),
     },
   };

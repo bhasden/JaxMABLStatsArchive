@@ -75,77 +75,59 @@ export type BuildMergedSeedBundleOptions = {
 };
 
 const DIMENSION_KEYS: Partial<Record<ArchiveSeedTable, string>> = {
-  players: "pointstreak_player_id",
-  teams: "pointstreak_team_link_id",
+  players: "player_id",
+  teams: "team_id",
 };
 
 const TABLE_SORT_FIELDS: Record<ArchiveSeedTable, string[]> = {
-  games: ["season_id", "pointstreak_game_id"],
-  players: ["pointstreak_player_id"],
-  teams: ["pointstreak_team_link_id", "pointstreak_team_id"],
-  rosters: [
-    "season_id",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-    "pointstreak_player_id",
-    "pointstreak_player_season_id",
-  ],
+  games: ["season_id", "game_id"],
+  players: ["player_id"],
+  teams: ["team_id", "season_team_id"],
+  rosters: ["season_id", "team_id", "season_team_id", "player_id", "player_season_id"],
   lineups: [
     "season_id",
-    "pointstreak_game_id",
+    "game_id",
     "is_home",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
+    "team_id",
+    "season_team_id",
+    "batting_order",
+    "batting_order_modifier",
     "order_idx",
-    "pointstreak_player_id",
+    "player_id",
   ],
   batting_stats: [
     "season_id",
-    "pointstreak_game_id",
+    "game_id",
     "is_home",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-    "pointstreak_player_id",
+    "team_id",
+    "season_team_id",
+    "batting_order",
+    "batting_order_modifier",
+    "player_id",
     "position",
     "jersey",
   ],
   pitching_stats: [
     "season_id",
-    "pointstreak_game_id",
+    "game_id",
     "is_home",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
+    "team_id",
+    "season_team_id",
     "pitching_order",
-    "pointstreak_player_id",
+    "player_id",
     "jersey",
   ],
-  season_batting_stats: [
-    "season_id",
-    "scope",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-    "pointstreak_player_id",
-    "pointstreak_player_season_id",
-    "jersey",
-  ],
-  season_pitching_stats: [
-    "season_id",
-    "scope",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-    "pointstreak_player_id",
-    "pointstreak_player_season_id",
-    "jersey",
-  ],
+  season_batting_stats: ["season_id", "scope", "team_id", "season_team_id", "player_id", "player_season_id", "jersey"],
+  season_pitching_stats: ["season_id", "scope", "team_id", "season_team_id", "player_id", "player_season_id", "jersey"],
   season_batting_leaders: [
     "season_id",
     "scope",
     "leader_category",
     "rank",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-    "pointstreak_player_id",
-    "pointstreak_player_season_id",
+    "team_id",
+    "season_team_id",
+    "player_id",
+    "player_season_id",
     "jersey",
   ],
   season_pitching_leaders: [
@@ -153,21 +135,14 @@ const TABLE_SORT_FIELDS: Record<ArchiveSeedTable, string[]> = {
     "scope",
     "leader_category",
     "rank",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-    "pointstreak_player_id",
-    "pointstreak_player_season_id",
+    "team_id",
+    "season_team_id",
+    "player_id",
+    "player_season_id",
     "jersey",
   ],
-  innings: [
-    "season_id",
-    "pointstreak_game_id",
-    "is_home",
-    "inning_number",
-    "team_pointstreak_link_id",
-    "team_pointstreak_id",
-  ],
-  standings: ["season_id", "team_pointstreak_link_id", "team_pointstreak_id"],
+  innings: ["season_id", "game_id", "is_home", "inning_number", "team_id", "season_team_id"],
+  standings: ["season_id", "team_id", "season_team_id"],
 };
 
 const TABLES_REQUIRING_SEASON_ID = new Set<ArchiveSeedTable>([
@@ -275,12 +250,12 @@ function collectUniqueValuesInEncounterOrder(...values: unknown[]) {
 
 function finalizeMergedTeamRow(row: ArchiveSeedRow) {
   const merged = { ...row };
-  const seasonTeamIds = collectUniqueSortedValues(row.pointstreak_team_id, row.season_team_pointstreak_ids);
+  const seasonTeamIds = collectUniqueSortedValues(row.season_team_id, row.season_season_team_ids);
   const teamNames = collectUniqueValuesInEncounterOrder(row.former_names, row.team_names, row.name);
   const shortNames = collectUniqueValuesInEncounterOrder(row.short_names, row.short_name);
 
   if (seasonTeamIds.length > 0) {
-    merged.season_team_pointstreak_ids = seasonTeamIds;
+    merged.season_season_team_ids = seasonTeamIds;
   }
 
   if (teamNames.length > 0) {
@@ -301,7 +276,7 @@ function finalizeMergedTeamRow(row: ArchiveSeedRow) {
   delete merged.team_names;
   delete merged.logo;
   delete merged.team_logo_urls;
-  delete merged.pointstreak_team_id;
+  delete merged.season_team_id;
   return merged;
 }
 
@@ -339,14 +314,14 @@ function mergeDimensionRow(
   if (table === "teams") {
     const merged = { ...existing };
     const seasonTeamIds = collectUniqueSortedValues(
-      existing.pointstreak_team_id,
-      existing.season_team_pointstreak_ids,
-      candidate.pointstreak_team_id,
-      candidate.season_team_pointstreak_ids,
+      existing.season_team_id,
+      existing.season_season_team_ids,
+      candidate.season_team_id,
+      candidate.season_season_team_ids,
     );
 
     if (seasonTeamIds.length > 0) {
-      merged.season_team_pointstreak_ids = seasonTeamIds;
+      merged.season_season_team_ids = seasonTeamIds;
     }
 
     const teamNames = collectUniqueValuesInEncounterOrder(
@@ -385,8 +360,8 @@ function mergeDimensionRow(
     for (const [field, value] of Object.entries(candidate)) {
       if (
         field === keyField ||
-        field === "pointstreak_team_id" ||
-        field === "season_team_pointstreak_ids" ||
+        field === "season_team_id" ||
+        field === "season_season_team_ids" ||
         field === "name" ||
         field === "former_names" ||
         field === "team_names" ||

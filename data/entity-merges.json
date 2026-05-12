@@ -3,15 +3,15 @@
     {
       "entityType": "player",
       "matchType": "exact:hasden b",
-      "canonicalId": 614496,
-      "aliasIds": [796973],
+      "canonicalId": 126,
+      "aliasIds": [614496, 796973],
       "reason": "Confirmed same player"
     },
     {
       "entityType": "player",
       "matchType": "exact:hellett j",
-      "canonicalId": 594472,
-      "aliasIds": [784824],
+      "canonicalId": 148,
+      "aliasIds": [594472, 784824],
       "reason": "Confirmed same player"
     },
     {
@@ -24,8 +24,15 @@
     {
       "entityType": "player",
       "matchType": "exact:hyser m",
-      "canonicalId": 614495,
-      "aliasIds": [796980],
+      "canonicalId": 398,
+      "aliasIds": [511, 614495, 796980],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:devon hellett",
+      "canonicalId": 155,
+      "aliasIds": [594473, 784823],
       "reason": "Confirmed same player"
     }
   ],
@@ -33,8 +40,8 @@
     {
       "entityType": "team",
       "matchType": "indians",
-      "canonicalId": 69752,
-      "aliasIds": [92341],
+      "canonicalId": 4,
+      "aliasIds": [69752, 92341],
       "reason": "Confirmed same team"
     },
     {
@@ -47,8 +54,8 @@
     {
       "entityType": "team",
       "matchType": "cruisers",
-      "canonicalId": 70342,
-      "aliasIds": [92342],
+      "canonicalId": 7,
+      "aliasIds": [70342, 92342],
       "reason": "Confirmed same team"
     },
     {

@@ -1,7 +1,7 @@
 type SeasonPitchingStatsRow = {
   scope?: unknown;
   season_id?: unknown;
-  pointstreak_player_id?: unknown;
+  player_id?: unknown;
   hits?: unknown;
 };
 
@@ -53,7 +53,7 @@ function sourceBlankLeaguePitchingHitsFromTeamStats(rows: SeasonPitchingStatsRow
     }
 
     const seasonId = numberOrNull(row.season_id);
-    const playerId = numberOrNull(row.pointstreak_player_id);
+    const playerId = numberOrNull(row.player_id);
     const hits = numberOrNull(row.hits);
     if (seasonId == null || playerId == null || hits == null) {
       continue;
@@ -70,7 +70,7 @@ function sourceBlankLeaguePitchingHitsFromTeamStats(rows: SeasonPitchingStatsRow
     }
 
     const seasonId = numberOrNull(row.season_id);
-    const playerId = numberOrNull(row.pointstreak_player_id);
+    const playerId = numberOrNull(row.player_id);
     if (seasonId == null || playerId == null) {
       continue;
     }

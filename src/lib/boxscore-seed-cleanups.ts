@@ -1,19 +1,19 @@
 type BoxscoreLineupRow = {
-  pointstreak_game_id: number;
+  game_id: number;
   season_id: number;
-  team_pointstreak_link_id: number | null;
+  team_id: number | null;
   is_home: boolean;
-  pointstreak_player_id: number | null;
+  player_id: number | null;
   position: string | null;
   order_idx: number | null;
 };
 
 type BoxscoreBattingRow = {
-  pointstreak_game_id: number;
+  game_id: number;
   season_id: number;
-  team_pointstreak_link_id: number | null;
+  team_id: number | null;
   is_home: boolean;
-  pointstreak_player_id: number | null;
+  player_id: number | null;
   ab: number | null;
   runs: number | null;
   hits: number | null;
@@ -112,7 +112,7 @@ function removePitcherOnlyBattingArtifacts({
     if (
       lineup.position !== "P" ||
       lineup.order_idx !== 1 ||
-      lineup.pointstreak_player_id == null ||
+      lineup.player_id == null ||
       (orderOneCounts.get(teamSideKey(lineup)) ?? 0) < 2
     ) {
       continue;
@@ -157,19 +157,14 @@ function removePitcherOnlyBattingArtifacts({
   };
 }
 
-function teamSideKey(
-  row: Pick<BoxscoreLineupRow, "pointstreak_game_id" | "season_id" | "team_pointstreak_link_id" | "is_home">,
-) {
-  return [row.pointstreak_game_id, row.season_id, row.team_pointstreak_link_id ?? "", row.is_home ? 1 : 0].join(":");
+function teamSideKey(row: Pick<BoxscoreLineupRow, "game_id" | "season_id" | "team_id" | "is_home">) {
+  return [row.game_id, row.season_id, row.team_id ?? "", row.is_home ? 1 : 0].join(":");
 }
 
 function playerTeamSideKey(
-  row: Pick<
-    BoxscoreLineupRow,
-    "pointstreak_game_id" | "season_id" | "team_pointstreak_link_id" | "is_home" | "pointstreak_player_id"
-  >,
+  row: Pick<BoxscoreLineupRow, "game_id" | "season_id" | "team_id" | "is_home" | "player_id">,
 ) {
-  return [teamSideKey(row), row.pointstreak_player_id ?? ""].join(":");
+  return [teamSideKey(row), row.player_id ?? ""].join(":");
 }
 
 function hasZeroCountedBattingStats(row: BoxscoreBattingRow) {

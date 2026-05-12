@@ -31,7 +31,7 @@ SELECT
   pct,
   rostered_players
 FROM v_team_season_summary
-WHERE team_pointstreak_link_id = ${teamId}
+WHERE team_id = ${teamId}
   ${seasonFilter}
 ORDER BY season_id DESC;
 `,
@@ -49,34 +49,34 @@ SELECT DISTINCT
     WHEN first_name IS NOT NULL THEN first_name
     ELSE name
   END AS name,
-  pointstreak_player_id,
+  player_id,
   position,
   jersey,
   bats,
   throws,
   hometown
 FROM rosters
-WHERE team_pointstreak_link_id = ${teamId}
+WHERE team_id = ${teamId}
   AND season_id = ${seasonId}
 ORDER BY COALESCE(last_name, name), first_name, name
 LIMIT 100;
 `
       : `
 WITH player_games AS (
-  SELECT pointstreak_player_id, pointstreak_game_id
+  SELECT player_id, game_id
   FROM lineups
-  WHERE team_pointstreak_link_id = ${teamId}
-    AND pointstreak_player_id IS NOT NULL
+  WHERE team_id = ${teamId}
+    AND player_id IS NOT NULL
   UNION
-  SELECT pointstreak_player_id, pointstreak_game_id
+  SELECT player_id, game_id
   FROM batting_stats
-  WHERE team_pointstreak_link_id = ${teamId}
-    AND pointstreak_player_id IS NOT NULL
+  WHERE team_id = ${teamId}
+    AND player_id IS NOT NULL
   UNION
-  SELECT pointstreak_player_id, pointstreak_game_id
+  SELECT player_id, game_id
   FROM pitching_stats
-  WHERE team_pointstreak_link_id = ${teamId}
-    AND pointstreak_player_id IS NOT NULL
+  WHERE team_id = ${teamId}
+    AND player_id IS NOT NULL
 )
 SELECT
   CASE
@@ -86,16 +86,16 @@ SELECT
     ELSE MAX(name)
   END AS name,
   COUNT(DISTINCT season_id) AS seasons,
-  pointstreak_player_id,
+  player_id,
   (
-    SELECT COUNT(DISTINCT pointstreak_game_id)
+    SELECT COUNT(DISTINCT game_id)
     FROM player_games
-    WHERE player_games.pointstreak_player_id = rosters.pointstreak_player_id
+    WHERE player_games.player_id = rosters.player_id
   ) AS games_played
 FROM rosters
-WHERE team_pointstreak_link_id = ${teamId}
-  AND pointstreak_player_id IS NOT NULL
-GROUP BY pointstreak_player_id
+WHERE team_id = ${teamId}
+  AND player_id IS NOT NULL
+GROUP BY player_id
 ORDER BY COALESCE(MAX(last_name), MAX(name)), MAX(first_name), MAX(name)
 LIMIT 500;
 `,
@@ -156,12 +156,12 @@ LIMIT 500;
           result={roster.result}
           columnHeaderMode={columnHeaderMode}
           query={roster.sql}
-          hiddenColumns={["pointstreak_player_id"]}
+          hiddenColumns={["player_id"]}
           cellHref={({ column, row, columns }) => {
             if (column !== "name") {
               return undefined;
             }
-            const playerId = row[columns.indexOf("pointstreak_player_id")];
+            const playerId = row[columns.indexOf("player_id")];
             if (!playerId) {
               return undefined;
             }
@@ -190,14 +190,27 @@ function TeamSeasonStatsSection({
     `
 SELECT
   player_name,
-  pointstreak_player_id,
+  player_id,
   at_bats,
+  runs,
   hits,
+  doubles,
+  triples,
   home_runs,
   runs_batted_in,
+  walks,
+  hit_by_pitch,
+  strikeouts,
+  sacrifice_flies,
+  sacrifice_bunts,
+  stolen_bases,
+  caught_stealing,
+  double_plays,
+  on_base_percentage,
+  slugging_percentage,
   batting_average
 FROM season_batting_stats
-WHERE team_pointstreak_link_id = ${teamId}
+WHERE team_id = ${teamId}
   AND scope = 'team'
   AND season_id = ${seasonId}
 ORDER BY
@@ -206,8 +219,8 @@ ORDER BY
       SELECT last_name
       FROM rosters
       WHERE rosters.season_id = season_batting_stats.season_id
-        AND rosters.team_pointstreak_link_id = season_batting_stats.team_pointstreak_link_id
-        AND rosters.pointstreak_player_id = season_batting_stats.pointstreak_player_id
+        AND rosters.team_id = season_batting_stats.team_id
+        AND rosters.player_id = season_batting_stats.player_id
         AND last_name IS NOT NULL
       LIMIT 1
     ),
@@ -223,13 +236,30 @@ LIMIT 50;
     `
 SELECT
   player_name,
-  pointstreak_player_id,
+  player_id,
   wins,
+  losses,
+  games,
+  games_started,
+  innings_pitched,
+  runs,
+  earned_runs,
+  hits,
+  walks,
   strikeouts,
-  era,
-  innings_pitched
+  hit_by_pitch,
+  batters_faced,
+  complete_games,
+  complete_game_losses,
+  shutouts,
+  saves,
+  blown_saves,
+  opponent_on_base_percentage,
+  opponent_slugging_percentage,
+  opponent_average,
+  era
 FROM season_pitching_stats
-WHERE team_pointstreak_link_id = ${teamId}
+WHERE team_id = ${teamId}
   AND scope = 'team'
   AND season_id = ${seasonId}
 ORDER BY
@@ -238,8 +268,8 @@ ORDER BY
       SELECT last_name
       FROM rosters
       WHERE rosters.season_id = season_pitching_stats.season_id
-        AND rosters.team_pointstreak_link_id = season_pitching_stats.team_pointstreak_link_id
-        AND rosters.pointstreak_player_id = season_pitching_stats.pointstreak_player_id
+        AND rosters.team_id = season_pitching_stats.team_id
+        AND rosters.player_id = season_pitching_stats.player_id
         AND last_name IS NOT NULL
       LIMIT 1
     ),
@@ -282,12 +312,12 @@ LIMIT 50;
         result={activeResult.result}
         columnHeaderMode={columnHeaderMode}
         query={activeResult.sql}
-        hiddenColumns={["pointstreak_player_id"]}
+        hiddenColumns={["player_id"]}
         cellHref={({ column, row, columns }) => {
           if (column !== "player_name") {
             return undefined;
           }
-          const playerId = row[columns.indexOf("pointstreak_player_id")];
+          const playerId = row[columns.indexOf("player_id")];
           return playerId ? href(`/seasons/${seasonId}/players/${playerId}`) : undefined;
         }}
       />

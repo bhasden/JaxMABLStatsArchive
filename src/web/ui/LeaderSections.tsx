@@ -15,6 +15,7 @@ type BattingLeaderCategory = "hits" | "hr" | "avr" | "rbi";
 type PitchingLeaderCategory = "wins" | "so" | "era";
 
 const TEAM_LEADER_LIMIT = 5;
+const compactSeasonNameExpression = "NULLIF(TRIM(REPLACE(seasons.name, 'JAX MABL', '')), '')";
 
 function scopeWhere(seasonId?: number, teamId?: number) {
   const clauses: string[] = [];
@@ -22,7 +23,7 @@ function scopeWhere(seasonId?: number, teamId?: number) {
     clauses.push(`season_id = ${seasonId}`);
   }
   if (teamId != null) {
-    clauses.push(`team_pointstreak_link_id = ${teamId}`);
+    clauses.push(`team_id = ${teamId}`);
   } else {
     clauses.push("scope = 'league'");
   }
@@ -38,7 +39,10 @@ function leaderLabel(prefix: string, seasonId?: number, teamId?: number) {
 
 function teamBattingSql(teamId: number, category: "hr" | "avr" | "rbi", statColumn: string, seasonId?: number) {
   const seasonFilter = seasonId != null ? `AND stats.season_id = ${seasonId}` : "";
-  const seasonSelect = seasonId == null ? "seasons.name AS season_name,\n    stats.season_id," : "stats.season_id,";
+  const seasonSelect =
+    seasonId == null
+      ? `COALESCE(${compactSeasonNameExpression}, seasons.name) AS season_name,\n    stats.season_id,`
+      : "stats.season_id,";
   const seasonColumns = seasonId == null ? "season_name, season_id, " : "season_id, ";
   const statExpression =
     category === "avr" ? "printf('%.3f', CAST(stats.hits AS REAL) / stats.at_bats)" : `stats.${statColumn}`;
@@ -62,19 +66,19 @@ WITH ranked AS (
     ${seasonSelect}
     stats.player_name,
     ${statExpression} AS ${statColumn},
-    stats.pointstreak_player_id
+    stats.player_id
   FROM season_batting_stats stats
   JOIN standings ON standings.season_id = stats.season_id
-    AND standings.team_pointstreak_link_id = stats.team_pointstreak_link_id
+    AND standings.team_id = stats.team_id
   LEFT JOIN seasons ON seasons.season_id = stats.season_id
-  WHERE stats.team_pointstreak_link_id = ${teamId}
+  WHERE stats.team_id = ${teamId}
     AND stats.scope = 'team'
     ${seasonFilter}
-    AND stats.pointstreak_player_id IS NOT NULL
+    AND stats.player_id IS NOT NULL
     ${plateAppearanceFilter}
     ${averageFilter}
 )
-SELECT rank, ${seasonColumns}player_name, ${statColumn}, pointstreak_player_id
+SELECT rank, ${seasonColumns}player_name, ${statColumn}, player_id
 FROM ranked
 ORDER BY rank
 LIMIT ${TEAM_LEADER_LIMIT};
@@ -90,7 +94,7 @@ function teamCareerBattingSql(teamId: number, category: BattingLeaderCategory, s
   return `
 WITH totals AS (
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     COALESCE(players.name, stats.player_name) AS player_name,
     SUM(COALESCE(stats.hits, 0)) AS hits,
     SUM(COALESCE(stats.home_runs, 0)) AS home_runs,
@@ -104,23 +108,23 @@ WITH totals AS (
     SUM(standings.games_played) AS team_games
   FROM season_batting_stats stats
   JOIN standings ON standings.season_id = stats.season_id
-    AND standings.team_pointstreak_link_id = stats.team_pointstreak_link_id
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
-  WHERE stats.team_pointstreak_link_id = ${teamId}
+    AND standings.team_id = stats.team_id
+  LEFT JOIN players ON players.player_id = stats.player_id
+  WHERE stats.team_id = ${teamId}
     AND stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
-  GROUP BY stats.pointstreak_player_id
+    AND stats.player_id IS NOT NULL
+  GROUP BY stats.player_id
 ),
 ranked AS (
   SELECT
     ROW_NUMBER() OVER (ORDER BY ${orderExpression} DESC, ${tieBreaker}, player_name) AS rank,
     player_name,
     ${statExpression} AS ${statColumn},
-    pointstreak_player_id
+    player_id
   FROM totals
   ${qualificationFilter}
 )
-SELECT rank, player_name, ${statColumn}, pointstreak_player_id
+SELECT rank, player_name, ${statColumn}, player_id
 FROM ranked
 ORDER BY rank
 LIMIT ${TEAM_LEADER_LIMIT};
@@ -129,7 +133,10 @@ LIMIT ${TEAM_LEADER_LIMIT};
 
 function teamPitchingSql(teamId: number, category: PitchingLeaderCategory, statColumn: string, seasonId?: number) {
   const seasonFilter = seasonId != null ? `AND stats.season_id = ${seasonId}` : "";
-  const seasonSelect = seasonId == null ? "seasons.name AS season_name,\n    stats.season_id," : "stats.season_id,";
+  const seasonSelect =
+    seasonId == null
+      ? `COALESCE(${compactSeasonNameExpression}, seasons.name) AS season_name,\n    stats.season_id,`
+      : "stats.season_id,";
   const seasonColumns = seasonId == null ? "season_name, season_id, " : "season_id, ";
   const outsExpression = `
     CASE
@@ -154,15 +161,15 @@ WITH qualified AS (
     stats.earned_runs,
     ${outsExpression} AS outs,
     standings.games_played AS team_games,
-    stats.pointstreak_player_id
+    stats.player_id
   FROM season_pitching_stats stats
   JOIN standings ON standings.season_id = stats.season_id
-    AND standings.team_pointstreak_link_id = stats.team_pointstreak_link_id
+    AND standings.team_id = stats.team_id
   LEFT JOIN seasons ON seasons.season_id = stats.season_id
-  WHERE stats.team_pointstreak_link_id = ${teamId}
+  WHERE stats.team_id = ${teamId}
     AND stats.scope = 'team'
     ${seasonFilter}
-    AND stats.pointstreak_player_id IS NOT NULL
+    AND stats.player_id IS NOT NULL
 ),
 ranked AS (
   SELECT
@@ -170,11 +177,11 @@ ranked AS (
     ${seasonColumns}
     player_name,
     ${statExpression} AS ${statColumn},
-    pointstreak_player_id
+    player_id
   FROM qualified
   ${qualificationFilter}
 )
-SELECT rank, ${seasonColumns}player_name, ${statColumn}, pointstreak_player_id
+SELECT rank, ${seasonColumns}player_name, ${statColumn}, player_id
 FROM ranked
 ORDER BY rank
 LIMIT ${TEAM_LEADER_LIMIT};
@@ -200,7 +207,7 @@ function teamCareerPitchingSql(teamId: number, category: PitchingLeaderCategory,
   return `
 WITH pitcher_seasons AS (
   SELECT
-    stats.pointstreak_player_id,
+    stats.player_id,
     COALESCE(players.name, stats.player_name) AS player_name,
     COALESCE(stats.wins, 0) AS wins,
     COALESCE(stats.strikeouts, 0) AS strikeouts,
@@ -209,15 +216,15 @@ WITH pitcher_seasons AS (
     standings.games_played AS team_games
   FROM season_pitching_stats stats
   JOIN standings ON standings.season_id = stats.season_id
-    AND standings.team_pointstreak_link_id = stats.team_pointstreak_link_id
-  LEFT JOIN players ON players.pointstreak_player_id = stats.pointstreak_player_id
-  WHERE stats.team_pointstreak_link_id = ${teamId}
+    AND standings.team_id = stats.team_id
+  LEFT JOIN players ON players.player_id = stats.player_id
+  WHERE stats.team_id = ${teamId}
     AND stats.scope = 'team'
-    AND stats.pointstreak_player_id IS NOT NULL
+    AND stats.player_id IS NOT NULL
 ),
 totals AS (
   SELECT
-    pointstreak_player_id,
+    player_id,
     player_name,
     SUM(wins) AS wins,
     SUM(strikeouts) AS strikeouts,
@@ -225,18 +232,18 @@ totals AS (
     SUM(outs) AS outs,
     SUM(team_games) AS team_games
   FROM pitcher_seasons
-  GROUP BY pointstreak_player_id
+  GROUP BY player_id
 ),
 ranked AS (
   SELECT
     ROW_NUMBER() OVER (ORDER BY ${orderExpression} ${orderDirection}, outs DESC, player_name) AS rank,
     player_name,
     ${statExpression} AS ${statColumn},
-    pointstreak_player_id
+    player_id
   FROM totals
   ${qualificationFilter}
 )
-SELECT rank, player_name, ${statColumn}, pointstreak_player_id
+SELECT rank, player_name, ${statColumn}, player_id
 FROM ranked
 ORDER BY rank
 LIMIT ${TEAM_LEADER_LIMIT};
@@ -266,7 +273,7 @@ SELECT
   player_name,
   ${includeTeam ? "source_team_name," : ""}
   ${statColumn},
-  pointstreak_player_id
+  player_id
 FROM season_batting_leaders
 WHERE ${where}
   AND leader_category = '${category}'
@@ -274,22 +281,23 @@ ORDER BY rank
 LIMIT 10;
 `;
   const result = usePageQuery(archive, sql, leaderLabel(title, seasonId, teamId));
+  const isCompactSingleSeasonTeamLeader = teamId != null && seasonId == null && leaderMode === "singleSeason";
 
   return (
-    <div className="leader-panel">
+    <div className={isCompactSingleSeasonTeamLeader ? "leader-panel compact-leader-panel" : "leader-panel"}>
       <h3>{title}</h3>
       <Table
         result={result.result}
         columnHeaderMode={columnHeaderMode}
         query={result.sql}
-        hiddenColumns={["season_id", "pointstreak_player_id"]}
+        hiddenColumns={["season_id", "player_id"]}
         cellHref={({ column, row, columns }) => {
           const rowSeasonId = seasonId ?? row[columns.indexOf("season_id")];
           if (column === "season_name" && teamId != null && rowSeasonId) {
             return href(`/seasons/${rowSeasonId}/teams/${teamId}`);
           }
           if (column === "player_name") {
-            const playerId = row[columns.indexOf("pointstreak_player_id")];
+            const playerId = row[columns.indexOf("player_id")];
             return rowSeasonId ? href(`/seasons/${rowSeasonId}/players/${playerId}`) : href(`/players/${playerId}`);
           }
           return undefined;
@@ -327,7 +335,7 @@ SELECT
   player_name,
   ${includeTeam ? "source_team_name," : ""}
   ${statColumn},
-  pointstreak_player_id
+  player_id
 FROM season_pitching_leaders
 WHERE ${where}
   AND ${categoryWhere}
@@ -335,22 +343,23 @@ ORDER BY ${orderBy}
 LIMIT 10;
 `;
   const result = usePageQuery(archive, sql, leaderLabel(title, seasonId, teamId));
+  const isCompactSingleSeasonTeamLeader = teamId != null && seasonId == null && leaderMode === "singleSeason";
 
   return (
-    <div className="leader-panel">
+    <div className={isCompactSingleSeasonTeamLeader ? "leader-panel compact-leader-panel" : "leader-panel"}>
       <h3>{title}</h3>
       <Table
         result={result.result}
         columnHeaderMode={columnHeaderMode}
         query={result.sql}
-        hiddenColumns={["season_id", "pointstreak_player_id"]}
+        hiddenColumns={["season_id", "player_id"]}
         cellHref={({ column, row, columns }) => {
           const rowSeasonId = seasonId ?? row[columns.indexOf("season_id")];
           if (column === "season_name" && teamId != null && rowSeasonId) {
             return href(`/seasons/${rowSeasonId}/teams/${teamId}`);
           }
           if (column === "player_name") {
-            const playerId = row[columns.indexOf("pointstreak_player_id")];
+            const playerId = row[columns.indexOf("player_id")];
             return rowSeasonId ? href(`/seasons/${rowSeasonId}/players/${playerId}`) : href(`/players/${playerId}`);
           }
           return undefined;

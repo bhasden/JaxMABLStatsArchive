@@ -22,6 +22,9 @@ export const ARCHIVE_SEASONS: ArchiveSeasonOption[] = [
   { id: "30232", name: "JAX MABL Summer 2016" },
   { id: "29373", name: "JAX MABL Summer 2015" },
   { id: "28308", name: "JAX MABL Summer 2014" },
+  { id: "2010", name: "JAX MABL Summer 2010" },
+  { id: "2009", name: "JAX MABL Summer 2009" },
+  { id: "2008", name: "JAX MABL Summer 2008" },
 ];
 
 export const SEASONS = [

@@ -39,9 +39,9 @@ The user explicitly prioritized:
 
 ### Identity rules
 
-- Stable team identity is `teamlinkid` from Pointstreak.
-- Season-scoped `teamid` is still preserved as a season fact, but is not the canonical cross-season key.
-- Players are deduped only by `pointstreak_player_id`.
+- Stable archive team identity is `team_id`; for Pointstreak seasons this is sourced from `teamlinkid`.
+- Season-scoped source team IDs are preserved as `season_team_id`, but they are not the canonical cross-season key.
+- Players are deduped only by `player_id`.
 - Do not infer permanent team affiliation across seasons.
 - Players can and do move teams between seasons.
 
@@ -185,9 +185,9 @@ Confirmed merges and `nonMerges` are both treated as reviewed candidate groups b
   - Merges season seed bundles into `data/seeds/all` and applies reviewed entity merges.
 - `scripts/entity-merges-suggest.ts`
   - Suggests human-reviewable player/team entity merge candidates.
-- `scripts/db-import.ts`
+- `scripts/db-build.ts`
   - Builds the SQLite archive DB from merged seeds.
-- `scripts/db-build-static.ts`
+- `scripts/db-build-full.ts`
   - Builds `public/archive.sqlite` from raw XML via season seeds, merged seeds, entity merges, and SQLite import.
 
 ### Tests

@@ -41,7 +41,7 @@ SELECT
   losses,
   ties,
   pct,
-  team_pointstreak_link_id
+  team_id
 FROM standings
 WHERE season_id = ${seasonId}
 ORDER BY wins DESC, pct DESC, name;
@@ -55,17 +55,17 @@ ORDER BY wins DESC, pct DESC, name;
 SELECT
   scheduled_at,
   away.name AS away_team,
-  games.away_team_pointstreak_link_id,
+  games.away_team_id,
   away_score,
   home_score,
   home.name AS home_team,
-  games.home_team_pointstreak_link_id,
+  games.home_team_id,
   status
 FROM games
-LEFT JOIN teams away ON away.pointstreak_team_link_id = games.away_team_pointstreak_link_id
-LEFT JOIN teams home ON home.pointstreak_team_link_id = games.home_team_pointstreak_link_id
+LEFT JOIN teams away ON away.team_id = games.away_team_id
+LEFT JOIN teams home ON home.team_id = games.home_team_id
 WHERE season_id = ${seasonId}
-ORDER BY scheduled_at, pointstreak_game_id
+ORDER BY scheduled_at, game_id
 LIMIT 50;
 `,
     `Season ${seasonId} schedule`,
@@ -91,12 +91,12 @@ LIMIT 50;
           result={standings.result}
           columnHeaderMode={columnHeaderMode}
           query={standings.sql}
-          hiddenColumns={["team_pointstreak_link_id"]}
+          hiddenColumns={["team_id"]}
           cellHref={({ column, row, columns }) => {
             if (column !== "name") {
               return undefined;
             }
-            return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("team_pointstreak_link_id")]}`);
+            return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("team_id")]}`);
           }}
         />
       </section>
@@ -108,13 +108,13 @@ LIMIT 50;
           result={schedule.result}
           columnHeaderMode={columnHeaderMode}
           query={schedule.sql}
-          hiddenColumns={["away_team_pointstreak_link_id", "home_team_pointstreak_link_id"]}
+          hiddenColumns={["away_team_id", "home_team_id"]}
           cellHref={({ column, row, columns }) => {
             if (column === "away_team") {
-              return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("away_team_pointstreak_link_id")]}`);
+              return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("away_team_id")]}`);
             }
             if (column === "home_team") {
-              return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("home_team_pointstreak_link_id")]}`);
+              return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("home_team_id")]}`);
             }
             return undefined;
           }}

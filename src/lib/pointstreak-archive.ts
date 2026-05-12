@@ -369,11 +369,11 @@ function upsertTeamRow(
   const key = String(identity.canonicalTeamId);
   const existing = teamsMap.get(key);
   if (existing) {
-    if (existing.pointstreak_team_id == null && identity.pointstreakTeamId != null) {
-      existing.pointstreak_team_id = identity.pointstreakTeamId;
+    if (existing.season_team_id == null && identity.pointstreakTeamId != null) {
+      existing.season_team_id = identity.pointstreakTeamId;
     }
-    if (existing.pointstreak_team_link_id == null) {
-      existing.pointstreak_team_link_id = identity.pointstreakTeamLinkId ?? identity.canonicalTeamId;
+    if (existing.team_id == null) {
+      existing.team_id = identity.pointstreakTeamLinkId ?? identity.canonicalTeamId;
     }
     if (!existing.name && name) {
       existing.name = name;
@@ -385,8 +385,8 @@ function upsertTeamRow(
   }
 
   teamsMap.set(key, {
-    pointstreak_team_id: identity.pointstreakTeamId,
-    pointstreak_team_link_id: identity.pointstreakTeamLinkId ?? identity.canonicalTeamId,
+    season_team_id: identity.pointstreakTeamId,
+    team_id: identity.pointstreakTeamLinkId ?? identity.canonicalTeamId,
     league_id: leagueId,
     name,
     short_name: shortName,
@@ -478,9 +478,8 @@ function appendStandingsRowsFromXml(
     rows.push({
       league_id: context.leagueId,
       season_id: context.seasonId,
-      team_pointstreak_link_id: teamPointstreakLinkId,
-      team_pointstreak_id:
-        identity.pointstreakTeamId ?? teamsMap.get(String(teamPointstreakLinkId))?.pointstreak_team_id ?? null,
+      team_id: teamPointstreakLinkId,
+      season_team_id: identity.pointstreakTeamId ?? teamsMap.get(String(teamPointstreakLinkId))?.season_team_id ?? null,
       name:
         team.attr("teamname") ||
         team.attr("teamName") ||
@@ -520,7 +519,7 @@ function upsertPlayerRow(playersMap: Map<string, any>, pointstreakPlayerId: numb
   const existing = playersMap.get(key);
   if (!existing) {
     playersMap.set(key, {
-      pointstreak_player_id: pointstreakPlayerId,
+      player_id: pointstreakPlayerId,
       name,
     });
     return;
@@ -546,7 +545,7 @@ async function listSeasonSupplementalTeamLinkIds(rawDir: string, teamsMap: Map<s
   const ids = new Set<number>();
 
   for (const team of Array.from(teamsMap.values())) {
-    const teamLinkId = Number(team?.pointstreak_team_link_id);
+    const teamLinkId = Number(team?.team_id);
     if (Number.isFinite(teamLinkId) && teamLinkId > 0) {
       ids.add(teamLinkId);
     }
@@ -587,11 +586,11 @@ function appendSeasonBattingStatsFromXml(
       scope: context.scope,
       league_id: context.leagueId,
       season_id: context.seasonId,
-      team_pointstreak_link_id: context.teamPointstreakLinkId,
-      team_pointstreak_id: context.teamPointstreakId,
+      team_id: context.teamPointstreakLinkId,
+      season_team_id: context.teamPointstreakId,
       source_team_name: textOrNull(player.find("teamname").first().text()) ?? context.teamName,
-      pointstreak_player_id: pointstreakPlayerId,
-      pointstreak_player_season_id: pointstreakPlayerSeasonId,
+      player_id: pointstreakPlayerId,
+      player_season_id: pointstreakPlayerSeasonId,
       player_name: playerName,
       jersey: textOrNull(player.find("jersey").first().text()),
       at_bats: firstNumericValue(player.find("ab").first().text()),
@@ -634,11 +633,11 @@ function appendSeasonPitchingStatsFromXml(
       scope: context.scope,
       league_id: context.leagueId,
       season_id: context.seasonId,
-      team_pointstreak_link_id: context.teamPointstreakLinkId,
-      team_pointstreak_id: context.teamPointstreakId,
+      team_id: context.teamPointstreakLinkId,
+      season_team_id: context.teamPointstreakId,
       source_team_name: textOrNull(player.find("teamname").first().text()) ?? context.teamName,
-      pointstreak_player_id: pointstreakPlayerId,
-      pointstreak_player_season_id: pointstreakPlayerSeasonId,
+      player_id: pointstreakPlayerId,
+      player_season_id: pointstreakPlayerSeasonId,
       player_name: playerName,
       jersey: textOrNull(player.find("jersey").first().text()),
       wins: firstNumericValue(player.find("wins").first().text()),
@@ -701,13 +700,13 @@ function appendSeasonBattingLeadersFromXml(
             scope: context.scope,
             league_id: context.leagueId,
             season_id: context.seasonId,
-            team_pointstreak_link_id: context.teamPointstreakLinkId,
-            team_pointstreak_id: context.teamPointstreakId,
+            team_id: context.teamPointstreakLinkId,
+            season_team_id: context.teamPointstreakId,
             leader_category: leaderCategory,
             rank: index + 1,
             source_team_name: textOrNull(batter.find("teamname").first().text()) ?? context.teamName,
-            pointstreak_player_id: pointstreakPlayerId,
-            pointstreak_player_season_id: pointstreakPlayerSeasonId,
+            player_id: pointstreakPlayerId,
+            player_season_id: pointstreakPlayerSeasonId,
             player_name: playerName,
             jersey: textOrNull(batter.find("jersey").first().text()),
             at_bats: firstNumericValue(batter.find("ab").first().text()),
@@ -767,13 +766,13 @@ function appendSeasonPitchingLeadersFromXml(
             scope: context.scope,
             league_id: context.leagueId,
             season_id: context.seasonId,
-            team_pointstreak_link_id: context.teamPointstreakLinkId,
-            team_pointstreak_id: context.teamPointstreakId,
+            team_id: context.teamPointstreakLinkId,
+            season_team_id: context.teamPointstreakId,
             leader_category: leaderCategory,
             rank: index + 1,
             source_team_name: textOrNull(player.find("teamname").first().text()) ?? context.teamName,
-            pointstreak_player_id: pointstreakPlayerId,
-            pointstreak_player_season_id: pointstreakPlayerSeasonId,
+            player_id: pointstreakPlayerId,
+            player_season_id: pointstreakPlayerSeasonId,
             player_name: playerName,
             jersey: textOrNull(player.find("jersey").first().text()),
             wins: firstNumericValue(player.find("wins").first().text()),
@@ -818,11 +817,11 @@ function appendRosterRowsFromXml(xml: string, context: SupplementalContext, rows
     rows.push({
       league_id: context.leagueId,
       season_id: context.seasonId,
-      team_pointstreak_link_id: context.teamPointstreakLinkId,
-      team_pointstreak_id: context.teamPointstreakId,
+      team_id: context.teamPointstreakLinkId,
+      season_team_id: context.teamPointstreakId,
       team_name: rosterTeamName,
-      pointstreak_player_id: pointstreakPlayerId,
-      pointstreak_player_season_id: pointstreakPlayerSeasonId,
+      player_id: pointstreakPlayerId,
+      player_season_id: pointstreakPlayerSeasonId,
       first_name: firstName,
       last_name: lastName,
       name: fullName,
@@ -1233,22 +1232,22 @@ export async function generateSeedsForSeason(
       const winnerTeamId = isTie ? null : homescore > awayscore ? homeTeamId : awayTeamId;
       const loserTeamId = isTie ? null : homescore > awayscore ? awayTeamId : homeTeamId;
       gamesMap.set(String(gameId), {
-        pointstreak_game_id: Number(gameId),
+        game_id: Number(gameId),
         league_id: leagueId,
         season_id: seasonId,
         scheduled_at: schedgametime,
         status,
-        home_team_pointstreak_link_id: homeTeamLinkId,
-        away_team_pointstreak_link_id: awayTeamLinkId,
-        home_team_pointstreak_id: homeTeamId,
-        away_team_pointstreak_id: awayTeamId,
+        home_team_id: homeTeamLinkId,
+        away_team_id: awayTeamLinkId,
+        home_season_team_id: homeTeamId,
+        away_season_team_id: awayTeamId,
         home_score: homescore,
         away_score: awayscore,
         is_tie: isTie,
-        winner_team_pointstreak_link_id: winnerTeamLinkId,
-        loser_team_pointstreak_link_id: loserTeamLinkId,
-        winner_team_pointstreak_id: winnerTeamId,
-        loser_team_pointstreak_id: loserTeamId,
+        winner_team_id: winnerTeamLinkId,
+        loser_team_id: loserTeamLinkId,
+        winner_season_team_id: winnerTeamId,
+        loser_season_team_id: loserTeamId,
         raw_xml_file: fn,
       });
 
@@ -1260,37 +1259,37 @@ export async function generateSeedsForSeason(
         const p = $(el);
         const pid = p.find("playerlinkid").text().trim();
         gameLineups.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: awayTeamLinkId,
-          team_pointstreak_id: awayTeamId,
+          team_id: awayTeamLinkId,
+          season_team_id: awayTeamId,
           is_home: false,
-          pointstreak_player_id: pid ? Number(pid) : null,
+          player_id: pid ? Number(pid) : null,
           name: p.find("name").text().trim() || null,
           jersey: p.find("jersey").text().trim() || null,
           position: p.find("position").text().trim() || null,
           order_idx: Number(p.find("order").text() || 0),
         });
         if (pid && !playersMap.has(pid))
-          playersMap.set(pid, { pointstreak_player_id: Number(pid), name: p.find("name").text().trim() || null });
+          playersMap.set(pid, { player_id: Number(pid), name: p.find("name").text().trim() || null });
       });
       $("battinglineup home player").each((_, el) => {
         const p = $(el);
         const pid = p.find("playerlinkid").text().trim();
         gameLineups.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: homeTeamLinkId,
-          team_pointstreak_id: homeTeamId,
+          team_id: homeTeamLinkId,
+          season_team_id: homeTeamId,
           is_home: true,
-          pointstreak_player_id: pid ? Number(pid) : null,
+          player_id: pid ? Number(pid) : null,
           name: p.find("name").text().trim() || null,
           jersey: p.find("jersey").text().trim() || null,
           position: p.find("position").text().trim() || null,
           order_idx: Number(p.find("order").text() || 0),
         });
         if (pid && !playersMap.has(pid))
-          playersMap.set(pid, { pointstreak_player_id: Number(pid), name: p.find("name").text().trim() || null });
+          playersMap.set(pid, { player_id: Number(pid), name: p.find("name").text().trim() || null });
       });
 
       // batting
@@ -1298,14 +1297,14 @@ export async function generateSeedsForSeason(
         const p = $(el);
         const pid = p.find("playerlinkid").text().trim();
         if (pid && !playersMap.has(pid))
-          playersMap.set(pid, { pointstreak_player_id: Number(pid), name: p.find("name").text().trim() || null });
+          playersMap.set(pid, { player_id: Number(pid), name: p.find("name").text().trim() || null });
         gameBatting.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: awayTeamLinkId,
-          team_pointstreak_id: awayTeamId,
+          team_id: awayTeamLinkId,
+          season_team_id: awayTeamId,
           is_home: false,
-          pointstreak_player_id: pid ? Number(pid) : null,
+          player_id: pid ? Number(pid) : null,
           jersey: p.find("jersey").text().trim() || null,
           position: p.find("position").text().trim() || null,
           ab: Number(p.find("ab").text() || 0),
@@ -1323,14 +1322,14 @@ export async function generateSeedsForSeason(
         const p = $(el);
         const pid = p.find("playerlinkid").text().trim();
         if (pid && !playersMap.has(pid))
-          playersMap.set(pid, { pointstreak_player_id: Number(pid), name: p.find("name").text().trim() || null });
+          playersMap.set(pid, { player_id: Number(pid), name: p.find("name").text().trim() || null });
         gameBatting.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: homeTeamLinkId,
-          team_pointstreak_id: homeTeamId,
+          team_id: homeTeamLinkId,
+          season_team_id: homeTeamId,
           is_home: true,
-          pointstreak_player_id: pid ? Number(pid) : null,
+          player_id: pid ? Number(pid) : null,
           jersey: p.find("jersey").text().trim() || null,
           position: p.find("position").text().trim() || null,
           ab: Number(p.find("ab").text() || 0),
@@ -1360,14 +1359,14 @@ export async function generateSeedsForSeason(
         const p = $(el);
         const pid = p.find("playerlinkid").text().trim();
         if (pid && !playersMap.has(pid))
-          playersMap.set(pid, { pointstreak_player_id: Number(pid), name: p.find("name").text().trim() || null });
+          playersMap.set(pid, { player_id: Number(pid), name: p.find("name").text().trim() || null });
         pitching.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: awayTeamLinkId,
-          team_pointstreak_id: awayTeamId,
+          team_id: awayTeamLinkId,
+          season_team_id: awayTeamId,
           is_home: false,
-          pointstreak_player_id: pid ? Number(pid) : null,
+          player_id: pid ? Number(pid) : null,
           jersey: p.find("jersey").text().trim() || null,
           pitching_order: index + 1,
           ip: p.find("ip").text().trim() || null,
@@ -1383,14 +1382,14 @@ export async function generateSeedsForSeason(
         const p = $(el);
         const pid = p.find("playerlinkid").text().trim();
         if (pid && !playersMap.has(pid))
-          playersMap.set(pid, { pointstreak_player_id: Number(pid), name: p.find("name").text().trim() || null });
+          playersMap.set(pid, { player_id: Number(pid), name: p.find("name").text().trim() || null });
         pitching.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: homeTeamLinkId,
-          team_pointstreak_id: homeTeamId,
+          team_id: homeTeamLinkId,
+          season_team_id: homeTeamId,
           is_home: true,
-          pointstreak_player_id: pid ? Number(pid) : null,
+          player_id: pid ? Number(pid) : null,
           jersey: p.find("jersey").text().trim() || null,
           pitching_order: index + 1,
           ip: p.find("ip").text().trim() || null,
@@ -1418,10 +1417,10 @@ export async function generateSeedsForSeason(
         const num = Number(inn.attr("number") || 0);
         const score = Number(inn.attr("score") || 0);
         innings.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: awayTeamLinkId,
-          team_pointstreak_id: awayTeamId,
+          team_id: awayTeamLinkId,
+          season_team_id: awayTeamId,
           is_home: false,
           inning_number: num,
           runs: score,
@@ -1435,10 +1434,10 @@ export async function generateSeedsForSeason(
         const num = Number(inn.attr("number") || 0);
         const score = Number(inn.attr("score") || 0);
         innings.push({
-          pointstreak_game_id: Number(gameId),
+          game_id: Number(gameId),
           season_id: seasonId,
-          team_pointstreak_link_id: homeTeamLinkId,
-          team_pointstreak_id: homeTeamId,
+          team_id: homeTeamLinkId,
+          season_team_id: homeTeamId,
           is_home: true,
           inning_number: num,
           runs: score,
@@ -1502,7 +1501,7 @@ export async function generateSeedsForSeason(
       leagueId,
       seasonId,
       teamPointstreakLinkId,
-      teamPointstreakId: teamRow?.pointstreak_team_id ?? null,
+      teamPointstreakId: teamRow?.season_team_id ?? null,
       teamName: teamRow?.name ?? null,
     };
     const teamDir = path.join(rawTeamsDir, String(teamPointstreakLinkId));
@@ -1553,45 +1552,41 @@ export async function generateSeedsForSeason(
   const standingsPath = path.join(seedsDir, "standings.ndjson");
 
   // players
-  const players = Array.from(playersMap.values()).sort(
-    (a, b) => (a.pointstreak_player_id || 0) - (b.pointstreak_player_id || 0),
-  );
+  const players = Array.from(playersMap.values()).sort((a, b) => (a.player_id || 0) - (b.player_id || 0));
   await writeNdjsonFile(playersPath, players);
 
   // teams
   const teams = Array.from(teamsMap.values()).sort((a, b) => {
-    if ((a.pointstreak_team_link_id || 0) !== (b.pointstreak_team_link_id || 0)) {
-      return (a.pointstreak_team_link_id || 0) - (b.pointstreak_team_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
-    return (a.pointstreak_team_id || 0) - (b.pointstreak_team_id || 0);
+    return (a.season_team_id || 0) - (b.season_team_id || 0);
   });
   await writeNdjsonFile(teamsPath, teams);
 
   // games
-  const games = Array.from(gamesMap.values()).sort(
-    (a, b) => (a.pointstreak_game_id || 0) - (b.pointstreak_game_id || 0),
-  );
+  const games = Array.from(gamesMap.values()).sort((a, b) => (a.game_id || 0) - (b.game_id || 0));
   await writeNdjsonFile(gamesPath, games);
 
   rosters.sort((a, b) => {
-    if ((a.team_pointstreak_link_id || 0) !== (b.team_pointstreak_link_id || 0)) {
-      return (a.team_pointstreak_link_id || 0) - (b.team_pointstreak_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
-    if ((a.pointstreak_player_id || 0) !== (b.pointstreak_player_id || 0)) {
-      return (a.pointstreak_player_id || 0) - (b.pointstreak_player_id || 0);
+    if ((a.player_id || 0) !== (b.player_id || 0)) {
+      return (a.player_id || 0) - (b.player_id || 0);
     }
-    return (a.pointstreak_player_season_id || 0) - (b.pointstreak_player_season_id || 0);
+    return (a.player_season_id || 0) - (b.player_season_id || 0);
   });
   await writeNdjsonFile(rostersPath, rosters);
 
   // lineups, batting, pitching, innings (already arrays) — write in deterministic order
-  lineups.sort((a, b) => (a.pointstreak_game_id || 0) - (b.pointstreak_game_id || 0));
+  lineups.sort((a, b) => (a.game_id || 0) - (b.game_id || 0));
   await writeNdjsonFile(lineupPath, lineups);
 
-  batting.sort((a, b) => (a.pointstreak_game_id || 0) - (b.pointstreak_game_id || 0));
+  batting.sort((a, b) => (a.game_id || 0) - (b.game_id || 0));
   await writeNdjsonFile(battingPath, batting);
 
-  pitching.sort((a, b) => (a.pointstreak_game_id || 0) - (b.pointstreak_game_id || 0));
+  pitching.sort((a, b) => (a.game_id || 0) - (b.game_id || 0));
   await writeNdjsonFile(pitchingPath, pitching);
 
   seasonBattingStats.sort((a, b) => {
@@ -1599,13 +1594,13 @@ export async function generateSeedsForSeason(
     if (scopeCompare !== 0) {
       return scopeCompare;
     }
-    if ((a.team_pointstreak_link_id || 0) !== (b.team_pointstreak_link_id || 0)) {
-      return (a.team_pointstreak_link_id || 0) - (b.team_pointstreak_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
-    if ((a.pointstreak_player_id || 0) !== (b.pointstreak_player_id || 0)) {
-      return (a.pointstreak_player_id || 0) - (b.pointstreak_player_id || 0);
+    if ((a.player_id || 0) !== (b.player_id || 0)) {
+      return (a.player_id || 0) - (b.player_id || 0);
     }
-    return (a.pointstreak_player_season_id || 0) - (b.pointstreak_player_season_id || 0);
+    return (a.player_season_id || 0) - (b.player_season_id || 0);
   });
   await writeNdjsonFile(seasonBattingStatsPath, seasonBattingStats);
 
@@ -1614,13 +1609,13 @@ export async function generateSeedsForSeason(
     if (scopeCompare !== 0) {
       return scopeCompare;
     }
-    if ((a.team_pointstreak_link_id || 0) !== (b.team_pointstreak_link_id || 0)) {
-      return (a.team_pointstreak_link_id || 0) - (b.team_pointstreak_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
-    if ((a.pointstreak_player_id || 0) !== (b.pointstreak_player_id || 0)) {
-      return (a.pointstreak_player_id || 0) - (b.pointstreak_player_id || 0);
+    if ((a.player_id || 0) !== (b.player_id || 0)) {
+      return (a.player_id || 0) - (b.player_id || 0);
     }
-    return (a.pointstreak_player_season_id || 0) - (b.pointstreak_player_season_id || 0);
+    return (a.player_season_id || 0) - (b.player_season_id || 0);
   });
   await writeNdjsonFile(seasonPitchingStatsPath, seasonPitchingStats);
 
@@ -1633,13 +1628,13 @@ export async function generateSeedsForSeason(
     if (categoryCompare !== 0) {
       return categoryCompare;
     }
-    if ((a.team_pointstreak_link_id || 0) !== (b.team_pointstreak_link_id || 0)) {
-      return (a.team_pointstreak_link_id || 0) - (b.team_pointstreak_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
     if ((a.rank || 0) !== (b.rank || 0)) {
       return (a.rank || 0) - (b.rank || 0);
     }
-    return (a.pointstreak_player_id || 0) - (b.pointstreak_player_id || 0);
+    return (a.player_id || 0) - (b.player_id || 0);
   });
   await writeNdjsonFile(seasonBattingLeadersPath, seasonBattingLeaders);
 
@@ -1652,17 +1647,17 @@ export async function generateSeedsForSeason(
     if (categoryCompare !== 0) {
       return categoryCompare;
     }
-    if ((a.team_pointstreak_link_id || 0) !== (b.team_pointstreak_link_id || 0)) {
-      return (a.team_pointstreak_link_id || 0) - (b.team_pointstreak_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
     if ((a.rank || 0) !== (b.rank || 0)) {
       return (a.rank || 0) - (b.rank || 0);
     }
-    return (a.pointstreak_player_id || 0) - (b.pointstreak_player_id || 0);
+    return (a.player_id || 0) - (b.player_id || 0);
   });
   await writeNdjsonFile(seasonPitchingLeadersPath, seasonPitchingLeaders);
 
-  innings.sort((a, b) => (a.pointstreak_game_id || 0) - (b.pointstreak_game_id || 0));
+  innings.sort((a, b) => (a.game_id || 0) - (b.game_id || 0));
   await writeNdjsonFile(inningsPath, innings);
 
   const standingsRows: any[] = [];
@@ -1678,8 +1673,8 @@ export async function generateSeedsForSeason(
 
     const stats = new Map<number, any>();
     for (const g of Array.from(gamesMap.values())) {
-      const hid = g.home_team_pointstreak_link_id;
-      const aid = g.away_team_pointstreak_link_id;
+      const hid = g.home_team_id;
+      const aid = g.away_team_id;
       if (!hid && !aid) continue;
       for (const id of [hid, aid]) {
         if (!id) continue;
@@ -1688,8 +1683,8 @@ export async function generateSeedsForSeason(
           stats.set(id, {
             league_id: leagueId,
             season_id: seasonId,
-            team_pointstreak_link_id: id,
-            team_pointstreak_id: team?.pointstreak_team_id ?? null,
+            team_id: id,
+            season_team_id: team?.season_team_id ?? null,
             name: team?.name || null,
             games_played: 0,
             wins: 0,
@@ -1730,10 +1725,10 @@ export async function generateSeedsForSeason(
   }
 
   standingsRows.sort((a, b) => {
-    if ((a.team_pointstreak_link_id || 0) !== (b.team_pointstreak_link_id || 0)) {
-      return (a.team_pointstreak_link_id || 0) - (b.team_pointstreak_link_id || 0);
+    if ((a.team_id || 0) !== (b.team_id || 0)) {
+      return (a.team_id || 0) - (b.team_id || 0);
     }
-    return (a.team_pointstreak_id || 0) - (b.team_pointstreak_id || 0);
+    return (a.season_team_id || 0) - (b.season_team_id || 0);
   });
   await writeNdjsonFile(standingsPath, standingsRows);
   onLog({ level: "info", message: "Wrote standings seed" });

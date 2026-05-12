@@ -35,7 +35,8 @@ function readSqlExplorerDraft() {
     }
   }
 
-  const draft = window.sessionStorage.getItem(SQL_EXPLORER_DRAFT_KEY) ?? window.localStorage.getItem(SQL_EXPLORER_DRAFT_KEY);
+  const draft =
+    window.sessionStorage.getItem(SQL_EXPLORER_DRAFT_KEY) ?? window.localStorage.getItem(SQL_EXPLORER_DRAFT_KEY);
   if (draft) {
     window.sessionStorage.removeItem(SQL_EXPLORER_DRAFT_KEY);
     window.localStorage.removeItem(SQL_EXPLORER_DRAFT_KEY);

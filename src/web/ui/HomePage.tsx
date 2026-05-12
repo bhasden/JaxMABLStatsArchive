@@ -26,7 +26,7 @@ ORDER BY season_id DESC;
 
 const ROLLUP_SQL = `
 SELECT
-  COUNT(DISTINCT pointstreak_team_link_id) AS teams,
+  COUNT(DISTINCT team_id) AS teams,
   (SELECT COUNT(*) FROM players) AS players,
   (SELECT COUNT(*) FROM games) AS games,
   (SELECT SUM(runs) FROM batting_stats) AS runs,
@@ -232,12 +232,12 @@ function LeagueLeaderTable({
         result={result.result}
         columnHeaderMode={columnHeaderMode}
         query={result.sql}
-        hiddenColumns={["pointstreak_player_id"]}
+        hiddenColumns={["player_id"]}
         cellHref={({ column, row, columns }) => {
           if (column !== "player_name") {
             return undefined;
           }
-          const playerId = row[columns.indexOf("pointstreak_player_id")];
+          const playerId = row[columns.indexOf("player_id")];
           return playerId ? href(`/players/${playerId}`) : undefined;
         }}
       />

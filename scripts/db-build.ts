@@ -14,7 +14,7 @@ type CliOptions = {
 };
 
 function usage() {
-  console.error("Usage: db-import.ts [--outDir <dir>] [--mergedDir <name>] [--dbFile <name>] [--seedsDir <dir>]");
+  console.error("Usage: db-build.ts [--outDir <dir>] [--mergedDir <name>] [--dbFile <name>] [--seedsDir <dir>]");
 }
 
 function readOptionValue(args: string[], index: number, option: string) {

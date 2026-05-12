@@ -37,15 +37,15 @@ export type EntityMergeSummary = {
 
 const DEFAULT_ENTITY_MERGES_FILE = "entity-merges.json";
 
-const PLAYER_ID_FIELDS = new Set(["pointstreak_player_id"]);
+const PLAYER_ID_FIELDS = new Set(["player_id"]);
 
 const TEAM_ID_FIELDS = new Set([
-  "pointstreak_team_link_id",
-  "team_pointstreak_link_id",
-  "home_team_pointstreak_link_id",
-  "away_team_pointstreak_link_id",
-  "winner_team_pointstreak_link_id",
-  "loser_team_pointstreak_link_id",
+  "team_id",
+  "team_id",
+  "home_team_id",
+  "away_team_id",
+  "winner_team_id",
+  "loser_team_id",
 ]);
 
 function integerOrNull(value: unknown) {

@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { buildAndWriteMergedSeedBundle } from "../src/lib/archive-seed-merge";
 import { importMergedSeedsToArchiveDb } from "../src/lib/archive-db";
+import { generateLegacyMablSeeds } from "../src/lib/legacy-mabl-seeds";
 import { generateSeedsForSeason } from "../src/lib/pointstreak-archive";
 import { listRawSeasonIds } from "./lib/raw-seasons";
 
@@ -17,14 +18,17 @@ async function main() {
     throw new Error(`No raw season directories found under ${dataDir}`);
   }
 
-  console.log(`Step 1/3: Generating season seed bundles for ${seasonIds.length} seasons.`);
+  console.log(`Step 1/4: Generating Pointstreak season seed bundles for ${seasonIds.length} seasons.`);
   for (const seasonId of seasonIds) {
     await generateSeedsForSeason(seasonId, dataDir, (log) =>
       console.log(`[${seasonId}] [${log.level}] ${log.message}`),
     );
   }
 
-  console.log("Step 2/3: Merging season seed bundles and applying reviewed entity merges.");
+  console.log("Step 2/4: Generating legacy MABL season seed bundles when archived SQL is present.");
+  await generateLegacyMablSeeds(dataDir, (log) => console.log(`[legacy-mabl] [${log.level}] ${log.message}`));
+
+  console.log("Step 3/4: Merging season seed bundles and applying reviewed entity merges.");
   const { bundle, dir } = await buildAndWriteMergedSeedBundle(dataDir);
   if (bundle.manifest.entityMerges) {
     const entityMerges = bundle.manifest.entityMerges;
@@ -33,7 +37,7 @@ async function main() {
     );
   }
 
-  console.log("Step 3/3: Importing merged seed bundle into static SQLite database.");
+  console.log("Step 4/4: Importing merged seed bundle into static SQLite database.");
   const summary = await importMergedSeedsToArchiveDb({
     outDir: publicDir,
     seedsDir: dir,

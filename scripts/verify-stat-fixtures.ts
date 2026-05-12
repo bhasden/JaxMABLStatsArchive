@@ -1,6 +1,7 @@
 #!/usr/bin/env tsx
 import fs from "fs/promises";
 import path from "path";
+import { normalizeLegacyLineupRows } from "../src/lib/legacy-lineup-cleanups";
 import {
   buildPlayerBattingGameLogSql,
   buildPlayerLifetimeBattingSql,
@@ -34,6 +35,8 @@ async function loadSqlJs(): Promise<SqlJsModule> {
 }
 
 async function main() {
+  assertLegacyLineupCleanupFixtures();
+
   const dbPath = process.argv[2] ?? path.join(process.cwd(), "public", "archive.sqlite");
   const dbBytes = await fs.readFile(dbPath);
   const SQL = await loadSqlJs();
@@ -45,17 +48,17 @@ async function main() {
       sql: `
 SELECT
   season_id,
-  pointstreak_player_id,
+  player_id,
   hits
 FROM season_pitching_stats
 WHERE scope = 'league'
   AND season_id = 29373
-  AND pointstreak_player_id = 796978;
+  AND player_id = 796978;
 `,
       expectedRows: 1,
       expectedValues: {
         season_id: 29373,
-        pointstreak_player_id: 796978,
+        player_id: 796978,
         hits: 28,
       },
     },
@@ -64,7 +67,7 @@ WHERE scope = 'league'
       sql: buildPlayerLifetimeBattingSql(796978),
       expectedRows: 1,
       expectedValues: {
-        pointstreak_player_id: 796978,
+        player_id: 796978,
         seasons: 1,
         games_played: 2,
         at_bats: 4,
@@ -87,7 +90,7 @@ WHERE scope = 'league'
       sql: buildPlayerLifetimePitchingSql(796978),
       expectedRows: 1,
       expectedValues: {
-        pointstreak_player_id: 796978,
+        player_id: 796978,
         seasons: 1,
         games: 7,
         hits: 28,
@@ -133,6 +136,76 @@ WHERE scope = 'league'
   } finally {
     if (typeof db.close === "function") {
       db.close();
+    }
+  }
+}
+
+function assertLegacyLineupCleanupFixtures() {
+  const allZero = normalizeLegacyLineupRows([
+    { gameid: 1, teamid: 1, playerid: 10, lineup: 0, lineup2: 0 },
+    { gameid: 1, teamid: 1, playerid: 11, lineup: 0, lineup2: 0 },
+  ]);
+  assertLineupRows("legacy lineup all-zero group", allZero.rows, [
+    { source_batting_order: 0, source_batting_order_slot: 0, batting_order: null, batting_order_modifier: null },
+    { source_batting_order: 0, source_batting_order_slot: 0, batting_order: null, batting_order_modifier: null },
+  ]);
+  assertEqual("legacy lineup all-zero group count", allZero.stats.allZeroGroups, 1);
+  console.log("ok - legacy lineup all-zero group");
+
+  const sameAsOrder = normalizeLegacyLineupRows([
+    { gameid: 2, teamid: 1, playerid: 20, lineup: 7, lineup2: 7 },
+    { gameid: 2, teamid: 1, playerid: 21, lineup: 8, lineup2: 8 },
+  ]);
+  assertLineupRows("legacy lineup same-as-order group", sameAsOrder.rows, [
+    { source_batting_order: 7, source_batting_order_slot: 7, batting_order: 7, batting_order_modifier: null },
+    { source_batting_order: 8, source_batting_order_slot: 8, batting_order: 8, batting_order_modifier: null },
+  ]);
+  assertEqual("legacy lineup same-as-order group count", sameAsOrder.stats.sameAsOrderGroups, 1);
+  console.log("ok - legacy lineup same-as-order group");
+
+  const alternating = normalizeLegacyLineupRows([
+    { gameid: 3, teamid: 1, playerid: 30, lineup: 9, lineup2: 1 },
+    { gameid: 3, teamid: 1, playerid: 31, lineup: 9, lineup2: 2 },
+    { gameid: 3, teamid: 1, playerid: 32, lineup: 9, lineup2: 3 },
+  ]);
+  assertLineupRows("legacy lineup A/B/replacement group", alternating.rows, [
+    { source_batting_order: 9, source_batting_order_slot: 1, batting_order: 9, batting_order_modifier: "A" },
+    { source_batting_order: 9, source_batting_order_slot: 2, batting_order: 9, batting_order_modifier: "B" },
+    { source_batting_order: 9, source_batting_order_slot: 3, batting_order: 9, batting_order_modifier: "R" },
+  ]);
+  console.log("ok - legacy lineup A/B/replacement group");
+
+  const unusual = normalizeLegacyLineupRows([
+    { gameid: 4, teamid: 1, playerid: 40, lineup: 4, lineup2: 1 },
+    { gameid: 4, teamid: 1, playerid: 41, lineup: 4, lineup2: 8 },
+  ]);
+  assertLineupRows("legacy lineup unusual slot group", unusual.rows, [
+    { source_batting_order: 4, source_batting_order_slot: 1, batting_order: 4, batting_order_modifier: "A" },
+    { source_batting_order: 4, source_batting_order_slot: 8, batting_order: 4, batting_order_modifier: null },
+  ]);
+  assertEqual("legacy lineup unusual slot count", unusual.stats.unusualSlotValues.get(8), 1);
+  console.log("ok - legacy lineup unusual slot group");
+}
+
+function assertLineupRows(
+  label: string,
+  actual: Array<{
+    source_batting_order: number | null;
+    source_batting_order_slot: number | null;
+    batting_order: number | null;
+    batting_order_modifier: string | null;
+  }>,
+  expected: Array<{
+    source_batting_order: number | null;
+    source_batting_order_slot: number | null;
+    batting_order: number | null;
+    batting_order_modifier: string | null;
+  }>,
+) {
+  assertEqual(`${label} row count`, actual.length, expected.length);
+  for (let index = 0; index < expected.length; index += 1) {
+    for (const key of Object.keys(expected[index]) as Array<keyof (typeof expected)[number]>) {
+      assertEqual(`${label} row ${index + 1} ${key}`, actual[index]?.[key], expected[index][key]);
     }
   }
 }
@@ -189,6 +262,12 @@ function sumColumn(result: QueryResult, column: string) {
     const value = row[index];
     return total + (typeof value === "number" ? value : Number(value ?? 0));
   }, 0);
+}
+
+function assertEqual(label: string, actual: unknown, expected: unknown) {
+  if (actual !== expected) {
+    throw new Error(`${label}: expected ${String(expected)}, got ${String(actual)}`);
+  }
 }
 
 main().catch((err) => {
