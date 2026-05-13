@@ -106,6 +106,7 @@ export function PlayerPage({
     seasonId != null
       ? ["season_id", "season_name", "game_id", "team_id", "opponent_team_id"]
       : ["season_id", "game_id", "team_id", "opponent_team_id"];
+  const profileHiddenColumns = emptyProfileColumns(profile.result);
 
   return (
     <div className="page-grid">
@@ -120,7 +121,12 @@ export function PlayerPage({
       <section>
         <h2>Player Overview</h2>
         {profile.error ? <div className="notice error">{profile.error}</div> : null}
-        <Table result={profile.result} columnHeaderMode={columnHeaderMode} query={profile.sql} />
+        <Table
+          result={profile.result}
+          columnHeaderMode={columnHeaderMode}
+          query={profile.sql}
+          hiddenColumns={profileHiddenColumns}
+        />
       </section>
       {seasonId == null ? (
         <>
@@ -256,6 +262,19 @@ export function PlayerPage({
       </section>
     </div>
   );
+}
+
+function emptyProfileColumns(result: { columns: string[]; values: unknown[][] } | null) {
+  if (!result || result.values.length === 0) {
+    return [];
+  }
+
+  return result.columns.filter((column, index) => {
+    if (column === "player_id" || column === "player_name") {
+      return false;
+    }
+    return result.values.every((row) => row[index] == null || String(row[index]).trim() === "");
+  });
 }
 
 function GameLogPager({

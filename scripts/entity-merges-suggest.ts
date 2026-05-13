@@ -522,7 +522,10 @@ function addNonMergeReviewKeys(
   groups: EntityNonMergeGroup[] | undefined,
 ) {
   for (const group of groups ?? []) {
-    reviewedKeys.add(candidateReviewKey(entityType, group.ids ?? []));
+    const ids = group.ids ?? [group.canonicalId, ...(group.aliasIds ?? [])].filter((id): id is number => id != null);
+    if (ids.length >= 2) {
+      reviewedKeys.add(candidateReviewKey(entityType, ids));
+    }
   }
 }
 

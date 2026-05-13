@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-13T00:20:04.244Z",
+  "generatedAt": "2026-05-13T08:39:43.632Z",
   "description": "Review these candidates manually. Confirmed groups should be copied into data/entity-merges.json. Rejected groups should be copied into data/entity-merges.json under nonMerges.",
   "reviewConfigPath": "C:\\Users\\bhasd\\source\\repos\\JaxMABLStatsArchive\\data\\entity-merges.json",
-  "skippedReviewedCandidateCount": 23,
+  "skippedReviewedCandidateCount": 33,
   "candidates": [
     {
       "entityType": "player",
@@ -25,202 +25,6 @@
           "id": 1786278,
           "names": ["Rodney Walker"],
           "seasons": [34286, 34359]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "last-first-initial:thompson:m",
-      "matchTypes": ["last-first-initial:thompson:m"],
-      "canonicalId": 17,
-      "aliasIds": [1513527, 1697159],
-      "entities": [
-        {
-          "id": 17,
-          "names": ["Maikel Thompson"],
-          "seasons": [2008]
-        },
-        {
-          "id": 1513527,
-          "names": ["Matt Thompson", "Thompson, M", "Thompson, Matt"],
-          "seasons": [33023]
-        },
-        {
-          "id": 1697159,
-          "names": ["Michael Thompson", "Thompson, M", "Thompson, Michael"],
-          "seasons": [33936]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "last-first-initial:ubri:v",
-      "matchTypes": ["last-first-initial:ubri:v"],
-      "canonicalId": 22,
-      "aliasIds": [557, 807533],
-      "entities": [
-        {
-          "id": 22,
-          "names": ["Vladamir Ubri"],
-          "seasons": [2008]
-        },
-        {
-          "id": 557,
-          "names": ["Vlad Ubri"],
-          "seasons": [2010]
-        },
-        {
-          "id": 807533,
-          "names": ["UBRI, V", "UBRI, VLADIMIR", "VLADIMIR UBRI"],
-          "seasons": [29373]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "exact:robles:fernando",
-      "matchTypes": ["exact:robles:fernando", "last-first-initial:robles:f"],
-      "canonicalId": 23,
-      "aliasIds": [967444],
-      "entities": [
-        {
-          "id": 23,
-          "names": ["Fernando Robles"],
-          "seasons": [2008]
-        },
-        {
-          "id": 967444,
-          "names": ["Fernando Robles", "Robles, F", "Robles, Fernando"],
-          "seasons": [30232]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "last-first-initial:holland:b",
-      "matchTypes": ["last-first-initial:holland:b"],
-      "canonicalId": 33,
-      "aliasIds": [552],
-      "entities": [
-        {
-          "id": 33,
-          "names": ["Brian Holland"],
-          "seasons": [2008]
-        },
-        {
-          "id": 552,
-          "names": ["Ben Holland"],
-          "seasons": [2010]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "exact:ortiz:omar",
-      "matchTypes": ["exact:ortiz:omar", "last-first-initial:ortiz:o"],
-      "canonicalId": 38,
-      "aliasIds": [601376, 1755628],
-      "entities": [
-        {
-          "id": 38,
-          "names": ["Omar Ortiz"],
-          "seasons": [2008, 2009, 2010]
-        },
-        {
-          "id": 601376,
-          "names": ["OMAR ORTIZ", "ORTIZ, O", "ORTIZ, OMAR"],
-          "seasons": [28308]
-        },
-        {
-          "id": 1755628,
-          "names": ["Diaz Ortiz, O", "Diaz Ortiz, Orlando", "Orlando Diaz Ortiz"],
-          "seasons": [34201]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "exact:figueroa:jayson",
-      "matchTypes": ["exact:figueroa:jayson", "last-first-initial:figueroa:j"],
-      "canonicalId": 41,
-      "aliasIds": [784825],
-      "entities": [
-        {
-          "id": 41,
-          "names": ["Jayson Figueroa"],
-          "seasons": [2008, 2009, 2010]
-        },
-        {
-          "id": 784825,
-          "names": ["Figueroa, J", "Figueroa, Jayson", "Jayson Figueroa"],
-          "seasons": [29373, 30232, 30879, 31506, 32179, 33391, 33711, 33936, 34201, 34360]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "last-first-initial:esser:w",
-      "matchTypes": ["last-first-initial:esser:w"],
-      "canonicalId": 42,
-      "aliasIds": [594477],
-      "entities": [
-        {
-          "id": 42,
-          "names": ["Walter Esser"],
-          "seasons": [2008, 2009, 2010]
-        },
-        {
-          "id": 594477,
-          "names": ["Esser, W", "Esser, Walt", "Walt Esser"],
-          "seasons": [28308]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "exact:hall:trevor",
-      "matchTypes": ["exact:hall:trevor", "last-first-initial:hall:t"],
-      "canonicalId": 45,
-      "aliasIds": [601373, 787175],
-      "entities": [
-        {
-          "id": 45,
-          "names": ["TREVOR HALL"],
-          "seasons": [2008]
-        },
-        {
-          "id": 601373,
-          "names": ["HALL, T", "HALL, TREVOR", "TREVOR HALL"],
-          "seasons": [28308]
-        },
-        {
-          "id": 787175,
-          "names": ["Hall, T", "Hall, Trevor", "Trevor Hall"],
-          "seasons": [29373, 30232, 30879, 31506, 32179, 32757, 33023, 33391, 33711, 33936]
-        }
-      ]
-    },
-    {
-      "entityType": "player",
-      "matchType": "exact:hall:trevor",
-      "matchTypes": ["exact:hall:trevor", "last-first-initial:hall:t"],
-      "canonicalId": 45,
-      "aliasIds": [603940, 787175],
-      "entities": [
-        {
-          "id": 45,
-          "names": ["TREVOR HALL"],
-          "seasons": [2008]
-        },
-        {
-          "id": 603940,
-          "names": ["TREVOR HALL"],
-          "seasons": [28308]
-        },
-        {
-          "id": 787175,
-          "names": ["Hall, T", "Hall, Trevor", "Trevor Hall"],
-          "seasons": [29373, 30232, 30879, 31506, 32179, 32757, 33023, 33391, 33711, 33936]
         }
       ]
     },
@@ -508,7 +312,7 @@
       "matchType": "last-first-initial:figueroa:j",
       "matchTypes": ["last-first-initial:figueroa:j"],
       "canonicalId": 145,
-      "aliasIds": [327, 784825],
+      "aliasIds": [327],
       "entities": [
         {
           "id": 145,
@@ -519,11 +323,6 @@
           "id": 327,
           "names": ["Jonathan Figueroa"],
           "seasons": [2009]
-        },
-        {
-          "id": 784825,
-          "names": ["Figueroa, J", "Figueroa, Jayson", "Jayson Figueroa"],
-          "seasons": [29373, 30232, 30879, 31506, 32179, 33391, 33711, 33936, 34201, 34360]
         }
       ]
     },
@@ -8564,25 +8363,6 @@
           "seasons": [32185]
         }
       ]
-    },
-    {
-      "entityType": "team",
-      "matchType": "team:florida juicers",
-      "matchTypes": ["team:florida juicers", "team:juicers", "team-short:juicers"],
-      "canonicalId": 161516,
-      "aliasIds": [166303],
-      "entities": [
-        {
-          "id": 161516,
-          "names": ["Florida Juicers", "Juicers", "WarDogs", "WarDogs Baseball"],
-          "seasons": [33711, 33936, 34201]
-        },
-        {
-          "id": 166303,
-          "names": ["Florida Juicers", "Juicers"],
-          "seasons": [34286, 34359]
-        }
-      ]
     }
   ],
   "suggestedMergeConfig": {
@@ -8591,51 +8371,6 @@
         "canonicalId": 16,
         "aliasIds": [1411598, 1786278],
         "reason": "Candidate from exact:walker:rodney, last-first-initial:walker:r"
-      },
-      {
-        "canonicalId": 17,
-        "aliasIds": [1513527, 1697159],
-        "reason": "Candidate from last-first-initial:thompson:m"
-      },
-      {
-        "canonicalId": 22,
-        "aliasIds": [557, 807533],
-        "reason": "Candidate from last-first-initial:ubri:v"
-      },
-      {
-        "canonicalId": 23,
-        "aliasIds": [967444],
-        "reason": "Candidate from exact:robles:fernando, last-first-initial:robles:f"
-      },
-      {
-        "canonicalId": 33,
-        "aliasIds": [552],
-        "reason": "Candidate from last-first-initial:holland:b"
-      },
-      {
-        "canonicalId": 38,
-        "aliasIds": [601376, 1755628],
-        "reason": "Candidate from exact:ortiz:omar, last-first-initial:ortiz:o"
-      },
-      {
-        "canonicalId": 41,
-        "aliasIds": [784825],
-        "reason": "Candidate from exact:figueroa:jayson, last-first-initial:figueroa:j"
-      },
-      {
-        "canonicalId": 42,
-        "aliasIds": [594477],
-        "reason": "Candidate from last-first-initial:esser:w"
-      },
-      {
-        "canonicalId": 45,
-        "aliasIds": [601373, 787175],
-        "reason": "Candidate from exact:hall:trevor, last-first-initial:hall:t"
-      },
-      {
-        "canonicalId": 45,
-        "aliasIds": [603940, 787175],
-        "reason": "Candidate from exact:hall:trevor, last-first-initial:hall:t"
       },
       {
         "canonicalId": 51,
@@ -8704,7 +8439,7 @@
       },
       {
         "canonicalId": 145,
-        "aliasIds": [327, 784825],
+        "aliasIds": [327],
         "reason": "Candidate from last-first-initial:figueroa:j"
       },
       {
@@ -10563,11 +10298,6 @@
         "canonicalId": 135551,
         "aliasIds": [144038],
         "reason": "Candidate from team:cubs, team:duval county cubs, team-short:cubs"
-      },
-      {
-        "canonicalId": 161516,
-        "aliasIds": [166303],
-        "reason": "Candidate from team:florida juicers, team:juicers, team-short:juicers"
       }
     ]
   }

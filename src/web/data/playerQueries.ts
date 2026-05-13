@@ -22,6 +22,22 @@ export function buildPlayerProfileSql(playerId: number) {
   return `
 WITH target AS (
   SELECT ${playerId} AS player_id
+),
+roster_profile AS (
+  SELECT
+    rosters.player_id,
+    MIN(NULLIF(rosters.birthdate, '')) AS birthdate,
+    MAX(NULLIF(rosters.bats, '')) AS bats,
+    MAX(NULLIF(rosters.throws, '')) AS throws,
+    MAX(NULLIF(rosters.height, '')) AS height,
+    MAX(NULLIF(rosters.weight, '')) AS weight,
+    MAX(NULLIF(rosters.hometown, '')) AS hometown,
+    GROUP_CONCAT(DISTINCT NULLIF(rosters.position, '')) AS positions,
+    COUNT(DISTINCT rosters.season_id) AS seasons,
+    COUNT(DISTINCT rosters.team_id) AS teams
+  FROM rosters
+  WHERE rosters.player_id = ${playerId}
+  GROUP BY rosters.player_id
 )
 SELECT
   target.player_id,
@@ -30,9 +46,19 @@ SELECT
     (SELECT name FROM rosters WHERE player_id = target.player_id AND name IS NOT NULL LIMIT 1),
     (SELECT player_name FROM season_batting_stats WHERE player_id = target.player_id AND player_name IS NOT NULL LIMIT 1),
     (SELECT player_name FROM season_pitching_stats WHERE player_id = target.player_id AND player_name IS NOT NULL LIMIT 1)
-  ) AS player_name
+  ) AS player_name,
+  roster_profile.birthdate,
+  roster_profile.bats,
+  roster_profile.throws,
+  roster_profile.height,
+  roster_profile.weight,
+  roster_profile.hometown,
+  roster_profile.positions,
+  roster_profile.seasons,
+  roster_profile.teams
 FROM target
-LEFT JOIN players ON players.player_id = target.player_id;
+LEFT JOIN players ON players.player_id = target.player_id
+LEFT JOIN roster_profile ON roster_profile.player_id = target.player_id;
 `;
 }
 

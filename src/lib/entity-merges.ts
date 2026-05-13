@@ -9,7 +9,9 @@ export type EntityMergeGroup = {
 };
 
 export type EntityNonMergeGroup = {
-  ids: number[];
+  ids?: number[];
+  canonicalId?: number;
+  aliasIds?: number[];
   reason?: string;
 };
 

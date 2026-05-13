@@ -52,6 +52,8 @@ const COLUMN_LABELS: Record<string, string> = {
   batters_faced: "BF",
   blown_save: "BS",
   blown_saves: "BS",
+  bats: "Bats",
+  birthdate: "DOB",
   canonical_team_name: "Team",
   caught_stealing: "CS",
   complete_game: "CG",
@@ -69,6 +71,7 @@ const COLUMN_LABELS: Record<string, string> = {
   games_played: "GP",
   games_started: "GS",
   hit_by_pitch: "HBP",
+  height: "Height",
   home_runs_allowed: "HR",
   hits: "H",
   jersey: "#",
@@ -97,6 +100,7 @@ const COLUMN_LABELS: Record<string, string> = {
   player_id: "Player ID",
   pitching_order: "PO",
   position: "POS",
+  positions: "POS",
   qualification: "Qualification",
   qualified: "Status",
   rank: "Rank",
@@ -135,9 +139,11 @@ const COLUMN_LABELS: Record<string, string> = {
   ties: "T",
   triples: "3B",
   triples_allowed: "3B",
+  throws: "Throws",
   type: "Type",
   value: "Value",
   walks: "BB",
+  weight: "Weight",
   wins: "W",
   win: "W",
   winning_team: "Winning Team",
@@ -158,6 +164,8 @@ const COLUMN_DESCRIPTIONS: Record<string, string> = {
   batters_faced: "Batters Faced",
   blown_save: "Blown Save",
   blown_saves: "Blown Saves",
+  bats: "Bats",
+  birthdate: "Date of Birth",
   canonical_team_name: "Canonical Team Name",
   caught_stealing: "Caught Stealing",
   complete_game: "Complete Game",
@@ -175,6 +183,7 @@ const COLUMN_DESCRIPTIONS: Record<string, string> = {
   games_played: "Games Played",
   games_started: "Games Started",
   hit_by_pitch: "Hit By Pitch",
+  height: "Height",
   home_runs_allowed: "Home Runs Allowed",
   hits: "Hits",
   jersey: "Jersey Number",
@@ -203,6 +212,7 @@ const COLUMN_DESCRIPTIONS: Record<string, string> = {
   player_id: "Stable Archive Player Identifier",
   pitching_order: "Pitching Order",
   position: "Position",
+  positions: "Positions",
   qualification: "Qualification Detail",
   qualified: "Qualification Status",
   rank: "Rank",
@@ -241,9 +251,11 @@ const COLUMN_DESCRIPTIONS: Record<string, string> = {
   ties: "Ties",
   triples: "Triples",
   triples_allowed: "Triples Allowed",
+  throws: "Throws",
   type: "Type",
   value: "Leaderboard Value",
   walks: "Bases on Balls",
+  weight: "Weight",
   wins: "Wins",
   win: "Win",
   winning_team: "Winning Team",
@@ -446,10 +458,27 @@ export function formatValue(value: unknown, column?: string) {
   if (value == null) {
     return "";
   }
+  if (column === "birthdate" && typeof value === "string") {
+    return formatDate(value);
+  }
   if (column === "scheduled_at" && typeof value === "string") {
     return formatDateTime(value);
   }
   return String(value);
+}
+
+function formatDate(value: string) {
+  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) {
+    return value;
+  }
+
+  const [, year, month, day] = match;
+  const date = new Date(Number(year), Number(month) - 1, Number(day));
+
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: "medium",
+  }).format(date);
 }
 
 function formatDateTime(value: string) {

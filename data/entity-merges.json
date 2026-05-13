@@ -82,6 +82,54 @@
       "canonicalId": 270,
       "aliasIds": [540, 601215, 796491],
       "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "last-first-initial:ubri:v",
+      "matchTypes": ["last-first-initial:ubri:v"],
+      "canonicalId": 22,
+      "aliasIds": [557, 807533],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:robles:fernando",
+      "matchTypes": ["exact:robles:fernando", "last-first-initial:robles:f"],
+      "canonicalId": 23,
+      "aliasIds": [967444],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:ortiz:omar",
+      "matchTypes": ["exact:ortiz:omar", "last-first-initial:ortiz:o"],
+      "canonicalId": 38,
+      "aliasIds": [601376],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:figueroa:jayson",
+      "matchTypes": ["exact:figueroa:jayson", "last-first-initial:figueroa:j"],
+      "canonicalId": 41,
+      "aliasIds": [784825],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "last-first-initial:esser:w",
+      "matchTypes": ["last-first-initial:esser:w"],
+      "canonicalId": 42,
+      "aliasIds": [594477],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:hall:trevor",
+      "matchTypes": ["exact:hall:trevor", "last-first-initial:hall:t"],
+      "canonicalId": 45,
+      "aliasIds": [601373, 787175],
+      "reason": "Confirmed same player"
     }
   ],
   "teams": [
@@ -147,21 +195,32 @@
       "canonicalId": 71213,
       "aliasIds": [92345],
       "reason": "Confirmed same team"
-    },
-    {
-      "entityType": "player",
-      "matchType": "last-first-initial:ubri:v",
-      "matchTypes": ["last-first-initial:ubri:v"],
-      "canonicalId": 22,
-      "aliasIds": [557, 807533],
-      "reason": "Confirmed same player"
     }
   ],
   "nonMerges": {
     "players": [
       {
+        "entityType": "player",
+        "matchType": "last-first-initial:thompson:m",
+        "matchTypes": ["last-first-initial:thompson:m"],
         "canonicalId": 17,
         "aliasIds": [1513527, 1697159],
+        "reason": "These are different players with different histories and have no affiliation with each other"
+      },
+      {
+        "entityType": "player",
+        "matchType": "last-first-initial:holland:b",
+        "matchTypes": ["last-first-initial:holland:b"],
+        "canonicalId": 33,
+        "aliasIds": [552],
+        "reason": "These are different players with different histories and have no affiliation with each other"
+      },
+      {
+        "entityType": "player",
+        "matchType": "last-first-initial:ortiz:o",
+        "matchTypes": ["last-first-initial:ortiz:o"],
+        "canonicalId": 38,
+        "aliasIds": [1755628],
         "reason": "These are different players with different histories and have no affiliation with each other"
       }
     ],
