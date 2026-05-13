@@ -3,10 +3,13 @@ import entityMergeConfig from "../../../data/entity-merges.json";
 
 export type Route =
   | { name: "home" }
+  | { name: "seasons" }
   | { name: "season"; seasonId: number }
   | { name: "seasonTeam"; seasonId: number; teamId: number }
   | { name: "seasonPlayer"; seasonId: number; playerId: number }
+  | { name: "teams" }
   | { name: "team"; teamId: number }
+  | { name: "players" }
   | { name: "player"; playerId: number }
   | { name: "game"; gameId: number }
   | { name: "sql" }
@@ -117,11 +120,20 @@ function parseRoute(hash: string): Route {
   if (parts[0] === "seasons" && parts[1]) {
     return { name: "season", seasonId: Number(parts[1]) };
   }
+  if (parts[0] === "seasons") {
+    return { name: "seasons" };
+  }
   if (parts[0] === "teams" && parts[1]) {
     return { name: "team", teamId: Number(parts[1]) };
   }
+  if (parts[0] === "teams") {
+    return { name: "teams" };
+  }
   if (parts[0] === "players" && parts[1]) {
     return { name: "player", playerId: Number(parts[1]) };
+  }
+  if (parts[0] === "players") {
+    return { name: "players" };
   }
   if (parts[0] === "games" && parts[1]) {
     return { name: "game", gameId: Number(parts[1]) };

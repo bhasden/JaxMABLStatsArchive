@@ -53,6 +53,7 @@ ORDER BY wins DESC, pct DESC, name;
     archive,
     `
 SELECT
+  games.game_id,
   scheduled_at,
   away.name AS away_team,
   games.away_team_id,
@@ -108,13 +109,16 @@ LIMIT 50;
           result={schedule.result}
           columnHeaderMode={columnHeaderMode}
           query={schedule.sql}
-          hiddenColumns={["away_team_id", "home_team_id"]}
+          hiddenColumns={["game_id", "away_team_id", "home_team_id"]}
           cellHref={({ column, row, columns }) => {
             if (column === "away_team") {
               return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("away_team_id")]}`);
             }
             if (column === "home_team") {
               return href(`/seasons/${seasonId}/teams/${row[columns.indexOf("home_team_id")]}`);
+            }
+            if (column === "status") {
+              return href(`/games/${row[columns.indexOf("game_id")]}`);
             }
             return undefined;
           }}

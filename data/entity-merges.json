@@ -34,6 +34,54 @@
       "canonicalId": 155,
       "aliasIds": [594473, 784823],
       "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:stevens:sean",
+      "matchTypes": ["exact:stevens:sean", "last-first-initial:stevens:s"],
+      "canonicalId": 15,
+      "aliasIds": [548, 613934, 1123059],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:walker:rodney",
+      "matchTypes": ["exact:walker:rodney", "last-first-initial:walker:r"],
+      "canonicalId": 16,
+      "aliasIds": [1255427],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:pasquarella:derek",
+      "matchTypes": ["exact:pasquarella:derek", "last-first-initial:pasquarella:d"],
+      "canonicalId": 797602,
+      "aliasIds": [959546, 1254659],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:ragland:bilal",
+      "matchTypes": ["exact:ragland:bilal", "last-first-initial:ragland:b"],
+      "canonicalId": 628339,
+      "aliasIds": [803265],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "last-first-initial:padilla:p",
+      "matchTypes": ["last-first-initial:padilla:p"],
+      "canonicalId": 514,
+      "aliasIds": [601372, 787174],
+      "reason": "Confirmed same player"
+    },
+    {
+      "entityType": "player",
+      "matchType": "exact:saunders:chike",
+      "matchTypes": ["exact:saunders:chike", "last-first-initial:saunders:c"],
+      "canonicalId": 270,
+      "aliasIds": [540, 601215, 796491],
+      "reason": "Confirmed same player"
     }
   ],
   "teams": [
@@ -46,9 +94,9 @@
     },
     {
       "entityType": "team",
-      "matchType": "dolphins/rippers",
-      "canonicalId": 69753,
-      "aliasIds": [92343],
+      "matchType": "braves",
+      "canonicalId": 5,
+      "aliasIds": [19],
       "reason": "Confirmed same team"
     },
     {
@@ -56,6 +104,20 @@
       "matchType": "cruisers",
       "canonicalId": 7,
       "aliasIds": [70342, 92342],
+      "reason": "Confirmed same team"
+    },
+    {
+      "entityType": "team",
+      "matchType": "redsox",
+      "canonicalId": 8,
+      "aliasIds": [70343],
+      "reason": "Confirmed same team"
+    },
+    {
+      "entityType": "team",
+      "matchType": "dolphins/rippers",
+      "canonicalId": 9,
+      "aliasIds": [69753, 92343],
       "reason": "Confirmed same team"
     },
     {
@@ -85,10 +147,24 @@
       "canonicalId": 71213,
       "aliasIds": [92345],
       "reason": "Confirmed same team"
+    },
+    {
+      "entityType": "player",
+      "matchType": "last-first-initial:ubri:v",
+      "matchTypes": ["last-first-initial:ubri:v"],
+      "canonicalId": 22,
+      "aliasIds": [557, 807533],
+      "reason": "Confirmed same player"
     }
   ],
   "nonMerges": {
-    "players": [],
+    "players": [
+      {
+        "canonicalId": 17,
+        "aliasIds": [1513527, 1697159],
+        "reason": "These are different players with different histories and have no affiliation with each other"
+      }
+    ],
     "teams": [
       {
         "canonicalId": 70347,

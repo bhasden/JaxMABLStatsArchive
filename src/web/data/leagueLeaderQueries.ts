@@ -86,14 +86,18 @@ ORDER BY rank
 LIMIT ${LEAGUE_LEADER_LIMIT};
 `;
 
-function battingLeaderSql(statColumn: "hits" | "home_runs" | "runs_batted_in" | "stolen_bases" | "walks") {
+function battingLeaderSql(
+  statColumn: "hits" | "home_runs" | "runs_batted_in" | "stolen_bases" | "walks",
+  options: { includeAtBats?: boolean } = {},
+) {
   return `
 WITH season_rows AS (
   SELECT
     season_batting_stats.player_id,
     COALESCE(players.name, season_batting_stats.player_name) AS player_name,
     season_batting_stats.season_id,
-    COALESCE(${statColumn}, 0) AS ${statColumn}
+    COALESCE(${statColumn}, 0) AS ${statColumn},
+    COALESCE(season_batting_stats.at_bats, 0) AS at_bats
   FROM season_batting_stats
   LEFT JOIN players ON players.player_id = season_batting_stats.player_id
   WHERE season_batting_stats.scope = 'league'
@@ -103,7 +107,8 @@ WITH season_rows AS (
     stats.player_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
     stats.season_id,
-    SUM(COALESCE(stats.${statColumn}, 0)) AS ${statColumn}
+    SUM(COALESCE(stats.${statColumn}, 0)) AS ${statColumn},
+    SUM(COALESCE(stats.at_bats, 0)) AS at_bats
   FROM season_batting_stats stats
   LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
@@ -121,7 +126,8 @@ totals AS (
   SELECT
     player_id,
     MAX(player_name) AS player_name,
-    SUM(${statColumn}) AS ${statColumn}
+    SUM(${statColumn}) AS ${statColumn},
+    SUM(at_bats) AS at_bats
   FROM season_rows
   GROUP BY player_id
 )
@@ -129,6 +135,7 @@ SELECT
   ROW_NUMBER() OVER (ORDER BY ${statColumn} DESC, player_name) AS rank,
   player_name,
   ${statColumn},
+  ${options.includeAtBats ? "at_bats," : ""}
   player_id
 FROM totals
 ORDER BY rank
@@ -208,14 +215,19 @@ const pitcherOutsExpression = `
   END
 `;
 
-function pitchingLeaderSql(statColumn: "wins" | "strikeouts" | "saves" | "complete_games") {
+function pitchingLeaderSql(
+  statColumn: "wins" | "strikeouts" | "saves" | "complete_games",
+  options: { includeGames?: boolean; includeInningsPitched?: boolean } = {},
+) {
   return `
 WITH team_rows AS (
   SELECT
     stats.player_id,
     stats.season_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
-    SUM(COALESCE(stats.${statColumn}, 0)) AS ${statColumn}
+    SUM(COALESCE(stats.${statColumn}, 0)) AS ${statColumn},
+    SUM(COALESCE(stats.games, 0)) AS games,
+    SUM(${pitcherOutsExpression}) AS outs
   FROM season_pitching_stats stats
   LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
@@ -227,7 +239,9 @@ league_rows AS (
     season_pitching_stats.player_id,
     season_pitching_stats.season_id,
     COALESCE(players.name, season_pitching_stats.player_name) AS player_name,
-    COALESCE(${statColumn}, 0) AS ${statColumn}
+    COALESCE(${statColumn}, 0) AS ${statColumn},
+    COALESCE(season_pitching_stats.games, 0) AS games,
+    ${pitcherOutsExpression} AS outs
   FROM season_pitching_stats
   LEFT JOIN players ON players.player_id = season_pitching_stats.player_id
   WHERE season_pitching_stats.scope = 'league'
@@ -242,7 +256,9 @@ season_totals AS (
   SELECT
     season_keys.player_id,
     COALESCE(league_rows.player_name, team_rows.player_name) AS player_name,
-    COALESCE(league_rows.${statColumn}, team_rows.${statColumn}, 0) AS ${statColumn}
+    COALESCE(league_rows.${statColumn}, team_rows.${statColumn}, 0) AS ${statColumn},
+    COALESCE(league_rows.games, team_rows.games, 0) AS games,
+    COALESCE(league_rows.outs, team_rows.outs, 0) AS outs
   FROM season_keys
   LEFT JOIN league_rows
     ON league_rows.player_id = season_keys.player_id
@@ -255,7 +271,9 @@ totals AS (
   SELECT
     player_id,
     MAX(player_name) AS player_name,
-    SUM(${statColumn}) AS ${statColumn}
+    SUM(${statColumn}) AS ${statColumn},
+    SUM(games) AS games,
+    SUM(outs) AS outs
   FROM season_totals
   GROUP BY player_id
 )
@@ -263,6 +281,8 @@ SELECT
   ROW_NUMBER() OVER (ORDER BY ${statColumn} DESC, player_name) AS rank,
   player_name,
   ${statColumn},
+  ${options.includeGames ? "games," : ""}
+  ${options.includeInningsPitched ? "CAST(outs / 3 AS INTEGER) || '.' || (outs % 3) AS innings_pitched," : ""}
   player_id
 FROM totals
 ORDER BY rank
@@ -353,7 +373,8 @@ WITH team_rows AS (
     stats.player_id,
     stats.season_id,
     COALESCE(MAX(players.name), MAX(stats.player_name)) AS player_name,
-    SUM(${pitcherOutsExpression}) AS outs
+    SUM(${pitcherOutsExpression}) AS outs,
+    SUM(COALESCE(stats.games, 0)) AS games
   FROM season_pitching_stats stats
   LEFT JOIN players ON players.player_id = stats.player_id
   WHERE stats.scope = 'team'
@@ -365,7 +386,8 @@ league_rows AS (
     season_pitching_stats.player_id,
     season_pitching_stats.season_id,
     COALESCE(players.name, season_pitching_stats.player_name) AS player_name,
-    ${pitcherOutsExpression} AS outs
+    ${pitcherOutsExpression} AS outs,
+    COALESCE(season_pitching_stats.games, 0) AS games
   FROM season_pitching_stats
   LEFT JOIN players ON players.player_id = season_pitching_stats.player_id
   WHERE season_pitching_stats.scope = 'league'
@@ -380,7 +402,8 @@ season_totals AS (
   SELECT
     season_keys.player_id,
     COALESCE(league_rows.player_name, team_rows.player_name) AS player_name,
-    COALESCE(league_rows.outs, team_rows.outs, 0) AS outs
+    COALESCE(league_rows.outs, team_rows.outs, 0) AS outs,
+    COALESCE(league_rows.games, team_rows.games, 0) AS games
   FROM season_keys
   LEFT JOIN league_rows
     ON league_rows.player_id = season_keys.player_id
@@ -393,7 +416,8 @@ totals AS (
   SELECT
     player_id,
     MAX(player_name) AS player_name,
-    SUM(outs) AS outs
+    SUM(outs) AS outs,
+    SUM(games) AS games
   FROM season_totals
   GROUP BY player_id
 )
@@ -401,6 +425,7 @@ SELECT
   ROW_NUMBER() OVER (ORDER BY outs DESC, player_name) AS rank,
   player_name,
   CAST(outs / 3 AS INTEGER) || '.' || (outs % 3) AS innings_pitched,
+  games,
   player_id
 FROM totals
 ORDER BY rank
@@ -420,20 +445,28 @@ export const LEAGUE_LONGEVITY_LEADER_TABLES: LeagueLeaderTableDefinition[] = [
 
 export const LEAGUE_BATTING_LEADER_TABLES: LeagueLeaderTableDefinition[] = [
   { title: "Average", label: "League career batting average leaders", sql: BATTING_AVERAGE_SQL },
-  { title: "Hits", label: "League hits leaders", sql: battingLeaderSql("hits") },
-  { title: "Home Runs", label: "League home run leaders", sql: battingLeaderSql("home_runs") },
-  { title: "RBI", label: "League RBI leaders", sql: battingLeaderSql("runs_batted_in") },
+  { title: "Hits", label: "League hits leaders", sql: battingLeaderSql("hits", { includeAtBats: true }) },
+  { title: "Home Runs", label: "League home run leaders", sql: battingLeaderSql("home_runs", { includeAtBats: true }) },
+  { title: "RBI", label: "League RBI leaders", sql: battingLeaderSql("runs_batted_in", { includeAtBats: true }) },
   { title: "Stolen Bases", label: "League stolen base leaders", sql: battingLeaderSql("stolen_bases") },
-  { title: "Walks", label: "League walks leaders", sql: battingLeaderSql("walks") },
+  { title: "Walks", label: "League walks leaders", sql: battingLeaderSql("walks", { includeAtBats: true }) },
 ];
 
 export const LEAGUE_PITCHING_LEADER_TABLES: LeagueLeaderTableDefinition[] = [
   { title: "ERA", label: "League career ERA leaders", sql: PITCHING_ERA_SQL },
-  { title: "Pitching Wins", label: "League pitching wins leaders", sql: pitchingLeaderSql("wins") },
-  { title: "Pitching Strikeouts", label: "League pitching strikeout leaders", sql: pitchingLeaderSql("strikeouts") },
+  { title: "Wins", label: "League pitching wins leaders", sql: pitchingLeaderSql("wins", { includeGames: true }) },
+  {
+    title: "Strikeouts",
+    label: "League pitching strikeout leaders",
+    sql: pitchingLeaderSql("strikeouts", { includeInningsPitched: true }),
+  },
   { title: "Innings Pitched", label: "League innings pitched leaders", sql: PITCHING_INNINGS_SQL },
-  { title: "Complete Games", label: "League complete game leaders", sql: pitchingLeaderSql("complete_games") },
-  { title: "Saves", label: "League saves leaders", sql: pitchingLeaderSql("saves") },
+  {
+    title: "Complete Games",
+    label: "League complete game leaders",
+    sql: pitchingLeaderSql("complete_games", { includeGames: true }),
+  },
+  { title: "Saves", label: "League saves leaders", sql: pitchingLeaderSql("saves", { includeGames: true }) },
 ];
 
 export const PLAYER_LOOKUP_SQL = `

@@ -112,6 +112,14 @@ export function isLikelyMutatingSql(sql: string) {
     return false;
   }
 
+  if (
+    /^pragma\s+(?:["'`[\]\w.]+\.)?(?:table_info|table_xinfo|foreign_key_list|index_list|index_info|index_xinfo)\s*\(/.test(
+      normalized,
+    )
+  ) {
+    return false;
+  }
+
   return /\b(create|drop|alter|insert|update|delete|replace|vacuum|reindex|attach|detach|pragma)\b/.test(normalized);
 }
 

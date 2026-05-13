@@ -2,7 +2,12 @@
 import fs from "fs/promises";
 import path from "path";
 import { ARCHIVE_SEED_TABLES, loadSeasonSeedBundles } from "../src/lib/archive-seed-merge";
-import type { EntityMergeConfig, EntityMergeGroup, EntityNonMergeGroup } from "../src/lib/entity-merges";
+import {
+  buildEntityMergeMaps,
+  type EntityMergeConfig,
+  type EntityMergeGroup,
+  type EntityNonMergeGroup,
+} from "../src/lib/entity-merges";
 
 type EntityRecord = {
   id: number;
@@ -147,6 +152,32 @@ function addEntity(records: Map<number, EntityRecord>, id: unknown, seasonId: un
   names.forEach(addName);
 }
 
+function mergeEntityRecords(records: Map<number, EntityRecord>, aliasMap: Map<number, number>) {
+  if (aliasMap.size === 0) {
+    return records;
+  }
+
+  const mergedRecords = new Map<number, EntityRecord>();
+
+  for (const record of records.values()) {
+    const canonicalId = aliasMap.get(record.id) ?? record.id;
+    let mergedRecord = mergedRecords.get(canonicalId);
+    if (!mergedRecord) {
+      mergedRecord = { id: canonicalId, names: new Set(), seasons: new Set() };
+      mergedRecords.set(canonicalId, mergedRecord);
+    }
+
+    for (const name of record.names) {
+      mergedRecord.names.add(name);
+    }
+    for (const season of record.seasons) {
+      mergedRecord.seasons.add(season);
+    }
+  }
+
+  return mergedRecords;
+}
+
 function normalizeName(name: string) {
   return name
     .toLowerCase()
@@ -260,6 +291,122 @@ function hasSeasonOverlap(records: EntityRecord[]) {
     }
   }
   return false;
+}
+
+function canAddRecordToSeasons(record: EntityRecord, seasons: Set<number>) {
+  for (const season of record.seasons) {
+    if (seasons.has(season)) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function addRecordSeasons(record: EntityRecord, seasons: Set<number>) {
+  for (const season of record.seasons) {
+    seasons.add(season);
+  }
+}
+
+function removeRecordSeasons(record: EntityRecord, seasons: Set<number>) {
+  for (const season of record.seasons) {
+    seasons.delete(season);
+  }
+}
+
+function recordsKey(records: EntityRecord[]) {
+  return records
+    .map((record) => record.id)
+    .sort((left, right) => left - right)
+    .join(",");
+}
+
+function isMaximalNonOverlappingSubset(subset: EntityRecord[], allRecords: EntityRecord[]) {
+  const subsetIds = new Set(subset.map((record) => record.id));
+  const subsetSeasons = new Set<number>();
+  subset.forEach((record) => addRecordSeasons(record, subsetSeasons));
+
+  return allRecords.every((record) => subsetIds.has(record.id) || !canAddRecordToSeasons(record, subsetSeasons));
+}
+
+const MAX_EXHAUSTIVE_OVERLAP_GROUP_SIZE = 14;
+const MAX_NON_OVERLAPPING_SUBSETS = 250;
+
+function greedyNonOverlappingSubsets(records: EntityRecord[]) {
+  const subsets = new Map<string, EntityRecord[]>();
+  const sortedRecords = [...records].sort((left, right) => left.id - right.id);
+
+  for (const seed of sortedRecords) {
+    const seasons = new Set<number>();
+    const subset: EntityRecord[] = [];
+    for (const record of [seed, ...sortedRecords.filter((candidate) => candidate.id !== seed.id)]) {
+      if (canAddRecordToSeasons(record, seasons)) {
+        subset.push(record);
+        addRecordSeasons(record, seasons);
+      }
+    }
+
+    if (subset.length >= 2 && isMaximalNonOverlappingSubset(subset, sortedRecords)) {
+      subsets.set(recordsKey(subset), subset);
+    }
+  }
+
+  return Array.from(subsets.values());
+}
+
+function exhaustiveNonOverlappingSubsets(records: EntityRecord[]) {
+  const subsets = new Map<string, EntityRecord[]>();
+  const sortedRecords = [...records].sort((left, right) => left.id - right.id);
+
+  function visit(index: number, chosen: EntityRecord[], seasons: Set<number>) {
+    if (subsets.size >= MAX_NON_OVERLAPPING_SUBSETS) {
+      return;
+    }
+    if (index >= sortedRecords.length) {
+      if (chosen.length >= 2 && isMaximalNonOverlappingSubset(chosen, sortedRecords)) {
+        subsets.set(recordsKey(chosen), [...chosen]);
+      }
+      return;
+    }
+
+    const record = sortedRecords[index];
+    if (canAddRecordToSeasons(record, seasons)) {
+      chosen.push(record);
+      addRecordSeasons(record, seasons);
+      visit(index + 1, chosen, seasons);
+      removeRecordSeasons(record, seasons);
+      chosen.pop();
+    }
+
+    visit(index + 1, chosen, seasons);
+  }
+
+  visit(0, [], new Set());
+  return Array.from(subsets.values());
+}
+
+function nonOverlappingCandidateRecordGroups(records: EntityRecord[]) {
+  const uniqueRecords = [...new Map(records.map((record) => [record.id, record])).values()].sort(
+    (left, right) => left.id - right.id,
+  );
+
+  if (uniqueRecords.length < 2) {
+    return [];
+  }
+
+  if (!hasSeasonOverlap(uniqueRecords)) {
+    return [uniqueRecords];
+  }
+
+  return uniqueRecords.length <= MAX_EXHAUSTIVE_OVERLAP_GROUP_SIZE
+    ? exhaustiveNonOverlappingSubsets(uniqueRecords)
+    : greedyNonOverlappingSubsets(uniqueRecords);
+}
+
+function candidatesFromGroup(entityType: "player" | "team", matchType: string, records: EntityRecord[]) {
+  return nonOverlappingCandidateRecordGroups(records)
+    .map((recordGroup) => candidateFromGroup(entityType, matchType, recordGroup))
+    .filter((candidate): candidate is Candidate => !!candidate);
 }
 
 function candidateFromGroup(
@@ -405,19 +552,17 @@ function buildCandidates(
 
   const rawCandidates = new Map<string, Candidate>();
   for (const [key, recordsForKey] of groups) {
-    const candidate = candidateFromGroup(entityType, key, recordsForKey);
-    if (!candidate) {
-      continue;
-    }
-    const candidateKey = candidateReviewKey(
-      entityType,
-      candidate.entities.map((entity) => entity.id),
-    );
-    const existing = rawCandidates.get(candidateKey);
-    if (existing) {
-      mergeMatchTypes(existing, candidate.matchTypes);
-    } else {
-      rawCandidates.set(candidateKey, candidate);
+    for (const candidate of candidatesFromGroup(entityType, key, recordsForKey)) {
+      const candidateKey = candidateReviewKey(
+        entityType,
+        candidate.entities.map((entity) => entity.id),
+      );
+      const existing = rawCandidates.get(candidateKey);
+      if (existing) {
+        mergeMatchTypes(existing, candidate.matchTypes);
+      } else {
+        rawCandidates.set(candidateKey, candidate);
+      }
     }
   }
 
@@ -441,17 +586,21 @@ function buildCandidates(
 
   const candidates: Candidate[] = [];
   for (const candidatesForRoot of candidatesByRoot.values()) {
-    const componentIds = Array.from(new Set(candidatesForRoot.flatMap(candidateIds))).sort((left, right) => left - right);
-    const componentRecords = componentIds.map((id) => recordsById.get(id)).filter((record): record is EntityRecord => !!record);
+    const componentIds = Array.from(new Set(candidatesForRoot.flatMap(candidateIds))).sort(
+      (left, right) => left - right,
+    );
+    const componentRecords = componentIds
+      .map((id) => recordsById.get(id))
+      .filter((record): record is EntityRecord => !!record);
     const componentKey = candidateReviewKey(entityType, componentIds);
 
-    if (componentRecords.length >= 2 && !hasSeasonOverlap(componentRecords) && !reviewedCandidateKeys.has(componentKey)) {
+    if (
+      componentRecords.length >= 2 &&
+      !hasSeasonOverlap(componentRecords) &&
+      !reviewedCandidateKeys.has(componentKey)
+    ) {
       const componentMatchTypes = sortedMatchTypes(candidatesForRoot.flatMap((candidate) => candidate.matchTypes));
-      const componentCandidate = candidateFromGroup(
-        entityType,
-        bestMatchType(componentMatchTypes),
-        componentRecords,
-      );
+      const componentCandidate = candidateFromGroup(entityType, bestMatchType(componentMatchTypes), componentRecords);
       if (componentCandidate) {
         componentCandidate.matchTypes = componentMatchTypes;
         candidates.push(componentCandidate);
@@ -488,6 +637,7 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const bundles = await loadSeasonSeedBundles(options.outDir, options.seasonIds);
   const reviewConfig = await readEntityMergeReviewConfig(options.mergeConfigPath);
+  const { maps: reviewedMergeMaps } = buildEntityMergeMaps(reviewConfig);
   const reviewedCandidateKeys = buildReviewedCandidateKeys(reviewConfig);
   const players = new Map<number, EntityRecord>();
   const teams = new Map<number, EntityRecord>();
@@ -518,13 +668,20 @@ async function main() {
     }
   }
 
+  const canonicalPlayers = mergeEntityRecords(players, reviewedMergeMaps.players);
+  const canonicalTeams = mergeEntityRecords(teams, reviewedMergeMaps.teams);
   const playerCandidates = buildCandidates(
     "player",
-    Array.from(players.values()),
+    Array.from(canonicalPlayers.values()),
     playerSimilarityKeys,
     reviewedCandidateKeys,
   );
-  const teamCandidates = buildCandidates("team", Array.from(teams.values()), teamSimilarityKeys, reviewedCandidateKeys);
+  const teamCandidates = buildCandidates(
+    "team",
+    Array.from(canonicalTeams.values()),
+    teamSimilarityKeys,
+    reviewedCandidateKeys,
+  );
   const output = {
     generatedAt: new Date().toISOString(),
     description:
