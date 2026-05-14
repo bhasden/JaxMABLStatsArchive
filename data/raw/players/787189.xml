@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=787189%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="787189" playerid="952862">
+		<jersey>0</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Juan Montana</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>109513</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109513</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>6</gp>
+			<w>2</w>
+			<l>2</l>
+			<era>214687.909</era>
+			<gs>2</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>1</sv>
+			<ip>22</ip>
+			<so>33</so>
+			<h>16</h>
+			<r>12</r>
+			<er>6</er>
+			<bb>15</bb>
+			<whip>   1.410</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>92346</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>8</gp>
+			<ab>19</ab>
+			<r>2</r>
+			<h>3</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>1</hr>
+			<rbi>5</rbi>
+			<bb>1</bb>
+			<hbp>0</hbp>
+			<so>3</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.158</avg>
+			<obp>.19</obp>
+			<slg>.316</slg>
+		</stats>
+		<stats>
+			<teamid>109513</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>8</gp>
+			<ab>1</ab>
+			<r>0</r>
+			<h>1</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>0</bb>
+			<hbp>0</hbp>
+			<so>0</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>1</avg>
+			<obp>1</obp>
+			<slg>1</slg>
+		</stats>
+	</battingstats>
+</information>

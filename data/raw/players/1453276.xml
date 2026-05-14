@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1453276%26;seasonid=33023</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1453276" playerid="1499640">
+		<jersey></jersey>
+		<bats>L</bats>
+		<throws>R</throws>
+		<position>IF</position>
+		<name>Aaron Bauman</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>153978</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>150721</teamid>
+			<teamname>Jacksonville Fireflies</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>1453276</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>2</ip>
+			<so>1</so>
+			<h>1</h>
+			<r>2</r>
+			<er>2</er>
+			<bb>1</bb>
+			<whip>   1.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>153978</teamid>
+			<teamname>Cowford Bootleggers</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>0</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>1</ip>
+			<so>2</so>
+			<h>3</h>
+			<r>0</r>
+			<er>0</er>
+			<bb>0</bb>
+			<whip>   3.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>153978</teamid>
+			<teamname>Cowford Bootleggers</teamname>
+			<gp>5</gp>
+			<ab>10</ab>
+			<r>11</r>
+			<h>5</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>2</hr>
+			<rbi>7</rbi>
+			<bb>8</bb>
+			<hbp>1</hbp>
+			<so>1</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.5</avg>
+			<obp>.7</obp>
+			<slg>1.1</slg>
+		</stats>
+		<stats>
+			<teamid>150721</teamid>
+			<teamname>Jacksonville Fireflies</teamname>
+			<gp>10</gp>
+			<ab>29</ab>
+			<r>12</r>
+			<h>9</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>2</hr>
+			<rbi>10</rbi>
+			<bb>10</bb>
+			<hbp>3</hbp>
+			<so>5</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.31</avg>
+			<obp>.524</obp>
+			<slg>.621</slg>
+		</stats>
+	</battingstats>
+</information>

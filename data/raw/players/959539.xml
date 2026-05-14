@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=959539%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="959539" playerid="1109083">
+		<jersey></jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>C</position>
+		<name>Steven Goodspeed</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124107</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>124107</teamid>
+			<teamname>Mayport Cruisers</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>0</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>1</ip>
+			<so>1</so>
+			<h>0</h>
+			<r>0</r>
+			<er>0</er>
+			<bb>0</bb>
+			<whip>   0.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>124107</teamid>
+			<teamname>Mayport Cruisers</teamname>
+			<gp>16</gp>
+			<ab>50</ab>
+			<r>9</r>
+			<h>7</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>1</hr>
+			<rbi>4</rbi>
+			<bb>16</bb>
+			<hbp>1</hbp>
+			<so>12</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.14</avg>
+			<obp>.358</obp>
+			<slg>.26</slg>
+		</stats>
+		<stats>
+			<teamid>109511</teamid>
+			<teamname>Jacksonville Angels</teamname>
+			<gp>18</gp>
+			<ab>51</ab>
+			<r>15</r>
+			<h>15</h>
+			<b2>5</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>9</rbi>
+			<bb>7</bb>
+			<hbp>2</hbp>
+			<so>15</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.294</avg>
+			<obp>.4</obp>
+			<slg>.392</slg>
+		</stats>
+	</battingstats>
+</information>

@@ -41,6 +41,9 @@ roster_profile AS (
 )
 SELECT
   target.player_id,
+  players.person_id,
+  players.competition_id,
+  competitions.short_name AS competition,
   COALESCE(
     players.name,
     (SELECT name FROM rosters WHERE player_id = target.player_id AND name IS NOT NULL LIMIT 1),
@@ -58,6 +61,7 @@ SELECT
   roster_profile.teams
 FROM target
 LEFT JOIN players ON players.player_id = target.player_id
+LEFT JOIN competitions ON competitions.competition_id = players.competition_id
 LEFT JOIN roster_profile ON roster_profile.player_id = target.player_id;
 `;
 }
@@ -69,6 +73,56 @@ SELECT
   name AS season_name
 FROM seasons
 WHERE season_id = ${seasonId ?? -1};
+`;
+}
+
+export function buildPlayerRosteredSeasonsSql(playerId: number, seasonId?: number) {
+  const seasonFilter = seasonId != null ? `AND rosters.season_id = ${seasonId}` : "";
+
+  return `
+WITH rostered_teams AS (
+  SELECT
+    rosters.season_id,
+    rosters.team_id,
+    MAX(NULLIF(rosters.team_name, '')) AS roster_team_name,
+    GROUP_CONCAT(DISTINCT NULLIF(rosters.position, '')) AS positions,
+    GROUP_CONCAT(DISTINCT NULLIF(rosters.jersey, '')) AS jersey_numbers,
+    MAX(NULLIF(rosters.status, '')) AS status
+  FROM rosters
+  WHERE rosters.player_id = ${playerId}
+    ${seasonFilter}
+  GROUP BY rosters.season_id, rosters.team_id
+)
+SELECT
+  rostered_teams.season_id,
+  seasons.name AS season_name,
+  rostered_teams.team_id,
+  COALESCE(teams.name, standings.name, rostered_teams.roster_team_name) AS team,
+  rostered_teams.positions,
+  rostered_teams.jersey_numbers,
+  rostered_teams.status,
+  standings.games_played,
+  standings.wins,
+  standings.losses,
+  standings.ties,
+  COALESCE(
+    standings.pct,
+    CASE
+      WHEN COALESCE(standings.games_played, standings.wins + standings.losses + standings.ties, 0) = 0 THEN NULL
+      ELSE printf(
+        '%.3f',
+        CAST(standings.wins + standings.ties * 0.5 AS REAL)
+          / COALESCE(standings.games_played, standings.wins + standings.losses + standings.ties)
+      )
+    END
+  ) AS pct
+FROM rostered_teams
+LEFT JOIN seasons ON seasons.season_id = rostered_teams.season_id
+LEFT JOIN teams ON teams.team_id = rostered_teams.team_id
+LEFT JOIN standings
+  ON standings.season_id = rostered_teams.season_id
+ AND standings.team_id = rostered_teams.team_id
+ORDER BY rostered_teams.season_id DESC, team;
 `;
 }
 

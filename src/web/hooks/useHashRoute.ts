@@ -1,14 +1,24 @@
 import { useEffect, useMemo, useState } from "react";
-import entityMergeConfig from "../../../data/entity-merges.json";
+import playerMergeConfig from "../../../data/player-merge-approvals.json";
+import teamMergeConfig from "../../../data/team-merge-approvals.json";
+import { archiveEntityIdForCompetition, type ArchiveCompetitionId } from "../../lib/constants";
 
 export type Route =
   | { name: "home" }
+  | { name: "competition"; competitionId: string }
+  | { name: "competitionSeasons"; competitionId: string }
+  | { name: "competitionTeams"; competitionId: string }
+  | { name: "competitionPlayers"; competitionId: string }
+  | { name: "competitionTeam"; competitionId: string; teamId: number }
+  | { name: "competitionPlayer"; competitionId: string; playerId: number }
   | { name: "seasons" }
   | { name: "season"; seasonId: number }
   | { name: "seasonTeam"; seasonId: number; teamId: number }
   | { name: "seasonPlayer"; seasonId: number; playerId: number }
   | { name: "teams" }
   | { name: "team"; teamId: number }
+  | { name: "people" }
+  | { name: "person"; personId: number }
   | { name: "players" }
   | { name: "player"; playerId: number }
   | { name: "game"; gameId: number }
@@ -16,27 +26,33 @@ export type Route =
   | { name: "schema" };
 
 type EntityMergeGroup = {
-  canonicalId: number;
-  aliasIds?: number[];
+  competitionId: ArchiveCompetitionId;
+  canonicalSourceId: number;
+  aliasSourceIds?: number[];
 };
 
 type EntityMergeConfig = {
-  players?: EntityMergeGroup[];
-  teams?: EntityMergeGroup[];
+  version?: number;
+  merges?: EntityMergeGroup[];
 };
 
-const entityAliases = buildEntityAliasMaps(entityMergeConfig as EntityMergeConfig);
+const entityAliases = buildEntityAliasMaps(
+  playerMergeConfig as EntityMergeConfig,
+  teamMergeConfig as EntityMergeConfig,
+);
 
 function buildEntityAliasMap(groups: EntityMergeGroup[] | undefined) {
   const aliases = new Map<number, number>();
 
   for (const group of groups ?? []) {
-    if (!Number.isInteger(group.canonicalId)) {
+    const canonicalId = archiveEntityIdForCompetition(group.competitionId, group.canonicalSourceId);
+    if (canonicalId == null) {
       continue;
     }
-    for (const aliasId of group.aliasIds ?? []) {
-      if (Number.isInteger(aliasId) && aliasId !== group.canonicalId) {
-        aliases.set(aliasId, group.canonicalId);
+    for (const aliasSourceId of group.aliasSourceIds ?? []) {
+      const aliasId = archiveEntityIdForCompetition(group.competitionId, aliasSourceId);
+      if (aliasId != null && aliasId !== canonicalId) {
+        aliases.set(aliasId, canonicalId);
       }
     }
   }
@@ -56,10 +72,10 @@ function buildEntityAliasMap(groups: EntityMergeGroup[] | undefined) {
   return aliases;
 }
 
-function buildEntityAliasMaps(config: EntityMergeConfig) {
+function buildEntityAliasMaps(playerConfig: EntityMergeConfig, teamConfig: EntityMergeConfig) {
   return {
-    players: buildEntityAliasMap(config.players),
-    teams: buildEntityAliasMap(config.teams),
+    players: buildEntityAliasMap(playerConfig.merges),
+    teams: buildEntityAliasMap(teamConfig.merges),
   };
 }
 
@@ -111,6 +127,26 @@ function parseRoute(hash: string): Route {
   const routePath = path.split("?")[0] ?? "/";
   const parts = routePath.split("/").filter(Boolean);
 
+  if (parts[0] === "competitions" && parts[1]) {
+    const competitionId = parts[1];
+    if (parts[2] === "seasons") {
+      return { name: "competitionSeasons", competitionId };
+    }
+    if (parts[2] === "teams" && parts[3]) {
+      return { name: "competitionTeam", competitionId, teamId: Number(parts[3]) };
+    }
+    if (parts[2] === "teams") {
+      return { name: "competitionTeams", competitionId };
+    }
+    if (parts[2] === "players" && parts[3]) {
+      return { name: "competitionPlayer", competitionId, playerId: Number(parts[3]) };
+    }
+    if (parts[2] === "players") {
+      return { name: "competitionPlayers", competitionId };
+    }
+    return { name: "competition", competitionId };
+  }
+
   if (parts[0] === "seasons" && parts[1] && parts[2] === "teams" && parts[3]) {
     return { name: "seasonTeam", seasonId: Number(parts[1]), teamId: Number(parts[3]) };
   }
@@ -128,6 +164,12 @@ function parseRoute(hash: string): Route {
   }
   if (parts[0] === "teams") {
     return { name: "teams" };
+  }
+  if (parts[0] === "people" && parts[1]) {
+    return { name: "person", personId: Number(parts[1]) };
+  }
+  if (parts[0] === "people") {
+    return { name: "people" };
   }
   if (parts[0] === "players" && parts[1]) {
     return { name: "player", playerId: Number(parts[1]) };

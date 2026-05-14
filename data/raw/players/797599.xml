@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=797599%26;seasonid=29373</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="797599" playerid="797598">
+		<jersey></jersey>
+		<bats></bats>
+		<throws></throws>
+		<position></position>
+		<name></name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>92345</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>92345</teamid>
+			<teamname>San Mateo Angels</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>398799.5</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>6</ip>
+			<so>4</so>
+			<h>6</h>
+			<r>9</r>
+			<er>3</er>
+			<bb>5</bb>
+			<whip>   1.830</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>92345</teamid>
+			<teamname>San Mateo Angels</teamname>
+			<gp>17</gp>
+			<ab>51</ab>
+			<r>9</r>
+			<h>16</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>6</bb>
+			<hbp>1</hbp>
+			<so>10</so>
+			<sb>8</sb>
+			<cs>2</cs>
+			<avg>.314</avg>
+			<obp>.39</obp>
+			<slg>.373</slg>
+		</stats>
+	</battingstats>
+</information>

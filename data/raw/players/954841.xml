@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=954841%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="954841" playerid="1109008">
+		<jersey>4</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>RF</position>
+		<name>Julian Burgos</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday>1993-11-19 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>124104</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109514</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>1</l>
+			<era>4774205</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>1</ip>
+			<so>1</so>
+			<h>5</h>
+			<r>5</r>
+			<er>5</er>
+			<bb>1</bb>
+			<whip>   6.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>124104</teamid>
+			<teamname>Jacksonville Angels</teamname>
+			<gp>16</gp>
+			<ab>41</ab>
+			<r>8</r>
+			<h>10</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>3</rbi>
+			<bb>17</bb>
+			<hbp>5</hbp>
+			<so>9</so>
+			<sb>4</sb>
+			<cs>0</cs>
+			<avg>.244</avg>
+			<obp>.508</obp>
+			<slg>.293</slg>
+		</stats>
+		<stats>
+			<teamid>109514</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>17</gp>
+			<ab>44</ab>
+			<r>16</r>
+			<h>19</h>
+			<b2>4</b2>
+			<b3>0</b3>
+			<hr>2</hr>
+			<rbi>15</rbi>
+			<bb>12</bb>
+			<hbp>5</hbp>
+			<so>11</so>
+			<sb>6</sb>
+			<cs>1</cs>
+			<avg>.432</avg>
+			<obp>.581</obp>
+			<slg>.659</slg>
+		</stats>
+	</battingstats>
+</information>

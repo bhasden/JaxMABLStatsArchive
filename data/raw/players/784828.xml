@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=784828%26;seasonid=29373</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="784828" playerid="784828">
+		<jersey>31</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Nelsen Esser</name>
+		<photo></photo>
+		<height>6-1</height>
+		<weight>185</weight>
+		<birthday></birthday>
+		<hometown>Jacksonville</hometown>
+		<teamid>92341</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>92341</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>10</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>117724.2</era>
+			<gs>1</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>3</sv>
+			<ip>20</ip>
+			<so>23</so>
+			<h>10</h>
+			<r>3</r>
+			<er>3</er>
+			<bb>10</bb>
+			<whip>   1.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>92341</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>12</gp>
+			<ab>33</ab>
+			<r>12</r>
+			<h>11</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>2</rbi>
+			<bb>10</bb>
+			<hbp>3</hbp>
+			<so>1</so>
+			<sb>5</sb>
+			<cs>0</cs>
+			<avg>.333</avg>
+			<obp>.522</obp>
+			<slg>.394</slg>
+		</stats>
+	</battingstats>
+</information>

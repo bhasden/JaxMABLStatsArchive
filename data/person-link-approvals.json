@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "people": [
+    {
+      "personId": 1,
+      "displayName": "Brian Hasden",
+      "members": [
+        {
+          "competitionId": "18-plus",
+          "canonicalSourcePlayerId": 126
+        },
+        {
+          "competitionId": "40-plus",
+          "canonicalSourcePlayerId": 1783164
+        }
+      ],
+      "reason": "Confirmed same player across 18+ and 40+ competitions"
+    },
+    {
+      "personId": 2,
+      "displayName": "Joe Hellett",
+      "members": [
+        {
+          "competitionId": "18-plus",
+          "canonicalSourcePlayerId": 148
+        },
+        {
+          "competitionId": "30-plus",
+          "canonicalSourcePlayerId": 1372291
+        },
+        {
+          "competitionId": "40-plus",
+          "canonicalSourcePlayerId": 1783209
+        }
+      ],
+      "reason": "Confirmed same player across 18+, 30+, and 40+ competitions"
+    },
+    {
+      "personId": 3,
+      "displayName": "Herman Schoening",
+      "members": [
+        {
+          "competitionId": "18-plus",
+          "canonicalSourcePlayerId": 196
+        },
+        {
+          "competitionId": "30-plus",
+          "canonicalSourcePlayerId": 1401538
+        }
+      ],
+      "reason": "Confirmed same player across 18+ and 30+ competitions"
+    },
+    {
+      "personId": 4,
+      "displayName": "Matt Wiegand",
+      "members": [
+        {
+          "competitionId": "18-plus",
+          "canonicalSourcePlayerId": 202
+        },
+        {
+          "competitionId": "30-plus",
+          "canonicalSourcePlayerId": 1364849
+        }
+      ]
+    },
+    {
+      "personId": 139,
+      "displayName": "Joshua Turley",
+      "members": [
+        {
+          "competitionId": "18-plus",
+          "canonicalSourcePlayerId": 1755630
+        },
+        {
+          "competitionId": "40-plus",
+          "canonicalSourcePlayerId": 1783243
+        }
+      ],
+      "reason": "Candidate from last-first-initial:turley:j"
+    },
+    {
+      "personId": 273,
+      "displayName": "Myron Norman",
+      "members": [
+        {
+          "competitionId": "18-plus",
+          "canonicalSourcePlayerId": 1755611
+        },
+        {
+          "competitionId": "40-plus",
+          "canonicalSourcePlayerId": 1786352
+        }
+      ],
+      "reason": "Candidate from exact:norman:myron, last-first-initial:norman:m"
+    }
+  ]
+}

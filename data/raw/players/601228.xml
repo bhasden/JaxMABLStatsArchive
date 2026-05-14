@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=601228%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="601228" playerid="601228">
+		<jersey>30</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Sean Magee</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>69753</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>69753</teamid>
+			<teamname>Dolphins</teamname>
+			<gp>7</gp>
+			<w>3</w>
+			<l>3</l>
+			<era>196765.525</era>
+			<gs>7</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>36.2</ip>
+			<so>36</so>
+			<h>28</h>
+			<r>14</r>
+			<er>12</er>
+			<bb>11</bb>
+			<whip>   1.060</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>69753</teamid>
+			<teamname>Dolphins</teamname>
+			<gp>10</gp>
+			<ab>22</ab>
+			<r>4</r>
+			<h>3</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>1</rbi>
+			<bb>5</bb>
+			<hbp>1</hbp>
+			<so>4</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.136</avg>
+			<obp>.321</obp>
+			<slg>.136</slg>
+		</stats>
+	</battingstats>
+</information>

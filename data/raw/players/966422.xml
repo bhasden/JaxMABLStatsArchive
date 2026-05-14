@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=966422%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="966422" playerid="966422">
+		<jersey>25</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Dan Bizier</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>110132</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>110132</teamid>
+			<teamname>Jacksonville Expos</teamname>
+			<gp>10</gp>
+			<w>4</w>
+			<l>1</l>
+			<era>155317.821</era>
+			<gs>9</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>56</ip>
+			<so>63</so>
+			<h>47</h>
+			<r>24</r>
+			<er>9</er>
+			<bb>20</bb>
+			<whip>   1.200</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>110132</teamid>
+			<teamname>Jacksonville Expos</teamname>
+			<gp>15</gp>
+			<ab>35</ab>
+			<r>3</r>
+			<h>6</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>4</rbi>
+			<bb>7</bb>
+			<hbp>0</hbp>
+			<so>13</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.171</avg>
+			<obp>.31</obp>
+			<slg>.171</slg>
+		</stats>
+	</battingstats>
+</information>

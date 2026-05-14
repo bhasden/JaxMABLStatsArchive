@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=607967%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="607967" playerid="607967">
+		<jersey>5</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Tim Johnson</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70347</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>70347</teamid>
+			<teamname>Braves</teamname>
+			<gp>12</gp>
+			<w>2</w>
+			<l>2</l>
+			<era>128243.038</era>
+			<gs>4</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>2</sv>
+			<ip>42.2</ip>
+			<so>66</so>
+			<h>18</h>
+			<r>23</r>
+			<er>9</er>
+			<bb>16</bb>
+			<whip>   0.800</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70347</teamid>
+			<teamname>Braves</teamname>
+			<gp>18</gp>
+			<ab>59</ab>
+			<r>13</r>
+			<h>30</h>
+			<b2>7</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>14</rbi>
+			<bb>6</bb>
+			<hbp>3</hbp>
+			<so>5</so>
+			<sb>7</sb>
+			<cs>0</cs>
+			<avg>.508</avg>
+			<obp>.565</obp>
+			<slg>.627</slg>
+		</stats>
+	</battingstats>
+</information>

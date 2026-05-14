@@ -8,14 +8,16 @@ import {
   type ArchiveSeedManifest,
   type ArchiveSeedTable,
 } from "./archive-seed-merge";
-import { ARCHIVE_SEASONS } from "./constants";
+import { ARCHIVE_COMPETITIONS, ARCHIVE_SEASONS, competitionIdForSeasonId } from "./constants";
 
 export const DEFAULT_ARCHIVE_DB_FILE_NAME = "archive.sqlite";
 
 const EXCLUDED_ARCHIVE_DB_SEASON_IDS = new Set([34360]);
 
 export const ARCHIVE_DB_IMPORTED_TABLES = [
+  "competitions",
   ...ARCHIVE_SEED_TABLES,
+  "people",
   "seasons",
   "team_aliases",
   "team_season_ids",
@@ -128,6 +130,10 @@ function shouldImportSeasonId(seasonId: unknown) {
   return numericSeasonId == null || !EXCLUDED_ARCHIVE_DB_SEASON_IDS.has(numericSeasonId);
 }
 
+function competitionIdForRow(row: Record<string, unknown>) {
+  return textOrNull(row.competition_id) ?? competitionIdForSeasonId(integerOrNull(row.season_id));
+}
+
 async function readManifest(seedsDir: string): Promise<ArchiveSeedManifest> {
   const manifestText = await fs.readFile(path.join(seedsDir, "manifest.json"), "utf8");
   return JSON.parse(manifestText) as ArchiveSeedManifest;
@@ -146,22 +152,45 @@ function initializeArchiveDb(db: any) {
       value TEXT NOT NULL
     );
 
+    CREATE TABLE competitions (
+      competition_id TEXT PRIMARY KEY,
+      name TEXT NOT NULL,
+      short_name TEXT NOT NULL,
+      sort_order INTEGER NOT NULL,
+      minimum_age INTEGER
+    );
+
     CREATE TABLE seasons (
       season_id INTEGER PRIMARY KEY,
+      competition_id TEXT NOT NULL,
       name TEXT NOT NULL,
-      season_year INTEGER
+      season_year INTEGER,
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
+    );
+
+    CREATE TABLE people (
+      person_id INTEGER PRIMARY KEY,
+      name TEXT
     );
 
     CREATE TABLE players (
       player_id INTEGER PRIMARY KEY,
-      name TEXT
+      competition_id TEXT NOT NULL,
+      source_player_id INTEGER,
+      person_id INTEGER,
+      name TEXT,
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id),
+      FOREIGN KEY (person_id) REFERENCES people(person_id)
     );
 
     CREATE TABLE teams (
       team_id INTEGER PRIMARY KEY,
+      competition_id TEXT NOT NULL,
+      source_team_id INTEGER,
       league_id INTEGER,
       name TEXT NOT NULL,
-      short_name TEXT
+      short_name TEXT,
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE team_aliases (
@@ -175,11 +204,14 @@ function initializeArchiveDb(db: any) {
     CREATE TABLE team_season_ids (
       team_id INTEGER NOT NULL,
       season_team_id INTEGER NOT NULL,
+      competition_id TEXT NOT NULL,
       PRIMARY KEY (team_id, season_team_id),
-      FOREIGN KEY (team_id) REFERENCES teams(team_id)
+      FOREIGN KEY (team_id) REFERENCES teams(team_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE rosters (
+      competition_id TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
       team_id INTEGER,
@@ -201,11 +233,13 @@ function initializeArchiveDb(db: any) {
       hometown TEXT,
       photo_url TEXT,
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE games (
       game_id INTEGER PRIMARY KEY,
+      competition_id TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
       scheduled_at TEXT,
@@ -225,10 +259,12 @@ function initializeArchiveDb(db: any) {
       FOREIGN KEY (home_team_id) REFERENCES teams(team_id),
       FOREIGN KEY (away_team_id) REFERENCES teams(team_id),
       FOREIGN KEY (winner_team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (loser_team_id) REFERENCES teams(team_id)
+      FOREIGN KEY (loser_team_id) REFERENCES teams(team_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE lineups (
+      competition_id TEXT NOT NULL,
       game_id INTEGER NOT NULL,
       season_id INTEGER NOT NULL,
       team_id INTEGER,
@@ -245,10 +281,12 @@ function initializeArchiveDb(db: any) {
       batting_order_modifier TEXT,
       FOREIGN KEY (game_id) REFERENCES games(game_id),
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE batting_stats (
+      competition_id TEXT NOT NULL,
       game_id INTEGER NOT NULL,
       season_id INTEGER NOT NULL,
       team_id INTEGER,
@@ -278,10 +316,12 @@ function initializeArchiveDb(db: any) {
       batting_order_modifier TEXT,
       FOREIGN KEY (game_id) REFERENCES games(game_id),
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE pitching_stats (
+      competition_id TEXT NOT NULL,
       game_id INTEGER NOT NULL,
       season_id INTEGER NOT NULL,
       team_id INTEGER,
@@ -310,10 +350,12 @@ function initializeArchiveDb(db: any) {
       era TEXT,
       FOREIGN KEY (game_id) REFERENCES games(game_id),
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE season_batting_stats (
+      competition_id TEXT NOT NULL,
       scope TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
@@ -343,10 +385,12 @@ function initializeArchiveDb(db: any) {
       slugging_percentage TEXT,
       batting_average TEXT,
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE season_pitching_stats (
+      competition_id TEXT NOT NULL,
       scope TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
@@ -379,10 +423,12 @@ function initializeArchiveDb(db: any) {
       opponent_average TEXT,
       era TEXT,
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE season_batting_leaders (
+      competition_id TEXT NOT NULL,
       scope TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
@@ -414,10 +460,12 @@ function initializeArchiveDb(db: any) {
       slugging_percentage TEXT,
       batting_average TEXT,
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE season_pitching_leaders (
+      competition_id TEXT NOT NULL,
       scope TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
@@ -452,10 +500,12 @@ function initializeArchiveDb(db: any) {
       opponent_average TEXT,
       era TEXT,
       FOREIGN KEY (team_id) REFERENCES teams(team_id),
-      FOREIGN KEY (player_id) REFERENCES players(player_id)
+      FOREIGN KEY (player_id) REFERENCES players(player_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE innings (
+      competition_id TEXT NOT NULL,
       game_id INTEGER NOT NULL,
       season_id INTEGER NOT NULL,
       team_id INTEGER,
@@ -467,10 +517,12 @@ function initializeArchiveDb(db: any) {
       total_hits INTEGER,
       total_errors INTEGER,
       FOREIGN KEY (game_id) REFERENCES games(game_id),
-      FOREIGN KEY (team_id) REFERENCES teams(team_id)
+      FOREIGN KEY (team_id) REFERENCES teams(team_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE TABLE standings (
+      competition_id TEXT NOT NULL,
       league_id INTEGER,
       season_id INTEGER NOT NULL,
       team_id INTEGER,
@@ -481,13 +533,16 @@ function initializeArchiveDb(db: any) {
       losses INTEGER NOT NULL,
       ties INTEGER NOT NULL,
       pct TEXT,
-      FOREIGN KEY (team_id) REFERENCES teams(team_id)
+      FOREIGN KEY (team_id) REFERENCES teams(team_id),
+      FOREIGN KEY (competition_id) REFERENCES competitions(competition_id)
     );
 
     CREATE INDEX idx_games_season ON games(season_id);
+    CREATE INDEX idx_games_competition ON games(competition_id);
     CREATE INDEX idx_games_home_team ON games(home_team_id);
     CREATE INDEX idx_games_away_team ON games(away_team_id);
     CREATE INDEX idx_rosters_season ON rosters(season_id);
+    CREATE INDEX idx_rosters_competition ON rosters(competition_id);
     CREATE INDEX idx_rosters_team ON rosters(team_id);
     CREATE INDEX idx_rosters_player ON rosters(player_id);
     CREATE INDEX idx_lineups_game ON lineups(game_id);
@@ -518,6 +573,7 @@ function initializeArchiveDb(db: any) {
     CREATE INDEX idx_innings_game ON innings(game_id);
     CREATE INDEX idx_innings_team ON innings(team_id);
     CREATE INDEX idx_standings_season ON standings(season_id);
+    CREATE INDEX idx_standings_competition ON standings(competition_id);
     CREATE INDEX idx_standings_team ON standings(team_id);
   `);
 }
@@ -536,6 +592,8 @@ function createArchiveViews(db: any) {
     )
     SELECT
       season_ids.season_id,
+      seasons.competition_id,
+      competitions.short_name AS competition,
       seasons.name AS season_name,
       seasons.season_year,
       (SELECT COUNT(DISTINCT team_id) FROM standings WHERE standings.season_id = season_ids.season_id) AS teams,
@@ -549,11 +607,14 @@ function createArchiveViews(db: any) {
       (SELECT COALESCE(SUM(hits), 0) FROM batting_stats WHERE batting_stats.season_id = season_ids.season_id) AS hits,
       (SELECT COALESCE(SUM(hr), 0) FROM batting_stats WHERE batting_stats.season_id = season_ids.season_id) AS home_runs
     FROM season_ids
-    LEFT JOIN seasons ON seasons.season_id = season_ids.season_id;
+    LEFT JOIN seasons ON seasons.season_id = season_ids.season_id
+    LEFT JOIN competitions ON competitions.competition_id = seasons.competition_id;
 
     CREATE VIEW v_team_season_summary AS
     SELECT
       standings.season_id,
+      standings.competition_id,
+      competitions.short_name AS competition,
       seasons.name AS season_name,
       standings.team_id,
       teams.name AS canonical_team_name,
@@ -572,7 +633,8 @@ function createArchiveViews(db: any) {
       ) AS rostered_players
     FROM standings
     LEFT JOIN teams ON teams.team_id = standings.team_id
-    LEFT JOIN seasons ON seasons.season_id = standings.season_id;
+    LEFT JOIN seasons ON seasons.season_id = standings.season_id
+    LEFT JOIN competitions ON competitions.competition_id = standings.competition_id;
 
     CREATE VIEW v_player_batting_totals AS
     WITH player_games AS (
@@ -590,6 +652,7 @@ function createArchiveViews(db: any) {
     )
     SELECT
       season_batting_stats.player_id,
+      season_batting_stats.competition_id,
       COALESCE(players.name, season_batting_stats.player_name) AS player_name,
       COUNT(DISTINCT season_id) AS seasons,
       (
@@ -615,7 +678,7 @@ function createArchiveViews(db: any) {
     LEFT JOIN players ON players.player_id = season_batting_stats.player_id
     WHERE season_batting_stats.scope = 'league'
       AND season_batting_stats.player_id IS NOT NULL
-    GROUP BY season_batting_stats.player_id;
+    GROUP BY season_batting_stats.player_id, season_batting_stats.competition_id;
   `);
 }
 
@@ -638,101 +701,113 @@ export async function importMergedSeedsToArchiveDb(
   createArchiveViews(db);
 
   const insertMetadata = db.prepare("INSERT INTO metadata (key, value) VALUES (?, ?)");
-  const insertSeason = db.prepare("INSERT INTO seasons (season_id, name, season_year) VALUES (?, ?, ?)");
-  const insertPlayer = db.prepare("INSERT INTO players (player_id, name) VALUES (?, ?)");
-  const insertTeam = db.prepare("INSERT INTO teams (team_id, league_id, name, short_name) VALUES (?, ?, ?, ?)");
+  const insertCompetition = db.prepare(
+    "INSERT INTO competitions (competition_id, name, short_name, sort_order, minimum_age) VALUES (?, ?, ?, ?, ?)",
+  );
+  const insertSeason = db.prepare(
+    "INSERT INTO seasons (season_id, competition_id, name, season_year) VALUES (?, ?, ?, ?)",
+  );
+  const insertPerson = db.prepare("INSERT OR IGNORE INTO people (person_id, name) VALUES (?, ?)");
+  const insertPlayer = db.prepare(
+    "INSERT INTO players (player_id, competition_id, source_player_id, person_id, name) VALUES (?, ?, ?, ?, ?)",
+  );
+  const insertTeam = db.prepare(
+    "INSERT INTO teams (team_id, competition_id, source_team_id, league_id, name, short_name) VALUES (?, ?, ?, ?, ?, ?)",
+  );
   const insertTeamAlias = db.prepare("INSERT INTO team_aliases (team_id, name, is_current) VALUES (?, ?, ?)");
-  const insertTeamSeasonId = db.prepare("INSERT INTO team_season_ids (team_id, season_team_id) VALUES (?, ?)");
+  const insertTeamSeasonId = db.prepare(
+    "INSERT INTO team_season_ids (team_id, season_team_id, competition_id) VALUES (?, ?, ?)",
+  );
   const insertRoster = db.prepare(`
     INSERT INTO rosters (
-      league_id, season_id, team_id, season_team_id, team_name,
+      competition_id, league_id, season_id, team_id, season_team_id, team_name,
       player_id, player_season_id,
       first_name, last_name, name, position, jersey, height, weight, birthdate,
       bats, throws, status, hometown, photo_url
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertGame = db.prepare(`
     INSERT INTO games (
-      game_id, league_id, season_id, scheduled_at, status,
+      game_id, competition_id, league_id, season_id, scheduled_at, status,
       home_team_id, away_team_id,
       home_season_team_id, away_season_team_id,
       home_score, away_score, is_tie,
       winner_team_id, loser_team_id,
       winner_season_team_id, loser_season_team_id,
       raw_xml_file
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertLineup = db.prepare(`
     INSERT INTO lineups (
-      game_id, season_id, team_id, season_team_id,
+      competition_id, game_id, season_id, team_id, season_team_id,
       is_home, player_id, name, jersey, position, order_idx,
       source_batting_order, source_batting_order_slot, batting_order, batting_order_modifier
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertBatting = db.prepare(`
     INSERT INTO batting_stats (
-      game_id, season_id, team_id, season_team_id,
+      competition_id, game_id, season_id, team_id, season_team_id,
       is_home, player_id, jersey, position, ab, runs, hits, doubles, triples,
       hr, rbi, bb, so, sb, caught_stealing, hit_by_pitch, sacrifice_flies, sacrifice_bunts, avg,
       source_batting_order, source_batting_order_slot, batting_order, batting_order_modifier
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertPitching = db.prepare(`
     INSERT INTO pitching_stats (
-      game_id, season_id, team_id, season_team_id,
+      competition_id, game_id, season_id, team_id, season_team_id,
       is_home, player_id, jersey, pitching_order, ip, hits, runs, earned_runs,
       doubles_allowed, triples_allowed, home_runs_allowed, bb, so, hit_by_pitch, win, loss,
       save, blown_save, complete_game, batters_faced, pitches, era
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertSeasonBatting = db.prepare(`
     INSERT INTO season_batting_stats (
-      scope, league_id, season_id, team_id, season_team_id, source_team_name,
+      competition_id, scope, league_id, season_id, team_id, season_team_id, source_team_name,
       player_id, player_season_id, player_name, jersey,
       at_bats, runs, hits, doubles, triples, home_runs, runs_batted_in, walks,
       hit_by_pitch, strikeouts, sacrifice_flies, sacrifice_bunts, stolen_bases, caught_stealing, double_plays,
       on_base_percentage, slugging_percentage, batting_average
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertSeasonPitching = db.prepare(`
     INSERT INTO season_pitching_stats (
-      scope, league_id, season_id, team_id, season_team_id, source_team_name,
+      competition_id, scope, league_id, season_id, team_id, season_team_id, source_team_name,
       player_id, player_season_id, player_name, jersey,
       wins, losses, innings_pitched, runs, earned_runs, hits, walks, strikeouts,
       hit_by_pitch, batters_faced, games, games_started, complete_games, complete_game_losses,
       shutouts, saves, blown_saves, opponent_on_base_percentage, opponent_slugging_percentage,
       opponent_average, era
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertSeasonBattingLeader = db.prepare(`
     INSERT INTO season_batting_leaders (
-      scope, league_id, season_id, team_id, season_team_id, leader_category, rank,
+      competition_id, scope, league_id, season_id, team_id, season_team_id, leader_category, rank,
       source_team_name, player_id, player_season_id, player_name, jersey,
       at_bats, runs, hits, doubles, triples, home_runs, runs_batted_in, walks,
       hit_by_pitch, strikeouts, sacrifice_flies, sacrifice_bunts, stolen_bases, caught_stealing, double_plays,
       on_base_percentage, slugging_percentage, batting_average
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertSeasonPitchingLeader = db.prepare(`
     INSERT INTO season_pitching_leaders (
-      scope, league_id, season_id, team_id, season_team_id, leader_category, rank,
+      competition_id, scope, league_id, season_id, team_id, season_team_id, leader_category, rank,
       source_team_name, player_id, player_season_id, player_name, jersey,
       wins, losses, innings_pitched, runs, earned_runs, hits, walks, strikeouts,
       hit_by_pitch, batters_faced, games, games_started, complete_games, complete_game_losses,
       shutouts, saves, blown_saves, opponent_on_base_percentage, opponent_slugging_percentage,
       opponent_average, era
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertInning = db.prepare(`
     INSERT INTO innings (
-      game_id, season_id, team_id, season_team_id,
+      competition_id, game_id, season_id, team_id, season_team_id,
       is_home, inning_number, runs, total_runs, total_hits, total_errors
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertStanding = db.prepare(`
     INSERT INTO standings (
-      league_id, season_id, team_id, season_team_id, name, games_played, wins, losses, ties, pct
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      competition_id, league_id, season_id, team_id, season_team_id, name, games_played, wins, losses, ties, pct
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
 
   db.run("BEGIN");
@@ -748,17 +823,42 @@ export async function importMergedSeedsToArchiveDb(
     insertMetadata.run(["imported_at", new Date().toISOString()]);
     importedCounts.metadata += 1;
 
+    for (const competition of ARCHIVE_COMPETITIONS) {
+      insertCompetition.run([
+        competition.id,
+        competition.name,
+        competition.shortName,
+        competition.sortOrder,
+        competition.minimumAge,
+      ]);
+      importedCounts.competitions += 1;
+    }
+
     for (const season of ARCHIVE_SEASONS) {
       if (!shouldImportSeasonId(season.id)) {
         continue;
       }
-      insertSeason.run([Number(season.id), season.name, seasonYearFromName(season.name)]);
+      insertSeason.run([Number(season.id), season.competitionId, season.name, seasonYearFromName(season.name)]);
       importedCounts.seasons += 1;
     }
 
     const playerRows = await readSeedTableRows(seedsDir, "players");
+    const insertedPersonIds = new Set<number>();
     for (const row of playerRows) {
-      insertPlayer.run([requiredInteger(row.player_id, "player_id", "players"), textOrNull(row.name)]);
+      const personId = requiredInteger(row.person_id, "person_id", "players");
+      const personName = textOrNull(row.person_name) ?? textOrNull(row.name);
+      if (!insertedPersonIds.has(personId)) {
+        insertPerson.run([personId, personName]);
+        importedCounts.people += 1;
+        insertedPersonIds.add(personId);
+      }
+      insertPlayer.run([
+        requiredInteger(row.player_id, "player_id", "players"),
+        competitionIdForRow(row),
+        integerOrNull(row.source_player_id),
+        personId,
+        textOrNull(row.name),
+      ]);
       importedCounts.players += 1;
     }
 
@@ -768,6 +868,8 @@ export async function importMergedSeedsToArchiveDb(
       const currentName = textOrNull(row.name);
       insertTeam.run([
         teamLinkId,
+        competitionIdForRow(row),
+        integerOrNull(row.source_team_id),
         integerOrNull(row.league_id),
         currentName ?? `Team ${teamLinkId}`,
         textOrNull(row.short_name),
@@ -783,7 +885,7 @@ export async function importMergedSeedsToArchiveDb(
         importedCounts.team_aliases += 1;
       }
       for (const seasonTeamId of integerArray(row.season_season_team_ids)) {
-        insertTeamSeasonId.run([teamLinkId, seasonTeamId]);
+        insertTeamSeasonId.run([teamLinkId, seasonTeamId, competitionIdForRow(row)]);
         importedCounts.team_season_ids += 1;
       }
     }
@@ -794,6 +896,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertRoster.run([
+        competitionIdForRow(row),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "rosters"),
         integerOrNull(row.team_id),
@@ -825,6 +928,7 @@ export async function importMergedSeedsToArchiveDb(
       }
       insertGame.run([
         requiredInteger(row.game_id, "game_id", "games"),
+        competitionIdForRow(row),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "games"),
         textOrNull(row.scheduled_at),
@@ -851,6 +955,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertLineup.run([
+        competitionIdForRow(row),
         requiredInteger(row.game_id, "game_id", "lineups"),
         requiredInteger(row.season_id, "season_id", "lineups"),
         integerOrNull(row.team_id),
@@ -875,6 +980,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertBatting.run([
+        competitionIdForRow(row),
         requiredInteger(row.game_id, "game_id", "batting_stats"),
         requiredInteger(row.season_id, "season_id", "batting_stats"),
         integerOrNull(row.team_id),
@@ -912,6 +1018,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertPitching.run([
+        competitionIdForRow(row),
         requiredInteger(row.game_id, "game_id", "pitching_stats"),
         requiredInteger(row.season_id, "season_id", "pitching_stats"),
         integerOrNull(row.team_id),
@@ -948,6 +1055,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertSeasonBatting.run([
+        competitionIdForRow(row),
         textOrNull(row.scope),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "season_batting_stats"),
@@ -986,6 +1094,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertSeasonPitching.run([
+        competitionIdForRow(row),
         textOrNull(row.scope),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "season_pitching_stats"),
@@ -1027,6 +1136,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertSeasonBattingLeader.run([
+        competitionIdForRow(row),
         textOrNull(row.scope),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "season_batting_leaders"),
@@ -1067,6 +1177,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertSeasonPitchingLeader.run([
+        competitionIdForRow(row),
         textOrNull(row.scope),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "season_pitching_leaders"),
@@ -1110,6 +1221,7 @@ export async function importMergedSeedsToArchiveDb(
         continue;
       }
       insertInning.run([
+        competitionIdForRow(row),
         requiredInteger(row.game_id, "game_id", "innings"),
         requiredInteger(row.season_id, "season_id", "innings"),
         integerOrNull(row.team_id),
@@ -1133,6 +1245,7 @@ export async function importMergedSeedsToArchiveDb(
       const losses = requiredInteger(row.losses, "losses", "standings");
       const ties = requiredInteger(row.ties, "ties", "standings");
       insertStanding.run([
+        competitionIdForRow(row),
         integerOrNull(row.league_id),
         requiredInteger(row.season_id, "season_id", "standings"),
         integerOrNull(row.team_id),
@@ -1153,7 +1266,9 @@ export async function importMergedSeedsToArchiveDb(
     throw error;
   } finally {
     insertMetadata.free();
+    insertCompetition.free();
     insertSeason.free();
+    insertPerson.free();
     insertPlayer.free();
     insertTeam.free();
     insertTeamAlias.free();

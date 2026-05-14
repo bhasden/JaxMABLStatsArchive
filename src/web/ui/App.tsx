@@ -5,6 +5,8 @@ import { useColumnHeaderMode } from "../hooks/useColumnHeaderMode";
 import { href, useHashRoute } from "../hooks/useHashRoute";
 import { GamePage } from "./GamePage";
 import { HomePage } from "./HomePage";
+import { PeoplePage } from "./PeoplePage";
+import { PersonPage } from "./PersonPage";
 import { PlayerPage } from "./PlayerPage";
 import { PlayersPage } from "./PlayersPage";
 import { SchemaPage } from "./SchemaPage";
@@ -40,14 +42,30 @@ export function App() {
           </a>
           <a
             href={href("/seasons")}
-            aria-current={route.name === "seasons" || route.name === "season" ? "page" : undefined}
+            aria-current={
+              route.name === "seasons" || route.name === "season" || route.name === "competitionSeasons"
+                ? "page"
+                : undefined
+            }
           >
             Seasons
           </a>
           <a
+            href={href("/people")}
+            aria-current={route.name === "people" || route.name === "person" ? "page" : undefined}
+          >
+            People
+          </a>
+          <a
             href={href("/players")}
             aria-current={
-              route.name === "players" || route.name === "player" || route.name === "seasonPlayer" ? "page" : undefined
+              route.name === "players" ||
+              route.name === "player" ||
+              route.name === "seasonPlayer" ||
+              route.name === "competitionPlayers" ||
+              route.name === "competitionPlayer"
+                ? "page"
+                : undefined
             }
           >
             Players
@@ -55,7 +73,13 @@ export function App() {
           <a
             href={href("/teams")}
             aria-current={
-              route.name === "teams" || route.name === "team" || route.name === "seasonTeam" ? "page" : undefined
+              route.name === "teams" ||
+              route.name === "team" ||
+              route.name === "seasonTeam" ||
+              route.name === "competitionTeams" ||
+              route.name === "competitionTeam"
+                ? "page"
+                : undefined
             }
           >
             Teams
@@ -96,6 +120,7 @@ export function App() {
           <div className="mobile-nav-panel">
             <a href={href("/")}>League</a>
             <a href={href("/seasons")}>Seasons</a>
+            <a href={href("/people")}>People</a>
             <a href={href("/players")}>Players</a>
             <a href={href("/teams")}>Teams</a>
             <a href={href("/sql")}>SQL Explorer</a>
@@ -143,8 +168,18 @@ export function App() {
         {archive.ready && route.name === "home" ? (
           <HomePage archive={archive} columnHeaderMode={columnHeaders.mode} />
         ) : null}
+        {archive.ready && route.name === "competition" ? (
+          <HomePage archive={archive} columnHeaderMode={columnHeaders.mode} />
+        ) : null}
         {archive.ready && route.name === "seasons" ? (
           <SeasonsPage archive={archive} columnHeaderMode={columnHeaders.mode} />
+        ) : null}
+        {archive.ready && route.name === "competitionSeasons" ? (
+          <SeasonsPage
+            archive={archive}
+            columnHeaderMode={columnHeaders.mode}
+            initialCompetitionId={route.competitionId}
+          />
         ) : null}
         {archive.ready && route.name === "season" ? (
           <SeasonPage archive={archive} columnHeaderMode={columnHeaders.mode} seasonId={route.seasonId} />
@@ -168,14 +203,40 @@ export function App() {
         {archive.ready && route.name === "team" ? (
           <TeamPage archive={archive} columnHeaderMode={columnHeaders.mode} teamId={route.teamId} />
         ) : null}
+        {archive.ready && route.name === "competitionTeam" ? (
+          <TeamPage archive={archive} columnHeaderMode={columnHeaders.mode} teamId={route.teamId} />
+        ) : null}
         {archive.ready && route.name === "teams" ? (
           <TeamsPage archive={archive} columnHeaderMode={columnHeaders.mode} />
+        ) : null}
+        {archive.ready && route.name === "competitionTeams" ? (
+          <TeamsPage
+            archive={archive}
+            columnHeaderMode={columnHeaders.mode}
+            initialCompetitionId={route.competitionId}
+          />
+        ) : null}
+        {archive.ready && route.name === "people" ? (
+          <PeoplePage archive={archive} columnHeaderMode={columnHeaders.mode} />
+        ) : null}
+        {archive.ready && route.name === "person" ? (
+          <PersonPage archive={archive} columnHeaderMode={columnHeaders.mode} personId={route.personId} />
         ) : null}
         {archive.ready && route.name === "player" ? (
           <PlayerPage archive={archive} columnHeaderMode={columnHeaders.mode} playerId={route.playerId} />
         ) : null}
+        {archive.ready && route.name === "competitionPlayer" ? (
+          <PlayerPage archive={archive} columnHeaderMode={columnHeaders.mode} playerId={route.playerId} />
+        ) : null}
         {archive.ready && route.name === "players" ? (
           <PlayersPage archive={archive} columnHeaderMode={columnHeaders.mode} />
+        ) : null}
+        {archive.ready && route.name === "competitionPlayers" ? (
+          <PlayersPage
+            archive={archive}
+            columnHeaderMode={columnHeaders.mode}
+            initialCompetitionId={route.competitionId}
+          />
         ) : null}
         {archive.ready && route.name === "game" ? (
           <GamePage archive={archive} columnHeaderMode={columnHeaders.mode} gameId={route.gameId} />

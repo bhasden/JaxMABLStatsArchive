@@ -3,9 +3,14 @@ import path from "path";
 import {
   applyEntityMergesToTables,
   buildEntityMergeMaps,
-  readEntityMergeConfig,
+  readPlayerMergeConfig,
+  readPersonLinkConfig,
+  readTeamMergeConfig,
+  validateEntityMergeTargetsAgainstRows,
   type EntityMergeSummary,
+  type PersonLinkConfig,
 } from "./entity-merges";
+import { archiveEntityIdForCompetition, competitionIdForSeasonId, isArchiveCompetitionId } from "./constants";
 
 export const ARCHIVE_SEED_TABLES = [
   "games",
@@ -53,6 +58,7 @@ export type ArchiveSeedManifest = {
   seasonIds: number[];
   tableStats: Record<ArchiveSeedTable, TableStats>;
   entityMerges?: EntityMergeSummary;
+  personLinks?: PersonLinkSummary;
   warnings: string[];
 };
 
@@ -73,6 +79,16 @@ export type BuildMergedSeedBundleOptions = {
   seasonIds?: number[];
   mergedDirName?: string;
 };
+
+export type PersonLinkSummary = {
+  configPath: string;
+  explicitPersonCount: number;
+  linkedPlayerCount: number;
+  generatedSingletonCount: number;
+  warnings: string[];
+};
+
+const GENERATED_SINGLETON_PERSON_ID_BASE = 10_000_000_000;
 
 const DIMENSION_KEYS: Partial<Record<ArchiveSeedTable, string>> = {
   players: "player_id",
@@ -158,6 +174,9 @@ const TABLES_REQUIRING_SEASON_ID = new Set<ArchiveSeedTable>([
   "innings",
   "standings",
 ]);
+
+const PLAYER_ID_FIELDS = ["player_id"];
+const TEAM_ID_FIELDS = ["team_id", "home_team_id", "away_team_id", "winner_team_id", "loser_team_id"];
 
 function buildTableRecord<T>(factory: (table: ArchiveSeedTable) => T): Record<ArchiveSeedTable, T> {
   return Object.fromEntries(ARCHIVE_SEED_TABLES.map((table) => [table, factory(table)])) as Record<ArchiveSeedTable, T>;
@@ -446,6 +465,45 @@ function validateSeasonRows(table: ArchiveSeedTable, seasonId: number, rows: Arc
   });
 }
 
+function scopeEntityId(row: ArchiveSeedRow, field: string, competitionId: string) {
+  const value = row[field];
+  if (value === 0 || value === "0") {
+    row[field] = null;
+    return;
+  }
+  const scopedId = archiveEntityIdForCompetition(
+    competitionId,
+    typeof value === "string" || typeof value === "number" ? value : null,
+  );
+  if (scopedId != null) {
+    row[field] = scopedId;
+  }
+}
+
+function scopeSeasonSeedTables(tables: Record<ArchiveSeedTable, ArchiveSeedRow[]>, seasonId: number) {
+  const competitionId = competitionIdForSeasonId(seasonId);
+
+  for (const [table, rows] of Object.entries(tables) as Array<[ArchiveSeedTable, ArchiveSeedRow[]]>) {
+    for (const row of rows) {
+      row.competition_id = competitionId;
+
+      if (table === "players") {
+        row.source_player_id = row.player_id;
+      }
+      if (table === "teams") {
+        row.source_team_id = row.team_id;
+      }
+
+      for (const field of PLAYER_ID_FIELDS) {
+        scopeEntityId(row, field, competitionId);
+      }
+      for (const field of TEAM_ID_FIELDS) {
+        scopeEntityId(row, field, competitionId);
+      }
+    }
+  }
+}
+
 export function getSeasonSeedDir(outDir: string, seasonId: number) {
   return path.join(outDir, "seeds", String(seasonId));
 }
@@ -522,6 +580,147 @@ export async function readNdjsonRows(filePath: string) {
   });
 }
 
+function integerOrNull(value: unknown) {
+  if (value == null || value === "") {
+    return null;
+  }
+
+  const numericValue = Number(value);
+  return Number.isInteger(numericValue) ? numericValue : null;
+}
+
+function textOrNull(value: unknown) {
+  if (value == null) {
+    return null;
+  }
+
+  const normalized = String(value).trim();
+  return normalized.length > 0 ? normalized : null;
+}
+
+function applyPersonLinksToPlayers(
+  playerRows: ArchiveSeedRow[],
+  personLinkConfig: PersonLinkConfig,
+  configPath: string,
+): PersonLinkSummary {
+  const warnings: string[] = [];
+  const playersById = new Map<number, ArchiveSeedRow>();
+
+  for (const row of playerRows) {
+    const playerId = integerOrNull(row.player_id);
+    if (playerId == null) {
+      throw new Error(
+        `players: encountered row without canonical player_id while applying person links from ${configPath}`,
+      );
+    }
+    playersById.set(playerId, row);
+  }
+
+  const assignedPersonIds = new Map<number, number>();
+  const personNamesById = new Map<number, string | null>();
+  const explicitPersonIds = new Set<number>();
+
+  for (const group of personLinkConfig.people ?? []) {
+    const personId = integerOrNull(group.personId);
+    if (personId == null || personId <= 0) {
+      throw new Error(`person-links: invalid personId ${JSON.stringify(group.personId)} in ${configPath}`);
+    }
+    if (personId >= GENERATED_SINGLETON_PERSON_ID_BASE) {
+      throw new Error(
+        `person-links: personId ${personId} is in the reserved singleton namespace >= ${GENERATED_SINGLETON_PERSON_ID_BASE}`,
+      );
+    }
+    if (explicitPersonIds.has(personId)) {
+      throw new Error(`person-links: duplicate personId ${personId} in ${configPath}`);
+    }
+    explicitPersonIds.add(personId);
+
+    const members = group.members ?? [];
+    if (members.length === 0) {
+      throw new Error(`person-links: personId ${personId} has no members in ${configPath}`);
+    }
+
+    const seenCompetitions = new Set<string>();
+    const displayName = textOrNull(group.displayName);
+    if (displayName) {
+      personNamesById.set(personId, displayName);
+    }
+
+    for (const member of members) {
+      if (!isArchiveCompetitionId(member.competitionId)) {
+        throw new Error(
+          `person-links: personId ${personId} has invalid competitionId ${JSON.stringify(member.competitionId)}`,
+        );
+      }
+
+      if (seenCompetitions.has(member.competitionId)) {
+        throw new Error(
+          `person-links: personId ${personId} contains multiple canonical players for competition ${member.competitionId}`,
+        );
+      }
+      seenCompetitions.add(member.competitionId);
+
+      const playerId = archiveEntityIdForCompetition(member.competitionId, member.canonicalSourcePlayerId);
+      if (playerId == null) {
+        throw new Error(
+          `person-links: personId ${personId} has invalid canonicalSourcePlayerId ${JSON.stringify(member.canonicalSourcePlayerId)}`,
+        );
+      }
+
+      if (!playersById.has(playerId)) {
+        throw new Error(
+          `person-links: personId ${personId} references canonical player ${member.competitionId}:${member.canonicalSourcePlayerId} that does not exist after competition-local merges`,
+        );
+      }
+
+      const existingPersonId = assignedPersonIds.get(playerId);
+      if (existingPersonId != null && existingPersonId !== personId) {
+        throw new Error(
+          `person-links: canonical player ${playerId} is linked to both personId ${existingPersonId} and ${personId}`,
+        );
+      }
+
+      assignedPersonIds.set(playerId, personId);
+    }
+  }
+
+  let generatedSingletonCount = 0;
+
+  for (const row of playerRows) {
+    const playerId = integerOrNull(row.player_id);
+    if (playerId == null) {
+      continue;
+    }
+
+    const explicitPersonId = assignedPersonIds.get(playerId);
+    const personId = explicitPersonId ?? GENERATED_SINGLETON_PERSON_ID_BASE + playerId;
+    if (!explicitPersonId && explicitPersonIds.has(personId)) {
+      throw new Error(`person-links: generated singleton personId ${personId} collides with an explicit personId`);
+    }
+
+    row.person_id = personId;
+    const personName = personNamesById.get(personId) ?? textOrNull(row.name);
+    if (personName) {
+      row.person_name = personName;
+    } else {
+      delete row.person_name;
+      warnings.push(`players:${playerId} has no person_name after person-link assignment`);
+    }
+
+    if (!explicitPersonId) {
+      generatedSingletonCount += 1;
+    }
+  }
+
+  return {
+    configPath,
+    explicitPersonCount: explicitPersonIds.size,
+    linkedPlayerCount: assignedPersonIds.size,
+    generatedSingletonCount,
+    warnings,
+  };
+}
+
 export async function loadSeasonSeedBundle(outDir: string, seasonId: number): Promise<ArchiveSeasonSeedBundle> {
   const dir = getSeasonSeedDir(outDir, seasonId);
   const tables = buildTableRecord<ArchiveSeedRow[]>(() => []);
@@ -582,10 +781,13 @@ export function mergeSeasonSeedBundles(
 
 export async function buildMergedSeedBundle(outDir: string, seasonIds?: number[]) {
   const bundles = await loadSeasonSeedBundles(outDir, seasonIds);
-  const { config, configPath } = await readEntityMergeConfig(outDir);
-  const { maps, warnings } = buildEntityMergeMaps(config);
+  const { config: playerConfig, configPath: playerConfigPath } = await readPlayerMergeConfig(outDir);
+  const { config: teamConfig, configPath: teamConfigPath } = await readTeamMergeConfig(outDir);
+  const { config: personLinkConfig, configPath: personLinkConfigPath } = await readPersonLinkConfig(outDir);
+  const { maps, warnings } = buildEntityMergeMaps(playerConfig, teamConfig);
   const entityMerges: EntityMergeSummary = {
-    configPath,
+    playerConfigPath,
+    teamConfigPath,
     playerAliasCount: maps.players.size,
     teamAliasCount: maps.teams.size,
     replacedValues: buildTableRecord(() => 0),
@@ -594,14 +796,29 @@ export async function buildMergedSeedBundle(outDir: string, seasonIds?: number[]
 
   const mergedBundles = bundles.map((bundle) => {
     const tables = buildTableRecord<ArchiveSeedRow[]>((table) => bundle.tables[table].map((row) => ({ ...row })));
-    const summary = applyEntityMergesToTables(tables, maps, configPath, []);
-    for (const table of ARCHIVE_SEED_TABLES) {
-      entityMerges.replacedValues[table] += summary.replacedValues[table];
-    }
+    scopeSeasonSeedTables(tables, bundle.seasonId);
     return { ...bundle, tables };
   });
 
-  return mergeSeasonSeedBundles(mergedBundles, entityMerges);
+  validateEntityMergeTargetsAgainstRows(
+    mergedBundles.flatMap((bundle) => bundle.tables.players),
+    mergedBundles.flatMap((bundle) => bundle.tables.teams),
+    playerConfig,
+    teamConfig,
+  );
+
+  for (const bundle of mergedBundles) {
+    const summary = applyEntityMergesToTables(bundle.tables, maps, { playerConfigPath, teamConfigPath }, []);
+    for (const table of ARCHIVE_SEED_TABLES) {
+      entityMerges.replacedValues[table] += summary.replacedValues[table];
+    }
+  }
+
+  const mergedBundle = mergeSeasonSeedBundles(mergedBundles, entityMerges);
+  const personLinks = applyPersonLinksToPlayers(mergedBundle.tables.players, personLinkConfig, personLinkConfigPath);
+  mergedBundle.manifest.personLinks = personLinks;
+  mergedBundle.manifest.warnings = uniqueWarnings([...mergedBundle.manifest.warnings, ...personLinks.warnings]);
+  return mergedBundle;
 }
 
 export async function writeMergedSeedBundle(bundle: ArchiveMergedSeedBundle, outDir: string, mergedDirName = "all") {

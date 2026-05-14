@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1352431%26;seasonid=32179</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1352431" playerid="1352431">
+		<jersey>3</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>U</position>
+		<name>Javier Gonzalez</name>
+		<photo></photo>
+		<height>6</height>
+		<weight>150</weight>
+		<birthday>1997-02-13 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>144041</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>144041</teamid>
+			<teamname>Westside Militia</teamname>
+			<gp>17</gp>
+			<ab>50</ab>
+			<r>7</r>
+			<h>10</h>
+			<b2>3</b2>
+			<b3>1</b3>
+			<hr>0</hr>
+			<rbi>9</rbi>
+			<bb>9</bb>
+			<hbp>1</hbp>
+			<so>28</so>
+			<sb>2</sb>
+			<cs>1</cs>
+			<avg>.2</avg>
+			<obp>.333</obp>
+			<slg>.3</slg>
+		</stats>
+	</battingstats>
+</information>

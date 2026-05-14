@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=797313%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="797313" playerid="952791">
+		<jersey>24</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Cristopher Lopez</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>109510</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109510</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>398656.5</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>4</ip>
+			<so>2</so>
+			<h>13</h>
+			<r>12</r>
+			<er>2</er>
+			<bb>5</bb>
+			<whip>   4.500</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>92344</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>17</gp>
+			<ab>57</ab>
+			<r>12</r>
+			<h>15</h>
+			<b2>5</b2>
+			<b3>1</b3>
+			<hr>0</hr>
+			<rbi>2</rbi>
+			<bb>6</bb>
+			<hbp>0</hbp>
+			<so>8</so>
+			<sb>4</sb>
+			<cs>3</cs>
+			<avg>.263</avg>
+			<obp>.333</obp>
+			<slg>.386</slg>
+		</stats>
+		<stats>
+			<teamid>109510</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>17</gp>
+			<ab>55</ab>
+			<r>4</r>
+			<h>9</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>6</bb>
+			<hbp>0</hbp>
+			<so>9</so>
+			<sb>4</sb>
+			<cs>4</cs>
+			<avg>.164</avg>
+			<obp>.246</obp>
+			<slg>.218</slg>
+		</stats>
+	</battingstats>
+</information>

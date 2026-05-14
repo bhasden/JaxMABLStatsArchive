@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "rejections": [
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [70347, 144039],
+      "reason": "These are different teams with different histories and have no affiliation with each other"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [92345, 144040],
+      "reason": "These are different age groups for the same team, which I am avoiding merging because we may want to keep different histories"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [143665, 144037],
+      "reason": "These are different age groups for the same team, which I am avoiding merging because we may want to keep different histories"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [161516, 166303],
+      "reason": "These are different age groups for the same team, which I am avoiding merging because we may want to keep different histories"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=787103%26;seasonid=34360</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="787103" playerid="1791711">
+		<jersey>9</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Ryan Johnson</name>
+		<photo></photo>
+		<height>5-9</height>
+		<weight>163</weight>
+		<birthday>1994-05-06 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>166608</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109514</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>393551.5</era>
+			<gs>1</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>2</ip>
+			<so>0</so>
+			<h>2</h>
+			<r>1</r>
+			<er>1</er>
+			<bb>1</bb>
+			<whip>   1.500</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>92348</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>0</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>2</ip>
+			<so>1</so>
+			<h>3</h>
+			<r>8</r>
+			<er>0</er>
+			<bb>2</bb>
+			<whip>   2.500</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>92348</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>15</gp>
+			<ab>43</ab>
+			<r>4</r>
+			<h>10</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>4</rbi>
+			<bb>6</bb>
+			<hbp>1</hbp>
+			<so>13</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.233</avg>
+			<obp>.34</obp>
+			<slg>.233</slg>
+		</stats>
+		<stats>
+			<teamid>109514</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>12</gp>
+			<ab>34</ab>
+			<r>8</r>
+			<h>13</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>8</rbi>
+			<bb>5</bb>
+			<hbp>1</hbp>
+			<so>7</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.382</avg>
+			<obp>.475</obp>
+			<slg>.471</slg>
+		</stats>
+	</battingstats>
+</information>

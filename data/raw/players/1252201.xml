@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1252201%26;seasonid=31506</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1252201" playerid="1252201">
+		<jersey>4</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>IF</position>
+		<name>Brian Jeager 35</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>135551</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>135551</teamid>
+			<teamname>Duval County Cubs</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>2</l>
+			<era>773418.287</era>
+			<gs>2</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>11.1</ip>
+			<so>1</so>
+			<h>16</h>
+			<r>17</r>
+			<er>7</er>
+			<bb>1</bb>
+			<whip>   1.500</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>135551</teamid>
+			<teamname>Duval County Cubs</teamname>
+			<gp>12</gp>
+			<ab>34</ab>
+			<r>6</r>
+			<h>11</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>3</rbi>
+			<bb>2</bb>
+			<hbp>1</hbp>
+			<so>3</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.324</avg>
+			<obp>.378</obp>
+			<slg>.324</slg>
+		</stats>
+	</battingstats>
+</information>

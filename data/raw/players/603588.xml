@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=603588%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="603588" playerid="603585">
+		<jersey>13</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>1B</position>
+		<name>Phil Nover</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70343</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70343</teamid>
+			<teamname>Red Sox</teamname>
+			<gp>12</gp>
+			<ab>47</ab>
+			<r>11</r>
+			<h>19</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>3</hr>
+			<rbi>15</rbi>
+			<bb>6</bb>
+			<hbp>1</hbp>
+			<so>6</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.404</avg>
+			<obp>.473</obp>
+			<slg>.66</slg>
+		</stats>
+	</battingstats>
+</information>

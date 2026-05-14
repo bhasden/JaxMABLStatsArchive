@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=603578%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="603578" playerid="603578">
+		<jersey>6</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>OF</position>
+		<name>Thomas Duca</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70343</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70343</teamid>
+			<teamname>Red Sox</teamname>
+			<gp>15</gp>
+			<ab>45</ab>
+			<r>8</r>
+			<h>11</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>5</rbi>
+			<bb>6</bb>
+			<hbp>1</hbp>
+			<so>9</so>
+			<sb>4</sb>
+			<cs>0</cs>
+			<avg>.244</avg>
+			<obp>.34</obp>
+			<slg>.267</slg>
+		</stats>
+	</battingstats>
+</information>

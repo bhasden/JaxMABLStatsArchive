@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=606800%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="606800" playerid="606800">
+		<jersey>6</jersey>
+		<bats>S</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Crash Davis</name>
+		<photo></photo>
+		<height>6-1</height>
+		<weight>195</weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70346</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>70346</teamid>
+			<teamname>Red Devils</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>3</l>
+			<era>758500</era>
+			<gs>3</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>8</ip>
+			<so>7</so>
+			<h>14</h>
+			<r>24</r>
+			<er>10</er>
+			<bb>8</bb>
+			<whip>   2.130</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70346</teamid>
+			<teamname>Red Devils</teamname>
+			<gp>13</gp>
+			<ab>40</ab>
+			<r>5</r>
+			<h>8</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>3</bb>
+			<hbp>0</hbp>
+			<so>18</so>
+			<sb>1</sb>
+			<cs>1</cs>
+			<avg>.2</avg>
+			<obp>.256</obp>
+			<slg>.2</slg>
+		</stats>
+	</battingstats>
+</information>

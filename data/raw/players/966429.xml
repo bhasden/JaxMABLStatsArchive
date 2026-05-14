@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=966429%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="966429" playerid="966429">
+		<jersey>88</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>3B</position>
+		<name>Johnathan Hernandez</name>
+		<photo>p966429.jpg</photo>
+		<height>6-2</height>
+		<weight>235</weight>
+		<birthday></birthday>
+		<hometown>Bayamon</hometown>
+		<teamid>110132</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>110132</teamid>
+			<teamname>Jacksonville Expos</teamname>
+			<gp>17</gp>
+			<ab>62</ab>
+			<r>12</r>
+			<h>25</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>1</hr>
+			<rbi>17</rbi>
+			<bb>4</bb>
+			<hbp>0</hbp>
+			<so>15</so>
+			<sb>3</sb>
+			<cs>0</cs>
+			<avg>.403</avg>
+			<obp>.439</obp>
+			<slg>.5</slg>
+		</stats>
+	</battingstats>
+</information>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1456574%26;seasonid=32757</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1456574" playerid="1456574">
+		<jersey>2</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Brandon Pillsbury</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>150717</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>150717</teamid>
+			<teamname>Jacksonville Rippers</teamname>
+			<gp>5</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>145657.4</era>
+			<gs>0</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>2</sv>
+			<ip>10</ip>
+			<so>16</so>
+			<h>3</h>
+			<r>1</r>
+			<er>1</er>
+			<bb>4</bb>
+			<whip>   0.700</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>150717</teamid>
+			<teamname>Jacksonville Rippers</teamname>
+			<gp>11</gp>
+			<ab>35</ab>
+			<r>6</r>
+			<h>8</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>5</rbi>
+			<bb>3</bb>
+			<hbp>2</hbp>
+			<so>11</so>
+			<sb>3</sb>
+			<cs>1</cs>
+			<avg>.229</avg>
+			<obp>.317</obp>
+			<slg>.257</slg>
+		</stats>
+	</battingstats>
+</information>

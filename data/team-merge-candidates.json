@@ -1,0 +1,611 @@
+{
+  "generatedAt": "2026-05-14T17:52:43.609Z",
+  "entityType": "team-merge",
+  "description": "Review these team merge candidates manually. Confirmed groups should be copied into data/team-merge-approvals.json and rejected groups into data/team-merge-rejections.json.",
+  "teamMergeApprovalConfigPath": "C:\\Users\\bhasd\\source\\repos\\JaxMABLStatsArchive\\data\\team-merge-approvals.json",
+  "teamMergeRejectionConfigPath": "C:\\Users\\bhasd\\source\\repos\\JaxMABLStatsArchive\\data\\team-merge-rejections.json",
+  "skippedReviewedTeamCandidateCount": 13,
+  "candidates": [
+    {
+      "entityType": "team",
+      "matchType": "team:tig",
+      "matchTypes": [
+        "team:tig",
+        "team:tigers"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000003,
+      "aliasIds": [
+        2000000016
+      ],
+      "entities": [
+        {
+          "id": 2000000003,
+          "sourceId": 3,
+          "names": [
+            "TIG",
+            "Tigers",
+            "Yankees"
+          ],
+          "seasons": [
+            2008
+          ]
+        },
+        {
+          "id": 2000000016,
+          "sourceId": 16,
+          "names": [
+            "TIG",
+            "Tigers"
+          ],
+          "seasons": [
+            2009,
+            2010
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:3|16",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 3,
+        "aliasSourceIds": [
+          16
+        ],
+        "reason": "Candidate from team:tig, team:tigers"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          3,
+          16
+        ],
+        "reason": "Reviewed candidate 18-plus:3|16 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team:braves",
+      "matchTypes": [
+        "team:braves"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000005,
+      "aliasIds": [
+        2000070347
+      ],
+      "entities": [
+        {
+          "id": 2000000005,
+          "sourceId": 5,
+          "names": [
+            "BRA",
+            "Braves",
+            "YNK"
+          ],
+          "seasons": [
+            2008,
+            2009,
+            2010
+          ]
+        },
+        {
+          "id": 2000070347,
+          "sourceId": 70347,
+          "names": [
+            "Braves"
+          ],
+          "seasons": [
+            28308
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:5|70347",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 5,
+        "aliasSourceIds": [
+          70347
+        ],
+        "reason": "Candidate from team:braves"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          5,
+          70347
+        ],
+        "reason": "Reviewed candidate 18-plus:5|70347 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team-short:sox",
+      "matchTypes": [
+        "team-short:sox"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000008,
+      "aliasIds": [
+        2000143665
+      ],
+      "entities": [
+        {
+          "id": 2000000008,
+          "sourceId": 8,
+          "names": [
+            "Red Sox",
+            "RSX"
+          ],
+          "seasons": [
+            2008,
+            2009,
+            2010,
+            28308
+          ]
+        },
+        {
+          "id": 2000143665,
+          "sourceId": 143665,
+          "names": [
+            "Bolts",
+            "Gold Sox",
+            "River City Bolts",
+            "River City Gold Sox"
+          ],
+          "seasons": [
+            32179,
+            32757,
+            33023
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:8|143665",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 8,
+        "aliasSourceIds": [
+          143665
+        ],
+        "reason": "Candidate from team-short:sox"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          8,
+          143665
+        ],
+        "reason": "Reviewed candidate 18-plus:8|143665 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team-short:sox",
+      "matchTypes": [
+        "team-short:sox"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000008,
+      "aliasIds": [
+        2000150744
+      ],
+      "entities": [
+        {
+          "id": 2000000008,
+          "sourceId": 8,
+          "names": [
+            "Red Sox",
+            "RSX"
+          ],
+          "seasons": [
+            2008,
+            2009,
+            2010,
+            28308
+          ]
+        },
+        {
+          "id": 2000150744,
+          "sourceId": 150744,
+          "names": [
+            "Black Sox",
+            "Savannah Black Sox"
+          ],
+          "seasons": [
+            32757
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:8|150744",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 8,
+        "aliasSourceIds": [
+          150744
+        ],
+        "reason": "Candidate from team-short:sox"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          8,
+          150744
+        ],
+        "reason": "Reviewed candidate 18-plus:8|150744 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team:marlins",
+      "matchTypes": [
+        "team:marlins"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000013,
+      "aliasIds": [
+        2000110133
+      ],
+      "entities": [
+        {
+          "id": 2000000013,
+          "sourceId": 13,
+          "names": [
+            "MAR",
+            "Marlins"
+          ],
+          "seasons": [
+            2008,
+            2009
+          ]
+        },
+        {
+          "id": 2000110133,
+          "sourceId": 110133,
+          "names": [
+            "Marlins",
+            "Rays",
+            "San Mateo Marlins",
+            "San Mateo Rays"
+          ],
+          "seasons": [
+            30232,
+            30879
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:13|110133",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 13,
+        "aliasSourceIds": [
+          110133
+        ],
+        "reason": "Candidate from team:marlins"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          13,
+          110133
+        ],
+        "reason": "Reviewed candidate 18-plus:13|110133 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team-short:bulls",
+      "matchTypes": [
+        "team-short:bulls"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000015,
+      "aliasIds": [
+        2000070344
+      ],
+      "entities": [
+        {
+          "id": 2000000015,
+          "sourceId": 15,
+          "names": [
+            "BUL",
+            "Durham Bulls"
+          ],
+          "seasons": [
+            2008
+          ]
+        },
+        {
+          "id": 2000070344,
+          "sourceId": 70344,
+          "names": [
+            "Bulls",
+            "Marietta Bulls"
+          ],
+          "seasons": [
+            28308,
+            29373,
+            30232,
+            30879,
+            31506,
+            32179,
+            32757,
+            33023,
+            33391,
+            33711,
+            33936,
+            34201,
+            34360
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:15|70344",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 15,
+        "aliasSourceIds": [
+          70344
+        ],
+        "reason": "Candidate from team-short:bulls"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          15,
+          70344
+        ],
+        "reason": "Reviewed candidate 18-plus:15|70344 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team:rays",
+      "matchTypes": [
+        "team:rays"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000018,
+      "aliasIds": [
+        2000110133
+      ],
+      "entities": [
+        {
+          "id": 2000000018,
+          "sourceId": 18,
+          "names": [
+            "Rays",
+            "RYS"
+          ],
+          "seasons": [
+            2009
+          ]
+        },
+        {
+          "id": 2000110133,
+          "sourceId": 110133,
+          "names": [
+            "Marlins",
+            "Rays",
+            "San Mateo Marlins",
+            "San Mateo Rays"
+          ],
+          "seasons": [
+            30232,
+            30879
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:18|110133",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 18,
+        "aliasSourceIds": [
+          110133
+        ],
+        "reason": "Candidate from team:rays"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          18,
+          110133
+        ],
+        "reason": "Reviewed candidate 18-plus:18|110133 rejected"
+      }
+    },
+    {
+      "entityType": "team",
+      "matchType": "team:sharks",
+      "matchTypes": [
+        "team:sharks"
+      ],
+      "competitionId": "18-plus",
+      "canonicalId": 2000000020,
+      "aliasIds": [
+        2000143666
+      ],
+      "entities": [
+        {
+          "id": 2000000020,
+          "sourceId": 20,
+          "names": [
+            "Sharks",
+            "SHK"
+          ],
+          "seasons": [
+            2009,
+            2010
+          ]
+        },
+        {
+          "id": 2000143666,
+          "sourceId": 143666,
+          "names": [
+            "Ponte Vedra Wildcats",
+            "Sharks",
+            "St. Johns Sharks",
+            "Wildcats"
+          ],
+          "seasons": [
+            32179,
+            32757,
+            33023
+          ]
+        }
+      ],
+      "candidateKey": "18-plus:20|143666",
+      "acceptedEntry": {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 20,
+        "aliasSourceIds": [
+          143666
+        ],
+        "reason": "Candidate from team:sharks"
+      },
+      "rejectedEntry": {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          20,
+          143666
+        ],
+        "reason": "Reviewed candidate 18-plus:20|143666 rejected"
+      }
+    }
+  ],
+  "suggestedTeamMergeConfig": {
+    "version": 1,
+    "merges": [
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 3,
+        "aliasSourceIds": [
+          16
+        ],
+        "reason": "Candidate from team:tig, team:tigers"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 5,
+        "aliasSourceIds": [
+          70347
+        ],
+        "reason": "Candidate from team:braves"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 8,
+        "aliasSourceIds": [
+          143665
+        ],
+        "reason": "Candidate from team-short:sox"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 8,
+        "aliasSourceIds": [
+          150744
+        ],
+        "reason": "Candidate from team-short:sox"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 13,
+        "aliasSourceIds": [
+          110133
+        ],
+        "reason": "Candidate from team:marlins"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 15,
+        "aliasSourceIds": [
+          70344
+        ],
+        "reason": "Candidate from team-short:bulls"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 18,
+        "aliasSourceIds": [
+          110133
+        ],
+        "reason": "Candidate from team:rays"
+      },
+      {
+        "competitionId": "18-plus",
+        "canonicalSourceId": 20,
+        "aliasSourceIds": [
+          143666
+        ],
+        "reason": "Candidate from team:sharks"
+      }
+    ]
+  },
+  "suggestedTeamMergeRejectionConfig": {
+    "version": 1,
+    "rejections": [
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          3,
+          16
+        ],
+        "reason": "Reviewed candidate 18-plus:3|16 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          5,
+          70347
+        ],
+        "reason": "Reviewed candidate 18-plus:5|70347 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          8,
+          143665
+        ],
+        "reason": "Reviewed candidate 18-plus:8|143665 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          8,
+          150744
+        ],
+        "reason": "Reviewed candidate 18-plus:8|150744 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          13,
+          110133
+        ],
+        "reason": "Reviewed candidate 18-plus:13|110133 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          15,
+          70344
+        ],
+        "reason": "Reviewed candidate 18-plus:15|70344 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          18,
+          110133
+        ],
+        "reason": "Reviewed candidate 18-plus:18|110133 rejected"
+      },
+      {
+        "competitionId": "18-plus",
+        "sourceIds": [
+          20,
+          143666
+        ],
+        "reason": "Reviewed candidate 18-plus:20|143666 rejected"
+      }
+    ]
+  }
+}

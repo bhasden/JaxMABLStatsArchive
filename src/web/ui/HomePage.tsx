@@ -1,17 +1,21 @@
 import { useMemo, useState } from "react";
 import {
-  LEAGUE_BATTING_LEADER_TABLES,
-  LEAGUE_LONGEVITY_LEADER_TABLES,
-  LEAGUE_PITCHING_LEADER_TABLES,
-  PLAYER_LOOKUP_SQL,
+  DEFAULT_LEAGUE_COMPETITION_ID,
+  buildLeagueBattingLeaderTables,
+  buildLeagueLongevityLeaderTables,
+  buildLeaguePitchingLeaderTables,
   buildLeaguePlayerRankSql,
+  buildPlayerLookupSql,
 } from "../data/leagueLeaderQueries";
 import { href } from "../hooks/useHashRoute";
 import type { ColumnHeaderMode } from "../hooks/useColumnHeaderMode";
 import { Table, type ArchiveContext, usePageQuery } from "./queryHelpers";
+import { ARCHIVE_COMPETITIONS } from "../../lib/constants";
 
 const SEASONS_SQL = `
 SELECT
+  competition,
+  competition_id,
   season_id,
   season_name,
   teams,
@@ -26,13 +30,16 @@ ORDER BY season_id DESC;
 
 const ROLLUP_SQL = `
 SELECT
-  COUNT(DISTINCT team_id) AS teams,
-  (SELECT COUNT(*) FROM players) AS players,
-  (SELECT COUNT(*) FROM games) AS games,
-  (SELECT SUM(runs) FROM batting_stats) AS runs,
-  (SELECT SUM(hits) FROM batting_stats) AS hits,
-  (SELECT SUM(hr) FROM batting_stats) AS home_runs
-FROM teams;
+  competitions.short_name AS competition,
+  competitions.competition_id,
+  (SELECT COUNT(*) FROM teams WHERE teams.competition_id = competitions.competition_id) AS teams,
+  (SELECT COUNT(*) FROM players WHERE players.competition_id = competitions.competition_id) AS players,
+  (SELECT COUNT(*) FROM games WHERE games.competition_id = competitions.competition_id) AS games,
+  (SELECT COALESCE(SUM(runs), 0) FROM batting_stats WHERE batting_stats.competition_id = competitions.competition_id) AS runs,
+  (SELECT COALESCE(SUM(hits), 0) FROM batting_stats WHERE batting_stats.competition_id = competitions.competition_id) AS hits,
+  (SELECT COALESCE(SUM(hr), 0) FROM batting_stats WHERE batting_stats.competition_id = competitions.competition_id) AS home_runs
+FROM competitions
+ORDER BY competitions.sort_order;
 `;
 
 export function HomePage({
@@ -42,31 +49,43 @@ export function HomePage({
   archive: ArchiveContext;
   columnHeaderMode: ColumnHeaderMode;
 }) {
+  const [battingCompetitionId, setBattingCompetitionId] = useState(DEFAULT_LEAGUE_COMPETITION_ID);
+  const [pitchingCompetitionId, setPitchingCompetitionId] = useState(DEFAULT_LEAGUE_COMPETITION_ID);
   const seasons = usePageQuery(archive, SEASONS_SQL, "Seasons list");
   const rollup = usePageQuery(archive, ROLLUP_SQL, "League rollup");
-  const players = usePageQuery(archive, PLAYER_LOOKUP_SQL, "League player lookup");
+  const players = usePageQuery(archive, buildPlayerLookupSql(), "League player lookup across competitions");
   const [playerFilter, setPlayerFilter] = useState("");
   const [selectedPlayerId, setSelectedPlayerId] = useState<number | null>(null);
-  const playerRanks = usePageQuery(
-    archive,
-    buildLeaguePlayerRankSql(selectedPlayerId),
-    selectedPlayerId != null ? `League player ${selectedPlayerId} rank lookup` : "League player rank lookup",
-  );
+  const longevityTables = buildLeagueLongevityLeaderTables(null);
+  const battingTables = buildLeagueBattingLeaderTables(battingCompetitionId);
+  const pitchingTables = buildLeaguePitchingLeaderTables(pitchingCompetitionId);
   const playerOptions = useMemo(() => {
     return (players.result?.values ?? [])
       .map((row) => ({
         id: Number(row[0]),
-        name: String(row[1] ?? row[0]),
+        name: String(row[1] || row[0]),
+        competitionId: String(row[2] ?? DEFAULT_LEAGUE_COMPETITION_ID),
+        competition: String(row[3] ?? ""),
       }))
       .filter((player) => Number.isFinite(player.id));
   }, [players.result]);
   const matchingPlayers = useMemo(() => {
     const normalizedFilter = playerFilter.trim().toLowerCase();
     return normalizedFilter
-      ? playerOptions.filter((player) => `${player.name} ${player.id}`.toLowerCase().includes(normalizedFilter))
+      ? playerOptions.filter((player) =>
+          `${player.name} ${player.competition} ${player.id}`.toLowerCase().includes(normalizedFilter),
+        )
       : playerOptions;
   }, [playerFilter, playerOptions]);
   const filteredPlayers = matchingPlayers.slice(0, 100);
+  const groupedPlayers = useMemo(
+    () =>
+      ARCHIVE_COMPETITIONS.map((competition) => ({
+        competition,
+        players: filteredPlayers.filter((player) => player.competitionId === competition.id),
+      })).filter((group) => group.players.length > 0),
+    [filteredPlayers],
+  );
   const playerFilterActive = playerFilter.trim().length > 0;
   const selectedPlayer = playerOptions.find((player) => player.id === selectedPlayerId);
 
@@ -78,14 +97,15 @@ export function HomePage({
       </section>
 
       <section>
-        <h2>League Rollup</h2>
+        <h2>Competition Rollup</h2>
         <Table result={rollup.result} columnHeaderMode={columnHeaderMode} query={rollup.sql} />
       </section>
 
       <section>
         <h2>League Longevity</h2>
+        <p className="leader-note">Games Played and Seasons Played include all competition levels.</p>
         <div className="leader-grid">
-          {LEAGUE_LONGEVITY_LEADER_TABLES.map((table) => (
+          {longevityTables.map((table) => (
             <LeagueLeaderTable
               key={table.title}
               archive={archive}
@@ -99,12 +119,16 @@ export function HomePage({
       </section>
 
       <section>
-        <h2>Batting Leaders</h2>
+        <LeagueCompetitionSectionHead
+          title="Batting Leaders"
+          competitionId={battingCompetitionId}
+          setCompetitionId={setBattingCompetitionId}
+        />
         <p className="leader-note">Career AVG requires 300 at-bats.</p>
         <div className="leader-grid">
-          {LEAGUE_BATTING_LEADER_TABLES.map((table) => (
+          {battingTables.map((table) => (
             <LeagueLeaderTable
-              key={table.title}
+              key={`${battingCompetitionId}-${table.title}`}
               archive={archive}
               title={table.title}
               sql={table.sql}
@@ -116,12 +140,16 @@ export function HomePage({
       </section>
 
       <section>
-        <h2>Pitching Leaders</h2>
+        <LeagueCompetitionSectionHead
+          title="Pitching Leaders"
+          competitionId={pitchingCompetitionId}
+          setCompetitionId={setPitchingCompetitionId}
+        />
         <p className="leader-note">Career ERA requires 100 innings pitched.</p>
         <div className="leader-grid">
-          {LEAGUE_PITCHING_LEADER_TABLES.map((table) => (
+          {pitchingTables.map((table) => (
             <LeagueLeaderTable
-              key={table.title}
+              key={`${pitchingCompetitionId}-${table.title}`}
               archive={archive}
               title={table.title}
               sql={table.sql}
@@ -153,10 +181,14 @@ export function HomePage({
               }
             >
               <option value="">Select a player</option>
-              {filteredPlayers.map((player) => (
-                <option key={player.id} value={player.id}>
-                  {player.name}
-                </option>
+              {groupedPlayers.map((group) => (
+                <optgroup key={group.competition.id} label={group.competition.name}>
+                  {group.players.map((player) => (
+                    <option key={player.id} value={player.id}>
+                      {player.name}
+                    </option>
+                  ))}
+                </optgroup>
               ))}
             </select>
           </label>
@@ -181,12 +213,20 @@ export function HomePage({
           </div>
         ) : null}
         {players.error ? <div className="notice error">{players.error}</div> : null}
-        {playerRanks.error ? <div className="notice error">{playerRanks.error}</div> : null}
         {selectedPlayer == null ? (
           <div className="notice">Select a player to see their league ranks across these categories.</div>
         ) : null}
         {selectedPlayer != null ? (
-          <Table result={playerRanks.result} columnHeaderMode={columnHeaderMode} query={playerRanks.sql} />
+          <LeaguePlayerRankSection
+            archive={archive}
+            competitionId={selectedPlayer.competitionId}
+            competitionName={
+              ARCHIVE_COMPETITIONS.find((competition) => competition.id === selectedPlayer.competitionId)?.name ??
+              selectedPlayer.competition
+            }
+            playerId={selectedPlayer.id}
+            columnHeaderMode={columnHeaderMode}
+          />
         ) : null}
       </section>
 
@@ -197,6 +237,7 @@ export function HomePage({
           result={seasons.result}
           columnHeaderMode={columnHeaderMode}
           query={seasons.sql}
+          hiddenColumns={["competition_id"]}
           cellHref={({ column, row, columns }) => {
             if (column !== "season_id" && column !== "season_name") {
               return undefined;
@@ -205,6 +246,36 @@ export function HomePage({
           }}
         />
       </section>
+    </div>
+  );
+}
+
+function LeagueCompetitionSectionHead({
+  title,
+  competitionId,
+  setCompetitionId,
+}: {
+  title: string;
+  competitionId: string;
+  setCompetitionId: (competitionId: string) => void;
+}) {
+  return (
+    <div className="section-title-row">
+      <h2>{title}</h2>
+      <div className="segmented-control" role="tablist" aria-label={`${title} competition`}>
+        {ARCHIVE_COMPETITIONS.map((competition) => (
+          <button
+            key={competition.id}
+            type="button"
+            role="tab"
+            aria-selected={competitionId === competition.id}
+            className={competitionId === competition.id ? "active" : ""}
+            onClick={() => setCompetitionId(competition.id)}
+          >
+            {competition.shortName}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
@@ -241,6 +312,34 @@ function LeagueLeaderTable({
           return playerId ? href(`/players/${playerId}`) : undefined;
         }}
       />
+    </div>
+  );
+}
+
+function LeaguePlayerRankSection({
+  archive,
+  competitionId,
+  competitionName,
+  playerId,
+  columnHeaderMode,
+}: {
+  archive: ArchiveContext;
+  competitionId: string;
+  competitionName: string;
+  playerId: number;
+  columnHeaderMode: ColumnHeaderMode;
+}) {
+  const playerRanks = usePageQuery(
+    archive,
+    buildLeaguePlayerRankSql(playerId, competitionId),
+    `League player ${playerId} rank lookup for ${competitionId}`,
+  );
+
+  return (
+    <div className="leader-panel">
+      <h3>{competitionName}</h3>
+      {playerRanks.error ? <div className="notice error">{playerRanks.error}</div> : null}
+      <Table result={playerRanks.result} columnHeaderMode={columnHeaderMode} query={playerRanks.sql} />
     </div>
   );
 }

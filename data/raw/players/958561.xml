@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=958561%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="958561" playerid="1108988">
+		<jersey>2</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>3B</position>
+		<name>Dagmar Pena</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124100</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109513</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>0</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>1</ip>
+			<so>1</so>
+			<h>0</h>
+			<r>0</r>
+			<er>0</er>
+			<bb>0</bb>
+			<whip>   0.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>124100</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>7</gp>
+			<ab>26</ab>
+			<r>7</r>
+			<h>7</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>1</hr>
+			<rbi>3</rbi>
+			<bb>4</bb>
+			<hbp>1</hbp>
+			<so>2</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.269</avg>
+			<obp>.387</obp>
+			<slg>.423</slg>
+		</stats>
+		<stats>
+			<teamid>109513</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>11</gp>
+			<ab>34</ab>
+			<r>14</r>
+			<h>11</h>
+			<b2>5</b2>
+			<b3>0</b3>
+			<hr>4</hr>
+			<rbi>11</rbi>
+			<bb>6</bb>
+			<hbp>1</hbp>
+			<so>3</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.324</avg>
+			<obp>.429</obp>
+			<slg>.824</slg>
+		</stats>
+	</battingstats>
+</information>

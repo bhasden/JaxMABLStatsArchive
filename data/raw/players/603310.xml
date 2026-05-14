@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=603310%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="603310" playerid="603309">
+		<jersey>22</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>General Manager</position>
+		<name>Danny Haynes</name>
+		<photo></photo>
+		<height>5-7</height>
+		<weight>235</weight>
+		<birthday>1962-01-08 00:00:00</birthday>
+		<hometown>Kennansville</hometown>
+		<teamid>70344</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70344</teamid>
+			<teamname>Marietta Bulls</teamname>
+			<gp>17</gp>
+			<ab>5</ab>
+			<r>0</r>
+			<h>1</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>0</bb>
+			<hbp>1</hbp>
+			<so>2</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.2</avg>
+			<obp>.333</obp>
+			<slg>.2</slg>
+		</stats>
+	</battingstats>
+</information>

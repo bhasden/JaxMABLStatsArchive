@@ -5,6 +5,7 @@ import {
   buildPlayerLifetimePitchingSql,
   buildPlayerPitchingGameLogPageSql,
   buildPlayerProfileSql,
+  buildPlayerRosteredSeasonsSql,
   buildPlayerSeasonBattingSql,
   buildPlayerSeasonInfoSql,
   buildPlayerSeasonPitchingSql,
@@ -39,6 +40,11 @@ export function PlayerPage({
     archive,
     buildPlayerSeasonInfoSql(seasonId),
     seasonId != null ? `Season ${seasonId} name` : "No season selected",
+  );
+  const rosteredSeasons = usePageQuery(
+    archive,
+    buildPlayerRosteredSeasonsSql(playerId, seasonId),
+    seasonId != null ? `Player ${playerId} ${seasonId} rostered teams` : `Player ${playerId} rostered seasons`,
   );
   const batting = usePageQuery(archive, buildPlayerLifetimeBattingSql(playerId), `Player ${playerId} lifetime batting`);
   const lifetimePitching = usePageQuery(
@@ -99,9 +105,15 @@ export function PlayerPage({
 
   const playerNameColumn = profile.result?.columns.indexOf("player_name") ?? -1;
   const playerName = playerNameColumn >= 0 ? profile.result?.values[0]?.[playerNameColumn] : undefined;
+  const personIdColumn = profile.result?.columns.indexOf("person_id") ?? -1;
+  const personId = personIdColumn >= 0 ? profile.result?.values[0]?.[personIdColumn] : undefined;
   const seasonNameColumn = seasonInfo.result?.columns.indexOf("season_name") ?? -1;
   const seasonName = seasonNameColumn >= 0 ? seasonInfo.result?.values[0]?.[seasonNameColumn] : undefined;
   const seasonStatHiddenColumns = seasonId != null ? ["season_id", "season_name", "team_id"] : ["season_id", "team_id"];
+  const rosteredSeasonHiddenColumns =
+    seasonId != null
+      ? ["season_id", "season_name", "team_id", "positions", "jersey_numbers", "status", "games_played"]
+      : ["season_id", "team_id", "positions", "jersey_numbers", "status", "games_played"];
   const gameLogHiddenColumns =
     seasonId != null
       ? ["season_id", "season_name", "game_id", "team_id", "opponent_team_id"]
@@ -114,6 +126,7 @@ export function PlayerPage({
         <p className="eyebrow">{seasonId != null ? `${seasonName ?? `Season ${seasonId}`} Player` : "Player"}</p>
         <h1>{playerName ? String(playerName) : playerId}</h1>
         <div className="context-links">
+          {typeof personId === "number" ? <a href={href(`/people/${personId}`)}>Person Page</a> : null}
           {seasonId != null ? <a href={href(`/players/${playerId}`)}>Lifetime Player Page</a> : null}
           {seasonId != null ? <a href={href(`/seasons/${seasonId}`)}>Season Page</a> : null}
         </div>
@@ -125,7 +138,14 @@ export function PlayerPage({
           result={profile.result}
           columnHeaderMode={columnHeaderMode}
           query={profile.sql}
-          hiddenColumns={profileHiddenColumns}
+          hiddenColumns={[...profileHiddenColumns, "competition_id"]}
+          cellHref={({ column, row, columns }) => {
+            if (column !== "person_id") {
+              return undefined;
+            }
+            const profilePersonId = row[columns.indexOf("person_id")];
+            return typeof profilePersonId === "number" ? href(`/people/${profilePersonId}`) : undefined;
+          }}
         />
       </section>
       {seasonId == null ? (
@@ -258,6 +278,26 @@ export function PlayerPage({
           hasNext={(pitchingGames.result?.values.length ?? 0) > GAME_LOG_PAGE_SIZE}
           onPrevious={() => setPitchingGamePage((page) => Math.max(0, page - 1))}
           onNext={() => setPitchingGamePage((page) => page + 1)}
+        />
+      </section>
+      <section>
+        <h2>Seasons</h2>
+        <Table
+          result={rosteredSeasons.result}
+          columnHeaderMode={columnHeaderMode}
+          query={rosteredSeasons.sql}
+          hiddenColumns={rosteredSeasonHiddenColumns}
+          cellHref={({ column, row, columns }) => {
+            if (column === "season_name") {
+              return href(`/seasons/${row[columns.indexOf("season_id")]}/players/${playerId}`);
+            }
+            if (column === "team") {
+              const rowSeasonId = row[columns.indexOf("season_id")];
+              const teamId = row[columns.indexOf("team_id")];
+              return teamId ? href(`/seasons/${rowSeasonId}/teams/${teamId}`) : undefined;
+            }
+            return undefined;
+          }}
         />
       </section>
     </div>

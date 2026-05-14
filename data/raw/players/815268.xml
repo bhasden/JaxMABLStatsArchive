@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=815268%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="815268" playerid="952726">
+		<jersey>9</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Josh Fletcher</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday>1984-06-20 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>109507</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>92343</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>2</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>407634</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>2</ip>
+			<so>5</so>
+			<h>2</h>
+			<r>1</r>
+			<er>1</er>
+			<bb>0</bb>
+			<whip>   1.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>109507</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>5</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>122290.194</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>1</sv>
+			<ip>6.2</ip>
+			<so>8</so>
+			<h>2</h>
+			<r>2</r>
+			<er>1</er>
+			<bb>5</bb>
+			<whip>   1.050</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109507</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>15</gp>
+			<ab>52</ab>
+			<r>20</r>
+			<h>19</h>
+			<b2>2</b2>
+			<b3>1</b3>
+			<hr>6</hr>
+			<rbi>16</rbi>
+			<bb>10</bb>
+			<hbp>5</hbp>
+			<so>15</so>
+			<sb>3</sb>
+			<cs>2</cs>
+			<avg>.365</avg>
+			<obp>.507</obp>
+			<slg>.788</slg>
+		</stats>
+		<stats>
+			<teamid>92343</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>13</gp>
+			<ab>49</ab>
+			<r>13</r>
+			<h>16</h>
+			<b2>4</b2>
+			<b3>0</b3>
+			<hr>3</hr>
+			<rbi>13</rbi>
+			<bb>8</bb>
+			<hbp>3</hbp>
+			<so>14</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.327</avg>
+			<obp>.45</obp>
+			<slg>.592</slg>
+		</stats>
+	</battingstats>
+</information>

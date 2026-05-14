@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=995514%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="995514" playerid="995514">
+		<jersey>10</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Jacob Schmidt</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>109507</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109507</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>5</gp>
+			<w>1</w>
+			<l>2</l>
+			<era>124439.25</era>
+			<gs>2</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>16</ip>
+			<so>13</so>
+			<h>22</h>
+			<r>15</r>
+			<er>2</er>
+			<bb>4</bb>
+			<whip>   1.630</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109507</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>9</gp>
+			<ab>37</ab>
+			<r>10</r>
+			<h>17</h>
+			<b2>4</b2>
+			<b3>0</b3>
+			<hr>1</hr>
+			<rbi>7</rbi>
+			<bb>2</bb>
+			<hbp>1</hbp>
+			<so>7</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.459</avg>
+			<obp>.5</obp>
+			<slg>.649</slg>
+		</stats>
+	</battingstats>
+</information>

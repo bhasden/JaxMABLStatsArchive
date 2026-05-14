@@ -1,4 +1,43 @@
 const LEAGUE_LEADER_LIMIT = 10;
+export const DEFAULT_LEAGUE_COMPETITION_ID = "18-plus";
+
+function sqlString(value: string) {
+  return `'${value.replace(/'/g, "''")}'`;
+}
+
+function scopeLeagueSql(sql: string, competitionId?: string | null) {
+  if (!competitionId) {
+    return sql;
+  }
+
+  const competition = sqlString(competitionId);
+  return sql
+    .replaceAll(
+      "FROM batting_stats\n  WHERE",
+      `FROM batting_stats\n  WHERE batting_stats.competition_id = ${competition}\n    AND`,
+    )
+    .replaceAll(
+      "FROM pitching_stats\n  WHERE",
+      `FROM pitching_stats\n  WHERE pitching_stats.competition_id = ${competition}\n    AND`,
+    )
+    .replaceAll(
+      "WHERE season_batting_stats.scope = 'league'",
+      `WHERE season_batting_stats.competition_id = ${competition}\n    AND season_batting_stats.scope = 'league'`,
+    )
+    .replaceAll(
+      "WHERE season_pitching_stats.scope = 'league'",
+      `WHERE season_pitching_stats.competition_id = ${competition}\n    AND season_pitching_stats.scope = 'league'`,
+    )
+    .replaceAll(
+      "WHERE stats.scope = 'team'",
+      `WHERE stats.competition_id = ${competition}\n    AND stats.scope = 'team'`,
+    )
+    .replaceAll("WHERE player_id IS NOT NULL", `WHERE competition_id = ${competition}\n  AND player_id IS NOT NULL`)
+    .replaceAll(
+      "WHERE players.player_id IN",
+      `WHERE players.competition_id = ${competition}\n  AND players.player_id IN`,
+    );
+}
 
 const gamePitcherOutsExpression = `
   CASE
@@ -469,11 +508,46 @@ export const LEAGUE_PITCHING_LEADER_TABLES: LeagueLeaderTableDefinition[] = [
   { title: "Saves", label: "League saves leaders", sql: pitchingLeaderSql("saves", { includeGames: true }) },
 ];
 
+export function buildLeagueLongevityLeaderTables(competitionId?: string | null): LeagueLeaderTableDefinition[] {
+  return LEAGUE_LONGEVITY_LEADER_TABLES.map((table) => ({
+    ...table,
+    label: competitionId ? `${table.label} for ${competitionId}` : `${table.label} across all competitions`,
+    sql: scopeLeagueSql(table.sql, competitionId),
+  }));
+}
+
+export function buildLeagueBattingLeaderTables(
+  competitionId = DEFAULT_LEAGUE_COMPETITION_ID,
+): LeagueLeaderTableDefinition[] {
+  return LEAGUE_BATTING_LEADER_TABLES.map((table) => ({
+    ...table,
+    label: `${table.label} for ${competitionId}`,
+    sql: scopeLeagueSql(table.sql, competitionId),
+  }));
+}
+
+export function buildLeaguePitchingLeaderTables(
+  competitionId = DEFAULT_LEAGUE_COMPETITION_ID,
+): LeagueLeaderTableDefinition[] {
+  return LEAGUE_PITCHING_LEADER_TABLES.map((table) => ({
+    ...table,
+    label: `${table.label} for ${competitionId}`,
+    sql: scopeLeagueSql(table.sql, competitionId),
+  }));
+}
+
+export function buildPlayerLookupSql(competitionId?: string | null) {
+  return scopeLeagueSql(PLAYER_LOOKUP_SQL, competitionId);
+}
+
 export const PLAYER_LOOKUP_SQL = `
 SELECT
   players.player_id,
-  players.name AS player_name
+  players.name AS player_name,
+  players.competition_id,
+  competitions.short_name AS competition
 FROM players
+LEFT JOIN competitions ON competitions.competition_id = players.competition_id
 WHERE players.player_id IN (
   SELECT player_id FROM lineups WHERE player_id IS NOT NULL
   UNION
@@ -485,10 +559,10 @@ WHERE players.player_id IN (
   UNION
   SELECT player_id FROM season_pitching_stats WHERE player_id IS NOT NULL
 )
-ORDER BY player_name, player_id;
+ORDER BY competitions.sort_order, player_name, player_id;
 `;
 
-export function buildLeaguePlayerRankSql(playerId?: number | null) {
+export function buildLeaguePlayerRankSql(playerId?: number | null, competitionId = DEFAULT_LEAGUE_COMPETITION_ID) {
   if (playerId == null) {
     return `
 SELECT
@@ -502,7 +576,8 @@ WHERE 0;
 `;
   }
 
-  return `
+  return scopeLeagueSql(
+    `
 WITH selected_player AS (
   SELECT ${playerId} AS player_id
 ),
@@ -794,5 +869,7 @@ SELECT 'Pitching', 'Saves', ranked_saves.rank, pitching_totals.saves, CASE WHEN 
 FROM selected_player
 LEFT JOIN pitching_totals ON pitching_totals.player_id = selected_player.player_id
 LEFT JOIN ranked_saves ON ranked_saves.player_id = selected_player.player_id;
-`;
+`,
+    competitionId,
+  );
 }

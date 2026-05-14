@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=959554%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="959554" playerid="1109097">
+		<jersey>10</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>2B</position>
+		<name>Trevor Stott</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124104</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109511</teamid>
+			<teamname>Jacksonville Angels</teamname>
+			<gp>4</gp>
+			<w>0</w>
+			<l>1</l>
+			<era>351056.333</era>
+			<gs>1</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>13.2</ip>
+			<so>4</so>
+			<h>13</h>
+			<r>7</r>
+			<er>5</er>
+			<bb>7</bb>
+			<whip>   1.460</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109511</teamid>
+			<teamname>Jacksonville Angels</teamname>
+			<gp>18</gp>
+			<ab>62</ab>
+			<r>18</r>
+			<h>19</h>
+			<b2>4</b2>
+			<b3>0</b3>
+			<hr>3</hr>
+			<rbi>13</rbi>
+			<bb>9</bb>
+			<hbp>0</hbp>
+			<so>15</so>
+			<sb>7</sb>
+			<cs>1</cs>
+			<avg>.306</avg>
+			<obp>.394</obp>
+			<slg>.516</slg>
+		</stats>
+		<stats>
+			<teamid>124104</teamid>
+			<teamname>Jacksonville Angels</teamname>
+			<gp>12</gp>
+			<ab>33</ab>
+			<r>5</r>
+			<h>8</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>4</rbi>
+			<bb>6</bb>
+			<hbp>2</hbp>
+			<so>12</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.242</avg>
+			<obp>.39</obp>
+			<slg>.273</slg>
+		</stats>
+	</battingstats>
+</information>

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "rejections": [
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [17, 1513527, 1697159],
+      "reason": "These are different players"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [33, 552],
+      "reason": "These are different players"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [38, 1755628],
+      "reason": "These are different players"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [108, 1767285],
+      "reason": "These are different players"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [110, 800889],
+      "reason": "These are different players"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [112, 1644463],
+      "reason": "These are different players"
+    },
+    {
+      "competitionId": "18-plus",
+      "sourceIds": [127, 1510838],
+      "reason": "These are different players"
+    }
+  ]
+}

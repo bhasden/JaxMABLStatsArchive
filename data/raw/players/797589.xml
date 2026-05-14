@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=797589%26;seasonid=29373</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="797589" playerid="797588">
+		<jersey>23</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Antoine Atwater</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>92345</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>92345</teamid>
+			<teamname>San Mateo Angels</teamname>
+			<gp>2</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>2924493</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>3</ip>
+			<so>2</so>
+			<h>7</h>
+			<r>14</r>
+			<er>11</er>
+			<bb>11</bb>
+			<whip>   6.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>92345</teamid>
+			<teamname>San Mateo Angels</teamname>
+			<gp>20</gp>
+			<ab>65</ab>
+			<r>19</r>
+			<h>22</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>2</hr>
+			<rbi>12</rbi>
+			<bb>5</bb>
+			<hbp>2</hbp>
+			<so>13</so>
+			<sb>6</sb>
+			<cs>0</cs>
+			<avg>.338</avg>
+			<obp>.403</obp>
+			<slg>.477</slg>
+		</stats>
+	</battingstats>
+</information>

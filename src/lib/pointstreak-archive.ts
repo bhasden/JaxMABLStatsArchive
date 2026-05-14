@@ -45,6 +45,63 @@ function sleep(ms: number) {
   return new Promise((res) => setTimeout(res, ms));
 }
 
+export class PointstreakRequestError extends Error {
+  status: number;
+  statusText: string;
+  retryAfterMs: number | null;
+
+  constructor(status: number, statusText: string, retryAfterMs: number | null = null) {
+    super(`Request failed: ${status} ${statusText}`);
+    this.name = "PointstreakRequestError";
+    this.status = status;
+    this.statusText = statusText;
+    this.retryAfterMs = retryAfterMs;
+  }
+}
+
+export function parseRetryAfterMs(retryAfter: string | null | undefined, now = Date.now()) {
+  const normalized = retryAfter?.trim();
+  if (!normalized) {
+    return null;
+  }
+
+  if (/^\d+$/.test(normalized)) {
+    return Number(normalized) * 1000;
+  }
+
+  const retryAt = Date.parse(normalized);
+  if (Number.isNaN(retryAt)) {
+    return null;
+  }
+
+  return Math.max(0, retryAt - now);
+}
+
+export function randomRequestDelayMs(minDelayMs: number, maxDelayMs: number) {
+  const minDelay = Math.max(0, Math.floor(minDelayMs));
+  const maxDelay = Math.max(minDelay, Math.floor(maxDelayMs));
+  return Math.floor(Math.random() * (maxDelay - minDelay + 1)) + minDelay;
+}
+
+export function buildPointstreakRetryBackoffMs(attempt: number, error: unknown, minDelayMs = 500, maxDelayMs = 1500) {
+  const jitter = randomRequestDelayMs(minDelayMs, maxDelayMs);
+  if (error instanceof PointstreakRequestError) {
+    if (error.retryAfterMs != null) {
+      return Math.min(120_000, error.retryAfterMs + jitter);
+    }
+
+    if (error.status === 429) {
+      return Math.min(60_000, 2_000 * 2 ** Math.max(0, attempt - 1) + jitter);
+    }
+
+    if (error.status === 403 || (error.status >= 500 && error.status < 600)) {
+      return Math.min(30_000, 1_000 * 2 ** Math.max(0, attempt - 1) + jitter);
+    }
+  }
+
+  return Math.min(10_000, 500 * Math.max(1, attempt) + jitter);
+}
+
 async function ensureDir(dir: string) {
   await fs.mkdir(dir, { recursive: true });
 }
@@ -91,7 +148,9 @@ export function getSeasonRawTeamDir(outDir: string, seasonId: number, teamId: nu
 
 export async function fetchUrlText(url: string) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Request failed: ${res.status} ${res.statusText}`);
+  if (!res.ok) {
+    throw new PointstreakRequestError(res.status, res.statusText, parseRetryAfterMs(res.headers.get("retry-after")));
+  }
   return res.text();
 }
 
@@ -155,6 +214,8 @@ async function fetchRawXmlResource(
   resource: ArchiveRawXmlResource,
   options: {
     retries: number;
+    minDelayMs?: number;
+    maxDelayMs?: number;
     onLog: (log: ArchiveLog) => void;
     gameId?: string;
   },
@@ -186,7 +247,12 @@ async function fetchRawXmlResource(
       if (attempt >= options.retries) {
         throw err;
       }
-      const backoff = Math.min(5000, 200 * attempt);
+      const backoff = buildPointstreakRetryBackoffMs(attempt, err, options.minDelayMs, options.maxDelayMs);
+      options.onLog({
+        level: "info",
+        gameId: options.gameId,
+        message: `Backing off for ${backoff}ms before retrying ${resource.label}`,
+      });
       await sleep(backoff);
     }
   }
@@ -206,23 +272,26 @@ async function fetchSupplementalRawXmlResources(
   let skipped = 0;
   let failed = 0;
 
-  for (const resource of resources) {
+  for (const [index, resource] of resources.entries()) {
     const shouldFetch = await shouldFetchRawXmlResource(resource, options);
     if (!shouldFetch) {
       skipped++;
       continue;
     }
 
+    let attemptedFetch = false;
     try {
+      attemptedFetch = true;
       await fetchRawXmlResource(resource, options);
       fetched++;
     } catch {
       failed++;
-      continue;
     }
 
-    const delay = Math.floor(Math.random() * (options.maxDelay - options.minDelay + 1)) + options.minDelay;
-    await sleep(delay);
+    if (attemptedFetch && index < resources.length - 1) {
+      const delay = randomRequestDelayMs(options.minDelay, options.maxDelay);
+      await sleep(delay);
+    }
   }
 
   return { fetched, skipped, failed };
@@ -988,17 +1057,19 @@ export async function archiveSeasonRaw(options: {
         continue;
       }
 
-      await fetchRawXmlResource(boxscoreResource, { retries, onLog, gameId: gid });
+      await fetchRawXmlResource(boxscoreResource, {
+        retries,
+        minDelayMs: minDelay,
+        maxDelayMs: maxDelay,
+        onLog,
+        gameId: gid,
+      });
       fetched++;
       onLog({
         level: "progress",
         gameId: gid,
         ...buildProgressDetails(current, gamesList.length, `Saved boxscore ${gid}`),
       });
-
-      // delay between requests
-      const delay = Math.floor(Math.random() * (maxDelay - minDelay + 1)) + minDelay;
-      await sleep(delay);
     } catch (err: any) {
       failed++;
       onLog({
@@ -1006,6 +1077,11 @@ export async function archiveSeasonRaw(options: {
         gameId: gid,
         ...buildProgressDetails(current, gamesList.length, `Failed to fetch ${gid}: ${err?.message ?? String(err)}`),
       });
+    }
+
+    if (current < gamesList.length) {
+      const delay = randomRequestDelayMs(minDelay, maxDelay);
+      await sleep(delay);
     }
   }
 

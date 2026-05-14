@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1000806%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1000806" playerid="1108992">
+		<jersey>47</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Johnny Gaines</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124100</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>124100</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>7</gp>
+			<w>3</w>
+			<l>0</l>
+			<era>161420.323</era>
+			<gs>6</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>31</ip>
+			<so>54</so>
+			<h>21</h>
+			<r>14</r>
+			<er>5</er>
+			<bb>14</bb>
+			<whip>   1.130</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>109513</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>5</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>389202.333</era>
+			<gs>3</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>1</sv>
+			<ip>18</ip>
+			<so>31</so>
+			<h>13</h>
+			<r>7</r>
+			<er>7</er>
+			<bb>6</bb>
+			<whip>   1.060</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>124100</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>1</gp>
+			<ab>1</ab>
+			<r>0</r>
+			<h>0</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>0</bb>
+			<hbp>0</hbp>
+			<so>0</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>0</avg>
+			<obp>0</obp>
+			<slg>0</slg>
+		</stats>
+		<stats>
+			<teamid>109513</teamid>
+			<teamname>Jacksonville Freedom</teamname>
+			<gp>7</gp>
+			<ab>3</ab>
+			<r>1</r>
+			<h>0</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>1</rbi>
+			<bb>0</bb>
+			<hbp>0</hbp>
+			<so>0</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>0</avg>
+			<obp>0</obp>
+			<slg>0</slg>
+		</stats>
+	</battingstats>
+</information>

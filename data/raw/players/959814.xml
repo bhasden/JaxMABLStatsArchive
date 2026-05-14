@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=959814%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="959814" playerid="1108951">
+		<jersey>44</jersey>
+		<bats>R</bats>
+		<throws>L</throws>
+		<position>1B</position>
+		<name>Chad Dallimore</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124103</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109512</teamid>
+			<teamname>Georgia Senators</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>5758889.759</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>.1</ip>
+			<so>1</so>
+			<h>3</h>
+			<r>2</r>
+			<er>2</er>
+			<bb>1</bb>
+			<whip>  12.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>124103</teamid>
+			<teamname>San Mateo Marlins</teamname>
+			<gp>12</gp>
+			<ab>39</ab>
+			<r>5</r>
+			<h>12</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>1</hr>
+			<rbi>8</rbi>
+			<bb>3</bb>
+			<hbp>0</hbp>
+			<so>7</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.308</avg>
+			<obp>.357</obp>
+			<slg>.462</slg>
+		</stats>
+		<stats>
+			<teamid>109512</teamid>
+			<teamname>Georgia Senators</teamname>
+			<gp>13</gp>
+			<ab>47</ab>
+			<r>9</r>
+			<h>17</h>
+			<b2>5</b2>
+			<b3>0</b3>
+			<hr>2</hr>
+			<rbi>16</rbi>
+			<bb>2</bb>
+			<hbp>0</hbp>
+			<so>7</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.362</avg>
+			<obp>.38</obp>
+			<slg>.596</slg>
+		</stats>
+	</battingstats>
+</information>

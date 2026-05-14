@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=601404%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="601404" playerid="601404">
+		<jersey>14</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Shaun Stittsworth</name>
+		<photo></photo>
+		<height>5-9</height>
+		<weight>180</weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70346</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>70346</teamid>
+			<teamname>Red Devils</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>1</l>
+			<era>1403276</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>3</ip>
+			<so>4</so>
+			<h>7</h>
+			<r>8</r>
+			<er>7</er>
+			<bb>5</bb>
+			<whip>   2.250</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70346</teamid>
+			<teamname>Red Devils</teamname>
+			<gp>16</gp>
+			<ab>49</ab>
+			<r>7</r>
+			<h>17</h>
+			<b2>2</b2>
+			<b3>1</b3>
+			<hr>1</hr>
+			<rbi>6</rbi>
+			<bb>4</bb>
+			<hbp>1</hbp>
+			<so>9</so>
+			<sb>2</sb>
+			<cs>1</cs>
+			<avg>.347</avg>
+			<obp>.407</obp>
+			<slg>.49</slg>
+		</stats>
+	</battingstats>
+</information>

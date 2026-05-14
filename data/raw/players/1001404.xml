@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1001404%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1001404" playerid="1001404">
+		<jersey>8</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Rhett Aplin</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>109507</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109507</teamid>
+			<teamname>Jacksonville Dolphins</teamname>
+			<gp>6</gp>
+			<ab>25</ab>
+			<r>10</r>
+			<h>15</h>
+			<b2>6</b2>
+			<b3>0</b3>
+			<hr>4</hr>
+			<rbi>14</rbi>
+			<bb>0</bb>
+			<hbp>0</hbp>
+			<so>2</so>
+			<sb>4</sb>
+			<cs>0</cs>
+			<avg>.6</avg>
+			<obp>.6</obp>
+			<slg>1.32</slg>
+		</stats>
+	</battingstats>
+</information>

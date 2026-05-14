@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1355133%26;seasonid=32179</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1355133" playerid="1355133">
+		<jersey>25</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Cole Grossi</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday>1995-11-01 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>143643</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>143643</teamid>
+			<teamname>Marietta Bulls</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>1</l>
+			<era>387180.857</era>
+			<gs>1</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>7</ip>
+			<so>7</so>
+			<h>6</h>
+			<r>2</r>
+			<er>2</er>
+			<bb>1</bb>
+			<whip>   1.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>143643</teamid>
+			<teamname>Marietta Bulls</teamname>
+			<gp>8</gp>
+			<ab>18</ab>
+			<r>2</r>
+			<h>2</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>1</rbi>
+			<bb>1</bb>
+			<hbp>1</hbp>
+			<so>5</so>
+			<sb>2</sb>
+			<cs>1</cs>
+			<avg>.111</avg>
+			<obp>.2</obp>
+			<slg>.111</slg>
+		</stats>
+	</battingstats>
+</information>

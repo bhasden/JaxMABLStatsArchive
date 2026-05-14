@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=603575%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="603575" playerid="603575">
+		<jersey>3</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>2B</position>
+		<name>Andre Carley</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70343</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70343</teamid>
+			<teamname>Red Sox</teamname>
+			<gp>16</gp>
+			<ab>60</ab>
+			<r>19</r>
+			<h>20</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>13</rbi>
+			<bb>8</bb>
+			<hbp>5</hbp>
+			<so>7</so>
+			<sb>31</sb>
+			<cs>0</cs>
+			<avg>.333</avg>
+			<obp>.452</obp>
+			<slg>.383</slg>
+		</stats>
+	</battingstats>
+</information>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=824348%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="824348" playerid="952758">
+		<jersey></jersey>
+		<bats>R</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Daniel Davis</name>
+		<photo></photo>
+		<height>5-8</height>
+		<weight>180</weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>109508</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109508</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>3</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>235528</era>
+			<gs>1</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>7</ip>
+			<so>6</so>
+			<h>3</h>
+			<r>4</r>
+			<er>2</er>
+			<bb>8</bb>
+			<whip>   1.570</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>92341</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>0</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>1</ip>
+			<so>1</so>
+			<h>0</h>
+			<r>0</r>
+			<er>0</er>
+			<bb>3</bb>
+			<whip>   3.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109508</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>4</gp>
+			<ab>10</ab>
+			<r>2</r>
+			<h>2</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>2</rbi>
+			<bb>1</bb>
+			<hbp>0</hbp>
+			<so>2</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.2</avg>
+			<obp>.273</obp>
+			<slg>.3</slg>
+		</stats>
+		<stats>
+			<teamid>92341</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>2</gp>
+			<ab>3</ab>
+			<r>0</r>
+			<h>0</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>0</bb>
+			<hbp>0</hbp>
+			<so>1</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>0</avg>
+			<obp>0</obp>
+			<slg>0</slg>
+		</stats>
+	</battingstats>
+</information>

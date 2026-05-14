@@ -75,7 +75,7 @@ async function main() {
   if (bundle.manifest.entityMerges) {
     const entityMerges = bundle.manifest.entityMerges;
     console.log(
-      `Entity merges: ${entityMerges.playerAliasCount} player aliases and ${entityMerges.teamAliasCount} team aliases from ${entityMerges.configPath}`,
+      `Entity merges: ${entityMerges.playerAliasCount} player aliases from ${entityMerges.playerConfigPath} and ${entityMerges.teamAliasCount} team aliases from ${entityMerges.teamConfigPath}`,
     );
   }
   for (const table of ARCHIVE_SEED_TABLES) {

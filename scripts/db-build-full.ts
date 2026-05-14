@@ -33,7 +33,7 @@ async function main() {
   if (bundle.manifest.entityMerges) {
     const entityMerges = bundle.manifest.entityMerges;
     console.log(
-      `Applied entity merge config ${entityMerges.configPath}: ${entityMerges.playerAliasCount} player aliases, ${entityMerges.teamAliasCount} team aliases.`,
+      `Applied entity merge configs ${entityMerges.playerConfigPath} and ${entityMerges.teamConfigPath}: ${entityMerges.playerAliasCount} player aliases, ${entityMerges.teamAliasCount} team aliases.`,
     );
   }
 

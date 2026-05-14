@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=601214%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="601214" playerid="601214">
+		<jersey>21</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Matt Wiegand</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>69753</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>69753</teamid>
+			<teamname>Dolphins</teamname>
+			<gp>2</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>400809.333</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>3</ip>
+			<so>2</so>
+			<h>3</h>
+			<r>2</r>
+			<er>2</er>
+			<bb>2</bb>
+			<whip>   1.670</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>69753</teamid>
+			<teamname>Dolphins</teamname>
+			<gp>17</gp>
+			<ab>59</ab>
+			<r>12</r>
+			<h>14</h>
+			<b2>4</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>7</rbi>
+			<bb>12</bb>
+			<hbp>3</hbp>
+			<so>12</so>
+			<sb>7</sb>
+			<cs>0</cs>
+			<avg>.237</avg>
+			<obp>.387</obp>
+			<slg>.305</slg>
+		</stats>
+	</battingstats>
+</information>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=600071%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="600071" playerid="600067">
+		<jersey>12</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Chris Eng</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>69752</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>69752</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>10</gp>
+			<w>6</w>
+			<l>1</l>
+			<era>82362.686</era>
+			<gs>7</gs>
+			<cg>1</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>51</ip>
+			<so>80</so>
+			<h>30</h>
+			<r>13</r>
+			<er>7</er>
+			<bb>14</bb>
+			<whip>   0.860</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>69752</teamid>
+			<teamname>Jacksonville Indians</teamname>
+			<gp>8</gp>
+			<ab>20</ab>
+			<r>4</r>
+			<h>7</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>4</bb>
+			<hbp>0</hbp>
+			<so>4</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.35</avg>
+			<obp>.458</obp>
+			<slg>.45</slg>
+		</stats>
+	</battingstats>
+</information>

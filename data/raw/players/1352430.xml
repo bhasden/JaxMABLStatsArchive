@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1352430%26;seasonid=32179</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1352430" playerid="1352430">
+		<jersey>10</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Trey Namo</name>
+		<photo></photo>
+		<height>6</height>
+		<weight>220</weight>
+		<birthday>1997-03-01 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>144041</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>144041</teamid>
+			<teamname>Westside Militia</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>4057294.057</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>.1</ip>
+			<so>0</so>
+			<h>0</h>
+			<r>1</r>
+			<er>1</er>
+			<bb>3</bb>
+			<whip>   9.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>144041</teamid>
+			<teamname>Westside Militia</teamname>
+			<gp>14</gp>
+			<ab>49</ab>
+			<r>16</r>
+			<h>18</h>
+			<b2>4</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>6</bb>
+			<hbp>0</hbp>
+			<so>9</so>
+			<sb>9</sb>
+			<cs>1</cs>
+			<avg>.367</avg>
+			<obp>.436</obp>
+			<slg>.449</slg>
+		</stats>
+	</battingstats>
+</information>

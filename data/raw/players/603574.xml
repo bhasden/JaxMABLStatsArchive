@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=603574%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="603574" playerid="603574">
+		<jersey>2</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>1B</position>
+		<name>Alex Brull</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70343</teamid>
+	</player>
+	<pitchingstats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70343</teamid>
+			<teamname>Red Sox</teamname>
+			<gp>11</gp>
+			<ab>37</ab>
+			<r>7</r>
+			<h>13</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>3</hr>
+			<rbi>12</rbi>
+			<bb>1</bb>
+			<hbp>2</hbp>
+			<so>13</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.351</avg>
+			<obp>.4</obp>
+			<slg>.649</slg>
+		</stats>
+	</battingstats>
+</information>

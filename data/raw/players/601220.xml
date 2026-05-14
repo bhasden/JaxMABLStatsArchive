@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=601220%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="601220" playerid="601220">
+		<jersey>1</jersey>
+		<bats>R</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Nick Israel</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>69753</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>69753</teamid>
+			<teamname>Dolphins</teamname>
+			<gp>5</gp>
+			<w>0</w>
+			<l>1</l>
+			<era>583537.076</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>11.1</ip>
+			<so>8</so>
+			<h>13</h>
+			<r>13</r>
+			<er>11</er>
+			<bb>8</bb>
+			<whip>   1.850</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>69753</teamid>
+			<teamname>Dolphins</teamname>
+			<gp>10</gp>
+			<ab>30</ab>
+			<r>5</r>
+			<h>8</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>3</rbi>
+			<bb>5</bb>
+			<hbp>0</hbp>
+			<so>9</so>
+			<sb>8</sb>
+			<cs>2</cs>
+			<avg>.267</avg>
+			<obp>.371</obp>
+			<slg>.333</slg>
+		</stats>
+	</battingstats>
+</information>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=603306%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="603306" playerid="603301">
+		<jersey>11</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Chris Haynes</name>
+		<photo></photo>
+		<height>5-6</height>
+		<weight>235</weight>
+		<birthday>1991-11-13 00:00:00</birthday>
+		<hometown>Hollister</hometown>
+		<teamid>70344</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>70344</teamid>
+			<teamname>Marietta Bulls</teamname>
+			<gp>12</gp>
+			<w>1</w>
+			<l>1</l>
+			<era>219384</era>
+			<gs>5</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>33</ip>
+			<so>31</so>
+			<h>31</h>
+			<r>28</r>
+			<er>12</er>
+			<bb>19</bb>
+			<whip>   1.520</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70344</teamid>
+			<teamname>Marietta Bulls</teamname>
+			<gp>19</gp>
+			<ab>53</ab>
+			<r>12</r>
+			<h>13</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>8</rbi>
+			<bb>19</bb>
+			<hbp>1</hbp>
+			<so>25</so>
+			<sb>11</sb>
+			<cs>0</cs>
+			<avg>.245</avg>
+			<obp>.452</obp>
+			<slg>.283</slg>
+		</stats>
+	</battingstats>
+</information>

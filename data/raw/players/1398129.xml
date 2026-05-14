@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1398129%26;seasonid=33023</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1398129" playerid="1499916">
+		<jersey>47</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>U</position>
+		<name>Nick Bishop</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>153986</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>150719</teamid>
+			<teamname>St. Johns Sharks</teamname>
+			<gp>2</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>1048596.816</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>5.1</ip>
+			<so>9</so>
+			<h>4</h>
+			<r>4</r>
+			<er>4</er>
+			<bb>1</bb>
+			<whip>   0.940</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>143666</teamid>
+			<teamname>Ponte Vedra Wildcats</teamname>
+			<gp>5</gp>
+			<ab>15</ab>
+			<r>6</r>
+			<h>8</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>2</bb>
+			<hbp>1</hbp>
+			<so>3</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.533</avg>
+			<obp>.611</obp>
+			<slg>.733</slg>
+		</stats>
+		<stats>
+			<teamid>150719</teamid>
+			<teamname>St. Johns Sharks</teamname>
+			<gp>11</gp>
+			<ab>30</ab>
+			<r>11</r>
+			<h>11</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>4</rbi>
+			<bb>11</bb>
+			<hbp>1</hbp>
+			<so>8</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.367</avg>
+			<obp>.548</obp>
+			<slg>.4</slg>
+		</stats>
+		<stats>
+			<teamid>153986</teamid>
+			<teamname>St. Johns Sharks</teamname>
+			<gp>10</gp>
+			<ab>28</ab>
+			<r>7</r>
+			<h>14</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>1</rbi>
+			<bb>4</bb>
+			<hbp>2</hbp>
+			<so>5</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.5</avg>
+			<obp>.588</obp>
+			<slg>.571</slg>
+		</stats>
+	</battingstats>
+</information>

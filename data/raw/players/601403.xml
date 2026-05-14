@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=601403%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="601403" playerid="601403">
+		<jersey>18</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>John Raiford</name>
+		<photo></photo>
+		<height>6-0</height>
+		<weight>210</weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70346</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>70346</teamid>
+			<teamname>Red Devils</teamname>
+			<gp>5</gp>
+			<w>0</w>
+			<l>2</l>
+			<era>601403</era>
+			<gs>3</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>12</ip>
+			<so>11</so>
+			<h>21</h>
+			<r>15</r>
+			<er>12</er>
+			<bb>5</bb>
+			<whip>   2.170</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70346</teamid>
+			<teamname>Red Devils</teamname>
+			<gp>6</gp>
+			<ab>15</ab>
+			<r>1</r>
+			<h>5</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>1</rbi>
+			<bb>2</bb>
+			<hbp>0</hbp>
+			<so>2</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.333</avg>
+			<obp>.412</obp>
+			<slg>.333</slg>
+		</stats>
+	</battingstats>
+</information>

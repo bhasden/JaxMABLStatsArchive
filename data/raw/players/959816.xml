@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=959816%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="959816" playerid="1108952">
+		<jersey>20</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>U</position>
+		<name>Taj Mcqueen</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124103</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>124103</teamid>
+			<teamname>San Mateo Marlins</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>359930.955</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>2.2</ip>
+			<so>2</so>
+			<h>2</h>
+			<r>2</r>
+			<er>1</er>
+			<bb>4</bb>
+			<whip>   2.250</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>109512</teamid>
+			<teamname>Georgia Senators</teamname>
+			<gp>5</gp>
+			<w>0</w>
+			<l>1</l>
+			<era>1185654.989</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>5.2</ip>
+			<so>7</so>
+			<h>6</h>
+			<r>7</r>
+			<er>7</er>
+			<bb>9</bb>
+			<whip>   2.650</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109512</teamid>
+			<teamname>Georgia Senators</teamname>
+			<gp>14</gp>
+			<ab>46</ab>
+			<r>11</r>
+			<h>18</h>
+			<b2>4</b2>
+			<b3>1</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>5</bb>
+			<hbp>4</hbp>
+			<so>5</so>
+			<sb>11</sb>
+			<cs>0</cs>
+			<avg>.391</avg>
+			<obp>.491</obp>
+			<slg>.522</slg>
+		</stats>
+		<stats>
+			<teamid>124103</teamid>
+			<teamname>San Mateo Marlins</teamname>
+			<gp>6</gp>
+			<ab>12</ab>
+			<r>6</r>
+			<h>1</h>
+			<b2>0</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>1</rbi>
+			<bb>6</bb>
+			<hbp>1</hbp>
+			<so>2</so>
+			<sb>5</sb>
+			<cs>0</cs>
+			<avg>.083</avg>
+			<obp>.4</obp>
+			<slg>.083</slg>
+		</stats>
+	</battingstats>
+</information>

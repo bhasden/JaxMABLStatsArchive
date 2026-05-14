@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=1122760%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="1122760" playerid="1122760">
+		<jersey>28</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Jordan Voiro</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>124103</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>124103</teamid>
+			<teamname>San Mateo Marlins</teamname>
+			<gp>2</gp>
+			<w>1</w>
+			<l>1</l>
+			<era>842070</era>
+			<gs>2</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>8</ip>
+			<so>11</so>
+			<h>7</h>
+			<r>6</r>
+			<er>6</er>
+			<bb>1</bb>
+			<whip>   1.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>124103</teamid>
+			<teamname>San Mateo Marlins</teamname>
+			<gp>8</gp>
+			<ab>22</ab>
+			<r>4</r>
+			<h>5</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>4</bb>
+			<hbp>1</hbp>
+			<so>6</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.227</avg>
+			<obp>.37</obp>
+			<slg>.318</slg>
+		</stats>
+	</battingstats>
+</information>

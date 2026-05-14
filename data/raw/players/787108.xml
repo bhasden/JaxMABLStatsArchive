@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=787108%26;seasonid=30879</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="787108" playerid="1109019">
+		<jersey>14</jersey>
+		<bats>R</bats>
+		<throws>R</throws>
+		<position>P</position>
+		<name>Shaun Stittsworth</name>
+		<photo></photo>
+		<height>5-9</height>
+		<weight>180</weight>
+		<birthday>1991-08-31 00:00:00</birthday>
+		<hometown></hometown>
+		<teamid>124101</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>92348</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>787108</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>3</ip>
+			<so>7</so>
+			<h>3</h>
+			<r>4</r>
+			<er>3</er>
+			<bb>9</bb>
+			<whip>   2.250</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>109514</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>1</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>0</era>
+			<gs>0</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>1</ip>
+			<so>0</so>
+			<h>0</h>
+			<r>0</r>
+			<er>0</er>
+			<bb>0</bb>
+			<whip>   0.000</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109514</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>14</gp>
+			<ab>50</ab>
+			<r>13</r>
+			<h>15</h>
+			<b2>6</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>5</bb>
+			<hbp>1</hbp>
+			<so>19</so>
+			<sb>2</sb>
+			<cs>0</cs>
+			<avg>.3</avg>
+			<obp>.368</obp>
+			<slg>.42</slg>
+		</stats>
+		<stats>
+			<teamid>92348</teamid>
+			<teamname>Jacksonville Red Devils</teamname>
+			<gp>19</gp>
+			<ab>56</ab>
+			<r>11</r>
+			<h>18</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>9</rbi>
+			<bb>6</bb>
+			<hbp>0</hbp>
+			<so>13</so>
+			<sb>1</sb>
+			<cs>0</cs>
+			<avg>.321</avg>
+			<obp>.375</obp>
+			<slg>.357</slg>
+		</stats>
+		<stats>
+			<teamid>124101</teamid>
+			<teamname>Jacksonville Suns</teamname>
+			<gp>5</gp>
+			<ab>12</ab>
+			<r>2</r>
+			<h>3</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>3</rbi>
+			<bb>5</bb>
+			<hbp>0</hbp>
+			<so>5</so>
+			<sb>0</sb>
+			<cs>0</cs>
+			<avg>.25</avg>
+			<obp>.471</obp>
+			<slg>.333</slg>
+		</stats>
+	</battingstats>
+</information>

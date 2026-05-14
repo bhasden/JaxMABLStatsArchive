@@ -61,7 +61,7 @@ export type LegacyMablPlayer = {
   id: number;
   firstname: string | null;
   lastname: string | null;
-  position: number | null;
+  position: string | null;
   throws: string | null;
   bats: string | null;
   number: string | null;
@@ -310,7 +310,7 @@ function toPlayer(row: SqlRow): LegacyMablPlayer {
     id: requiredNumber(row.id, "mabl_Player.id"),
     firstname: nullableString(row.firstname),
     lastname: nullableString(row.lastname),
-    position: nullableNumber(row.position),
+    position: nullableString(row.position),
     throws: nullableString(row.throws),
     bats: nullableString(row.bats),
     number: nullableString(row.number),

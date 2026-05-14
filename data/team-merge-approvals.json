@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "merges": [
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 4,
+      "aliasSourceIds": [69752, 92341],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 5,
+      "aliasSourceIds": [19],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 7,
+      "aliasSourceIds": [70342, 92342],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 8,
+      "aliasSourceIds": [70343],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 9,
+      "aliasSourceIds": [69753, 92343],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 70344,
+      "aliasSourceIds": [92347],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 70345,
+      "aliasSourceIds": [92346],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 70346,
+      "aliasSourceIds": [92348],
+      "reason": "Confirmed same team"
+    },
+    {
+      "competitionId": "18-plus",
+      "canonicalSourceId": 71213,
+      "aliasSourceIds": [92345],
+      "reason": "Confirmed same team"
+    }
+  ]
+}

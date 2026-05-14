@@ -1,7 +1,4 @@
 node_modules
 dist
-data/**
-!data/entity-merges.json
-!data/entity-merge-candidates.json
 public/archive.sqlite
 *.log

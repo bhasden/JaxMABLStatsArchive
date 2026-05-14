@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=607973%26;seasonid=28308</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="607973" playerid="607973">
+		<jersey>15</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Nick Reimer</name>
+		<photo></photo>
+		<height></height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>70347</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>70347</teamid>
+			<teamname>Braves</teamname>
+			<gp>6</gp>
+			<w>1</w>
+			<l>0</l>
+			<era>182391.905</era>
+			<gs>1</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>13.1</ip>
+			<so>8</so>
+			<h>10</h>
+			<r>7</r>
+			<er>4</er>
+			<bb>9</bb>
+			<whip>   1.430</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>70347</teamid>
+			<teamname>Braves</teamname>
+			<gp>15</gp>
+			<ab>44</ab>
+			<r>5</r>
+			<h>11</h>
+			<b2>3</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>6</rbi>
+			<bb>2</bb>
+			<hbp>0</hbp>
+			<so>15</so>
+			<sb>0</sb>
+			<cs>1</cs>
+			<avg>.25</avg>
+			<obp>.283</obp>
+			<slg>.318</slg>
+		</stats>
+	</battingstats>
+</information>

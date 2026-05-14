@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<link>player.html?playerid=799440%26;seasonid=30232</link>
+<photo>images/no_photo.gif</photo>
+	<player playerlinkid="799440" playerid="952784">
+		<jersey>10</jersey>
+		<bats>L</bats>
+		<throws>L</throws>
+		<position>P</position>
+		<name>Reynaldo Batista</name>
+		<photo></photo>
+		<height>5-8</height>
+		<weight></weight>
+		<birthday></birthday>
+		<hometown></hometown>
+		<teamid>109510</teamid>
+	</player>
+	<pitchingstats>
+		<stats>
+			<teamid>109510</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>7</gp>
+			<w>0</w>
+			<l>0</l>
+			<era>470258.824</era>
+			<gs>2</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>17</ip>
+			<so>17</so>
+			<h>22</h>
+			<r>20</r>
+			<er>10</er>
+			<bb>8</bb>
+			<whip>   1.760</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+		<stats>
+			<teamid>92344</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>3</gp>
+			<w>0</w>
+			<l>5</l>
+			<era>639552</era>
+			<gs>2</gs>
+			<cg>0</cg>
+			<sho>0</sho>
+			<sv>0</sv>
+			<ip>10</ip>
+			<so>10</so>
+			<h>15</h>
+			<r>16</r>
+			<er>8</er>
+			<bb>11</bb>
+			<whip>   2.600</whip>
+			<b>0</b>
+			<s>0</s>
+		</stats>
+	</pitchingstats>
+	<battingstats>
+		<stats>
+			<teamid>109510</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>16</gp>
+			<ab>56</ab>
+			<r>13</r>
+			<h>16</h>
+			<b2>2</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>5</rbi>
+			<bb>7</bb>
+			<hbp>0</hbp>
+			<so>5</so>
+			<sb>7</sb>
+			<cs>7</cs>
+			<avg>.286</avg>
+			<obp>.365</obp>
+			<slg>.321</slg>
+		</stats>
+		<stats>
+			<teamid>92344</teamid>
+			<teamname>North Florida Crows</teamname>
+			<gp>17</gp>
+			<ab>51</ab>
+			<r>11</r>
+			<h>14</h>
+			<b2>1</b2>
+			<b3>0</b3>
+			<hr>0</hr>
+			<rbi>0</rbi>
+			<bb>5</bb>
+			<hbp>2</hbp>
+			<so>11</so>
+			<sb>10</sb>
+			<cs>2</cs>
+			<avg>.275</avg>
+			<obp>.362</obp>
+			<slg>.294</slg>
+		</stats>
+	</battingstats>
+</information>

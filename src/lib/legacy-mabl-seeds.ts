@@ -282,7 +282,7 @@ function buildRosterRows(context: ImportContext, seasonId: number): SeedRow[] {
         first_name: player?.firstname ?? null,
         last_name: player?.lastname ?? null,
         name: playerName(player, row.playerid),
-        position: positionName(context, player?.position ?? null),
+        position: player?.position ?? null,
         jersey: player?.number ?? null,
         height: null,
         weight: null,

@@ -56,20 +56,14 @@ export function buildRosterUrl(
   });
 }
 
-export function buildPlayerProfileUrl(leagueId?: number, seasonId?: number, teamId?: number, playerId?: number) {
-  const l = leagueId || LEAGUE_ID;
-  const s = seasonId || SEASONS[SEASONS.length - 1]?.id?.toString(); // Use last season ID as default if available
-  const t = teamId || SEASONS[SEASONS.length - 1]?.teamId?.toString(); // Use last season team ID as default if available
-  const p = playerId;
+export function buildPlayerProfileUrl(playerId?: number | string | null) {
+  const p = Number(playerId);
 
-  if (!l || !s || !t || !p) {
-    throw new Error("Missing leagueId, seasonId, teamId, or playerId when building Pointstreak player profile URL");
+  if (!Number.isInteger(p) || p <= 0) {
+    throw new Error("Missing or invalid playerId when building Pointstreak player profile URL");
   }
 
   return buildPartnerUrl("playerprofile", {
-    leagueid: l,
-    seasonid: s,
-    teamid: t,
     playerid: p,
   });
 }

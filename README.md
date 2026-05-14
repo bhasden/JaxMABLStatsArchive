@@ -41,7 +41,11 @@ The user explicitly prioritized:
 
 - Stable archive team identity is `team_id`; for Pointstreak seasons this is sourced from `teamlinkid`.
 - Season-scoped source team IDs are preserved as `season_team_id`, but they are not the canonical cross-season key.
-- Players are deduped only by `player_id`.
+- Players remain competition-scoped canonical entities keyed by `player_id`.
+- `people.person_id` is the first-class cross-competition identity layer above canonical players.
+- Same-competition player/team merges may combine duplicate stats and history within that competition only.
+- Cross-competition person links must never merge batting, pitching, standings, or team-history data across age groups.
+- Approved cross-competition rollups are limited to longevity-style identity surfaces.
 - Do not infer permanent team affiliation across seasons.
 - Players can and do move teams between seasons.
 
@@ -115,53 +119,86 @@ These are the main files that matter when migrating the archive system into this
 - `src/lib/archive-seed-merge.ts`
   - Defines the canonical seed tables and required files.
   - Merges season seed bundles into a single all-seasons bundle.
+  - Applies reviewed same-competition player/team merges, then assigns reviewed or generated `person_id` values.
 
-### Confirmed entity merges
+### Reviewed identity inputs
 
-Some Pointstreak players and teams have multiple IDs even though they represent the same real person or team. These should not be inferred silently during import.
+Some Pointstreak players and teams have multiple IDs even though they represent the same canonical competition-local entity. Separately, the same human can appear as multiple canonical players across competitions. Neither should be inferred silently during import.
 
 The current workflow is:
 
-- Run `npm run archive:entity-merges-suggest` to generate `data/entity-merge-candidates.json`.
-- Review the candidate groups manually.
-- Copy confirmed groups into `data/entity-merges.json`.
-- Copy rejected groups into the `nonMerges` section of `data/entity-merges.json` so they are skipped on future candidate runs.
+- Run `npm run archive:entity-merges-suggest` to generate separate suggestion files under `data/` by default:
+  - `data/player-merge-candidates.json`
+  - `data/team-merge-candidates.json`
+  - `data/person-link-candidates.json`
+- Review the suggested player/team groups manually.
+- Review the suggested person-link groups manually.
+- Copy confirmed player groups into `data/player-merge-approvals.json`.
+- Copy confirmed team groups into `data/team-merge-approvals.json`.
+- Copy rejected player groups into `data/player-merge-rejections.json`.
+- Copy rejected team groups into `data/team-merge-rejections.json`.
+- Copy rejected person-link groups into `data/person-link-rejections.json` when you want to suppress a reviewed identity suggestion without creating a confirmed person link.
+- Maintain explicit cross-competition person groups in `data/person-link-approvals.json`.
 - Re-run the normal seed/database build.
 
-`data/entity-merges.json` is the canonical human-reviewed input. The seed merge step applies it before writing `data/seeds/all`, so downstream SQLite tables use the confirmed canonical player/team IDs. Raw XML and per-season seeds remain unchanged.
+The approved and rejected inputs now have separate responsibilities:
 
-Example:
+- `data/player-merge-approvals.json` and `data/team-merge-approvals.json` are the only approved inputs allowed to change stat or history ownership, and they must stay within one competition.
+- `data/person-link-approvals.json` is a separate first-class identity layer. It links canonical players across competitions under one `person_id`, but it only affects `players.person_id` and the `people` table.
+- Canonical players that are not explicitly linked in `data/person-link-approvals.json` become deterministic singleton people during the merged-seed build.
+
+Example player merge:
 
 ```json
 {
-  "players": [
+  "merges": [
     {
-      "canonicalId": 614496,
-      "aliasIds": [796973],
-      "reason": "Confirmed same player"
+      "competitionId": "18-plus",
+      "canonicalSourceId": 148,
+      "aliasSourceIds": [594472, 784824],
+      "reason": "Confirmed same 18+ player"
     }
-  ],
-  "teams": [],
-  "nonMerges": {
-    "players": [
-      {
-        "ids": [123, 456],
-        "reason": "Reviewed manually; different players"
-      }
-    ],
-    "teams": []
-  }
+  ]
 }
 ```
 
-Candidate detection is intentionally conservative: it looks for exact/similar names with no season overlap. The candidate output is only a review aid, not an automatic merge decision.
-Confirmed merges and `nonMerges` are both treated as reviewed candidate groups by `npm run archive:entity-merges-suggest`, so they will not be emitted again unless a future candidate includes a different set of IDs.
+Example person links:
+
+```json
+{
+  "people": [
+    {
+      "personId": 2,
+      "displayName": "Joe Hellett",
+      "members": [
+        { "competitionId": "18-plus", "canonicalSourcePlayerId": 148 },
+        { "competitionId": "30-plus", "canonicalSourcePlayerId": 1372291 },
+        { "competitionId": "40-plus", "canonicalSourcePlayerId": 1783209 }
+      ],
+      "reason": "Confirmed same person across competitions"
+    }
+  ]
+}
+```
+
+Candidate detection remains intentionally conservative. Player and team suggestions stay competition-local and must never cross competition levels. Person-link suggestions are separate review aids for cross-competition identity only and must never be used to merge stats or team history across competitions. `npm run archive:entity-merges-suggest` is a review aid, not an automatic merge or person-link decision.
 
 ### SQLite archive importer
 
 - `src/lib/archive-db.ts`
   - Builds `data/archive.sqlite` from merged seeds.
   - Includes schema creation and row import logic for all canonical archive tables.
+  - Imports `people` before `players` and requires resolved `person_id` values on canonical player rows.
+
+### People and person browsing
+
+The browser UI now treats `Person` as a first-class identity surface:
+
+- `#/people` lists known people across competitions.
+- `#/people/<personId>` shows identity-level context plus linked competition-local player entries.
+- `#/players/<playerId>` remains the competition-scoped stat page and links back to the related person when `person_id` is present.
+
+Person pages are identity and navigation surfaces, not cross-competition stat aggregates.
 
 ### Website-specific orchestration
 
@@ -182,13 +219,13 @@ Confirmed merges and `nonMerges` are both treated as reviewed candidate groups b
 - `scripts/seeds-generate-all-seasons.ts`
   - Generates every configured season seed bundle from archived raw XML.
 - `scripts/seeds-merge.ts`
-  - Merges season seed bundles into `data/seeds/all` and applies reviewed entity merges.
+  - Merges season seed bundles into `data/seeds/all`, applies reviewed player/team merges, and assigns person identity.
 - `scripts/entity-merges-suggest.ts`
-  - Suggests human-reviewable player/team entity merge candidates.
+  - Suggests human-reviewable player/team merge candidates and honors reviewed player/team rejection files.
 - `scripts/db-build.ts`
   - Builds the SQLite archive DB from merged seeds.
 - `scripts/db-build-full.ts`
-  - Builds `public/archive.sqlite` from raw XML via season seeds, merged seeds, entity merges, and SQLite import.
+  - Builds `public/archive.sqlite` from raw XML via season seeds, reviewed player/team merges, reviewed person links, and SQLite import.
 
 ### Tests
 
@@ -379,3 +416,8 @@ Pointstreak does not calculate ERA properly in all instances. It does not proper
 
 - For the individual game page, the batting lineup includes players who weren't in the batting lineup (looks like folks who pitched). However, sometimes pitchers are in the lineup and I'm unsure who to tell who to show/include.
 - For games where a pitcher (maybe anyone) was announced in a lineup spot but never got an at bat, they're included in the lineup and batting stats, but Pointstreak is removing them from their rollups. See Collin Taylor, game 496360 as an example and compare his lifetime stats rollup in Pointstreak. Game 496360 was his only batting annoucement that season, but does not show in his Pointsreak batting stats/lineup. It's possible this was a situation where the batter never completed their at-bat and was at-plate for the last out of the game happening on the base paths. It's also possible that he was never supposed to be entered into the stats as a batter since he never completed an at-bat. Either way, I decided to leave this situation alone and allow his lone phantom at-bat to rollup into his 2019 batting stats instead of filtering it out like Pointstreak does because he's actually in batting stats for the season, even if he never completed an official at-bat. Another example is Jimmy Raupp for game 611050.
+
+### Resources
+
+- Special thanks for Paul Miller, past league president for his backup of the 2008-2010 stats.
+- Thanks to the [SqlCeToolbox](https://github.com/ErikEJ/SqlCeToolbox/) project. The Export2SqlCE tool was used to work with the legacy 2008-2010 MSSQL backup and extract stats and other relevant information for this archive.
